@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5500"
   },
   "certificate": {
     "certificate_number": "5500",
     "dataset": "active",
-    "generated_at": "2026-08-30T07:57:46.517944Z",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5500",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5500",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5500.pdf",
@@ -58,6 +58,18 @@
       "contact_name": "Amir Shahhosseini",
       "contact_email": "certifications@paloaltonetworks.com",
       "contact_phone": "408-753-4000"
+    },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5500.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 11,
+      "detailed_algorithm_count": 54
     },
     "algorithms": [
       "AES",
@@ -127,25 +139,6 @@
       "SHA2-256 A6240 Message Length - Message Length: 8-51200 | Increment 8 | FIPS 180-4",
       "SHA2-384 A6240 Message Length - Message Length: 8-51200 | Increment 8 | FIPS 180-4 | Networks, Inc. | Palo Alto Networks SD-WAN Virtual Instant-On Network (vION)",
       "SHA2-512 A6240 Message Length - Message Length: 8-51200 | Increment 8 | FIPS 180-4 | Name Properties Implementation Reference | CKG Key Type:Asymmetric N/A SP 800-133r2 Section 4, example 1 | N/A for this module. | N/A for this module. | N/A for this module."
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5500.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 11,
-      "detailed_algorithm_count": 54,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5500.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

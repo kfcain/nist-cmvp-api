@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4296"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When installed, initialized and configured as specified in Sections [7.1] and [12.1.1] of the Security Policy. The tamper evident seals installed as indicated in the Security Policy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4296",
     "certificate_number": "4296",
-    "dataset": "active",
-    "description": "The AN/GRC-262 radio is a multiband, point-to-point (PTP), point-to-multipoint (PMP) and Mesh radio system capable of providing at-the-halt communications across multiple echelons and on-the-move access capability. The system offers up to 1Gbps throughput and operational flexibility in a compact form factor.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "AN/GRC-262",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4296",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4296",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4296.pdf",
+    "vendor_name": "Ultra Electronics TCS Inc.",
+    "module_name": "AN/GRC-262",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "9/11/2022, 3/31/2023",
+    "validation_dates": [
+      "9/11/2022",
+      "3/31/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Sections [7.1] and [12.1.1] of the Security Policy. The tamper evident seals installed as indicated in the Security Policy",
+    "description": "The AN/GRC-262 radio is a multiband, point-to-point (PTP), point-to-multipoint (PMP) and Mesh radio system capable of providing at-the-halt communications across multiple echelons and on-the-move access capability. The system offers up to 1Gbps throughput and operational flexibility in a compact form factor.",
+    "software_versions": null,
+    "hardware_versions": "AN/GRC-262(V)1 with FIPS kit 612-990309-088",
+    "firmware_versions": "1.13.10.1356",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,44 +42,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2022_031022_0652_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4296.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "9/11/2022, 3/31/2023",
-    "validation_dates": [
-      "9/11/2022",
-      "3/31/2023"
-    ],
     "validation_history": [
       {
         "date": "9/11/2022",
-        "lab": "Lightship Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
       },
       {
         "date": "3/31/2023",
-        "lab": "Lightship Security, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Lightship Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Ultra Electronics TCS Inc.",
+      "website_url": "http://www.ultra.group/ultra-tcs/",
       "address_lines": [
         "5990 Côte-de-Liesse",
         "Mont-Royal, QC H4T 1V7",
         "Canada"
       ],
-      "contact_email": "martin.audet@Ultra-TCS.com",
-      "contact_name": "Martin Audet",
-      "contact_phone": null,
       "country": "Canada",
-      "name": "Ultra Electronics TCS Inc.",
-      "website_url": "http://www.ultra.group/ultra-tcs/"
+      "contact_name": "Martin Audet",
+      "contact_email": "martin.audet@Ultra-TCS.com",
+      "contact_phone": null
     },
-    "vendor_name": "Ultra Electronics TCS Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4296.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4296.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

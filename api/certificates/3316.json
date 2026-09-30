@@ -1,56 +1,23 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3316"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 10,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When installed, initialized and configured as specified in Section 7 of the Security Policy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3316",
     "certificate_number": "3316",
-    "dataset": "active",
-    "description": "The Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive FIPS 140-2 Module is embodied in Seagate Enterprise Performance SED model disk drives. These products meet the performance requirements of the most demanding Enterprise applications. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption (AES-XTS), instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA bands and authenticated FW download. The services are provided through in",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3316",
-    "overall_level": 2,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3316.pdf"
-      },
-      {
-        "label": "Consolidated Certificate",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertOct2018.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3",
-      "EMI/EMC: Level 3",
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3316",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3316.pdf",
-    "software_versions": null,
+    "vendor_name": "Seagate Technology, LLC",
+    "module_name": "Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive",
     "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
     "validation_date": "10/31/2018, 3/1/2019, 6/6/2019, 9/27/2019, 5/6/2020, 9/18/2020, 1/22/2021, 5/21/2021, 12/13/2021, 12/14/2021, 4/4/2023, 6/2/2023, 4/4/2024, 2/18/2025",
     "validation_dates": [
       "10/31/2018",
@@ -68,92 +35,113 @@
       "4/4/2024",
       "2/18/2025"
     ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 7 of the Security Policy",
+    "description": "The Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive FIPS 140-2 Module is embodied in Seagate Enterprise Performance SED model disk drives. These products meet the performance requirements of the most demanding Enterprise applications. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption (AES-XTS), instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA bands and authenticated FW download. The services are provided through in",
+    "software_versions": null,
+    "hardware_versions": "XS1600ME10023[1,2,3,10], XS800ME10023[1,2,3,10], XS400ME10023[1,2,3,10], XS1600LE10023[1,2,3,10], XS1920SE10123[1,2,3,10], XS15360SE70143[1,2,3,10], XS3840TE10023[1,2,3,10], XS3200ME70023[1,2,3,10], XS7680TE70023[1,2,3,10], XS6400LE70023[1,2,3,10], XS3200ME70024[2,3,4,5,6,7,8,11,14,15,16,17], XS1600ME70024[2,3,4,5,6,7,8,11,14,15,16,17], XS800ME70024[2,3,4,5,6,7,8,11,14,15,16,17], XS400ME70024[2,3,4,5,6,7,8,11,14,15,16,17], XS6400LE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS3200LE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS1600LE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS800LE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS7680SE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS3840SE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS1920SE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS960SE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS7680TE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS3840TE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS15360TE70024[2,3,4,5,6,7,8,11,14,15,16,17], XS400ME70104[4,12,17,18,19,20,21], XS800ME70104[4,12,17,18,19,20,21], XS1600ME70104[4,12,17,18,19,20,21], XS3200ME70104[4,12,17,18,19,20,21], XS800LE70104[4,12,17,18,19,20,21], XS1600LE70104[4,12,17,18,19,20,21], XS3200LE70104[4,12,17,18,19,20,21], XS3840LE70104[4,12,17,18,19,20,21], XS6400LE70104[4,12,17,18,19,20,21], XS1920SE70104[4,12,17,18,19,20,21], XS7680SE70104[4,12,17,18,19,20,21], XS15360SE70104[4,12,17,18,19,20,21], XS3840TE70104[4,12,17,18,19,20,21], XS7680TE70104[4,12,17,18,19,20,21], XS960LE70144[4,12,17,18,19,20,21], XS1920LE70144[4,12,17,18,19,20,21], XS3840LE70144[4,12,17,18,19,20,21], XS960SE70144[4,12,17,18,19,20,21], XS1920SE70144[4,12,17,18,19,20,21], XS3840SE70144[4,12,17,18,19,20,21], XS7680SE70144[4,12,17,18,19,20,21], XS3840SE70104[4,6,9,12,13,17,18,19,21,22], XS960SE70104[4,6,9,12,13,17,18,19,21,22], XS400ME70065[16,23,24], XS800ME70065[16,23,24], XS1600ME70065[16,23,24], XS3200ME70065[16, 23,24], XS800LE70065[16,23,24], XS1600LE70065[16,23,24], XS3200LE70065[16,23,24], XS6400LE70065[16,23,24], XS3840LE70065[16,23,24], XS960SE70065[16,23,24], XS1920SE70065[16,23,24], XS3840SE70065[16,23,24], XS7680SE70065[16,23,24], XS15360SE70065[16,23,24], XS960LE70105[16,23,24], XS1920LE70105[16,23,24], XS3840LE70105[16,23,24], XS960SE70105[16,23,24], XS1920SE70105[16,23,24], XS3840SE70105[16,23,24], XS7680SE70155[16,23,24]",
+    "firmware_versions": "7A51[1], 0004[2], 0005[3], 0001[4], A001[5], 0002[6], 0003[7], A003[8], NA00[9], 0006[10], A005[11], GAB3[12], NA50[13], A205[14], 0205[15], 0204[16], 0203[17], 0201[18], 0202[19], 1002[20], GAB4[21], NA51[22], GBB4[23], 0205[24]",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3316.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertOct2018.pdf"
+      }
+    ],
     "validation_history": [
       {
         "date": "10/31/2018",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "3/1/2019",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "6/6/2019",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "9/27/2019",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "5/6/2020",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "9/18/2020",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "1/22/2021",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "5/21/2021",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "12/13/2021",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "12/14/2021",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "4/4/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "6/2/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "4/4/2024",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "2/18/2025",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Seagate Technology, LLC",
+      "website_url": "http://www.seagate.com",
       "address_lines": [
         "1280 Disc Drive",
         "Shakopee, MN 55379",
         "USA"
       ],
-      "contact_email": "david.r.kaiser@seagate.com",
-      "contact_name": "David R Kaiser, PMP",
-      "contact_phone": "952-402-2356",
       "country": "USA",
-      "name": "Seagate Technology, LLC",
-      "website_url": "http://www.seagate.com"
+      "contact_name": "David R Kaiser, PMP",
+      "contact_email": "david.r.kaiser@seagate.com",
+      "contact_phone": "952-402-2356"
     },
-    "vendor_name": "Seagate Technology, LLC",
     "algorithms": [
       "AES",
       "CVL",
@@ -165,6 +153,29 @@
       "RSA",
       "SHA",
       "TLS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "algorithms, modes and keys shown in this table are utilized by the module. AES CMAC (AES cert. #3760)",
+      "Firmware KAS-FFC-SSC #A1776 SP800-56Ar3. CVL cert. #828"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3316.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 10,
+      "detailed_algorithm_count": 2,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3316.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

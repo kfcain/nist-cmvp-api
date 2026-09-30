@@ -1,35 +1,39 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4535"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 14,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4535",
     "certificate_number": "4535",
-    "dataset": "active",
-    "description": "Infoblox Trinzic Virtual Appliances enable customers to deploy large, robust, manageable and cost-effective Infoblox Grids. This next-generation solution enables distributed delivery of core network services (including DNS, DHCP, IPAM, TFTP, and FTP) with the nonstop availability and real-time service management required for today's 24x7 advanced IP networks and applications.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Infoblox Trinzic Virtual Appliances",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4535",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4535",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4535.pdf",
+    "vendor_name": "Infoblox",
+    "module_name": "Infoblox Trinzic Virtual Appliances",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "6/15/2023, 9/11/2025",
+    "validation_dates": [
+      "6/15/2023",
+      "9/11/2025"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Infoblox Trinzic Virtual Appliances enable customers to deploy large, robust, manageable and cost-effective Infoblox Grids. This next-generation solution enables distributed delivery of core network services (including DNS, DHCP, IPAM, TFTP, and FTP) with the nonstop availability and real-time service management required for today's 24x7 advanced IP networks and applications.",
+    "software_versions": "NIOS version 8.5.2 with Hotfix-NIOS_8.5.2_409296_J81082-506fbabaabd86fbe9c99de0b49c9a7f8-Mon-Oct-25-08-19-32-2021; NIOS version 8.5.2 with Hotfix-NIOS_8.5.2_409296_J81082-506fbabaabd86fbe9c99de0b49c9a7f8-Mon-Oct-25-08-19-32-2021 and Hotfix-8.5.2-NIOS-104148-APPLY-dc66c2dae390f55b5972fb4886eac865-Mon-Jan-20-01-11-47-2025",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,47 +44,31 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2023_050723_0638 (1).pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 2",
-      "Design Assurance: Level 2",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4535.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "6/15/2023, 9/11/2025",
-    "validation_dates": [
-      "6/15/2023",
-      "9/11/2025"
-    ],
     "validation_history": [
       {
         "date": "6/15/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "9/11/2025",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "Infoblox",
+      "website_url": "http://www.infoblox.com",
       "address_lines": [
         "2390 Mission College Blvd",
         "Santa Clara, CA 95054",
         "USA"
       ],
-      "contact_email": "dfunk@infoblox.com",
-      "contact_name": "Dave Funk",
-      "contact_phone": "408-986-4000",
       "country": "USA",
-      "name": "Infoblox",
-      "website_url": "http://www.infoblox.com"
+      "contact_name": "Dave Funk",
+      "contact_email": "dfunk@infoblox.com",
+      "contact_phone": "408-986-4000"
     },
-    "vendor_name": "Infoblox",
     "algorithms": [
       "AES",
       "CVL",
@@ -96,6 +84,29 @@
       "SHS",
       "SSH",
       "TLS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "DRBG Cert. #A2503 requests 2400-bits of output from the ENT (NP). Therefore, DRBG Cert. #A2503 is",
+      "7 DRBG Cert. #A2507 requests 256-bits of entropy output from DRBG Cert. #A2503, which is considered"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4535.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 14,
+      "detailed_algorithm_count": 2,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4535.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

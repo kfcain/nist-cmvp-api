@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4669"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 6,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4669",
     "certificate_number": "4669",
-    "dataset": "active",
-    "description": "The RapidIdentity FIPS Cryptographic Module is a cryptographic engine for Windows, iOS, and Android. The module delivers core cryptographic functions to Identity Automation’s RapidIdentity MFA Server and MFA Mobile app which provide a variety of authentication methods. The RapidIdentity FIPS Cryptographic Module leverages industry leading, FIPS approved cryptographic algorithms provided by the Bouncy Castle FIPS .NET APIs.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "RapidIdentity FIPS Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4669",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4669",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4669.pdf",
+    "vendor_name": "Identity Automation",
+    "module_name": "RapidIdentity FIPS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "12/8/2023, 4/24/2024",
+    "validation_dates": [
+      "12/8/2023",
+      "4/24/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The RapidIdentity FIPS Cryptographic Module is a cryptographic engine for Windows, iOS, and Android. The module delivers core cryptographic functions to Identity Automation’s RapidIdentity MFA Server and MFA Mobile app which provide a variety of authentication methods. The RapidIdentity FIPS Cryptographic Module leverages industry leading, FIPS approved cryptographic algorithms provided by the Bouncy Castle FIPS .NET APIs.",
+    "software_versions": "2.0",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,53 +42,73 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2023_020124_0656.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4669.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "12/8/2023, 4/24/2024",
-    "validation_dates": [
-      "12/8/2023",
-      "4/24/2024"
-    ],
     "validation_history": [
       {
         "date": "12/8/2023",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       },
       {
         "date": "4/24/2024",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "Identity Automation",
+      "website_url": "http://www.identityautomation.com",
       "address_lines": [
         "7102 N Sam Houston Pkwy W",
         "Ste 300",
         "Houston, TX 77064",
         "USA"
       ],
-      "contact_email": "SecurityCertifications@identityautomation.com",
-      "contact_name": "Security & Certifications Team",
-      "contact_phone": "+1877-221-8401",
       "country": "USA",
-      "name": "Identity Automation",
-      "website_url": "http://www.identityautomation.com"
+      "contact_name": "Security & Certifications Team",
+      "contact_email": "SecurityCertifications@identityautomation.com",
+      "contact_phone": "+1877-221-8401"
     },
-    "vendor_name": "Identity Automation",
     "algorithms": [
       "AES",
+      "CVL",
+      "DES",
+      "DRBG",
       "DSA",
       "ECDSA",
       "EDDSA",
+      "HMAC",
+      "KAS",
       "KDF",
-      "RSA"
-    ]
+      "KTS",
+      "RSA",
+      "SHA",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "KAS7 SP 800-56A rev3 KAS-SSC (Cert. #A2698) with SP",
+      "KDF (CVL Cert. #A2698). Compliant to IG D.8 X1",
+      "KAS8 SP 800-56A rev3 KAS-SSC (Cert. #A2698) with SP",
+      "KTS10 AES Cert. #A2698; key establishment methodology",
+      "KTS11 Triple-DES Cert. #A2698; key establishment"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4669.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 14,
+      "detailed_algorithm_count": 5,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4669.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

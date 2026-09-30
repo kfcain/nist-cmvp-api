@@ -1,10 +1,67 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5259"
   },
   "certificate": {
+    "certificate_number": "5259",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5259",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5259",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5259.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "Dell FIPS Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/7/2026",
+    "validation_dates": [
+      "5/7/2026"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Dell FIPS Module is a security module that provides FIPS-approved cryptographic functions and services to a wide range of Dell products.",
+    "software_versions": "3.0.8",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5259.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2026_030626_0716.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/7/2026",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "Round Rock",
+        "Round Rock, TX 78682",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "MaryLou O Rourke",
+      "contact_email": "marylou.orourke@dell.com",
+      "contact_phone": null
+    },
     "algorithm_extraction": {
       "schema_version": "1.0",
       "status": "cached",
@@ -12,63 +69,22 @@
       "source": "firecrawl",
       "source_url": null,
       "cached": true,
-      "fallback_used": false,
+      "fallback_used": true,
       "cache_version": "2026-04-15-legacy-v1",
       "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5259",
-    "certificate_number": "5259",
-    "dataset": "active",
-    "description": "The Dell FIPS Module is a security module that provides FIPS-approved cryptographic functions and services to a wide range of Dell products.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Dell FIPS Module",
-    "module_type": "Software",
-    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5259",
-    "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5259.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Design Assurance: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5259.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "5/7/2026",
-    "validation_dates": [
-      "5/7/2026"
-    ],
-    "validation_history": [
-      {
-        "date": "5/7/2026",
-        "lab": "Acumen Security",
-        "type": "Initial"
-      }
-    ],
-    "vendor": {
-      "address_lines": [
-        "Round Rock",
-        "Round Rock, TX 78682",
-        "United States"
-      ],
-      "contact_email": "marylou.orourke@dell.com",
-      "contact_name": "MaryLou O Rourke",
-      "contact_phone": null,
-      "country": "United States",
-      "name": "[email protected]",
-      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection"
-    },
-    "vendor_name": "[email protected]"
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5259.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5259.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

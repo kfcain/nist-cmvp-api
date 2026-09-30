@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4151"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4151",
     "certificate_number": "4151",
-    "dataset": "active",
-    "description": "u.trust Anchor is a new generation of HSM, comprising all traditional hardware security features and introducing containerized HSMs (cHSMs). Each cHSM provides secure cryptographic services such as signing and verification of data, encryption or decryption, hashing, on-board random number generation and secure key generation, key storage and key management functions in a tamper-protected multi-tenant environment. The HSM delivers a highly elastic HSM architecture that scales rapidly on demand and enables service providers to deliver HSM as a Service (HSMaaS) in multiple use cases.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "u.trust Anchor",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4151",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4151",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4151.pdf",
+    "vendor_name": "Utimaco IS GmbH",
+    "module_name": "u.trust Anchor",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 3,
+    "validation_date": "2/10/2022, 2/5/2024, 8/1/2024",
+    "validation_dates": [
+      "2/10/2022",
+      "2/5/2024",
+      "8/1/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "u.trust Anchor is a new generation of HSM, comprising all traditional hardware security features and introducing containerized HSMs (cHSMs). Each cHSM provides secure cryptographic services such as signing and verification of data, encryption or decryption, hashing, on-board random number generation and secure key generation, key storage and key management functions in a tamper-protected multi-tenant environment. The HSM delivers a highly elastic HSM architecture that scales rapidly on demand and enables service providers to deliver HSM as a Service (HSMaaS) in multiple use cases.",
+    "software_versions": null,
+    "hardware_versions": "Hardware P/N u.trust Anchor Version 7.03.00.03",
+    "firmware_versions": "Device System v1.17.4, v4.47.1and v4.47.2 and Sensory Controller v3.02.0.7 and v3.02.0.8",
+    "security_level_exceptions": [],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,48 +41,59 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2022_010322_0121_Signed.pdf"
       }
     ],
-    "security_level_exceptions": [],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4151.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "2/10/2022, 2/5/2024, 8/1/2024",
-    "validation_dates": [
-      "2/10/2022",
-      "2/5/2024",
-      "8/1/2024"
-    ],
     "validation_history": [
       {
         "date": "2/10/2022",
-        "lab": "Penumbra Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
       },
       {
         "date": "2/5/2024",
-        "lab": "Penumbra Security, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
       },
       {
         "date": "8/1/2024",
-        "lab": "Penumbra Security, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Utimaco IS GmbH",
+      "website_url": "http://www.utimaco.com",
       "address_lines": [
         "Germanusstraße 4",
         "Aachen 52080",
         "Germany"
       ],
-      "contact_email": "erling.wesselhoff@utimaco.com",
-      "contact_name": "Erling Wesselhoff",
-      "contact_phone": "+49 241-1696-200",
       "country": "Germany",
-      "name": "Utimaco IS GmbH",
-      "website_url": "http://www.utimaco.com"
+      "contact_name": "Erling Wesselhoff",
+      "contact_email": "erling.wesselhoff@utimaco.com",
+      "contact_phone": "+49 241-1696-200"
     },
-    "vendor_name": "Utimaco IS GmbH"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4151.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4151.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

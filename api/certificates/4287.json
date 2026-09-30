@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4287"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 4,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4287",
     "certificate_number": "4287",
-    "dataset": "active",
-    "description": "The NextFlex Cryptographic module provides cryptographic capabilities to the NextFlex Air Guardian.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "NextFlex AirGuardian",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4287",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4287",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4287.pdf",
+    "vendor_name": "NextFlex",
+    "module_name": "NextFlex AirGuardian",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "8/30/2022",
+    "validation_dates": [
+      "8/30/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The NextFlex Cryptographic module provides cryptographic capabilities to the NextFlex Air Guardian.",
+    "software_versions": null,
+    "hardware_versions": "A25 Rev. A",
+    "firmware_versions": "1.4",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,45 +41,51 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2022_010922_0715_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4287.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "8/30/2022",
-    "validation_dates": [
-      "8/30/2022"
-    ],
     "validation_history": [
       {
         "date": "8/30/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "NextFlex",
+      "website_url": "http://www.nextflex.us",
       "address_lines": [
         "2244 Blach Place",
         "Suite 150",
         "San Jose, CA 95131",
         "USA"
       ],
-      "contact_email": "techsupport@nextflex.us",
-      "contact_name": "NextFlex",
-      "contact_phone": "408-797-2244",
       "country": "USA",
-      "name": "NextFlex",
-      "website_url": "http://www.nextflex.us"
+      "contact_name": "NextFlex",
+      "contact_email": "techsupport@nextflex.us",
+      "contact_phone": "408-797-2244"
     },
-    "vendor_name": "NextFlex",
     "algorithms": [
       "AES",
       "DRBG",
       "HMAC",
       "SHA"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4287.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 4,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4287.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

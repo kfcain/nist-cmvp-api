@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4674"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 9,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4674",
     "certificate_number": "4674",
-    "dataset": "active",
-    "description": "Lightware Crypto Core is a standards-based cryptographic engine for embedded Linux systems. The module delivers core cryptographic functions to the embedded systems of Taurus product family's hardware devices and features robust algorithm support. Lightware Crypto Core offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Lightware Crypto Core",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4674",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4674",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4674.pdf",
+    "vendor_name": "Lightware Visual Engineering Plc.",
+    "module_name": "Lightware Crypto Core",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "1/26/2024",
+    "validation_dates": [
+      "1/26/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "Lightware Crypto Core is a standards-based cryptographic engine for embedded Linux systems. The module delivers core cryptographic functions to the embedded systems of Taurus product family's hardware devices and features robust algorithm support. Lightware Crypto Core offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "software_versions": "2.2.1",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2024_010224_0801.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4674.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "1/26/2024",
-    "validation_dates": [
-      "1/26/2024"
-    ],
     "validation_history": [
       {
         "date": "1/26/2024",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "Lightware Visual Engineering Plc.",
+      "website_url": "http://www.lightware.com/",
       "address_lines": [
         "Peterdy utca 15.",
         "Budapest 1071",
         "Hungary"
       ],
-      "contact_email": "architect@lightware.com",
-      "contact_name": "Gabor Keczan",
-      "contact_phone": null,
       "country": "Hungary",
-      "name": "Lightware Visual Engineering Plc.",
-      "website_url": "http://www.lightware.com/"
+      "contact_name": "Gabor Keczan",
+      "contact_email": "architect@lightware.com",
+      "contact_phone": null
     },
-    "vendor_name": "Lightware Visual Engineering Plc.",
     "algorithms": [
       "AES",
       "DES",
@@ -84,6 +72,25 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4674.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4674.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5533"
+  },
+  "certificate": {
+    "certificate_number": "5533",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5533",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5533",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5533.pdf",
+    "vendor_name": "MolecuLight Inc.",
+    "module_name": "MolecuLightDX Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "9/28/2026",
+    "validation_dates": [
+      "9/28/2026"
+    ],
+    "sunset_date": "9/27/2031",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The MolecuLightDX Cryptographic Module (\"the module\") is defined as a software module in a multi-chip standalone embodiment. The module includes Cryptographic library, Security library, and hash digests.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5533.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/28/2026",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "MolecuLight Inc.",
+      "website_url": "https://moleculight.com/",
+      "address_lines": [
+        "425 University Ave., Suite 700",
+        "Toronto, Ontario M5G 1T6",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Desmond Hirson",
+      "contact_email": "dhirson@moleculight.com",
+      "contact_phone": "1-647-362-4684"
+    },
+    "algorithms": [
+      "AES",
+      "HMAC",
+      "KDF",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC A7783 Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A",
+      "HMAC-SHA2- | 256 | A7783 MAC - MAC: 256 | Key Length - Key Length: 256 | FIPS 198-1",
+      "KDF SP800- | 108",
+      "A7783 KDF Mode - Counter",
+      "MAC Mode - HMAC-SHA2-256 | Supported Lengths - Supported Lengths | 256 | Fixed Data Order - After Fixed Data | Counter Length - 8 | Supports Empty IV - No | Requires Empty IV - No | Custom Key In Length - 0 | SP 800-108 | Rev. 1",
+      "SHA2-256 A7783 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4 | N/A for this module. | N/A for this module. | N/A for this module. | This document may be freely reproduced and distributed, but only in its entirety and without modification. | N/A for this module."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5533.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 4,
+      "detailed_algorithm_count": 6,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5533.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

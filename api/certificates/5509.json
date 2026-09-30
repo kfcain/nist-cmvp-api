@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5509"
+  },
+  "certificate": {
+    "certificate_number": "5509",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5509",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5509",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5509.pdf",
+    "vendor_name": "HPE Juniper Networking",
+    "module_name": "HPE Juniper Networking QFX5120-48YM",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "9/1/2026",
+    "validation_dates": [
+      "9/1/2026"
+    ],
+    "sunset_date": "8/31/2031",
+    "caveat": "When operated in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The HPE Juniper Networking QFX5120 Switch delivers high scale, high availability, and high performance for data center and campus deployments. The QFX5120 Switch is a versatile routing and switching platform addressing higher server access speed and campus distribution use cases while offering high-density 1GbE/10GbE/25GbE and 100GbE uplinks for collapsed spine data center or campus distribution deployments. The QFX5120-48YM is a 10GbE/25GbE/100GbE data center leaf and campus distribution switch.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5509.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/1/2026",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "HPE Juniper Networking",
+      "website_url": "http://www.juniper.net",
+      "address_lines": [
+        "1133 Innovation Way",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Bill Shelton",
+      "contact_email": "bshelton@juniper.net",
+      "contact_phone": "408-745-2000"
+    },
+    "algorithms": [
+      "AES",
+      "CVL",
+      "DES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA",
+      "SSH"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC A6551 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+      "AES-CBC A7286 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+      "AES-CMAC A6551 Direction - Generation, Verification | Key Length - 128, 256 | MAC Length - MAC Length: 8, 64, 120 | Message Length - Message Length: 0 | 32768, 524288 | SP 800-38B",
+      "AES-CTR A7286 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 | Increment 8 | Supports Counter larger than maximum | value - No | Incremental Counter - Yes | Counter Tests Performed - Yes | SP 800-38A",
+      "AES-GCM AES | 4545 | Direction - Decrypt, Encrypt | Key Length - 128, 256 | Tag Length - 104, 112, 120, 128, 64, 96 | IV Length - IV Length: 96 | Payload Length - Payload Length: 120, 128 | AAD Length - AAD Length: 120, 128 | SP 800-38D",
+      "AES-KW A6551 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128 | SP 800-38F | Payload Length - Payload Length: 128, 192 | 256, 320, 4096",
+      "AES-XPN AES | 4545 | Direction - Decrypt, Encrypt | Key Length - 128, 256 | Payload Length - Payload Length: 120, 128 | AAD Length - AAD Length: 120, 128 | Tag Length - 104, 112, 120, 128, 64, 96 | Salt Generation - External | SP 800-38D",
+      "ECDSA KeyGen | (FIPS186-5) | A7286 Curve - P-256, P-384, P-521 | Secret Generation Mode - Testing | Candidates | FIPS 186-5",
+      "ECDSA KeyVer | (FIPS186-5) | A7286 Curve - P-256, P-384, P-521 FIPS 186-5",
+      "ECDSA SigGen | (FIPS186-5) | A7286 Component - No | Curve - P-256, P-384, P-521",
+      "Hash Algorithm - SHA2-256, SHA2-384",
+      "SHA2-512 | FIPS 186-5",
+      "ECDSA SigVer | (FIPS186-5) | A7286 Component - No | Curve - P-256, P-384, P-521",
+      "HMAC DRBG A6620 Prediction Resistance - Yes | Supports Reseed - Yes",
+      "Mode - SHA2-512 | Entropy Input - Entropy Input: 256 | Nonce - Nonce: 128 | Personalization String Length - | Personalization String Length: 0-256 | Increment 8 | Additional Input - Additional Input: 8-256 | Increment 8 | Returned Bits - 1024 | SP 800-90A | Rev. 1",
+      "HMAC-SHA-1 A7286 MAC - MAC: 160 | Key Length - Key Length: 160 | FIPS 198-1",
+      "HMAC-SHA2-256 A6620 MAC - MAC: 256 | Key Length - Key Length: 256 | FIPS 198-1",
+      "HMAC-SHA2-256 A7286 MAC - MAC: 256 | Key Length - Key Length: 256 | FIPS 198-1",
+      "HMAC-SHA2-512 A7286 MAC - MAC: 512 | Key Length - Key Length: 512 | FIPS 198-1",
+      "KAS-ECC-SSC | Sp800-56Ar3 | A7286 Domain Parameter Generation Methods - P- | 256, P-384, P-521",
+      "Hash Function Z - SHA2-256, SHA2-384",
+      "SHA2-512 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KAS-FFC-SSC | Sp800-56Ar3 | A7286 Domain Parameter Generation Methods - | FC, MODP-2048",
+      "Hash Function Z - SHA2-256 | Scheme - | dhEphem - | KAS Role - initiator | SP 800-56A | Rev. 3",
+      "KDF SP800-108 A6551 KDF Mode - Counter | MAC Mode - CMAC-AES128, CMAC- | AES256 | Supported Lengths - Supported Lengths | 128, 256 | Fixed Data Order - Before Fixed Data | Counter Length - 8 | Supports Empty IV - No | Custom Key In Length - 0 | SP 800-108 | Rev. 1",
+      "KDF SSH (CVL) A7286 Cipher - AES-128, AES-192, AES-256",
+      "Hash Algorithm - SHA-1, SHA2-256, SHA2-",
+      "384, SHA2-512 | SP 800-135 | Rev. 1",
+      "RSA KeyGen | (FIPS186-5) | A7286 Key Generation Mode - probable | Modulo - 2048, 3072, 4096 | Primality Tests - 2powSecStr | Fixed Public Exponent - 010001 | Info Generated By Server - No | Private Key Format - standard | Public Exponent Mode - fixed | FIPS 186-5",
+      "RSA SigGen | (FIPS186-5) | A7286 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5 | FIPS 186-5",
+      "RSA SigVer | (FIPS186-5) | A7286 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed | FIPS 186-5 | Safe Primes Key | Generation | A7286 Safe Prime Groups - MODP-2048 SP 800-56A | Rev. 3 | Safe Primes Key | Verification | A7286 Safe Prime Groups - MODP-2048 SP 800-56A | Rev. 3",
+      "SHA-1 A7286 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4",
+      "SHA2-256 A6620 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4",
+      "SHA2-256 A7286 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4",
+      "SHA2-512 A6550 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4",
+      "SHA2-512 A6620 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4",
+      "SHA2-512 A7286 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4 | The following protocol is supported by the module in the Approved mode",
+      "SSHv2 (EC Diffie-Hellman P-256, P-384, P-521; Diffie-Hellman MODP2048; RSA 2048, 3072",
+      "4096 bits; ECDSA P-256, P-384, P-521; AES CBC 128, 192, 256 bits; AES CTR 128, 192, 256",
+      "bits, HMAC-SHA-1, HMAC-SHA2-256, HMAC-SHA2-512)",
+      "MACsec (MACsec Key Agreement (MKA); AES GCM, XPN 128 and 256 bits)",
+      "The SSH protocol allows independent selection of key exchange, authentication, cipher and | integrity algorithms. Please note that there are algorithms, modes, and key/moduli sizes that | have been CAVP-tested but are not used by any approved service of the module. Only the | by an approved service of the module. | Name Properties Implementation Reference | CKG - | Section | 4 | Key | Type:Symmetric | and Asymmetric | N/A NIST SP800-133r2 Section 4: Symmetric | key generation and Asymmetric seed | generation using an unmodified output from",
+      "an Approved DRBG (example 1); The | module supports the following per NIST SP | 800-133r2: 1. Section 5.1: Key Pairs for | Digital Signature Schemes 2. Section 5.2 | Key Pairs for Key Establishment 3. Section | 6.2.1: Derivation of symmetric keys | The module does not support any non-Approved algorithms in the Approved mode, i.e., it does | not support Non-Approved Algorithms Allowed in the Approved Mode of Operation. | Name Caveat Use and Function",
+      "SHA2-256 (Junos 23.4R2 | - LibMD Implementation) | no | security | claimed | Used to store operator passwords in hashed form | per IG 2.4.A: Use of a non-approved cryptographic | Name Caveat Use and Function",
+      "SHA-1 (Junos 23.4R2 - | Kernel Implementation) | no | security | claimed | Used for an extraneous check in the Kernel, per IG | 2.4.A: Use of an approved, non-approved or | proprietary algorithm for a purpose that is not | security relevant | Name Use and",
+      "RSA with key size less than 2048 SSH",
+      "ECDSA with ed25519 curve SSH",
+      "EC Diffie-Hellman with ed25519 curve SSH",
+      "ARCFOUR SSH",
+      "Blowfish SSH",
+      "CAST SSH",
+      "DSA (SignGen, SigVer, non-compliant) SSH",
+      "HMAC-MD5 SSH",
+      "HMAC-RIPEMD160 SSH",
+      "UMAC SSH",
+      "TDES SSH | In addition to the above non-Approved Algorithms Not Allowed in the Approved Mode of | Operation, all Approved algorithms supported in the Approved mode of operation are also | supported in the non-Approved mode."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5509.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 12,
+      "detailed_algorithm_count": 58,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5509.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

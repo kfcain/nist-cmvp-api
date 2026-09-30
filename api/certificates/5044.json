@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5044"
   },
   "certificate": {
     "certificate_number": "5044",
-    "dataset": "active",
-    "generated_at": "2026-08-30T07:57:46.517944Z",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5044",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5044",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5044.pdf",
     "vendor_name": "Splunk LLC",
     "module_name": "Splunk OpenSSL FIPS Provider",
     "standard": "FIPS 140-2",
-    "status": "Active",
+    "status": "Historical",
     "module_type": "Software",
     "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
@@ -23,7 +23,7 @@
       "7/22/2025",
       "6/4/2026"
     ],
-    "sunset_date": "9/21/2026",
+    "sunset_date": null,
     "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
     "description": "The Module is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality. The Module is classified under FIPS 140-2 as a software module, with a multi-chip standalone module embodiment. The physical cryptographic boundary is the general-purpose computer on which the module is installed. The logical cryptographic boundary of the Module is the FIPS Provider, a dynamically loadable library. The Module performs no communication other than with the calling application via APIs that invoke the Module.",
     "software_versions": "3.0.9",
@@ -76,10 +76,22 @@
       "source": "firecrawl",
       "source_url": null,
       "cached": true,
-      "fallback_used": false,
+      "fallback_used": true,
       "cache_version": "2026-04-15-legacy-v1",
       "algorithm_count": 0,
-      "detailed_algorithm_count": 0
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5044.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5044.pdf",
+          "status": "no_algorithms"
+        }
+      ]
     }
   }
 }

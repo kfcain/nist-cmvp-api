@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4424"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 13,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. This module contains the embedded module ACT2Lite validated to FIPS 140-2 under Cert. #3637 operating in FIPS mode.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4424",
     "certificate_number": "4424",
-    "dataset": "active",
-    "description": "The Cisco Series Wireless Controllers, are a highly scalable and flexible platform that enables system-wide services for mission-critical wireless networking in medium-sized to large enterprises and campus environments.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Cisco Catalyst 9800 (40/80) Wireless Controllers",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4424",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4424",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4424.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco Catalyst 9800 (40/80) Wireless Controllers",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "1/25/2023",
+    "validation_dates": [
+      "1/25/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. This module contains the embedded module ACT2Lite validated to FIPS 140-2 under Cert. #3637 operating in FIPS mode.",
+    "description": "The Cisco Series Wireless Controllers, are a highly scalable and flexible platform that enables system-wide services for mission-critical wireless networking in medium-sized to large enterprises and campus environments.",
+    "software_versions": null,
+    "hardware_versions": "9800-40 and 9800-80",
+    "firmware_versions": "IOS-XE 17.3",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2023_010223_0657_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4424.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "1/25/2023",
-    "validation_dates": [
-      "1/25/2023"
-    ],
     "validation_history": [
       {
         "date": "1/25/2023",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
       "address_lines": [
         "170 West Tasman Dr.",
         "San Jose, CA 95134",
         "USA"
       ],
-      "contact_email": "certteam@cisco.com",
-      "contact_name": "Global Certification Team",
-      "contact_phone": null,
       "country": "USA",
-      "name": "Cisco Systems, Inc.",
-      "website_url": "http://www.cisco.com"
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
     },
-    "vendor_name": "Cisco Systems, Inc.",
     "algorithms": [
       "AES",
       "CVL",
@@ -88,6 +76,35 @@
       "SHS",
       "SSH",
       "TLS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "2 CVL Cert. #A877 support the KDF (key derivation function) used in each of IKEv2, TLS, SSH and SNMPv3",
+      "KAS (SP800-56a rev3) KAS3 (KAS-SSC Cert. #A877, CVL",
+      "3 KAS (KAS-SSC Cert. #A877, CVL Cert. #A877; key establishment methodology provides between 112 and 200",
+      "5 CVL Cert. #A1462 support the KDF (key derivation function) used in each of IKEv2, SSH and SNMPv3",
+      "KAS (SP800-56a rev3) KAS6 (KAS-SSC Cert. #A1462, CVL",
+      "6 KAS (KAS-SSC Cert. #A1462, CVL Cert. #A1462; key establishment methodology provides between 112 and",
+      "• KTS (AES Cert. #A1462 and HMAC Cert. #A1462; key establishment methodology",
+      "• KTS (AES Cert. #A877 and HMAC Cert. #A877; key establishment methodology"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4424.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 13,
+      "detailed_algorithm_count": 8,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4424.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

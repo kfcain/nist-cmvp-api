@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526"
+  },
+  "certificate": {
+    "certificate_number": "5526",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
+    "vendor_name": "TrellisWare Technologies, Inc.",
+    "module_name": "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipStand",
+    "overall_level": 2,
+    "validation_date": "9/17/2026",
+    "validation_dates": [
+      "9/17/2026"
+    ],
+    "sunset_date": "9/16/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. The tamper evident sealant installed as indicated in the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F are small form-factor radios that employ the latest version of TrellisWare's TSM waveform and are capable of robust operation at high data rates. The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F radios support multi-channel voice, IP data, Position Location Information (PLI) tracking, sleep functions for long-term sensing applications, IP gateway features and remote operation of live streaming video sources for networked sensing missions.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/17/2026",
+        "type": "Initial",
+        "lab": "ADVANCED DATA SECURITY"
+      }
+    ],
+    "vendor": {
+      "name": "TrellisWare Technologies, Inc.",
+      "website_url": "http://www.trellisware.com",
+      "address_lines": [
+        "10641 Scripps Summit Court, Suite 100",
+        "San Diego, California 92131",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "TrellisWare Technologies, Inc.",
+      "contact_email": "info@trellisware.com",
+      "contact_phone": "858-753-1600"
+    },
+    "algorithms": [
+      "AES",
+      "DES",
+      "DSA",
+      "ECDH",
+      "ECDSA",
+      "KDF",
+      "RSA",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CTR C1431 Direction - Encrypt | Key Length - 256 | SP 800-38A",
+      "RSA SigGen | (FIPS186-5) | A5395 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048 | Signature Type - pkcs1v1.5 | FIPS 186-5",
+      "RSA SigVer A5395 Hash Pair - FIPS 186-5",
+      "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power | This document may be freely reproduced and distributed (without revision). Page 23 of 52",
+      "(FIPS186-5) Hash Algorithm - SHA2-256 | Modulo - 2048 | Signature Type - pkcs1v1.5 | Public Exponent Mode - random",
+      "SHA2-256 A5395 Message Length - Message Length: 8- | 51200 Increment 8 | FIPS 180-4 | N/A for this module. | N/A for this module. | There are no functions within the scope of the module that rely on a non-approved cryptographic | Name Caveat Use and Function",
+      "AES No | security | claimed",
+      "Used internally and separate from AES Cert # C1431. As per FIPS 140- | 3 IG 2.4.A, this is used to \"obfuscate\" data using proprietary | implementations. All obfuscated data is treated as plaintext. | SRP No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose. | DH No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
+      "ECDH No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
+      "DSA No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
+      "ECDSA No As per FIPS 140-3 IG 2.4.A, this is used between applications/web",
+      "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power | This document may be freely reproduced and distributed (without revision). Page 24 of 52 | Name Caveat Use and Function | security | claimed | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose. | Triple-",
+      "DES | No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose. | Camellia No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose. | SEED No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose. | RC4 No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose. | MD5 No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose. | IDEA No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
+      "SHA-1 No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
+      "SHA2- | 384 | No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
+      "KDF No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
+      "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power | This document may be freely reproduced and distributed (without revision). Page 25 of 52 | N/A for this module. | None"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 8,
+      "detailed_algorithm_count": 18,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4432"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 7,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4432",
     "certificate_number": "4432",
-    "dataset": "active",
-    "description": "Cryptographic module used for QRadar system components.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "IBM® Security QRadar® SIEM Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4432",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4432",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4432.pdf",
+    "vendor_name": "IBM Corporation",
+    "module_name": "IBM® Security QRadar® SIEM Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "2/6/2023",
+    "validation_dates": [
+      "2/6/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Cryptographic module used for QRadar system components.",
+    "software_versions": "7.4.3",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2023_010323_0649.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4432.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "2/6/2023",
-    "validation_dates": [
-      "2/6/2023"
-    ],
     "validation_history": [
       {
         "date": "2/6/2023",
-        "lab": "Gossamer Security Solutions",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
       }
     ],
     "vendor": {
+      "name": "IBM Corporation",
+      "website_url": "http://www.ibm.com",
       "address_lines": [
         "1 New Orchard Rd",
         "Armonk, NY 10504",
         "USA"
       ],
-      "contact_email": "bcoache@us.ibm.com",
-      "contact_name": "Brian Coache",
-      "contact_phone": "774-249-8123",
       "country": "USA",
-      "name": "IBM Corporation",
-      "website_url": "http://www.ibm.com"
+      "contact_name": "Brian Coache",
+      "contact_email": "bcoache@us.ibm.com",
+      "contact_phone": "774-249-8123"
     },
-    "vendor_name": "IBM Corporation",
     "algorithms": [
       "AES",
       "DRBG",
@@ -82,6 +70,25 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4432.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 7,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4432.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

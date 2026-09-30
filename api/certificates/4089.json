@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4089"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 8,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys. This validation entry is a non-security relevant modification to Cert. #3273",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4089",
     "certificate_number": "4089",
-    "dataset": "active",
-    "description": "Kaseya Virtual System Administrator (VSA) Cryptographic Module is an all-in-one RMM and Unified Endpoint Management product, allowing IT teams and MSPs to proactively protect, monitor, and manage distributed IT resources using a single, integrated web-based interface.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Virtual System Administrator (VSA) Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4089",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4089",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4089.pdf",
+    "vendor_name": "Kaseya US LLC",
+    "module_name": "Virtual System Administrator (VSA) Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "12/2/2021",
+    "validation_dates": [
+      "12/2/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys. This validation entry is a non-security relevant modification to Cert. #3273",
+    "description": "Kaseya Virtual System Administrator (VSA) Cryptographic Module is an all-in-one RMM and Unified Endpoint Management product, allowing IT teams and MSPs to proactively protect, monitor, and manage distributed IT resources using a single, integrated web-based interface.",
+    "software_versions": "2.2",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,41 +42,27 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2021_020122_0905_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4089.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "12/2/2021",
-    "validation_dates": [
-      "12/2/2021"
-    ],
     "validation_history": [
       {
         "date": "12/2/2021",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "Kaseya US LLC",
+      "website_url": "http://www.kaseya.com",
       "address_lines": [
         "701 Brickell Avenue",
         "Suite 400",
         "Miami, FL 33131",
         "USA"
       ],
-      "contact_email": "paul.farr@kaseya.com",
-      "contact_name": "Paul Farr",
-      "contact_phone": "415-694-5700",
       "country": "USA",
-      "name": "Kaseya US LLC",
-      "website_url": "http://www.kaseya.com"
+      "contact_name": "Paul Farr",
+      "contact_email": "paul.farr@kaseya.com",
+      "contact_phone": "415-694-5700"
     },
-    "vendor_name": "Kaseya US LLC",
     "algorithms": [
       "AES",
       "DES",
@@ -83,7 +71,27 @@
       "ECDSA",
       "HMAC",
       "RSA",
-      "SHA"
-    ]
+      "SHA",
+      "TLS"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4089.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4089.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4416"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 6,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4416",
     "certificate_number": "4416",
-    "dataset": "active",
-    "description": "The Bouncy Castle FIPS .NET API is a comprehensive suite of FIPS Approved algorithms implemented in pure C#. All key sizes and modes have been implemented to allow flexibility and efficiency, and additional algorithms, including some post-quantum ones, are available in non-approved operation as well.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "BC-FNA (Bouncy Castle FIPS .NET API)",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4416",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4416",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4416.pdf",
+    "vendor_name": "Legion of the Bouncy Castle Inc.",
+    "module_name": "BC-FNA (Bouncy Castle FIPS .NET API)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "1/18/2023",
+    "validation_dates": [
+      "1/18/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Bouncy Castle FIPS .NET API is a comprehensive suite of FIPS Approved algorithms implemented in pure C#. All key sizes and modes have been implemented to allow flexibility and efficiency, and additional algorithms, including some post-quantum ones, are available in non-approved operation as well.",
+    "software_versions": "1.0.2",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,46 +41,67 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2023_010223_0657_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4416.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "1/18/2023",
-    "validation_dates": [
-      "1/18/2023"
-    ],
     "validation_history": [
       {
         "date": "1/18/2023",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "Legion of the Bouncy Castle Inc.",
+      "website_url": "http://www.bouncycastle.org",
       "address_lines": [
         "85 The Crescent",
         "Ascot Vale, Victoria 3032",
         "Australia"
       ],
-      "contact_email": "dgh@bouncycastle.org",
-      "contact_name": "David Hook",
-      "contact_phone": "+61438170390",
       "country": "Australia",
-      "name": "Legion of the Bouncy Castle Inc.",
-      "website_url": "http://www.bouncycastle.org"
+      "contact_name": "David Hook",
+      "contact_email": "dgh@bouncycastle.org",
+      "contact_phone": "+61438170390"
     },
-    "vendor_name": "Legion of the Bouncy Castle Inc.",
     "algorithms": [
       "AES",
+      "CVL",
+      "DES",
+      "DRBG",
       "DSA",
       "ECDSA",
       "EDDSA",
+      "HMAC",
+      "KAS",
       "KDF",
-      "RSA"
-    ]
+      "KTS",
+      "RSA",
+      "SHA",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "KAS7 SP 800-56A rev3 KAS-SSC (Cert. #A1905) with SP",
+      "KDF (CVL Cert. #A1905). Compliant to IG D.8 X1",
+      "KAS8 SP 800-56A rev3 KAS-SSC (Cert. #A1905) with SP",
+      "KTS10 AES Cert. #A1905; key establishment methodology",
+      "KTS11 Triple-DES Cert. #A1905; key establishment"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4416.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 14,
+      "detailed_algorithm_count": 5,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4416.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

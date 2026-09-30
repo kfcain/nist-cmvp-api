@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5404"
+  },
+  "certificate": {
+    "certificate_number": "5404",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5404",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5404",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5404.pdf",
+    "vendor_name": "Microsoft Corporation",
+    "module_name": "Boot Manager",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software-hybrid",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "8/31/2026",
+    "validation_dates": [
+      "8/31/2026"
+    ],
+    "sunset_date": "8/30/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy. When operated in approved mode with module Kernel Mode Cryptographic Primitives Library (cng.sys) validated to FIPS 140-3 under Cert. #5408 operating in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Windows Boot Manager module is a multi-chip standalone software-hybrid cryptographic module. Boot Manager is the first Windows OS component to load when the computer powers up. When Secure Boot is enabled, the integrity of Boot Manager is validated before loading by the computer’s UEFI firmware. Along with other startup and initialization tasks, Boot Manager loads and cryptographically validates the integrity of Winload.efi (the Windows OS Loader), the next module in the startup sequence. The Boot Manager, which includes parts of BitLocker disk encryption, collects authorization factors, known as “protectors”, by reading data or interacting with the user. BitLocker uses these protectors to encrypt entire disk volumes.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5404.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2026_020926_0917.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/31/2026",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Microsoft Corporation",
+      "website_url": "http://www.microsoft.com",
+      "address_lines": [
+        "1 Microsoft Way",
+        "Redmond, WA 98052",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike Grimm",
+      "contact_email": "FIPS@microsoft.com",
+      "contact_phone": "800-642-767638"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "HMAC",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "BC1 KTS-Wrap Symmetric key unwrap using",
+      "AES-CCM SP 800-38C and | SP 800-38F. KTS (key | unwrapping) per IG D.G. | Used by the Unlocking the | OS Volume service to decrypt | multiple keys used in the boot | process. | Standard: SP 800-38F | IG D.G: Approved Method 2 | from IG D.G | Caveat: Key establishment | methodology provides 256 | bits of security strength",
+      "AES-CCM: (A3748, A3749) | Key size: 256 bits",
+      "AES-CBC: (A4008, A4009) | Key size: 256 bits | BC2 BC-UnAuth Symmetric block cipher | decryption used by the | Decrypting the OS Volume | service to decrypt the system | volume.",
+      "AES-CBC: (A4008, A4009) | Key size: 128 bits | Key size: 256 bits",
+      "AES-XTS Testing Revision | 2.0: (A4008, A4009) | Key size: 128 bits | Key size: 256 bits | CKG1 CKG Key generation used by the | Unlocking the OS Volume | service to generate the | Intermediate Key, Derived | Key, and Network Key. | CKG: () | Key type: Symmetric",
+      "Counter DRBG: (A4008 | A4009)",
+      "[EVM] DRBG output | Bounded [EVM] CNG.SYS",
+      "AES-CBC: (A4008, A4009) | Bounded [EVM] CNG.SYS | 256 bits",
+      "DS-Legacy DigSig-SigVer RSA signature verification | used by the module services | for integrity verification.",
+      "RSA SigVer (FIPS186-4) | (A3767, A3768)",
+      "RSA Modulus: 1024 bits (For | legacy signature verification | only)",
+      "SHA-1: (A4008, A4009)",
+      "SHA Size: 160 bits (For | legacy signature verification | only) | Boot Manager – Security Policy Document | Name Type Description Properties Algorithms",
+      "DS1 DigSig-SigVer RSA signature verification | used by the Secure Boot | service to verify the integrity | of the Secure Boot policy.",
+      "SHA hash functions support",
+      "this by verifying the RSA | signature.",
+      "RSA SigVer (FIPS186-4) | (A3767)",
+      "RSA moduli: 2048, 3072, and | 4096 bits",
+      "RSA SigVer (FIPS186-4) | (A3768)",
+      "SHA2-256: (A4008, A4009)",
+      "SHA Size: 256 bits",
+      "SHA2-384: (A4008, A4009)",
+      "SHA Size: 384 bits",
+      "SHA2-512: (A4008, A4009)",
+      "SHA Size: 512 bits",
+      "DS2 DigSig-SigVer RSA signature verification | used by the Secure Boot and | Loading and Verifying OS | Loader service to verify the | integrity of the Windows OS",
+      "Loader. SHA hash functions | support this by verifying the",
+      "RSA signature.",
+      "RSA moduli: 2048, 3072 | and 4096 bits",
+      "DS3 DigSig-SigVer RSA signature verification | used by the Unlocking the OS | service to verify the integrity | of the MUI resource file in",
+      "some scenarios. SHA hash | functions support this by",
+      "verifying the RSA signature.",
+      "RSA Moduli: 2048, 3072, and | 4096 bits",
+      "SHA Size: 384 bits | Boot Manager – Security Policy Document | Name Type Description Properties Algorithms",
+      "PBKDF1 PBKDF Password based key | derivation function used by | the Unlocking the OS Volume | service to generate a key | from user-input data, which is | then used for TPM scenarios.",
+      "PBKDF: (A4008, A4009)",
+      "MAC used: HMAC-SHA2-256",
+      "HMAC-SHA2-256: (A4008)",
+      "HMAC-SHA2-256: (A4009)",
+      "SHA Size: 256 bits | Boot Manager – Security Policy Document"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5404.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 7,
+      "detailed_algorithm_count": 41,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5404.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

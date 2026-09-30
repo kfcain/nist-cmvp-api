@@ -1,35 +1,41 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4207"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 3,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4207",
     "certificate_number": "4207",
-    "dataset": "active",
-    "description": "Western Digital's self-encrypting Ultrastar® DC HC330, Ultrastar DC HC320 and Ultrastar DC HC310 TCG Enterprise hard disk drives meet or exceed the most demanding performance and security requirements. The Ultrastar DC HC330/HC320/HC310 product line, which use CMR technology, deliver high-capacity storage and a performance boost. Together, they enable capacity scaling and reduced total Cost of Ownership (TCO). The Ultrastar DC HC330/HC320/HC310 HDDs continue Western Digital's reliability leadership tradition with a 2M-hour MTBF rating.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Ultrastar® DC HC310 TCG Enterprise HDD, Ultrastar® DC HC320 TCG Enterprise HDD, and Ultrastar® DC HC330 TCG Enterprise HDD",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4207",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4207",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4207.pdf",
+    "vendor_name": "Western Digital Corporation",
+    "module_name": "Ultrastar® DC HC310 TCG Enterprise HDD, Ultrastar® DC HC320 TCG Enterprise HDD, and Ultrastar® DC HC330 TCG Enterprise HDD",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 2,
+    "validation_date": "4/29/2022, 7/1/2022, 7/13/2022, 1/25/2023, 9/1/2023",
+    "validation_dates": [
+      "4/29/2022",
+      "7/1/2022",
+      "7/13/2022",
+      "1/25/2023",
+      "9/1/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Western Digital's self-encrypting Ultrastar® DC HC330, Ultrastar DC HC320 and Ultrastar DC HC310 TCG Enterprise hard disk drives meet or exceed the most demanding performance and security requirements. The Ultrastar DC HC330/HC320/HC310 product line, which use CMR technology, deliver high-capacity storage and a performance boost. Together, they enable capacity scaling and reduced total Cost of Ownership (TCO). The Ultrastar DC HC330/HC320/HC310 HDDs continue Western Digital's reliability leadership tradition with a 2M-hour MTBF rating.",
+    "software_versions": "N/A",
+    "hardware_versions": "P/Ns HUS726T4TAL5205 [4, 7, 12], HUS726T4TALS205 [4, 7, 12], HUS726T6TAL5205 [4, 7, 12], HUS728T8TAL5205 [3, 7, 12] and WUS721010AL5205 [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] (Operational Tested)",
+    "firmware_versions": "R920 [1], R942 [2], R980 [3], R984 [4], NA00 [5], NE00 [6], R9G0 [7], R944 [8], LE01 [9], NA01 [10], NE01 [11], R9U0 [12], R9L2 [13], LE02 [14], NA02 [15] and NE02 [16]",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,68 +46,69 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "EMI/EMC: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4207.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/29/2022, 7/1/2022, 7/13/2022, 1/25/2023, 9/1/2023",
-    "validation_dates": [
-      "4/29/2022",
-      "7/1/2022",
-      "7/13/2022",
-      "1/25/2023",
-      "9/1/2023"
-    ],
     "validation_history": [
       {
         "date": "4/29/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "7/1/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "7/13/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "1/25/2023",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "9/1/2023",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Western Digital Corporation",
+      "website_url": "http://www.westerndigital.com",
       "address_lines": [
         "6501 Great Oaks Parkway",
         "San Jose, CA 95119",
         "USA"
       ],
-      "contact_email": "michael.williamson@wdc.com",
-      "contact_name": "Michael Williamson",
-      "contact_phone": "408-717-8458",
       "country": "USA",
-      "name": "Western Digital Corporation",
-      "website_url": "http://www.westerndigital.com"
+      "contact_name": "Michael Williamson",
+      "contact_email": "michael.williamson@wdc.com",
+      "contact_phone": "408-717-8458"
     },
-    "vendor_name": "Western Digital Corporation",
     "algorithms": [
       "DRBG",
       "HMAC",
       "KDF"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4207.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 3,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4207.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

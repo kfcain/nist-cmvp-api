@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4451"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 10,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When installed, initialized and configured as specified in Section 3 of the Security Policy.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4451",
     "certificate_number": "4451",
-    "dataset": "active",
-    "description": "The Symantec Integrated Secure Gateway (ISG) is the software on the newest Symantec Security Platform SSP-S410 and S210 appliances used to deploy applications. The ISG SSP-S210 and S410 appliances enable organizations to take a modular approach to network security by separating the traditional hardware-based appliance approach into individual software and hardware components. This allows customers to tailor their software and hardware procurement needs specifically to their network topology, providing on-premises, cloud-based, or blended solutions.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Symantec Integrated Secure Gateway",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4451",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4451",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4451.pdf",
+    "vendor_name": "Symantec, A Division of Broadcom",
+    "module_name": "Symantec Integrated Secure Gateway",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "3/15/2023",
+    "validation_dates": [
+      "3/15/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 3 of the Security Policy.",
+    "description": "The Symantec Integrated Secure Gateway (ISG) is the software on the newest Symantec Security Platform SSP-S410 and S210 appliances used to deploy applications. The ISG SSP-S210 and S410 appliances enable organizations to take a modular approach to network security by separating the traditional hardware-based appliance approach into individual software and hardware components. This allows customers to tailor their software and hardware procurement needs specifically to their network topology, providing on-premises, cloud-based, or blended solutions.",
+    "software_versions": null,
+    "hardware_versions": "SSP-S410-10 (090-20000-02)[1], SSP-S410-20 (090-20001-02)[1], SSP-S410-30 (090-20002-02)[1], SSP-S410-40 (090-20003-02)[1] and SSP-S210-10 (090-20012-01)[2] with FIPS KIT HW-KIT-FIPS-S410[1] and HW-KIT-FIPS-S210[2].",
+    "firmware_versions": "2.4.2.1",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2023_030423_0646.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4451.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "3/15/2023",
-    "validation_dates": [
-      "3/15/2023"
-    ],
     "validation_history": [
       {
         "date": "3/15/2023",
-        "lab": "Lightship Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Symantec, A Division of Broadcom",
+      "website_url": "http://www.broadcom.com",
       "address_lines": [
         "1320 Ridder Park Dr.",
         "San Jose, CA 95131",
         "USA"
       ],
-      "contact_email": "symc-fed-certs.pdl@broadcom.com",
-      "contact_name": "Ian Hall",
-      "contact_phone": null,
       "country": "USA",
-      "name": "Symantec, A Division of Broadcom",
-      "website_url": "http://www.broadcom.com"
+      "contact_name": "Ian Hall",
+      "contact_email": "symc-fed-certs.pdl@broadcom.com",
+      "contact_phone": null
     },
-    "vendor_name": "Symantec, A Division of Broadcom",
     "algorithms": [
       "AES",
       "DRBG",
@@ -85,6 +73,25 @@
       "SHS",
       "SSH",
       "TLS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4451.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 10,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4451.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

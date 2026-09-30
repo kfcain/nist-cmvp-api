@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4081"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 10,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS Mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4081",
     "certificate_number": "4081",
-    "dataset": "active",
-    "description": "The X4i PSD is a single chip cryptographic module using the Maxim MAX32590 hardware that provides security services to support the creation of digital postage evidence in the form of an indicium.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "X4i Postal Security Device (PSD)",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4081",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4081",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4081.pdf",
+    "vendor_name": "Pitney Bowes, Inc.",
+    "module_name": "X4i Postal Security Device (PSD)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 3,
+    "validation_date": "11/30/2021, 1/5/2023, 9/1/2023",
+    "validation_dates": [
+      "11/30/2021",
+      "1/5/2023",
+      "9/1/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS Mode. No assurance of the minimum strength of generated keys.",
+    "description": "The X4i PSD is a single chip cryptographic module using the Maxim MAX32590 hardware that provides security services to support the creation of digital postage evidence in the form of an indicium.",
+    "software_versions": null,
+    "hardware_versions": "MAX32590 Secure Microcontroller Revision B4",
+    "firmware_versions": "PB Bootloader Version 00.00.0016, PSD Application Versions 21.07.0013 and 21.07.0018, and Device Abstraction Layer (DAL) Version 01.02.0027 and 01.02.0041",
+    "security_level_exceptions": [],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,49 +41,36 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
       }
     ],
-    "security_level_exceptions": [],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4081.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "11/30/2021, 1/5/2023, 9/1/2023",
-    "validation_dates": [
-      "11/30/2021",
-      "1/5/2023",
-      "9/1/2023"
-    ],
     "validation_history": [
       {
         "date": "11/30/2021",
-        "lab": "Penumbra Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
       },
       {
         "date": "1/5/2023",
-        "lab": "Penumbra Security, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
       },
       {
         "date": "9/1/2023",
-        "lab": "Penumbra Security, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Pitney Bowes, Inc.",
+      "website_url": "http://www.pb.com",
       "address_lines": [
         "27 Waterview Drive",
         "Shelton, CT 06484",
         "USA"
       ],
-      "contact_email": "brian.hannigan@pb.com",
-      "contact_name": "Brian Hannigan",
-      "contact_phone": "203-796-3201",
       "country": "USA",
-      "name": "Pitney Bowes, Inc.",
-      "website_url": "http://www.pb.com"
+      "contact_name": "Brian Hannigan",
+      "contact_email": "brian.hannigan@pb.com",
+      "contact_phone": "203-796-3201"
     },
-    "vendor_name": "Pitney Bowes, Inc.",
     "algorithms": [
       "AES",
       "DRBG",
@@ -94,6 +82,30 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "KTS (AES Cert. #5954) SP 800-38F AES KW 256 Protects exported keys",
+      "KTS (AES Cert. #5954",
+      "and HMAC Cert. #C464)"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4081.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 10,
+      "detailed_algorithm_count": 3,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4081.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

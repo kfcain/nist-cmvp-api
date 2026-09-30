@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5522"
+  },
+  "certificate": {
+    "certificate_number": "5522",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5522",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5522",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5522.pdf",
+    "vendor_name": "Micron Technology, Inc.",
+    "module_name": "Micron® MSA11-P5 Controller Sub Chip Security Subsystem",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "SingleChip",
+    "overall_level": 2,
+    "validation_date": "9/14/2026",
+    "validation_dates": [
+      "9/14/2026"
+    ],
+    "sunset_date": "9/13/2031",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Micron® MSA11-P5 Controller Sub Chip Security provides cryptographic functionality to SSD controllers.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5522.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/14/2026",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Micron Technology, Inc.",
+      "website_url": "http://www.micron.com",
+      "address_lines": [
+        "8000 South Federal Way",
+        "Boise, ID 83707",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Micron SSD Security",
+      "contact_email": "mu_ssd_security_eng@micron.com",
+      "contact_phone": "208-368-4000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CTR C1278 Direction - Encrypt | Key Length - 128, 256 | SP 800-38A",
+      "AES-ECB A6144 Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A",
+      "AES-ECB A6146 Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A",
+      "AES-ECB C1278 Direction - Encrypt | Key Length - 128, 256 | SP 800-38A",
+      "AES-GCM A6144 Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.1 | Key Length - 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length | 256-65536 Increment 128 | AAD Length - AAD Length: 0 | SP 800-38D",
+      "AES-KW A6149 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 256 | Payload Length - Payload Length | 256-4096 Increment 64 | SP 800-38F",
+      "AES-XTS Testing Revision | 2.0 | A6144 Direction - Decrypt, Encrypt | Key Length - 256 | Payload Length - Payload Length | 4096-32896 Increment 128 | Tweak Mode - Hex | Data Unit Length Matches Payload | Length - Yes | SP 800-38E",
+      "AES-XTS Testing Revision | 2.0 | A6146 Direction - Decrypt, Encrypt | Key Length - 256 | Payload Length - Payload Length | 4096-32896 Increment 128 | Tweak Mode - Number | Data Unit Length Matches Payload | Length - Yes | SP 800-38E | Conditioning Component | Block Cipher Derivation | Function SP800-90B | A2272 Key Length - 128 | Payload Length - Payload Length | 512 | SP 800-90B",
+      "Counter DRBG C1278 Prediction Resistance - No, Yes | Supports Reseed - Yes",
+      "Mode - AES-128, AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0- | 256, Additional Input: 0-384 | Entropy Input - Entropy Input: 256 | Entropy Input: 384 | SP 800-90A | Rev. 1 | Micron Technology Public Material – May be reproduced only in its original entirety (without revision). Template v1.0 | Cert Properties Reference | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0-256 | Personalization String Length: 0-384 | Returned Bits - 512",
+      "ECDSA KeyGen | (FIPS186-5) | A6142 Curve - P-384 | Secret Generation Mode - extra bits | FIPS 186-5",
+      "ECDSA KeyVer (FIPS186- | 5) | A6142 Curve - P-384 FIPS 186-5",
+      "ECDSA SigGen (FIPS186- | 5) | A6142 Curve - P-384",
+      "Hash Algorithm - SHA2-384 | Component - No | FIPS 186-5",
+      "ECDSA SigVer (FIPS186- | 5) | A6142 Curve - P-384",
+      "Hash Algorithm - SHA2-384 | FIPS 186-5",
+      "HMAC-SHA2-384 A6151 MAC - MAC: 384 | Key Length - Key Length: 384 | FIPS 198-1",
+      "HMAC-SHA2-512/256 A6151 MAC - MAC: 256 | Key Length - Key Length: 256 | FIPS 198-1",
+      "KDF SP800-108 A6148 KDF Mode - Counter",
+      "MAC Mode - HMAC-SHA2-384",
+      "HMAC-SHA2-512/256 | Supported Lengths - Supported | Lengths: 256-384 Increment 128 | Fixed Data Order - Before Fixed Data | Counter Length - 8 | Supports Empty IV - No | Requires Empty IV - No | Custom Key In Length - 0 | SP 800-108 | Rev. 1",
+      "KTS-IFC A6150 IUT ID - 9550 | Modulo - 3072, 4096 | Key Generation Methods - rsakpg1- | basic | Fixed Public Exponent - 010001 | Scheme -",
+      "KTS-OAEP-basic - | KAS Role - initiator | Key Transport Method -",
+      "Hash Algorithms - SHA2-384 | Supports Null Associated Data - Yes | Associated Data Pattern - | Associated Data Encoding - | concatenation | Key Length - 256 | SP 800-56B | Rev. 2",
+      "RSA SigVer (FIPS186-5) A6147 Hash Pair -",
+      "Hash Algorithm - SHA2-384 | Modulo - 3072, 4096 | Signature Type - pkcs1v1.5, pss | FIPS 186-5 | Micron Technology Public Material – May be reproduced only in its original entirety (without revision). Template v1.0 | Cert Properties Reference | Mask Function - mgf1 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed",
+      "SHA2-384 A6143 Message Length - Message Length | 384, 8-65536 Increment 8 | Large Message Sizes - 1 | FIPS 180-4",
+      "SHA2-384 A6145 Message Length - Message Length | 384, 8-65536 Increment 8 | Large Message Sizes - 1 | FIPS 180-4",
+      "SHA2-512 A6145 Message Length - Message Length | 512, 8-65536 Increment 8 | Large Message Sizes - 1 | FIPS 180-4",
+      "SHA2-512/256 A6145 Message Length - Message Length | 256, 8-65536 Increment 8 | Large Message Sizes - 1 | FIPS 180-4 | The Module implements the FIPS Vendor Affirmed cryptographic algorithms listed. | Name Properties Implementation Reference | CKG1 Key Type:Symmetric and | Asymmetric | N/A SP800-133rev2 Section 4 | example 1 and IG D.H | CKG - | XTS",
+      "AES 256:Symmetric Key | Generation | N/A SP 800-133rev2 Section 6.3 | and IG C.I | N/A for this module. | N/A for this module. | Micron Technology Public Material – May be reproduced only in its original entirety (without revision). Template v1.0 | N/A for this module. | Micron Technology Public Material – May be reproduced only in its original entirety (without revision). Template v1.0"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5522.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 31,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5522.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

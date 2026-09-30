@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4361"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode and installed, initialized and configured as specified in the FIPS 140-2 Compliant Operation Section of the Security Policy with the entropy token installed as indicated in the Security Policy. Authentication at level 3 is only applicable when identity-based authentication is enforced for the User role. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4361",
     "certificate_number": "4361",
-    "dataset": "active",
-    "description": "The FortiAnalyzer family of logging, analyzing, and reporting appliances securely aggregate log data from Fortinet devices and other syslog-compatible devices. Using a comprehensive suite of customizable reports, users can filter and review records, including traffic, event, virus, attack, Web content, and email data.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "FortiAnalyzer 6.2",
-    "module_type": "Firmware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4361",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4361",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4361.pdf",
+    "vendor_name": "Fortinet, Inc.",
+    "module_name": "FortiAnalyzer 6.2",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "11/9/2022",
+    "validation_dates": [
+      "11/9/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and installed, initialized and configured as specified in the FIPS 140-2 Compliant Operation Section of the Security Policy with the entropy token installed as indicated in the Security Policy. Authentication at level 3 is only applicable when identity-based authentication is enforced for the User role. No assurance of the minimum strength of generated keys",
+    "description": "The FortiAnalyzer family of logging, analyzing, and reporting appliances securely aggregate log data from Fortinet devices and other syslog-compatible devices. Using a comprehensive suite of customizable reports, users can filter and review records, including traffic, event, virus, attack, Web content, and email data.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": "FortiAnalyzer v6.2, build9599",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +43,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3",
-      "Design Assurance: Level 2",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4361.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "11/9/2022",
-    "validation_dates": [
-      "11/9/2022"
-    ],
     "validation_history": [
       {
         "date": "11/9/2022",
-        "lab": "Lightship Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Fortinet, Inc.",
+      "website_url": "http://www.fortinet.com",
       "address_lines": [
         "16 Fitzgerald Road",
         "Ottawa, ON K2H 8R6",
         "Canada"
       ],
-      "contact_email": "akaye@fortinet.com",
-      "contact_name": "Alan Kaye",
-      "contact_phone": "613-225-9381 x87416",
       "country": "Canada",
-      "name": "Fortinet, Inc.",
-      "website_url": "http://www.fortinet.com"
+      "contact_name": "Alan Kaye",
+      "contact_email": "akaye@fortinet.com",
+      "contact_phone": "613-225-9381 x87416"
     },
-    "vendor_name": "Fortinet, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4361.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4361.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

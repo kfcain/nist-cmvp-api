@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5516"
+  },
+  "certificate": {
+    "certificate_number": "5516",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5516",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5516",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5516.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "Astro Subscriber Motorola Advanced Crypto Engine (MACE) - Security Level 3",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "SingleChip",
+    "overall_level": 3,
+    "validation_date": "9/9/2026",
+    "validation_dates": [
+      "9/9/2026"
+    ],
+    "sunset_date": "9/8/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy. The module generates SSPs (e.g., keys) whose strengths are modified by available entropy",
+    "description": "The MACE cryptographic processor is used in security modules embedded in Motorola's Astro family of radio systems products. It provides secure voice and data capabilities as well as APCO Over-The-Air-Rekeying and advanced key management.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5516.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/9/2026",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
+      "address_lines": [
+        "500 West Monroe Street",
+        "Chicago, IL 60661",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jason Blair",
+      "contact_email": "jason.blair@motorolasolutions.com",
+      "contact_phone": "847-576-5000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA",
+      "SHS"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC, AES-CFB8",
+      "AES-ECB, AES-OFB | A2261 | A2262 | A2260 | Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A",
+      "AES-GCM A2262 Direction - Decrypt, Encrypt | IV Generation - Internal | IV Generation Mode - 8.2.2 | Key Length - 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length: 256-512 | Increment 128 | AAD Length - AAD Length: 256-512 Increment | 128 | SP 800-38D",
+      "AES-KW A2263 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 256 | Payload Length - Payload Length: 128-256 | Increment 64 | SP 800-38F",
+      "AES-KW A2264 Direction - Decrypt | Cipher - Cipher | Key Length - 256 | Payload Length - Payload Length: 128-256 | Increment 64 | SP 800-38F",
+      "Counter DRBG A6380 Prediction Resistance - No | Supports Reseed - No",
+      "Mode - AES-256 | Derivation Function Enabled - Yes | Additional Input - Additional Input: 0 | Entropy Input - Entropy Input: 256-1024 | Increment 128 | Nonce - Nonce: 128-512 Increment 128 | Personalization String Length - Personalization | SP 800-90A | Rev. 1 | Motorola Solutions Public Material – May be reproduced only in its original entirety (without revision). | String Length: 0 | Returned Bits - 128",
+      "ECDSA KeyGen | (FIPS186-4) | A655 Curve - P-384 | Secret Generation Mode - Extra Bits | FIPS 186-4",
+      "HMAC-SHA2-384 HMAC 1796 Key sizes < block size - Yes | Key sizes > block size - No | Key size = block size - No | FIPS 198-1",
+      "KAS-ECC Sp800- | 56Ar3 | A2266 Domain Parameter Generation Methods - P-384 | Function - Key Pair Generation, Partial | Validation | iutId - A1B2C3D4E5 | Scheme - | ephemeralUnified - | KAS Role - Initiator, Responder",
+      "KDF Methods - | oneStepKdf - | Auxiliary Function Methods -",
+      "Auxiliary Function Name - SHA2-384 | Fixed Info Pattern - | Fixed Info Encoding - Concatenation | Key Length - 384 | SP 800-56A | Rev. 3",
+      "RSA SigVer (FIPS186- | 2)",
+      "RSA 396 Signature Type - PKCS 1.5 | Modulo - 2048 | Hash Pair -",
+      "Hash Algorithm - SHA2-256 | FIPS 186-4",
+      "RSA SigVer (FIPS186- | 5) | A5253 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048 | Signature Type - pkcs1v1.5 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed | FIPS 186-5",
+      "SHA2-256 SHS 817 Message Length - Message Length: 0-51200 | Increment 8 | Supports Bit-Oriented Messages - No | Supports Empty Message - Yes | FIPS 180-4",
+      "SHA2-384 SHS 2399 Message Length - Message Length: 8-102400 | Increment 8 | Supports Bit-Oriented Messages - No | Supports Empty Message - No | FIPS 180-4 | The Module implements the Vendor Affirmed cryptographic algorithms listed. | Motorola Solutions Public Material – May be reproduced only in its original entirety (without revision). | Name Properties Implementation Reference | CKG1 Key Type:Asymmetric and | Symmetric | N/A SP800-133rev2 Sections 4, Example 1 | and IG D.H | CKG - | IDK | Key Type:Symmetric N/A SP800-133rev2 Sections 6.3 #2 and IG | D.H | The Module implements the Non-Approved, but Allowed cryptographic algorithms listed. | Name Properties Implementation Reference | KTS2 key unwrapping only:Key establishment | methodology provides 256 bits strength",
+      "AES CBC or OFB Cert. | #A2261 or #A2262 | IG D.G | KTS3 key unwrapping only:Key establishment | methodology provides 256 bits strength",
+      "AES CFB8 Cert. #A2260 IG D.G | The Module implements the Non-Approved, Allowed cryptographic Algorithms with No Security | Claimed. | Name Caveat Use and Function",
+      "AES | MAC",
+      "No security claimed - AES | MAC is used as part of OTAR | but is considered | obfuscation",
+      "[IG 2.4.A] P25 AES OTAR. AES MAC is applied directly to the",
+      "plaintext OTAR key components and then KTS encryption is | performed on the OTAR key components and decrypted",
+      "within the module using AES KW Cert. #A2264 | The module does not implement any Non-Approved Algorithms, Not Allowed in the Approved Mode of | Operation. | N/A for this module."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5516.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 10,
+      "detailed_algorithm_count": 26,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5516.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

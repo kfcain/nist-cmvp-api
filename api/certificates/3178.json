@@ -1,35 +1,40 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3178"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "The output of the DRBG may not be used to generate keys. When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3178",
     "certificate_number": "3178",
-    "dataset": "active",
-    "description": "Tintri Cryptographic Module is a repackaged copy of OpenSSL which includes AES-GCM, AES-CBC, HMAC-SHA1, and DRBG. No modifications to the software content have been made, and no modifications to the algorithms implemented by the module have been made.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Tintri Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3178",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3178",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3178.pdf",
+    "vendor_name": "Tintri by DDN, Inc.",
+    "module_name": "Tintri Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "4/27/2018, 2/10/2022, 9/13/2022, 6/8/2023",
+    "validation_dates": [
+      "4/27/2018",
+      "2/10/2022",
+      "9/13/2022",
+      "6/8/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "The output of the DRBG may not be used to generate keys. When operated in FIPS mode",
+    "description": "Tintri Cryptographic Module is a repackaged copy of OpenSSL which includes AES-GCM, AES-CBC, HMAC-SHA1, and DRBG. No modifications to the software content have been made, and no modifications to the algorithms implemented by the module have been made.",
+    "software_versions": "1.0",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,57 +45,64 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/AprilConsolidated2018.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3178.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/27/2018, 2/10/2022, 9/13/2022, 6/8/2023",
-    "validation_dates": [
-      "4/27/2018",
-      "2/10/2022",
-      "9/13/2022",
-      "6/8/2023"
-    ],
     "validation_history": [
       {
         "date": "4/27/2018",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "2/10/2022",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "9/13/2022",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "6/8/2023",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       }
     ],
     "vendor": {
+      "name": "Tintri by DDN, Inc.",
+      "website_url": "http://www.tintri.com",
       "address_lines": [
         "9351 Deering Avenue",
         "Chatsworth, CA 91311",
         "USA"
       ],
-      "contact_email": "dl-fips@tintri.com",
-      "contact_name": "Robert Armitano",
-      "contact_phone": "800-837-2298",
       "country": "USA",
-      "name": "Tintri by DDN, Inc.",
-      "website_url": "http://www.tintri.com"
+      "contact_name": "Robert Armitano",
+      "contact_email": "dl-fips@tintri.com",
+      "contact_phone": "800-837-2298"
     },
-    "vendor_name": "Tintri by DDN, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3178.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3178.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

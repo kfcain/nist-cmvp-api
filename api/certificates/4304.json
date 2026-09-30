@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4304"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4304",
     "certificate_number": "4304",
-    "dataset": "active",
-    "description": "The Trusted Platform Module ST33TPHF2XSPI, ST33TPHF2XI2C, ST33GTPMASPI, ST33GTPMAI2C, ST33GTPMISPI & ST33GTPMII2C (TPM) is a hardware cryptographic module which implements advanced cryptographic algorithms, including symmetric and asymmetric cryptography, as well as key and random number generation. The TPM is a complete solution implementing the Trusted Platform Module Library Specification, Family \"2.0\", Level 00, Revision 01.38, September 2016 and Revision 1.59, November 2019. See www.trustedcomputinggroup.org for further information on TCG and TPM.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Trusted Platform Module ST33TPHF2XSPI [A], ST33TPHF2XI2C [B], ST33GTPMASPI [C], ST33GTPMAI2C [D], ST33GTPMISPI [E] & ST33GTPMII2C [F]",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4304",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4304",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4304.pdf",
+    "vendor_name": "STMicroelectronics",
+    "module_name": "Trusted Platform Module ST33TPHF2XSPI [A], ST33TPHF2XI2C [B], ST33GTPMASPI [C], ST33GTPMAI2C [D], ST33GTPMISPI [E] & ST33GTPMII2C [F]",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 2,
+    "validation_date": "9/19/2022, 10/14/2022",
+    "validation_dates": [
+      "9/19/2022",
+      "10/14/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Trusted Platform Module ST33TPHF2XSPI, ST33TPHF2XI2C, ST33GTPMASPI, ST33GTPMAI2C, ST33GTPMISPI & ST33GTPMII2C (TPM) is a hardware cryptographic module which implements advanced cryptographic algorithms, including symmetric and asymmetric cryptography, as well as key and random number generation. The TPM is a complete solution implementing the Trusted Platform Module Library Specification, Family \"2.0\", Level 00, Revision 01.38, September 2016 and Revision 1.59, November 2019. See www.trustedcomputinggroup.org for further information on TCG and TPM.",
+    "software_versions": null,
+    "hardware_versions": "ST33HTPH revision A [A [1, 2, 6]], ST33HTPH revision A [B [3]], ST33G1M2A revision F [C [4] and E [4]] and ST33G1M2A revision F [D [5] and F [5]]",
+    "firmware_versions": "00.01.02.00 [1], 00.01.03.00 [2], 00.02.02.00 [3], 00.03.02.00 [4], 00.06.02.00 [5] and 00.01.03.01 [6]",
+    "security_level_exceptions": [
+      "Physical Security: Level 3"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,44 +42,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2022_031022_0652_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4304.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "9/19/2022, 10/14/2022",
-    "validation_dates": [
-      "9/19/2022",
-      "10/14/2022"
-    ],
     "validation_history": [
       {
         "date": "9/19/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "10/14/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "STMicroelectronics",
+      "website_url": "http://www.st.com/",
       "address_lines": [
         "10, rue de Jouanet",
         "Rennes 35700",
         "France"
       ],
-      "contact_email": "olivier.collart@st.com",
-      "contact_name": "Olivier COLLART",
-      "contact_phone": "+32 272 450 77",
       "country": "France",
-      "name": "STMicroelectronics",
-      "website_url": "http://www.st.com/"
+      "contact_name": "Olivier COLLART",
+      "contact_email": "olivier.collart@st.com",
+      "contact_phone": "+32 272 450 77"
     },
-    "vendor_name": "STMicroelectronics"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4304.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4304.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

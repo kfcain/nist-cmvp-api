@@ -1,54 +1,23 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3273"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 9,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3273",
     "certificate_number": "3273",
-    "dataset": "active",
-    "description": "SafeLogic's CryptoComply for Server is designed to provide FIPS 140-2 validated cryptographic functionality and is available for licensing.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CryptoComply for Server",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3273",
-    "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3273.pdf"
-      },
-      {
-        "label": "Consolidated Certificate",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertAug2018.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3273",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3273.pdf",
-    "software_versions": null,
+    "vendor_name": "SafeLogic Inc.",
+    "module_name": "CryptoComply for Server",
     "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
     "validation_date": "8/29/2018, 10/16/2020, 3/2/2021, 9/12/2022, 10/6/2022, 11/1/2022, 4/16/2024",
     "validation_dates": [
       "8/29/2018",
@@ -59,58 +28,77 @@
       "11/1/2022",
       "4/16/2024"
     ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "SafeLogic's CryptoComply for Server is designed to provide FIPS 140-2 validated cryptographic functionality and is available for licensing.",
+    "software_versions": "2.2.2",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3273.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertAug2018.pdf"
+      }
+    ],
     "validation_history": [
       {
         "date": "8/29/2018",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       },
       {
         "date": "10/16/2020",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "3/2/2021",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "9/12/2022",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "10/6/2022",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "11/1/2022",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "4/16/2024",
-        "lab": "EWA - Canada",
-        "type": "Update"
+        "type": "Update",
+        "lab": "EWA - Canada"
       }
     ],
     "vendor": {
+      "name": "SafeLogic Inc.",
+      "website_url": "http://www.safelogic.com/",
       "address_lines": [
         "530 Lytton Ave",
         "Suite 200",
         "Palo Alto, CA 94301",
         "USA"
       ],
-      "contact_email": "sales@safelogic.com",
-      "contact_name": "SafeLogic Inside Sales",
-      "contact_phone": "844-436-2797",
       "country": "USA",
-      "name": "SafeLogic Inc.",
-      "website_url": "http://www.safelogic.com/"
+      "contact_name": "SafeLogic Inside Sales",
+      "contact_email": "sales@safelogic.com",
+      "contact_phone": "844-436-2797"
     },
-    "vendor_name": "SafeLogic Inc.",
     "algorithms": [
       "AES",
       "DES",
@@ -121,6 +109,25 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3273.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3273.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

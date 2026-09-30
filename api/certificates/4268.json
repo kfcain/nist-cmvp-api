@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4268"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 5,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4268",
     "certificate_number": "4268",
-    "dataset": "active",
-    "description": "The Ultrastar® DC SN840 NVMe™ PCIe 3.0 Self Encrypting Drive, from Western Digital, delivers extreme performance and ultra-low latency to the top tier of enterprise storage. With proven dual-port NVMe architecture, these drives are best suited for performance demanding platforms including HPC servers, misson-critical applications and workloads that require superior read/write performance and low latency.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Ultrastar® DC SN840 NVMe™ PCIe 3.0 Self Encrypting Drive",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4268",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4268",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4268.pdf",
+    "vendor_name": "Western Digital Technologies, Inc.",
+    "module_name": "Ultrastar® DC SN840 NVMe™ PCIe 3.0 Self Encrypting Drive",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 2,
+    "validation_date": "7/18/2022, 9/6/2022",
+    "validation_dates": [
+      "7/18/2022",
+      "9/6/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Ultrastar® DC SN840 NVMe™ PCIe 3.0 Self Encrypting Drive, from Western Digital, delivers extreme performance and ultra-low latency to the top tier of enterprise storage. With proven dual-port NVMe architecture, these drives are best suited for performance demanding platforms including HPC servers, misson-critical applications and workloads that require superior read/write performance and low latency.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns WUS4C6416DSP3X5, WUS4BA119DSP3X5, WUS4C6432DSP3X5, WUS4BA138DSP3X5, WUS4C6464DSP3X5, WUS4BA176DSP3X5 and WUS4BA1A1DSP3X5",
+    "firmware_versions": "R2210400, R2210401 and R2EF0003",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,52 +43,60 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "EMI/EMC: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4268.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "7/18/2022, 9/6/2022",
-    "validation_dates": [
-      "7/18/2022",
-      "9/6/2022"
-    ],
     "validation_history": [
       {
         "date": "7/18/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "9/6/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Western Digital Technologies, Inc.",
+      "website_url": "http://www.westerndigital.com",
       "address_lines": [
         "5601 Great Oaks Parkway",
         "San Jose, CA 95119",
         "USA"
       ],
-      "contact_email": "michael.williamson@wdc.com",
-      "contact_name": "Michael Williamson",
-      "contact_phone": "408-717-8458",
       "country": "USA",
-      "name": "Western Digital Technologies, Inc.",
-      "website_url": "http://www.westerndigital.com"
+      "contact_name": "Michael Williamson",
+      "contact_email": "michael.williamson@wdc.com",
+      "contact_phone": "408-717-8458"
     },
-    "vendor_name": "Western Digital Technologies, Inc.",
     "algorithms": [
       "AES",
       "DRBG",
       "HMAC",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "6 The cryptographic module does not use the HMAC-SHA1, and HMAC-SHA2-224 capabilities listed under Cert# HMAC 2280.",
+      "7 The cryptographic module does not use the SHA-1 and SHA2-224 capabilities listed under Cert# SHS 2942."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4268.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 5,
+      "detailed_algorithm_count": 2,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4268.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

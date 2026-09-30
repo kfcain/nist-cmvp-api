@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4065"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When installed, initialized and configured as specified in Section 12.4 of the Security Policy.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4065",
     "certificate_number": "4065",
-    "dataset": "active",
-    "description": "Cryptographic module encrypt and decrypt input packets, using one of the thirty two possible keys. There are several TC/TM to check: status, number of packets correctly deciphered, number of ciphered packet, etc. There are three UART interfaces for: ground, key and housekeeping (the last one has a redundant interface).",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Thales Alenia Space cryptographic module for Microsemi RTAX FPGA",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4065",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4065",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4065.pdf",
+    "vendor_name": "Thales Alenia Space",
+    "module_name": "Thales Alenia Space cryptographic module for Microsemi RTAX FPGA",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 1,
+    "validation_date": "11/2/2021",
+    "validation_dates": [
+      "11/2/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 12.4 of the Security Policy.",
+    "description": "Cryptographic module encrypt and decrypt input packets, using one of the thirty two possible keys. There are several TC/TM to check: status, number of packets correctly deciphered, number of ciphered packet, etc. There are three UART interfaces for: ground, key and housekeeping (the last one has a redundant interface).",
+    "software_versions": null,
+    "hardware_versions": "RTAX2000S FPGA; 28C010T EEPROM",
+    "firmware_versions": "3.32.00; 3.32.04",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,38 +41,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4065.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "11/2/2021",
-    "validation_dates": [
-      "11/2/2021"
-    ],
     "validation_history": [
       {
         "date": "11/2/2021",
-        "lab": "DEKRA Testing and Certification S.A.U",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
       }
     ],
     "vendor": {
+      "name": "Thales Alenia Space",
+      "website_url": "http://www.thalesgroup.com/es/espana/espacio",
       "address_lines": [
         "Calle Einstein, 7",
         "Tres Cantos, Madrid 28760",
         "Spain"
       ],
-      "contact_email": "irene.potti@thalesaleniaspace.com",
-      "contact_name": "Irene Potti Huerta",
-      "contact_phone": "+34 91 807 79 00",
       "country": "Spain",
-      "name": "Thales Alenia Space",
-      "website_url": "http://www.thalesgroup.com/es/espana/espacio"
+      "contact_name": "Irene Potti Huerta",
+      "contact_email": "irene.potti@thalesaleniaspace.com",
+      "contact_phone": "+34 91 807 79 00"
     },
-    "vendor_name": "Thales Alenia Space"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4065.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4065.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

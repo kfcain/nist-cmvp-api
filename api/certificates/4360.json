@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4360"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 2,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode and initialized to overall Level 2 per Sections 2.1 and 9.2 of the Security Policy. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4360",
     "certificate_number": "4360",
-    "dataset": "active",
-    "description": "The Module provides encryption and decryption services for secure key management, Over-the-Air-Rekeying (OTAR), and secure voice/data traffic for Motorola's Key Management Facility (KMF) and Motorola's Wave System. In the Wave System, the Module is referred to as the Wave CryptR/Traffic CryptR. In the Astro System, the Module is referred to as the KMF CryptR. The KMF and the KMF CryptR combine to provide cryptographic services for Motorola’s APCO-25 compliant Astro™ radio systems.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "KMF/Wave/Traffic CryptR",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4360",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4360",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4360.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "KMF/Wave/Traffic CryptR",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "11/8/2022",
+    "validation_dates": [
+      "11/8/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and initialized to overall Level 2 per Sections 2.1 and 9.2 of the Security Policy. No assurance of the minimum strength of generated keys",
+    "description": "The Module provides encryption and decryption services for secure key management, Over-the-Air-Rekeying (OTAR), and secure voice/data traffic for Motorola's Key Management Facility (KMF) and Motorola's Wave System. In the Wave System, the Module is referred to as the Wave CryptR/Traffic CryptR. In the Astro System, the Module is referred to as the KMF CryptR. The KMF and the KMF CryptR combine to provide cryptographic services for Motorola’s APCO-25 compliant Astro™ radio systems.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns CLN8566A, Rev. 0x1 and CLN1875A, Rev. 0x1",
+    "firmware_versions": "R03.07.04 with or without AES128 R01.00.01, AES256 R01.00.03, and/or ADP/DES-CBC/DES-ECB/DES-OFB/DES-XL/DVI-XL/DVP-XL R01.00.00",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,43 +42,48 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4360.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "11/8/2022",
-    "validation_dates": [
-      "11/8/2022"
-    ],
     "validation_history": [
       {
         "date": "11/8/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
       "address_lines": [
         "500 Monroe Street",
         "Chicago, IL 60661",
         "USA"
       ],
-      "contact_email": "jason.blair@motorolasolutions.com",
-      "contact_name": "Jason Blair",
-      "contact_phone": "847-576-5000",
       "country": "USA",
-      "name": "Motorola Solutions, Inc.",
-      "website_url": "http://www.motorolasolutions.com"
+      "contact_name": "Jason Blair",
+      "contact_email": "jason.blair@motorolasolutions.com",
+      "contact_phone": "847-576-5000"
     },
-    "vendor_name": "Motorola Solutions, Inc.",
     "algorithms": [
       "AES",
       "DES"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4360.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 2,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4360.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

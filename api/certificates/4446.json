@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4446"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 7,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode; The module generates cryptographic keys and random strings whose strengths are modified by available entropy.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4446",
     "certificate_number": "4446",
-    "dataset": "active",
-    "description": "The cryptographic module is a single-chip security controller for signature generation and secure data storage in V2X systems (vehicle-to-anything). The V2X system is required to support vehicle communication with other vehicles, as well as with road infrastructure and other elements. The cryptographic module will support highly secure and timely necessary cryptographic operations, so that all messages may be securely signed and authenticated.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "SLS37CSAUS V2X",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4446",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4446",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4446.pdf",
+    "vendor_name": "Infineon Technologies AG",
+    "module_name": "SLS37CSAUS V2X",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 3,
+    "validation_date": "3/7/2023, 3/5/2024, 3/19/2026",
+    "validation_dates": [
+      "3/7/2023",
+      "3/5/2024",
+      "3/19/2026"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode; The module generates cryptographic keys and random strings whose strengths are modified by available entropy.",
+    "description": "The cryptographic module is a single-chip security controller for signature generation and secure data storage in V2X systems (vehicle-to-anything). The V2X system is required to support vehicle communication with other vehicles, as well as with road infrastructure and other elements. The cryptographic module will support highly secure and timely necessary cryptographic operations, so that all messages may be securely signed and authenticated.",
+    "software_versions": null,
+    "hardware_versions": "Infineon SLS37CSAUS V2X security controller SLI37CMA2M0-G11",
+    "firmware_versions": "01.04.5488",
+    "security_level_exceptions": [],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,49 +41,36 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2023_030423_0646.pdf"
       }
     ],
-    "security_level_exceptions": [],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4446.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "3/7/2023, 3/5/2024, 3/19/2026",
-    "validation_dates": [
-      "3/7/2023",
-      "3/5/2024",
-      "3/19/2026"
-    ],
     "validation_history": [
       {
         "date": "3/7/2023",
-        "lab": "TUVIT Evaluation Body for IT Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "TUVIT Evaluation Body for IT Security"
       },
       {
         "date": "3/5/2024",
-        "lab": "TUVIT Evaluation Body for IT Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "TUVIT Evaluation Body for IT Security"
       },
       {
         "date": "3/19/2026",
-        "lab": "TUVIT Evaluation Body for IT Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "TUVIT Evaluation Body for IT Security"
       }
     ],
     "vendor": {
+      "name": "Infineon Technologies AG",
+      "website_url": "http://www.infineon.com",
       "address_lines": [
         "Melli-Beese-Straße 9",
         "Augsburg 86159",
         "Germany"
       ],
-      "contact_email": "Rainer.Urian@infineon.com",
-      "contact_name": "Rainer Urian",
-      "contact_phone": "+49-821-25851-520",
       "country": "Germany",
-      "name": "Infineon Technologies AG",
-      "website_url": "http://www.infineon.com"
+      "contact_name": "Rainer Urian",
+      "contact_email": "Rainer.Urian@infineon.com",
+      "contact_phone": "+49-821-25851-520"
     },
-    "vendor_name": "Infineon Technologies AG",
     "algorithms": [
       "AES",
       "DRBG",
@@ -91,6 +79,25 @@
       "KTS",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4446.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 7,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4446.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

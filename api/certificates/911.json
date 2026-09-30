@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/911"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/911",
     "certificate_number": "911",
-    "dataset": "active",
-    "description": "The L3Harris Technologies, Inc. Wireless Systems Cryptographic Library (SECLIB) is a software-based cryptographic module that provides encryption, authentication, and other security support services to various M/A-Com product applications. It specifically satisfies FIPS 140-2 Level 1 requirements.",
-    "embodiment": "Multi-chip standalone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Harris Corporation Wireless Systems Cryptographic Library (SECLIB)",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/911",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/911",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp911.pdf",
+    "vendor_name": "L3Harris Technologies, Inc.",
+    "module_name": "Harris Corporation Wireless Systems Cryptographic Library (SECLIB)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
     "overall_level": 1,
+    "validation_date": "2/7/2008, 7/2/2010, 4/10/2015, 4/27/2016, 3/1/2022",
+    "validation_dates": [
+      "2/7/2008",
+      "7/2/2010",
+      "4/10/2015",
+      "4/27/2016",
+      "3/1/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The L3Harris Technologies, Inc. Wireless Systems Cryptographic Library (SECLIB) is a software-based cryptographic module that provides encryption, authentication, and other security support services to various M/A-Com product applications. It specifically satisfies FIPS 140-2 Level 1 requirements.",
+    "software_versions": "R1A",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,60 +43,69 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt911.pdf"
       }
     ],
-    "security_level_exceptions": [],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp911.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "2/7/2008, 7/2/2010, 4/10/2015, 4/27/2016, 3/1/2022",
-    "validation_dates": [
-      "2/7/2008",
-      "7/2/2010",
-      "4/10/2015",
-      "4/27/2016",
-      "3/1/2022"
-    ],
     "validation_history": [
       {
         "date": "2/7/2008",
-        "lab": "SAIC-VA",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "SAIC-VA"
       },
       {
         "date": "7/2/2010",
-        "lab": "",
-        "type": "Update"
+        "type": "Update",
+        "lab": ""
       },
       {
         "date": "4/10/2015",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "4/27/2016",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "3/1/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "L3Harris Technologies, Inc.",
+      "website_url": "http://www.l3harris.com",
       "address_lines": [
         "221 Jefferson Ridge Parkway",
         "Lynchburg, VA 24501",
         "USA"
       ],
-      "contact_email": "Joe.Roberts@L3Harris.com",
-      "contact_name": "Joe Roberts",
-      "contact_phone": "434-329-9795",
       "country": "USA",
-      "name": "L3Harris Technologies, Inc.",
-      "website_url": "http://www.l3harris.com"
+      "contact_name": "Joe Roberts",
+      "contact_email": "Joe.Roberts@L3Harris.com",
+      "contact_phone": "434-329-9795"
     },
-    "vendor_name": "L3Harris Technologies, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp911.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp911.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

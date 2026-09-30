@@ -1,75 +1,67 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5152"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 14,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5152",
     "certificate_number": "5152",
-    "dataset": "active",
-    "description": "The HPE Aruba Networking AOS-CX Cryptographic Module is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "HPE Aruba Networking AOS-CX Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5152",
-    "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5152.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5152",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5152.pdf",
-    "software_versions": null,
+    "vendor_name": "HPE Aruba Networking",
+    "module_name": "HPE Aruba Networking AOS-CX Cryptographic Module",
     "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
     "validation_date": "2/4/2026",
     "validation_dates": [
       "2/4/2026"
     ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The HPE Aruba Networking AOS-CX Cryptographic Module is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+    "software_versions": "1.1",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5152.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2026_180326_0748-Signed.pdf"
+      }
+    ],
     "validation_history": [
       {
         "date": "2/4/2026",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
       }
     ],
     "vendor": {
+      "name": "HPE Aruba Networking",
+      "website_url": "http://www.arubanetworks.com",
       "address_lines": [
         "6280 America Center Dr",
         "San Jose, CA 95002",
         "USA"
       ],
-      "contact_email": "fips.support@hpe.com",
-      "contact_name": "HPE FIPS Support",
-      "contact_phone": null,
       "country": "USA",
-      "name": "HPE Aruba Networking",
-      "website_url": "http://www.arubanetworks.com"
+      "contact_name": "HPE FIPS Support",
+      "contact_email": "fips.support@hpe.com",
+      "contact_phone": null
     },
-    "vendor_name": "HPE Aruba Networking",
     "algorithms": [
       "AES",
       "CVL",
@@ -85,6 +77,25 @@
       "SHS",
       "SSH",
       "TLS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5152.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 14,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5152.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

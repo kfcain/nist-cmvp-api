@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4497"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode with the tamper evident seals and entropy token installed as indicated in the Security Policy. Authentication at level 3 is only applicable when identity-based authentication is enforced for the User role. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4497",
     "certificate_number": "4497",
-    "dataset": "active",
-    "description": "The FortiGate Next-Generation Firewalls with FortiOS 6.4/7.0 are multiple chip, standalone cryptographic modules consisting of production grade components contained in a physically protected enclosure in accordance with FIPS 140-2 Level 2 requirements.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "FortiGate Next-Generation Firewalls with FortiOS 6.4/7.0",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4497",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4497",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4497.pdf",
+    "vendor_name": "Fortinet, Inc.",
+    "module_name": "FortiGate Next-Generation Firewalls with FortiOS 6.4/7.0",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "5/2/2023",
+    "validation_dates": [
+      "5/2/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with the tamper evident seals and entropy token installed as indicated in the Security Policy. Authentication at level 3 is only applicable when identity-based authentication is enforced for the User role. No assurance of the minimum strength of generated keys",
+    "description": "The FortiGate Next-Generation Firewalls with FortiOS 6.4/7.0 are multiple chip, standalone cryptographic modules consisting of production grade components contained in a physically protected enclosure in accordance with FIPS 140-2 Level 2 requirements.",
+    "software_versions": null,
+    "hardware_versions": "FortiGate-40F (C1AJ53) [1] [2], FortiGateRugged-60F (C1AJ89) [1] [2], FortiGate-60F (C1AJ22) [1] [2], FortiGate-61F (C1AJ23) [1] [2], FortiWiFi-60F (C1AJ24) [1] [2], FortiWiFi-61F (C1AJ25) [1] [2], FortiGate-80F (C1AK17) [1] [2], FortiGate-81F (C1AK18) [1] [2], FortiGate-100F (C1AJ43) [1] [2], FortiGate-101F (C1AJ44) [1] [2], FortiGate-200F (C1AJ87) [1] [2], FortiGate-201F (C1AJ88) [1] [2], FortiGate-600E (C1AH98) [1] [2], FortiGate-601E (C1AH71) [1] [2], FortiGate-1100E (C1AJ67) [1] [2], FortiGate-1101E (C1AJ13) [1] [2], FortiGate-1800F (C1AJ82) [1], FortiGate-1801F (C1AJ83) [1], FortiGate-2600F (C1AK55) [1], FortiGate-2601F (C1AK56) [1], FortiGate-3300E (C1AJ42) [1] [2], FortiGate-3301E (C1AJ38) [1] [2], FortiGate-3400E (C1AH84) [1] [2], FortiGate-3401E (C1AH85) [1] [2], FortiGate-3600E (C1AH86) [1] [2], FortiGate-3601E (C1AH57) [1] [2], FortiGate-4200F (C1AH81) [1], FortiGate-4201F (C1AJ94) [1], FortiGate-4400F (C1AH79) [1], FortiGate-4401F (C1AJ45) [1], FortiGate-6300F (C1AG83) [1], FortiGate-6301F (C1AG85) [1], FortiGate-6500F (C1AG84) [1] and FortiGate-6501F (C1AG86) [1] with Tamper Evident Seal Kit: FIPS-SEAL-RED",
+    "firmware_versions": "FortiOS 6.4 (FIPS-CC-64-5) [1] and FortiOS 7.0 (FIPS-CC-70-6) [2]",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,38 +41,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2023_010623_0642.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4497.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "5/2/2023",
-    "validation_dates": [
-      "5/2/2023"
-    ],
     "validation_history": [
       {
         "date": "5/2/2023",
-        "lab": "Lightship Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Fortinet, Inc.",
+      "website_url": "http://www.fortinet.com",
       "address_lines": [
         "16 Fitzgerald Road",
         "Ottawa, ON K2H 8R6",
         "Canada"
       ],
-      "contact_email": "akaye@fortinet.com",
-      "contact_name": "Alan Kaye",
-      "contact_phone": "613-225-9381 x87416",
       "country": "Canada",
-      "name": "Fortinet, Inc.",
-      "website_url": "http://www.fortinet.com"
+      "contact_name": "Alan Kaye",
+      "contact_email": "akaye@fortinet.com",
+      "contact_phone": "613-225-9381 x87416"
     },
-    "vendor_name": "Fortinet, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4497.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4497.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

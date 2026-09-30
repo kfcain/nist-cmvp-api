@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4258"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "The output of the DRBG may not be used to generate keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4258",
     "certificate_number": "4258",
-    "dataset": "active",
-    "description": "The ArmorFlash is a hardware cryptographic module which implements advanced cryptographic algorithms, including symmetric and asymmetric cryptography. ArmorFlash is a security solution for a wide range of identification, authentication and encryption requirements for automotive, computing and industrial environments, as a device peripheral to the MCU, with the application controlling the storage of the module.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Macronix ArmorFlash MX78 series",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4258",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4258",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4258.pdf",
+    "vendor_name": "Macronix International Co., Ltd.",
+    "module_name": "Macronix ArmorFlash MX78 series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 2,
+    "validation_date": "6/27/2022, 9/28/2022",
+    "validation_dates": [
+      "6/27/2022",
+      "9/28/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "The output of the DRBG may not be used to generate keys.",
+    "description": "The ArmorFlash is a hardware cryptographic module which implements advanced cryptographic algorithms, including symmetric and asymmetric cryptography. ArmorFlash is a security solution for a wide range of identification, authentication and encryption requirements for automotive, computing and industrial environments, as a device peripheral to the MCU, with the application controlling the storage of the module.",
+    "software_versions": null,
+    "hardware_versions": "MX78U64A00F, MX78U64B00G, MX78U128A00F, MX78U128B00G, MX78U256A00F, MX78U256B00G, MX78L64A00F, MX78L64B00G, MX78L128A00F, MX78L128B00G, MX78L256A00F, MX78L256B00G",
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,44 +42,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4258.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "6/27/2022, 9/28/2022",
-    "validation_dates": [
-      "6/27/2022",
-      "9/28/2022"
-    ],
     "validation_history": [
       {
         "date": "6/27/2022",
-        "lab": "Asia Pacific IT Laboratory, TUV NORD",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
       },
       {
         "date": "9/28/2022",
-        "lab": "Asia Pacific IT Laboratory, TUV NORD",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
       }
     ],
     "vendor": {
+      "name": "Macronix International Co., Ltd.",
+      "website_url": "http://www.mxic.com",
       "address_lines": [
         "16, Li-Hsin Road, Science Park",
         "Hsinchu 30078",
         "Taiwan, R.O.C."
       ],
-      "contact_email": "bhchen@mxic.com.tw",
-      "contact_name": "B.H. Chen",
-      "contact_phone": "+886-3-5786688",
       "country": "Taiwan, R.O.C.",
-      "name": "Macronix International Co., Ltd.",
-      "website_url": "http://www.mxic.com"
+      "contact_name": "B.H. Chen",
+      "contact_email": "bhchen@mxic.com.tw",
+      "contact_phone": "+886-3-5786688"
     },
-    "vendor_name": "Macronix International Co., Ltd."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4258.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4258.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4708"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 9,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4708",
     "certificate_number": "4708",
-    "dataset": "active",
-    "description": "The SQLCipher Cryptographic Module is a cryptographic engine that integrates with SQLCipher, enhancing encrypted database operations with a trusted security layer. SQLCipher provides full database encryption and data integrity protection for local storage at rest. This module guarantees that all data stored and retrieved through SQLCipher is encrypted, decrypted, and verified using a reliable implementation for applications demanding high levels of data security.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "SQLCipher Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4708",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4708",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4708.pdf",
+    "vendor_name": "Zetetic, LLC",
+    "module_name": "SQLCipher Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "6/11/2024",
+    "validation_dates": [
+      "6/11/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys",
+    "description": "The SQLCipher Cryptographic Module is a cryptographic engine that integrates with SQLCipher, enhancing encrypted database operations with a trusted security layer. SQLCipher provides full database encryption and data integrity protection for local storage at rest. This module guarantees that all data stored and retrieved through SQLCipher is encrypted, decrypted, and verified using a reliable implementation for applications demanding high levels of data security.",
+    "software_versions": "2.1.2",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2024_010724_1153.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4708.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "6/11/2024",
-    "validation_dates": [
-      "6/11/2024"
-    ],
     "validation_history": [
       {
         "date": "6/11/2024",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "Zetetic, LLC",
+      "website_url": "http://www.zetetic.net",
       "address_lines": [
         "PO Box 5018",
         "Branchburg, NJ 08876",
         "USA"
       ],
-      "contact_email": "sjlombardo@zetetic.net",
-      "contact_name": "Stephen Lombardo",
-      "contact_phone": "908-229-7312",
       "country": "USA",
-      "name": "Zetetic, LLC",
-      "website_url": "http://www.zetetic.net"
+      "contact_name": "Stephen Lombardo",
+      "contact_email": "sjlombardo@zetetic.net",
+      "contact_phone": "908-229-7312"
     },
-    "vendor_name": "Zetetic, LLC",
     "algorithms": [
       "AES",
       "DES",
@@ -84,6 +72,25 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4708.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4708.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

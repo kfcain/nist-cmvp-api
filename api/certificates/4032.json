@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4032"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4032",
     "certificate_number": "4032",
-    "dataset": "active",
-    "description": "Medical device integration and data acquisition for all categories of devices including waveforms.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CliniComp Data Acquisition Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4032",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4032",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4032.pdf",
+    "vendor_name": "CliniComp, Intl.",
+    "module_name": "CliniComp Data Acquisition Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "9/17/2021, 9/5/2023",
+    "validation_dates": [
+      "9/17/2021",
+      "9/5/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "Medical device integration and data acquisition for all categories of devices including waveforms.",
+    "software_versions": "cci-das-fips-crypto-1.0",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,45 +43,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2021_011021_0714_Signed2.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4032.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/16/2026",
-    "validation_date": "9/17/2021, 9/5/2023",
-    "validation_dates": [
-      "9/17/2021",
-      "9/5/2023"
-    ],
     "validation_history": [
       {
         "date": "9/17/2021",
-        "lab": "atsec information security corporation",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "atsec information security corporation"
       },
       {
         "date": "9/5/2023",
-        "lab": "atsec information security corporation",
-        "type": "Update"
+        "type": "Update",
+        "lab": "atsec information security corporation"
       }
     ],
     "vendor": {
+      "name": "CliniComp, Intl.",
+      "website_url": "http://www.clinicomp.com",
       "address_lines": [
         "9655 Towne Centre Drive",
         "San Diego, CA 92121",
         "USA"
       ],
-      "contact_email": "Rita.Haudenschild@clinicomp.com",
-      "contact_name": "Rita Haudenschild",
-      "contact_phone": "+1 (800) 350-8202",
       "country": "USA",
-      "name": "CliniComp, Intl.",
-      "website_url": "http://www.clinicomp.com"
+      "contact_name": "Rita Haudenschild",
+      "contact_email": "Rita.Haudenschild@clinicomp.com",
+      "contact_phone": "+1 (800) 350-8202"
     },
-    "vendor_name": "CliniComp, Intl."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4032.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4032.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

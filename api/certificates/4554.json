@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4554"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 14,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode and installed as specified in Section 11 of the Security Policy.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4554",
     "certificate_number": "4554",
-    "dataset": "active",
-    "description": "The Cisco Series Wireless Controllers, are a highly scalable and flexible platform that enables system-wide services for mission-critical wireless networking in medium-sized to large enterprises and campus environments.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Cisco Catalyst 9800-CL Wireless Controller",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4554",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4554",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4554.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco Catalyst 9800-CL Wireless Controller",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "7/28/2023",
+    "validation_dates": [
+      "7/28/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and installed as specified in Section 11 of the Security Policy.",
+    "description": "The Cisco Series Wireless Controllers, are a highly scalable and flexible platform that enables system-wide services for mission-critical wireless networking in medium-sized to large enterprises and campus environments.",
+    "software_versions": "IOS-XE 17.3",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,41 +43,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2023_010823_0649 signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3",
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4554.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "7/28/2023",
-    "validation_dates": [
-      "7/28/2023"
-    ],
     "validation_history": [
       {
         "date": "7/28/2023",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
       "address_lines": [
         "170 West Tasman Dr.",
         "San Jose, CA 95134",
         "USA"
       ],
-      "contact_email": "certteam@cisco.com",
-      "contact_name": "Global Certification Team",
-      "contact_phone": null,
       "country": "USA",
-      "name": "Cisco Systems, Inc.",
-      "website_url": "http://www.cisco.com"
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
     },
-    "vendor_name": "Cisco Systems, Inc.",
     "algorithms": [
       "AES",
       "CVL",
@@ -90,6 +78,34 @@
       "SHS",
       "SSH",
       "TLS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "KAS (SP800-56a rev3) KAS (KAS-SSC Cert. #A1874, CVL",
+      "KAS (SP800-56A rev3) KAS (KAS-SSC Cert. #A3244, CVL",
+      "• KTS (AES-CBC Cert. #A1874 and HMAC Cert. #A1874; key establishment",
+      "• KTS (AES-GCM Cert. #A3244; key establishment methodology provides between 128",
+      "• KTS (AES-CBC Cert. #A3244 and HMAC Cert. #A3244; key establishment",
+      "• KTS (Triple-DES-CBC Cert. #A3244 and HMAC Cert. #A3244; key establishment",
+      "• Please note that the Triple -DES algorithm (Cert. #A3244) has a key size of 168 bits"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4554.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 14,
+      "detailed_algorithm_count": 7,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4554.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

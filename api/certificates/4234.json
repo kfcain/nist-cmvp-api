@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4234"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 11,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4234",
     "certificate_number": "4234",
-    "dataset": "active",
-    "description": "ICU Medical CE3.0 OpenSSL Cryptographic Module 2.0.9.1 is used within various ICU Medical Plum360 Infusion Pumps for providing secure communication between Infusion pumps and external server.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "ICU Medical CE3.0 OpenSSL Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4234",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4234",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4234.pdf",
+    "vendor_name": "ICU Medical, Inc.",
+    "module_name": "ICU Medical CE3.0 OpenSSL Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "5/24/2022",
+    "validation_dates": [
+      "5/24/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "ICU Medical CE3.0 OpenSSL Cryptographic Module 2.0.9.1 is used within various ICU Medical Plum360 Infusion Pumps for providing secure communication between Infusion pumps and external server.",
+    "software_versions": "2.0.9.1",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4234.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "5/24/2022",
-    "validation_dates": [
-      "5/24/2022"
-    ],
     "validation_history": [
       {
         "date": "5/24/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "ICU Medical, Inc.",
+      "website_url": "http://www.icumed.com",
       "address_lines": [
         "600 N. Field Drive",
         "Lake Forest, IL 60045",
         "USA"
       ],
-      "contact_email": "chaitanya.srinivasamurthy@icumed.com",
-      "contact_name": "Chaitanya Srinivasamurthy",
-      "contact_phone": "224-706-2518",
       "country": "USA",
-      "name": "ICU Medical, Inc.",
-      "website_url": "http://www.icumed.com"
+      "contact_name": "Chaitanya Srinivasamurthy",
+      "contact_email": "chaitanya.srinivasamurthy@icumed.com",
+      "contact_phone": "224-706-2518"
     },
-    "vendor_name": "ICU Medical, Inc.",
     "algorithms": [
       "AES",
       "DES",
@@ -86,6 +74,25 @@
       "SHA",
       "SHS",
       "TLS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4234.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 11,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4234.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

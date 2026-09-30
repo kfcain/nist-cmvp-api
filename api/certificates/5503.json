@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5503"
   },
   "certificate": {
     "certificate_number": "5503",
     "dataset": "active",
-    "generated_at": "2026-08-30T07:57:46.517944Z",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5503",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5503",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5503.pdf",
@@ -58,6 +58,18 @@
       "contact_name": "Huiyi Liu",
       "contact_email": "liuhuiyi@sansec.com.cn",
       "contact_phone": "86-18764421681"
+    },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5503.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 15,
+      "detailed_algorithm_count": 90
     },
     "algorithms": [
       "AES",
@@ -167,25 +179,6 @@
       "Triple-DES [SP800-67] | [SP800-38A] [SP800- | 38B] | ECB, CBC, OFB, CFB1, CFB8, CFB64, CMAC key sizes 128/192 | bits (effective security strength is 112bits), function: keygen, Data | Encryption and Decryption, CMAC Generation and Verification",
       "DSA [FIPS 186-4] | L=1024, N=160 L=2048, N=224 L=2048, N=256 L=3072, N=256 | function: Key Pair Generation\\Signature Generation\\Signature | Verification",
       "RSA [FIPS 186-4] keySize:1024 bits. Function: Key Generation, Signature Generation | ECIES | P192/224/256/384/521, brainpoolP224/256/320/384/512r1 | brainpoolP224/256/320/384/512t1 Elliptic Curve Integrated | Encryption Scheme function: Data Encryption and Decryption"
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5503.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 15,
-      "detailed_algorithm_count": 90,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5503.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

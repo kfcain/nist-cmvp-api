@@ -1,35 +1,39 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4238"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When installed, initialized and configured as specified in the Security Rules Section of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4238",
     "certificate_number": "4238",
-    "dataset": "active",
-    "description": "Samsung NVMe TCG Opal SSC SEDs PM1733/PM1735 Series are a high-performance Self-Encrypting SSDs supporting NVMe Interface that provides on-the-fly encryption/decryption of user data without performance loss. It implements AES256-XTS for user data encryption, RSA PSS-3072 for FW authentication, and Hash_DRBG for key generation.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Samsung NVMe TCG Opal SSC SEDs PM1733/PM1735 Series",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4238",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4238",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4238.pdf",
+    "vendor_name": "Samsung Electronics Co., Ltd.",
+    "module_name": "Samsung NVMe TCG Opal SSC SEDs PM1733/PM1735 Series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "5/26/2022, 8/4/2022, 5/6/2024",
+    "validation_dates": [
+      "5/26/2022",
+      "8/4/2022",
+      "5/6/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in the Security Rules Section of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "Samsung NVMe TCG Opal SSC SEDs PM1733/PM1735 Series are a high-performance Self-Encrypting SSDs supporting NVMe Interface that provides on-the-fly encryption/decryption of user data without performance loss. It implements AES256-XTS for user data encryption, RSA PSS-3072 for FW authentication, and Hash_DRBG for key generation.",
+    "software_versions": null,
+    "hardware_versions": "MZWLR1T9HBJR-00AD9, MZWLR3T8HBLS-00AD9, MZWLR7T6HALA-00AD9, MZWLR1T6HBJR-00AD9, MZWLR3T2HBLS-00AD9, MZWLR6T4HALA-00AD9, MZWLR12THALA-00AD9, MZWLR15THALA-00AD9",
+    "firmware_versions": "MPK92D3Q, MPK95D3Q, MPK96D3Q, MPK98D3Q",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,51 +44,59 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "EMI/EMC: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4238.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "5/26/2022, 8/4/2022, 5/6/2024",
-    "validation_dates": [
-      "5/26/2022",
-      "8/4/2022",
-      "5/6/2024"
-    ],
     "validation_history": [
       {
         "date": "5/26/2022",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "8/4/2022",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "5/6/2024",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       }
     ],
     "vendor": {
+      "name": "Samsung Electronics Co., Ltd.",
+      "website_url": "http://www.samsung.com",
       "address_lines": [
         "1-1, Samsungjeonja-ro",
         "Hwaseong-si, Gyeonggi-do 18448",
         "Korea"
       ],
-      "contact_email": "jisoo74.kim@samsung.com",
-      "contact_name": "Jisoo Kim",
-      "contact_phone": "82-31-8096-2832",
       "country": "Korea",
-      "name": "Samsung Electronics Co., Ltd.",
-      "website_url": "http://www.samsung.com"
+      "contact_name": "Jisoo Kim",
+      "contact_email": "jisoo74.kim@samsung.com",
+      "contact_phone": "82-31-8096-2832"
     },
-    "vendor_name": "Samsung Electronics Co., Ltd."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4238.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4238.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

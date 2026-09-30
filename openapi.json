@@ -187,7 +187,7 @@
         "operationId": "getModules",
         "responses": {
           "200": {
-            "description": "Currently 1170 active validated modules with enriched details",
+            "description": "Currently 709 active validated modules with enriched details",
             "content": {
               "application/json": {
                 "schema": {
@@ -205,7 +205,7 @@
         "operationId": "getHistoricalModules",
         "responses": {
           "200": {
-            "description": "Currently 4315 historical modules",
+            "description": "Currently 4807 historical modules",
             "content": {
               "application/json": {
                 "schema": {
@@ -223,7 +223,7 @@
         "operationId": "getModulesInProcess",
         "responses": {
           "200": {
-            "description": "Currently 180 modules in process",
+            "description": "Currently 194 modules in process",
             "content": {
               "application/json": {
                 "schema": {
@@ -312,27 +312,27 @@
           "generated_at": {
             "type": "string",
             "format": "date-time",
-            "example": "2026-08-30T07:57:46.517944Z"
+            "example": "2026-09-30T07:03:12.945257Z"
           },
           "total_modules": {
             "type": "integer",
-            "example": 1170
+            "example": 709
           },
           "total_historical_modules": {
             "type": "integer",
-            "example": 4315
+            "example": 4807
           },
           "total_modules_in_process": {
             "type": "integer",
-            "example": 180
+            "example": 194
           },
           "total_certificates_with_algorithms": {
             "type": "integer",
-            "example": 1863
+            "example": 1898
           },
           "total_certificate_details": {
             "type": "integer",
-            "example": 5485
+            "example": 5516
           },
           "source": {
             "type": "string",
@@ -370,19 +370,19 @@
         "properties": {
           "Certificate Number_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5507"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535"
           },
           "Certificate Number": {
             "type": "string",
-            "example": "5507"
+            "example": "5535"
           },
           "Vendor Name": {
             "type": "string",
-            "example": "Bitwarden, Inc."
+            "example": "Hewlett Packard Enterprise"
           },
           "Module Name": {
             "type": "string",
-            "example": "Bitwarden Cryptographic Module"
+            "example": "HPE Aruba Networking VIA Cryptographic Module"
           },
           "Module Type": {
             "type": "string",
@@ -390,19 +390,19 @@
           },
           "Validation Date": {
             "type": "string",
-            "example": "08/27/2026"
+            "example": "09/29/2026"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5507.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5507"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535"
           },
           "module_name": {
             "type": "string",
-            "example": "Bitwarden Cryptographic Module"
+            "example": "HPE Aruba Networking VIA Cryptographic Module"
           },
           "standard": {
             "type": "string",
@@ -414,7 +414,7 @@
           },
           "sunset_date": {
             "type": "string",
-            "example": "8/26/2029"
+            "example": "9/28/2031"
           },
           "overall_level": {
             "type": "integer",
@@ -422,7 +422,7 @@
           },
           "caveat": {
             "type": "string",
-            "example": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs"
+            "example": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
           },
           "module_type": {
             "type": "string",
@@ -434,7 +434,7 @@
           },
           "description": {
             "type": "string",
-            "example": "The Bitwarden Cryptographic module provides cryptographic operations for the Bitwarden password manager application and vault data. The cryptographic operations provided by the Bitwarden Cryptographic module support the secure storage of passwords, authentication information, storage of credentials and other sensitive documents using 256-bit AES encryption, zero-knowledge architecture, and two-factor authentication."
+            "example": "HPE Aruba Networking VIA Cryptographic Module is a software library that provides cryptographic services required by Aruba Virtual Intranet Access."
           },
           "algorithms": {
             "type": "array",
@@ -443,8 +443,8 @@
             },
             "example": [
               "AES",
-              "CVL",
-              "DES"
+              "DRBG",
+              "DSA"
             ]
           },
           "algorithms_detailed": {
@@ -453,9 +453,9 @@
               "type": "string"
             },
             "example": [
-              "AES-CBC A4593 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
-              "AES-CBC A5173 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A | Document Version 1.0 ©Bitwarden, Inc. Page 14 of 122",
-              "AES-CBC-CS1 A4593 Direction - decrypt, encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-65536 Increment 8 | SP 800-38A"
+              "AES-CBC A7716 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+              "AES-CTR A7716 Direction - Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128 | Supports Counter larger than maximum value - No | Incremental Counter - Yes | Counter Tests Performed - No | SP 800-38A",
+              "AES-GCM A7716 Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length: 128-264 Increment 8 | AAD Length - AAD Length: 128-264 Increment 8 | SP 800-38D"
             ]
           },
           "algorithm_extraction": {
@@ -880,7 +880,7 @@
         "properties": {
           "certificate_number": {
             "type": "string",
-            "example": "5495"
+            "example": "5506"
           },
           "dataset": {
             "type": "string",
@@ -888,27 +888,27 @@
           },
           "generated_at": {
             "type": "string",
-            "example": "2026-08-30T07:57:46.517944Z"
+            "example": "2026-09-30T07:03:12.945257Z"
           },
           "nist_page_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5495"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5506"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5495"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5506"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5495.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5506.pdf"
           },
           "vendor_name": {
             "type": "string",
-            "example": "Seagate Technology LLC"
+            "example": "BlueCat Networks"
           },
           "module_name": {
             "type": "string",
-            "example": "Seagate SSG3 TCG Enterprise SSC SED FIPS 140 Module"
+            "example": "BlueCat Networks Cryptographic Module"
           },
           "standard": {
             "type": "string",
@@ -920,19 +920,19 @@
           },
           "module_type": {
             "type": "string",
-            "example": "Hardware"
+            "example": "Software"
           },
           "embodiment": {
             "type": "string",
-            "example": "MultiChipEmbed"
+            "example": "MultiChipStand"
           },
           "overall_level": {
             "type": "integer",
-            "example": 2
+            "example": 1
           },
           "validation_date": {
             "type": "string",
-            "example": "8/18/2026"
+            "example": "8/27/2026"
           },
           "validation_dates": {
             "type": "array",
@@ -940,20 +940,20 @@
               "type": "string"
             },
             "example": [
-              "8/18/2026"
+              "8/27/2026"
             ]
           },
           "sunset_date": {
             "type": "string",
-            "example": "8/17/2031"
+            "example": "8/26/2029"
           },
           "caveat": {
             "type": "string",
-            "example": "When operated in approved mode. When installed, initialized and configured as specified in Section 11 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs. No operator authentication is enforced for executing security services that were unlocked by an authenticated service"
+            "example": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs"
           },
           "description": {
             "type": "string",
-            "example": "The primary function of the Seagate SSG3 TCG Enterprise SSC SED FIPS 140 Module is to provide encryption, access control, and cryptographic erase of the User Data stored on the module."
+            "example": "BlueCat Networks Cryptographic Module is a standards-based cryptographic engine used by BlueCat Networks platforms. The module delivers core cryptographic functions to BlueCat Networks platforms and features robust algorithm support."
           },
           "software_versions": {
             "type": "string",
@@ -976,9 +976,8 @@
               "type": "string"
             },
             "example": [
-              "Operational environment: N/A",
-              "Non-invasive security: N/A",
-              "Mitigation of other attacks: N/A"
+              "Physical security: N/A",
+              "Non-invasive security: N/A"
             ]
           },
           "related_files": {
@@ -1011,7 +1010,7 @@
             "example": [
               "AES",
               "CVL",
-              "DRBG"
+              "DES"
             ]
           },
           "algorithms_detailed": {
@@ -1020,9 +1019,9 @@
               "type": "string"
             },
             "example": [
-              "AES-CBC A7701 Direction - Decrypt, Encrypt | Key Length - 128, 256 | SP 800-38A",
-              "AES-CBC A7704 Direction - Decrypt, Encrypt | Key Length - 128, 256 | SP 800-38A",
-              "AES-CMAC A7701 Direction - Generation | Key Length - 128 | MAC Length - MAC Length: 8-128 Increment | SP 800-38B | Seagate Technology | 8 | Message Length - Message Length: 128-768 | Increment 128"
+              "AES-CBC A4593 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+              "AES-CBC A5173 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A | Document Version 1.0 ©BlueCat Networks Page 14 of 122",
+              "AES-CBC-CS1 A4593 Direction - decrypt, encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-65536 Increment 8 | SP 800-38A"
             ]
           }
         }

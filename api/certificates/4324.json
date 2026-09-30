@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4324"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4324",
     "certificate_number": "4324",
-    "dataset": "active",
-    "description": "The CyberCogs HSM is a multi-chip embedded hardware cryptographic module in the form of a PCI-Express card. The module is intended for use within a general-purpose or custom computing platform. The module is contained in its own secure tamper envelope providing active anti-tamper functionality. The module is designed to offer blind secure PKCS11 key signing, encryption, and token storage with physical security, over a PCIe connection to a Host server.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CyberCogs Hardware Security Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4324",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4324",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4324.pdf",
+    "vendor_name": "CyberCogs, Inc.",
+    "module_name": "CyberCogs Hardware Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 3,
+    "validation_date": "10/10/2022",
+    "validation_dates": [
+      "10/10/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The CyberCogs HSM is a multi-chip embedded hardware cryptographic module in the form of a PCI-Express card. The module is intended for use within a general-purpose or custom computing platform. The module is contained in its own secure tamper envelope providing active anti-tamper functionality. The module is designed to offer blind secure PKCS11 key signing, encryption, and token storage with physical security, over a PCIe connection to a Host server.",
+    "software_versions": null,
+    "hardware_versions": "CC50-3, CC100-3, CC200-3, CC300-3, CC400-3, CC50-4, CC100-4, CC200-4, CC300-4 and CC400-4",
+    "firmware_versions": "3.0",
+    "security_level_exceptions": [
+      "Physical Security: Level 4",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,39 +42,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: Level 4",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4324.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "10/10/2022",
-    "validation_dates": [
-      "10/10/2022"
-    ],
     "validation_history": [
       {
         "date": "10/10/2022",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "CyberCogs, Inc.",
+      "website_url": "https://www.cybercogs.com/",
       "address_lines": [
         "171 Forbes Blvd Ste 5000",
         "Mansfield, MA 02048",
         "USA"
       ],
-      "contact_email": "jcalvin@cybercogs.com",
-      "contact_name": "Jim Calvin",
-      "contact_phone": "508-339-3037",
       "country": "USA",
-      "name": "CyberCogs, Inc.",
-      "website_url": "https://www.cybercogs.com/"
+      "contact_name": "Jim Calvin",
+      "contact_email": "jcalvin@cybercogs.com",
+      "contact_phone": "508-339-3037"
     },
-    "vendor_name": "CyberCogs, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4324.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4324.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

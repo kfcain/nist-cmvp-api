@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5513"
+  },
+  "certificate": {
+    "certificate_number": "5513",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5513",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5513",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5513.pdf",
+    "vendor_name": "Red Hat, Inc.",
+    "module_name": "Red Hat Enterprise Linux 8 NSS Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "9/8/2026",
+    "validation_dates": [
+      "9/8/2026"
+    ],
+    "sunset_date": "9/7/2031",
+    "caveat": "When operated in approved mode and installed, initialized and configured as specified in Section 11 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs. The module generates random numbers whose strengths are modified by available entropy.",
+    "description": "Red Hat Enterprise Linux 8 NSS Cryptographic Module consists of the Softoken and Freebl libraries offering various cryptographic mechanisms.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5513.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/8/2026",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Red Hat, Inc.",
+      "website_url": "https://www.redhat.com",
+      "address_lines": [
+        "100 E. Davie Street",
+        "Raleigh, NC 27601",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jaroslav Reznik",
+      "contact_email": "fips140@redhat.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "AES",
+      "CVL",
+      "DES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC A6443, A6445 - SP 800-38A",
+      "AES-CBC-CS1 A6443, A6445 - SP 800-38A",
+      "AES-CMAC A6443, A6445 - SP 800-38B",
+      "AES-CTR A6443, A6445 - SP 800-38A",
+      "AES-ECB A6443, A6445 - SP 800-38A",
+      "AES-GCM A6443, A6445, A6446 - SP 800-38D",
+      "AES-KW A6443, A6445 - SP 800-38F",
+      "AES-KWP A6443, A6445 - SP 800-38F",
+      "ECDSA KeyGen (FIPS186-5) A6443 - FIPS 186-5",
+      "ECDSA SigGen (FIPS186-5) A6443 - FIPS 186-5",
+      "ECDSA SigVer (FIPS186-5) A6443 - FIPS 186-5",
+      "Hash DRBG A6443 - SP 800-90A Rev. 1",
+      "HMAC-SHA2-224 A6443, A6447 - FIPS 198-1",
+      "HMAC-SHA2-256 A6443, A6447 - FIPS 198-1",
+      "HMAC-SHA2-384 A6443, A6447 - FIPS 198-1",
+      "HMAC-SHA2-512 A6443, A6447 - FIPS 198-1",
+      "KAS-ECC-SSC Sp800-56Ar3 A6443 - SP 800-56A Rev. 3",
+      "KAS-FFC-SSC Sp800-56Ar3 A6443 - SP 800-56A Rev. 3",
+      "KDA HKDF SP800-56Cr2 A6442 - SP 800-56C Rev. 2",
+      "KDF IKEv2 (CVL) A6444 - SP 800-135 Rev. 1",
+      "KDF SP800-108 A6443 - SP 800-108 Rev. 1",
+      "KTS-IFC A6443 - SP 800-56B Rev. 2",
+      "PBKDF A6443 - SP 800-132",
+      "RSA KeyGen (FIPS186-5) A6443 - FIPS 186-5",
+      "RSA SigGen (FIPS186-5) A6443 - FIPS 186-5",
+      "RSA SigVer (FIPS186-2) A6443 - FIPS 186-4",
+      "RSA SigVer (FIPS186-4) A6443 - FIPS 186-4",
+      "RSA SigVer (FIPS186-5) A6443 - FIPS 186-5 | Safe Primes Key Generation A6443 - SP 800-56A Rev. 3",
+      "SHA2-224 A6443, A6447 - FIPS 180-4",
+      "SHA2-256 A6443, A6447 - FIPS 180-4 | Red Hat Enterprise Linux 8 NSS Cryptographic Module",
+      "SHA2-384 A6443, A6447 - FIPS 180-4",
+      "SHA2-512 A6443, A6447 - FIPS 180-4",
+      "TLS v1.2 KDF RFC7627 (CVL) A6443 - SP 800-135 Rev. 1 | The table above lists all approved cryptographic algorithms of the module, including specific key lengths | employed for approved services in Section 4.3, and implemented modes or methods of operation of the | Name Properties Implementation Reference | Symmetric Cryptographic Key | Generation (CKG) | Key | type:Symmetric | N/A SP 800-133r2, section 4 | example 1, and section 6.1 | Asymmetric Cryptographic Key | Generation (CKG) | Key | type:Asymmetric | N/A SP 800-133r2, section 4 | example 1 | N/A for this module. | N/A for this module.",
+      "MD2, MD5, SHA-1 Message digest",
+      "RC2, RC4, DES, Triple-DES, CDMF, Camellia, SEED, ChaCha20(- | Poly1305) | Encryption, Decryption",
+      "AES GCM (external IV) Encryption",
+      "CBC-MAC, AES XCBC-MAC, AES XCBC-MAC-96 Message authentication",
+      "HMAC (MD2, MD5, SHA-1; < 112-bit keys) Message authentication",
+      "HMAC/SSLv3 MAC (constant-time implementation) Message authentication",
+      "MD2, MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512",
+      "DES, Triple-DES, AES, Camellia, SEED, ANS X9.63 KDF, SSL 3",
+      "PRF, IKEv1 PRF, TLS 1.0/1.1 KDF, TLS KDF without extended | master secret",
+      "KBKDF, HKDF, TLS 1.2 KDF, IKEv2 PRF (< 112-bit keys) Key derivation | Red Hat Enterprise Linux 8 NSS Cryptographic Module",
+      "KBKDF (MD2, MD5) Key derivation | IKEv2 PRF (MD2, MD5) Key derivation | PKCS#5 PBE, PKCS#12 PBE Password-based key derivation | PBKDF2 (short password; short salt; insufficient iterations; < 112- | bit keys) | Password-based key derivation",
+      "J-PAKE Shared secret computation",
+      "KAS-FFC-SSC (FIPS 186-type groups) Shared secret computation",
+      "X25519 Shared secret computation",
+      "DSA Signature generation, Signature | verification, Parameter generation | Parameter verification, Key pair | generation",
+      "RSA (primitive; PKCS#1 v1.5 or PSS with MD2, MD5, SHA-1) Signature generation, Signature | verification",
+      "RSA (< 2048-bit keys) Signature generation",
+      "RSA (< 1024-bit keys) Signature verification",
+      "ECDSA (component) Signature generation, Signature | verification",
+      "RSA (data encryption / decryption) Asymmetric encryption, Asymmetric",
+      "decryption with primitive or SHA-1",
+      "SHA-224",
+      "RSA (< 2048 bits; > 4096 bits) Key pair generation | Ed25519, X25519 Key pair generation | Diffie Hellman (FIPS 186-type groups) Key pair generation | Symmetric key generation (< 112 bits) Secret key generation | The table above lists all the non-approved cryptographic algorithms of the module employed by the non- | approved services in Section 4.4."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5513.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 13,
+      "detailed_algorithm_count": 56,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5513.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

@@ -1,53 +1,23 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4264"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode and installed, initialized and configured as specified in the Security Policy Section 3 Secure Operation",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4264",
     "certificate_number": "4264",
-    "dataset": "active",
-    "description": "The Check Point Cryptographic Library is a firmware module that provides cryptographic services to Check Point products. The module provides a number of NIST validated cryptographic algorithms for services such as IPSec and TLS. The module provides applications with a library interface that enables them to access the various cryptographic algorithm functions supplied by the module.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Quantum Security Gateway Cryptographic Library",
-    "module_type": "Firmware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4264",
-    "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4264.pdf"
-      },
-      {
-        "label": "Consolidated Certificate",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4264",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4264.pdf",
-    "software_versions": null,
+    "vendor_name": "Check Point Software Technologies Ltd.",
+    "module_name": "Quantum Security Gateway Cryptographic Library",
     "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
     "validation_date": "7/15/2022, 8/26/2022, 5/30/2023, 9/25/2023, 7/29/2025, 8/27/2025, 2/24/2026",
     "validation_dates": [
       "7/15/2022",
@@ -58,56 +28,98 @@
       "8/27/2025",
       "2/24/2026"
     ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and installed, initialized and configured as specified in the Security Policy Section 3 Secure Operation",
+    "description": "The Check Point Cryptographic Library is a firmware module that provides cryptographic services to Check Point products. The module provides a number of NIST validated cryptographic algorithms for services such as IPSec and TLS. The module provides applications with a library interface that enables them to access the various cryptographic algorithm functions supplied by the module.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": "1.1",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4264.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
+      }
+    ],
     "validation_history": [
       {
         "date": "7/15/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "8/26/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "5/30/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "9/25/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "7/29/2025",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "8/27/2025",
-        "lab": "Gossamer Security Solutions",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
       },
       {
         "date": "2/24/2026",
-        "lab": "Gossamer Security Solutions",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
       }
     ],
     "vendor": {
+      "name": "Check Point Software Technologies Ltd.",
+      "website_url": "http://www.checkpoint.com",
       "address_lines": [
         "5 Ha'Solelim Street",
         "Tel Aviv 67897",
         "Israel"
       ],
-      "contact_email": "product_certifications@checkpoint.com",
-      "contact_name": "Malcolm Levy",
-      "contact_phone": "+972 545713450",
       "country": "Israel",
-      "name": "Check Point Software Technologies Ltd.",
-      "website_url": "http://www.checkpoint.com"
+      "contact_name": "Malcolm Levy",
+      "contact_email": "product_certifications@checkpoint.com",
+      "contact_phone": "+972 545713450"
     },
-    "vendor_name": "Check Point Software Technologies Ltd."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4264.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4264.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

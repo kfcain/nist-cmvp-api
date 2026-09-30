@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4812"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "Interim validation",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4812",
     "certificate_number": "4812",
-    "dataset": "active",
-    "description": "The Outset Tablo Medical Informatics System is an internal component of the Outset Tablo and provides secure storage and transmission of patient data.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Tablo Medical Informatics System",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4812",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4812",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4812.pdf",
+    "vendor_name": "Outset Medical, Inc.",
+    "module_name": "Tablo Medical Informatics System",
+    "standard": "FIPS 140-3",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 1,
+    "validation_date": "9/24/2024",
+    "validation_dates": [
+      "9/24/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "Interim validation",
+    "description": "The Outset Tablo Medical Informatics System is an internal component of the Outset Tablo and provides secure storage and transmission of patient data.",
+    "software_versions": null,
+    "hardware_versions": "1.0",
+    "firmware_versions": "4.9.12.6269",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,39 +42,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Non-invasive security: N/A",
-      "Mitigation of other attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4812.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-3",
-    "status": "Active",
-    "sunset_date": "9/23/2026",
-    "validation_date": "9/24/2024",
-    "validation_dates": [
-      "9/24/2024"
-    ],
     "validation_history": [
       {
         "date": "9/24/2024",
-        "lab": "Lightship Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Outset Medical, Inc.",
+      "website_url": "http://www.outsetmedical.com",
       "address_lines": [
         "3052 Orchard Drive",
         "San Jose, CA 95134",
         "USA"
       ],
-      "contact_email": "security@outsetmedical.com",
-      "contact_name": "Outset Cybersecurity",
-      "contact_phone": "669-231-8200",
       "country": "USA",
-      "name": "Outset Medical, Inc.",
-      "website_url": "http://www.outsetmedical.com"
+      "contact_name": "Outset Cybersecurity",
+      "contact_email": "security@outsetmedical.com",
+      "contact_phone": "669-231-8200"
     },
-    "vendor_name": "Outset Medical, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4812.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4812.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

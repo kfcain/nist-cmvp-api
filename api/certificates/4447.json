@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4447"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4447",
     "certificate_number": "4447",
-    "dataset": "active",
-    "description": "SonicWall Software SMA 8200v is part of the SonicWall Security Solution Enterprise product family. It provides virtualized software based VPN Virtual Private Network mobile access solutions to a wide variety of end user devices including Microsoft Windows, Apple OSX, Linux, Apple iOS, Google Android and Google Chromebook among others.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "SonicWALL SMA Series v12.4 SMA 8200v",
-    "module_type": "Software-Hybrid",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4447",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4447",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4447.pdf",
+    "vendor_name": "SonicWall, Inc.",
+    "module_name": "SonicWALL SMA Series v12.4 SMA 8200v",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "3/9/2023",
+    "validation_dates": [
+      "3/9/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "SonicWall Software SMA 8200v is part of the SonicWall Security Solution Enterprise product family. It provides virtualized software based VPN Virtual Private Network mobile access solutions to a wide variety of end user devices including Microsoft Windows, Apple OSX, Linux, Apple iOS, Google Android and Google Chromebook among others.",
+    "software_versions": "v12.4.1-02451",
+    "hardware_versions": "Intel Xeon Silver 4208",
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +43,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2023_030423_0646.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 2",
-      "Design Assurance: Level 2",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4447.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "3/9/2023",
-    "validation_dates": [
-      "3/9/2023"
-    ],
     "validation_history": [
       {
         "date": "3/9/2023",
-        "lab": "DEKRA Testing and Certification S.A.U",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
       }
     ],
     "vendor": {
+      "name": "SonicWall, Inc.",
+      "website_url": "http://www.sonicwall.com",
       "address_lines": [
         "5455 Great America Parkway",
         "Santa Clara, CA 95054",
         "USA"
       ],
-      "contact_email": "lwagner@sonicwall.com",
-      "contact_name": "Lawrence Wagner",
-      "contact_phone": "408-752-7886",
       "country": "USA",
-      "name": "SonicWall, Inc.",
-      "website_url": "http://www.sonicwall.com"
+      "contact_name": "Lawrence Wagner",
+      "contact_email": "lwagner@sonicwall.com",
+      "contact_phone": "408-752-7886"
     },
-    "vendor_name": "SonicWall, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4447.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4447.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

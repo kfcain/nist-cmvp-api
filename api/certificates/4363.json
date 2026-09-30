@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4363"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 2,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4363",
     "certificate_number": "4363",
-    "dataset": "active",
-    "description": "The SAAB R5 SUPREME AIS Transponder (also referred to as the R5) is designed for all vessels that follow the Safety of Life at Sea (SOLAS) regulations and advanced applications such as Automatic Identification Systems (AIS). AIS provides information about a vessel to other vessels and coastal authorities automatically. The Encrypted Automatic Identification System Cryptographic Module (EAISCM) expands on the R5’s capabilities by providing an AIS with the capability to transmit and receive encrypted data containing the information required by regulation.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "SAAB Encrypted Automatic Identification System Cryptographic Module (EAISCM)",
-    "module_type": "Firmware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4363",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4363",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4363.pdf",
+    "vendor_name": "Saab AB (publ) TransponderTech (SAAB)",
+    "module_name": "SAAB Encrypted Automatic Identification System Cryptographic Module (EAISCM)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "11/9/2022",
+    "validation_dates": [
+      "11/9/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The SAAB R5 SUPREME AIS Transponder (also referred to as the R5) is designed for all vessels that follow the Safety of Life at Sea (SOLAS) regulations and advanced applications such as Automatic Identification Systems (AIS). AIS provides information about a vessel to other vessels and coastal authorities automatically. The Encrypted Automatic Identification System Cryptographic Module (EAISCM) expands on the R5’s capabilities by providing an AIS with the capability to transmit and receive encrypted data containing the information required by regulation.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": "1.0",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,42 +41,48 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4363.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "11/9/2022",
-    "validation_dates": [
-      "11/9/2022"
-    ],
     "validation_history": [
       {
         "date": "11/9/2022",
-        "lab": "EWA - Canada",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "EWA - Canada"
       }
     ],
     "vendor": {
+      "name": "Saab AB (publ) TransponderTech (SAAB)",
+      "website_url": "http://saab.com/maritime-traffic-management",
       "address_lines": [
         "Låsblecksgatan 3",
         "Linköping SE-589 41",
         "Sweden"
       ],
-      "contact_email": "info.transpondertech@saabgroup.com",
-      "contact_name": "Johan Lindborg",
-      "contact_phone": "Direct +46 13 18 00 00",
       "country": "Sweden",
-      "name": "Saab AB (publ) TransponderTech (SAAB)",
-      "website_url": "http://saab.com/maritime-traffic-management"
+      "contact_name": "Johan Lindborg",
+      "contact_email": "info.transpondertech@saabgroup.com",
+      "contact_phone": "Direct +46 13 18 00 00"
     },
-    "vendor_name": "Saab AB (publ) TransponderTech (SAAB)",
     "algorithms": [
       "AES",
       "SHA"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4363.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 2,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4363.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

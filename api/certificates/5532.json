@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5532"
+  },
+  "certificate": {
+    "certificate_number": "5532",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5532",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5532",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5532.pdf",
+    "vendor_name": "Thales",
+    "module_name": "IDPrime PIV 4.0 FIDO on IDCore3230 Platform",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "SingleChip",
+    "overall_level": 2,
+    "validation_date": "9/28/2026",
+    "validation_dates": [
+      "9/28/2026"
+    ],
+    "sunset_date": "9/27/2031",
+    "caveat": "None",
+    "description": "The IDPrime PIV 4.0 FIDO on IDCore3230 Platform is a single-chip \"contact\" or \"contact and contactless\" (aka as \"Dual\") module implementing the Global Platform operational environment, with Card Manager, PIV, PIV Admin, MoC Server (for Match-on-Card) and FIDO Applets.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Software/Firmware security: Level 3",
+      "Operational environment: N/A",
+      "Physical security: Level 3",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5532.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/28/2026",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Thales",
+      "website_url": "http://cpl.thalesgroup.com",
+      "address_lines": [
+        "Avenue du Jujubier, Z.I Athelia IV",
+        "La Ciotat 13705",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Frederic Garnier",
+      "contact_email": "frederic.garnier@thalesgroup.com",
+      "contact_phone": "510-574-1738"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC, AES-ECB A2877 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+      "AES-CMAC A2877 Direction - Generation, Verification | Key Length - 128, 192, 256 | MAC Length - MAC Length: 128 | Message Length - Message Length: 128-256 | Increment 8 | SP 800-38B",
+      "Counter DRBG A2877 Prediction Resistance - No | Supports Reseed - No",
+      "Mode - AES-256 | Derivation Function Enabled - Yes | Additional Input - Additional Input: 0 | Entropy Input - Entropy Input: 1024 | Nonce - Nonce: 384 | Personalization String Length - | Personalization String Length: 0 | Returned Bits - 128 | SP 800-90A | Rev. 1",
+      "ECDSA KeyGen | (FIPS186-5) | A2877 Curve - P-256, P-384 | Secret Generation Mode - extra bits | FIPS 186-5",
+      "ECDSA SigGen | (FIPS186-5) | A2877 Curve - P-256, P-384",
+      "Hash Algorithm - SHA2-224, SHA2-256",
+      "SHA2-384, SHA2-512 | FIPS 186-5",
+      "HMAC-SHA2-256 A2877 MAC - MAC: 256 | Key Length - Key Length: 128, 256 | FIPS 198-1",
+      "KAS-ECC Sp800- | 56Ar3 | A2877 Domain Parameter Generation Methods - P- | 256, P-384 | Function - Partial Validation | iutId - 123456ABCD | Scheme - | onePassDh - | KAS Role - Responder",
+      "KDF Methods - | oneStepKdf - | Auxiliary Function Methods -",
+      "Auxiliary Function Name - SHA2-384 | Fixed Info Pattern - | Fixed Info Encoding - Concatenation | Key Confirmation Methods - | Key Confirmation Directions - | Key Confirmation Roles - | Key Confirmation MAC Methods - | CMAC - | Key Length - 256 | MAC Length - 128 | Key Length - 1024 | SP 800-56A | Rev. 3 | IDPrime PIV 4.0 FIDO on IDcore 3230 | 002-000482-001, Rev C, August 2026",
+      "KAS-ECC-SSC | Sp800-56Ar3 | A2877 Domain Parameter Generation Methods - P- | 256, P-384 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KDA HKDF SP800- | 56Cr2 | A2877 Fixed Info Pattern - uPartyInfo||vPartyInfo | Fixed Info Encoding - concatenation | Derived Key Length - 512 | Shared Secret Length - Shared Secret | Length: 256 | HMAC Algorithm - SHA2-256 | Perform Multiple Expansion Tests - No | SP 800-56C | Rev. 2",
+      "KDA OneStep | SP800-56Cr2 | A2877 Auxiliary Function Methods -",
+      "Auxiliary Function Name - SHA2-256 | Fixed Info Pattern - uPartyInfo||vPartyInfo | Fixed Info Encoding - concatenation | Derived Key Length - 256 | Shared Secret Length - Shared Secret | Length: 256 | SP 800-56C | Rev. 2",
+      "KDF SP800-108 A2877 KDF Mode - Counter | MAC Mode - CMAC-AES128, CMAC- | AES192, CMAC-AES256 | Supported Lengths - Supported Lengths | 128-256 Increment 64 | Fixed Data Order - In the Middle of Fixed | Data | Counter Length - 8 | Supports Empty IV - No | Requires Empty IV - No | Custom Key In Length - 0 | SP 800-108 | Rev. 1",
+      "KTS-IFC A2877 IUT ID - CAFECAFE | Modulo - 2048, 3072, 4096 | Key Generation Methods - rsakpg1-crt | Fixed Public Exponent - 010001 | Scheme -",
+      "KTS-OAEP-basic - | KAS Role - responder | Key Transport Method -",
+      "Hash Algorithms - SHA2-224, SHA2-256",
+      "SHA2-384, SHA2-512 | Supports Null Associated Data - Yes | Associated Data Encoding - concatenation | Key Length - 512 | SP 800-56B | Rev. 2",
+      "RSA KeyGen | (FIPS186-5) | A2877 Key Generation Mode - probable",
+      "SHA2-384, SHA2-512 | Modulo - 2048, 3072, 4096 | FIPS 186-5 | IDPrime PIV 4.0 FIDO on IDcore 3230 | 002-000482-001, Rev C, August 2026 | p mod 8 - 0 | Primality Tests - 2pow100 | q mod 8 - 0 | Fixed Public Exponent - 010001 | Info Generated By Server - No | Private Key Format - crt, standard | Public Exponent Mode - fixed",
+      "RSA SigGen | (FIPS186-5) | A2877 Hash Pair -",
+      "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - MGF1 | FIPS 186-5",
+      "SHA2-224, SHA2-",
+      "256, SHA2-384",
+      "SHA2-512 | A2877 Message Length - Message Length: 8-65536 | Increment 8",
+      "Function - SHA2 | FIPS 180-4 | NOTE Only the algorithms specified in the table above are supported by the module in approved | mode of operation | Name Properties Implementation Reference | CKG Key Type: Asymmetric and | Symmetric | N/A SP800-133r2 Section 4 | Example 1 | N/A for this module. | There are no | N/A for this module. | There are no | N/A for this module. | There are no | IDPrime PIV 4.0 FIDO on IDcore 3230 | 002-000482-001, Rev C, August 2026"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5532.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 29,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5532.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

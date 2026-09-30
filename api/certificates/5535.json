@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535"
+  },
+  "certificate": {
+    "certificate_number": "5535",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf",
+    "vendor_name": "Hewlett Packard Enterprise",
+    "module_name": "HPE Aruba Networking VIA Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "9/29/2026",
+    "validation_dates": [
+      "9/29/2026"
+    ],
+    "sunset_date": "9/28/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "HPE Aruba Networking VIA Cryptographic Module is a software library that provides cryptographic services required by Aruba Virtual Intranet Access.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/29/2026",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard Enterprise",
+      "website_url": "http://www.hpe.com/us/en/networking",
+      "address_lines": [
+        "1701 E Mossy Oaks Rd",
+        "Spring, TX 77389",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "HPE FIPS Support",
+      "contact_email": "fips.support@hpe.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC A7716 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+      "AES-CTR A7716 Direction - Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128 | Supports Counter larger than maximum value - No | Incremental Counter - Yes | Counter Tests Performed - No | SP 800-38A",
+      "AES-GCM A7716 Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length: 128-264 Increment 8 | AAD Length - AAD Length: 128-264 Increment 8 | SP 800-38D",
+      "Counter DRBG A7716 Prediction Resistance - No, Yes | Supports Reseed - Yes",
+      "Mode - AES-128, AES-192, AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 128-256 Increment 8, Additional Input: 192-256 Increment 8, Additional Input: 256-384 Increment 8 | Entropy Input - Entropy Input: 256, Entropy Input: 320, Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - Personalization String Length: 128-256 Increment 8, Personalization String Length: 192-320 Increment 8 | Personalization String Length: 256-384 Increment 8 | Returned Bits - 128, 192, 256 | SP 800-90A | Rev. 1",
+      "DSA KeyGen (FIPS186-4) A7716 L - 2048 | N - 256 | FIPS 186-4",
+      "DSA PQGGen (FIPS186-4) A7716 P/Q Generation Methods - Probable | G Generation Methods - Unverifiable | L - 2048 | N - 256",
+      "Hash Algorithm - SHA2-256 | FIPS 186-4",
+      "ECDSA KeyGen (FIPS186- | 5) | A7716 Curve - P-256, P-384 | Secret Generation Mode - testing candidates | FIPS 186-5",
+      "ECDSA SigGen (FIPS186- | 5) | A7716 Curve - P-256, P-384",
+      "Hash Algorithm - SHA2-256, SHA2-384, SHA2-512 | Component - No | FIPS 186-5",
+      "ECDSA SigVer (FIPS186- | 4) | A7716 Component - No | Curve - P-256, P-384",
+      "Hash Algorithm - SHA-1 | FIPS 186-4",
+      "ECDSA SigVer (FIPS186- | 5) | A7716 Component - No | Curve - P-256, P-384",
+      "Hash Algorithm - SHA2-256, SHA2-384, SHA2-512 | FIPS 186-5",
+      "HMAC-SHA-1 A7716 MAC - MAC: 160 | Key Length - Key Length: 192 | FIPS 198-1",
+      "HMAC-SHA2-256 A7716 MAC - MAC: 256 | Key Length - Key Length: 192, 256 | FIPS 198-1",
+      "HMAC-SHA2-384 A7716 MAC - MAC: 384 | Key Length - Key Length: 256, 384 | FIPS 198-1",
+      "HMAC-SHA2-512 A7716 MAC - MAC: 512 | Key Length - Key Length: 256, 384 | FIPS 198-1",
+      "KAS-ECC-SSC Sp800- | 56Ar3 | A7716 Domain Parameter Generation Methods - P-256, P-384",
+      "Hash Function Z - SHA2-384 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KAS-FFC-SSC Sp800- | 56Ar3 | A7716 Domain Parameter Generation Methods - FC, MODP-2048",
+      "Hash Function Z - SHA2-384 | Scheme - | dhEphem - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "RSA KeyGen (FIPS186-5) A7716 Key Generation Mode - probable, probableWithProbableAux | Modulo - 2048 | Primality Tests - 2pow100, 2powSecStr | Fixed Public Exponent - 010001 | Info Generated By Server - Yes | Private Key Format - standard | Public Exponent Mode - fixed | FIPS 186-5",
+      "RSA SigGen (FIPS186-5) A7716 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | FIPS 186-5 | Modulo - 2048 | Signature Type - pkcs1v1.5",
+      "RSA SigVer (FIPS186-4) A7716 Signature Type - PKCS 1.5 | Modulo - 1024, 2048 | Hash Pair -",
+      "Hash Algorithm - SHA-1 | Public Exponent Mode - Fixed | Fixed Public Exponent - 010001 | FIPS 186-4",
+      "RSA SigVer (FIPS186-5) A7716 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048 | Signature Type - pkcs1v1.5 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed | FIPS 186-5 | Safe Primes Key | Generation | A7716 Safe Prime Groups - MODP-2048 SP 800-56A | Rev. 3",
+      "SHA-1 A7716 Message Length - Message Length: 0-65536 Increment 8",
+      "Function - SHA1 | FIPS 180-4",
+      "SHA2-256, SHA2-384",
+      "SHA2-512 | A7716 Message Length - Message Length: 0-65536 Increment 8",
+      "Function - SHA2 | FIPS 180-4 | 2.5.2 Vendor-Affirmed Algorithms | Name Properties Implementation Reference | CKG Key type:Symmetric and asymmetric N/A SP 800-133r2 section 4 | N/A for this module."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 8,
+      "detailed_algorithm_count": 35,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

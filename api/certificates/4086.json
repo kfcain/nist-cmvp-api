@@ -1,35 +1,34 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4086"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4086",
     "certificate_number": "4086",
-    "dataset": "active",
-    "description": "The EXP1000 Hardware Security Module (HSM) is a multi-chip embedded cryptographic module that provides secure data storage and crypto-processing functionality. The module is assembled from production quality components. All sensitive components of the module are physically protected by a tamper resistant, responsive, and evident casing where all cryptographic operations are performed.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "EXP1000 Hardware Security Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4086",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4086",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4086.pdf",
+    "vendor_name": "Futurex",
+    "module_name": "EXP1000 Hardware Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 3,
+    "validation_date": "11/30/2021",
+    "validation_dates": [
+      "11/30/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The EXP1000 Hardware Security Module (HSM) is a multi-chip embedded cryptographic module that provides secure data storage and crypto-processing functionality. The module is assembled from production quality components. All sensitive components of the module are physically protected by a tamper resistant, responsive, and evident casing where all cryptographic operations are performed.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns 9850-0365 Rev10, 9800-2082 Rev 10, 9800-2082 Rev 10A, 9800-2082 Rev 10B, 9800-2082 Rev 10C, 9800-2082 Rev 10D, 9800-2082 Rev 10E, 9800-2082 Rev 11 and 9800-2082 Rev 11A",
+    "firmware_versions": "7.0.0.3",
+    "security_level_exceptions": [],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,36 +39,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
       }
     ],
-    "security_level_exceptions": [],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4086.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "11/30/2021",
-    "validation_dates": [
-      "11/30/2021"
-    ],
     "validation_history": [
       {
         "date": "11/30/2021",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Futurex",
+      "website_url": "http://www.futurex.com",
       "address_lines": [
         "864 Old Boerne Road",
         "Bulverde, TX 78163",
         "USA"
       ],
-      "contact_email": "certifications@futurex.com",
-      "contact_name": "Comron Moeni",
-      "contact_phone": "+1 830-980-9782 x 1356",
       "country": "USA",
-      "name": "Futurex",
-      "website_url": "http://www.futurex.com"
+      "contact_name": "Comron Moeni",
+      "contact_email": "certifications@futurex.com",
+      "contact_phone": "+1 830-980-9782 x 1356"
     },
-    "vendor_name": "Futurex"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4086.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4086.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

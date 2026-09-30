@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4251"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode and installed, initialized, and configured as specified in Section 8 of the Security Policy and tamper-evident seals installed as indicated in Section 5",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4251",
     "certificate_number": "4251",
-    "dataset": "active",
-    "description": "The AlliedWare Plus OpenSSL FIPS Object Module is a software library which provides cryptographic support for securing the communications and management of the device. The products certified cover AT-x950, AT-x320, and AT-x220 models.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "AT-x220, AT-x320, AT-x950 Secure Management Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4251",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4251",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4251.pdf",
+    "vendor_name": "Allied Telesis",
+    "module_name": "AT-x220, AT-x320, AT-x950 Secure Management Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "6/17/2022",
+    "validation_dates": [
+      "6/17/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and installed, initialized, and configured as specified in Section 8 of the Security Policy and tamper-evident seals installed as indicated in Section 5",
+    "description": "The AlliedWare Plus OpenSSL FIPS Object Module is a software library which provides cryptographic support for securing the communications and management of the device. The products certified cover AT-x950, AT-x320, and AT-x220 models.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns AT-x220-28GS, 990-007791-F90, [A] [B], AT-x220-52GT, 990-007760-F90, [A] [B], AT-x220-52GP, 990-007758-F90, [A] [B], AT-x320-10GH, 990-007775-F00 with one from [1], [A] [C], AT-x320-11GPT, 990-007774-F90, [A] [C], AT-x950-52XSQ, 990-007713-F00 with two from [2], [A] [D] and AT-x950-52XTQm, 990-007714-F00 with two from [2], [A] [D]; Power Supply Units 990-006217-10 [1] and 990-006195-10 [2]",
+    "firmware_versions": "5.5.1.APCERT-0.3.rel [A]; Bootloader: bl-6.2.26-x220-D522-8F27.kwb [B], bl-6.2.26-x320-D76F-8439.kwb [C] and bl-6.2.28-x950-C388-345C.bin [D]",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,38 +41,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4251.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "6/17/2022",
-    "validation_dates": [
-      "6/17/2022"
-    ],
     "validation_history": [
       {
         "date": "6/17/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Allied Telesis",
+      "website_url": "http://www.alliedtelesis.com",
       "address_lines": [
         "27 Nazareth Avenue, Middleton",
         "Christchurch 8024",
         "New Zealand"
       ],
-      "contact_email": "alex.murray@alliedtelesis.co.nz",
-      "contact_name": "Alex Murray",
-      "contact_phone": "+64 3 339 9556",
       "country": "New Zealand",
-      "name": "Allied Telesis",
-      "website_url": "http://www.alliedtelesis.com"
+      "contact_name": "Alex Murray",
+      "contact_email": "alex.murray@alliedtelesis.co.nz",
+      "contact_phone": "+64 3 339 9556"
     },
-    "vendor_name": "Allied Telesis"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4251.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4251.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

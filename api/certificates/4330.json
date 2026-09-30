@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4330"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 1,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4330",
     "certificate_number": "4330",
-    "dataset": "active",
-    "description": "The CS67PLUS Cryptographic Module is a sub-chip cryptographic subsystem which provides real time AES data encryption and decryption. It typically resides within the FPGA of the CS67PLUS software-defined adaptive troposcatter radio assembly.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CS67PLUS Cryptographic Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4330",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4330",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4330.pdf",
+    "vendor_name": "Comtech Systems, Inc.",
+    "module_name": "CS67PLUS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 2,
+    "validation_date": "10/14/2022",
+    "validation_dates": [
+      "10/14/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The CS67PLUS Cryptographic Module is a sub-chip cryptographic subsystem which provides real time AES data encryption and decryption. It typically resides within the FPGA of the CS67PLUS software-defined adaptive troposcatter radio assembly.",
+    "software_versions": null,
+    "hardware_versions": "004F014840-1",
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,42 +41,48 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4330.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "10/14/2022",
-    "validation_dates": [
-      "10/14/2022"
-    ],
     "validation_history": [
       {
         "date": "10/14/2022",
-        "lab": "DEKRA Testing and Certification S.A.U",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
       }
     ],
     "vendor": {
+      "name": "Comtech Systems, Inc.",
+      "website_url": "http://www.comtech.com",
       "address_lines": [
         "212 Outlook Point Drive",
         "Suite 100",
         "Orlando, FL 32809",
         "USA"
       ],
-      "contact_email": "arnaldo.echevarria@comtech.com",
-      "contact_name": "Arnaldo Echevarria",
-      "contact_phone": "+1.321.296.5976",
       "country": "USA",
-      "name": "Comtech Systems, Inc.",
-      "website_url": "http://www.comtech.com"
+      "contact_name": "Arnaldo Echevarria",
+      "contact_email": "arnaldo.echevarria@comtech.com",
+      "contact_phone": "+1.321.296.5976"
     },
-    "vendor_name": "Comtech Systems, Inc.",
     "algorithms": [
       "AES"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4330.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 1,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4330.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4553"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4553",
     "certificate_number": "4553",
-    "dataset": "active",
-    "description": "The IBM 4769-001 Enterprise PKCS#11 Hardware Security Module is in the form or a PCIe card that executes IBM Enterprise PKCS#11 firmware within a secured tamper responding hardware boundary.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "IBM 4769-001 Enterprise PKCS#11 HSM Cryptographic Coprocessor Security Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4553",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4553",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4553.pdf",
+    "vendor_name": "IBM",
+    "module_name": "IBM 4769-001 Enterprise PKCS#11 HSM Cryptographic Coprocessor Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 4,
+    "validation_date": "7/27/2023, 1/13/2025",
+    "validation_dates": [
+      "7/27/2023",
+      "1/13/2025"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The IBM 4769-001 Enterprise PKCS#11 Hardware Security Module is in the form or a PCIe card that executes IBM Enterprise PKCS#11 firmware within a secured tamper responding hardware boundary.",
+    "software_versions": null,
+    "hardware_versions": "PN 02WN654-N37880 POST0 v9662 MB0 v6096 (Standard Power) [1][2][3][4]; PN 02WN652-N37880 POST0 v9662 MB0 v6096 (Low Power) [1][2][3][4]; PN 03FM956-H07053 POST0 v8657 MB0 v6381 (Standard Power) [1][2][3][5]; PN 03FM953-H07053 POST0 v8657 MB0 v6381 (Low Power) [1][2][3][5]; PN 03JJ168-N38177 POST0 v8657 MB0 v6381 (Standard Power) [1][2][3]; PN 03JJ165-N38177 POST0 v8657 MB0 v6381 (Low Power) [1][2][3]",
+    "firmware_versions": "7.0.46z P1591 M1591 P5625 F0701 and 7.0.74z P3795 M6356 P0630 F0701 for segment 1 [1], 1ED5 682D for segment 2 [2], 7C37 01B6 [3] and BE10 6802 [4] and 36F9 31FD [5] for segment 3",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,44 +42,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2023_010823_0649 signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4553.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "7/27/2023, 1/13/2025",
-    "validation_dates": [
-      "7/27/2023",
-      "1/13/2025"
-    ],
     "validation_history": [
       {
         "date": "7/27/2023",
-        "lab": "atsec information security corporation",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "atsec information security corporation"
       },
       {
         "date": "1/13/2025",
-        "lab": "atsec information security corporation",
-        "type": "Update"
+        "type": "Update",
+        "lab": "atsec information security corporation"
       }
     ],
     "vendor": {
+      "name": "IBM",
+      "website_url": "http://www.ibm.com",
       "address_lines": [
         "1 New Orchard Road",
         "Armonk, New York 10504-1722",
         "USA"
       ],
-      "contact_email": "geigerr@us.ibm.com",
-      "contact_name": "Ronald Geiger",
-      "contact_phone": "1-845-433-1101",
       "country": "USA",
-      "name": "IBM",
-      "website_url": "http://www.ibm.com"
+      "contact_name": "Ronald Geiger",
+      "contact_email": "geigerr@us.ibm.com",
+      "contact_phone": "1-845-433-1101"
     },
-    "vendor_name": "IBM"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4553.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4553.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

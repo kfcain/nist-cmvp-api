@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4436"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 7,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4436",
     "certificate_number": "4436",
-    "dataset": "active",
-    "description": "These products are NAND semiconductor-based data drives for server systems. Faster response to servers is available, compared to hard disk drives, but the basic operation is the same as conventional hard disk drives.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "SK hynix PE8010 and PE8030 NVMe Opal SEDs",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4436",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4436",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4436.pdf",
+    "vendor_name": "SK hynix Inc.",
+    "module_name": "SK hynix PE8010 and PE8030 NVMe Opal SEDs",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 2,
+    "validation_date": "2/15/2023",
+    "validation_dates": [
+      "2/15/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "These products are NAND semiconductor-based data drives for server systems. Faster response to servers is available, compared to hard disk drives, but the basic operation is the same as conventional hard disk drives.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns HFS960GECTX098N, HFS1T9GECTX098N, HFS3T8GECTX098N, HFS7T6GECTX098N, HFS800GECTX098N, HFS1T6GECTX098N, HFS3T2GECTX098N and HFS6T4GECTX098N",
+    "firmware_versions": "11080A10",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2023_010323_0649.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "EMI/EMC: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4436.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "2/15/2023",
-    "validation_dates": [
-      "2/15/2023"
-    ],
     "validation_history": [
       {
         "date": "2/15/2023",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "SK hynix Inc.",
+      "website_url": "http://www.skhynix.com",
       "address_lines": [
         "2091 Gyeongchung-daero Bubal-eup",
         "Icheon-si, Gyeonggi-do 17336",
         "Korea"
       ],
-      "contact_email": "daehak.rim@sk.com",
-      "contact_name": "Daehak Rim",
-      "contact_phone": "+1 (669) 263-2992",
       "country": "Korea",
-      "name": "SK hynix Inc.",
-      "website_url": "http://www.skhynix.com"
+      "contact_name": "Daehak Rim",
+      "contact_email": "daehak.rim@sk.com",
+      "contact_phone": "+1 (669) 263-2992"
     },
-    "vendor_name": "SK hynix Inc.",
     "algorithms": [
       "AES",
       "DRBG",
@@ -82,6 +70,28 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "HMAC SHA-256 Cert. #A913"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4436.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 7,
+      "detailed_algorithm_count": 1,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4436.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

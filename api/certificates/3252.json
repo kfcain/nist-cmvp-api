@@ -1,54 +1,23 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3252"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 10,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. This validation entry is a non-security-relevant modification to Cert. #2695",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3252",
     "certificate_number": "3252",
-    "dataset": "active",
-    "description": "The ‘Seagate Secure® TCG Opal SSC Self-Encrypting Drive (SED) FIPS 140-2 Module’ is embodied in Seagate Laptop thin and Laptop Self-Encrypting Drive model disk drives. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption, instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA ranges, and authenticated FW download. The services are provided through an industry-standard TCG Opal SSC interface.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Seagate Secure® TCG Opal SSC Self-Encrypting Drive (SED) FIPS 140-2 Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3252",
-    "overall_level": 2,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3252.pdf"
-      },
-      {
-        "label": "Consolidated Certificate",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertAug2018.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "EMI/EMC: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3252",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3252.pdf",
-    "software_versions": null,
+    "vendor_name": "Seagate Technology LLC",
+    "module_name": "Seagate Secure® TCG Opal SSC Self-Encrypting Drive (SED) FIPS 140-2 Module",
     "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
     "validation_date": "8/1/2018, 1/31/2019, 7/10/2019, 8/15/2019, 9/18/2020, 8/10/2021, 11/18/2022",
     "validation_dates": [
       "8/1/2018",
@@ -59,57 +28,76 @@
       "8/10/2021",
       "11/18/2022"
     ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. This validation entry is a non-security-relevant modification to Cert. #2695",
+    "description": "The ‘Seagate Secure® TCG Opal SSC Self-Encrypting Drive (SED) FIPS 140-2 Module’ is embodied in Seagate Laptop thin and Laptop Self-Encrypting Drive model disk drives. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption, instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA ranges, and authenticated FW download. The services are provided through an industry-standard TCG Opal SSC interface.",
+    "software_versions": null,
+    "hardware_versions": "ST500LM033 - 1RD17D[1], ST1000LM038 - 1RD172[2], ST2000LM010 - 1RA174[3], ST1000LX017 - 1U9172[4], ST2000LX003 - 1RJ174[5], ST500LM035 - 2GJ17A[6], ST1000LM050 - 2GJ172[7]",
+    "firmware_versions": "SDM1[1,2,3,6,7], SDM2[1,2,3,6,7], RSE1[1,2], LSM1[1,2,3], RDE1[3], SSM1[4,5], RSE2[1,2], RSE3[1,2], RDE2[3], RDE3[3], RXE1[6,7], RXE3[6,7], LXM7[6,7], RTE2[1,2], REE2[3], 0001[6,7], RPE2[6,7], LXM8[6,7], 1002[6], RPE3[6,7], LXM9[6,7], RPE4[6], LXMA[6,7], LXF1[6,7], LXF2[6,7]",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3252.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertAug2018.pdf"
+      }
+    ],
     "validation_history": [
       {
         "date": "8/1/2018",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "1/31/2019",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "7/10/2019",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "8/15/2019",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "9/18/2020",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "8/10/2021",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "11/18/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "Seagate Technology LLC",
+      "website_url": "http://www.seagate.com",
       "address_lines": [
         "389 Disc Drive",
         "Longmont, CO 80503",
         "USA"
       ],
-      "contact_email": "catherine.sand-soll@seagate.com",
-      "contact_name": "Catherine Sand-Soll",
-      "contact_phone": "720-684-2008",
       "country": "USA",
-      "name": "Seagate Technology LLC",
-      "website_url": "http://www.seagate.com"
+      "contact_name": "Catherine Sand-Soll",
+      "contact_email": "catherine.sand-soll@seagate.com",
+      "contact_phone": "720-684-2008"
     },
-    "vendor_name": "Seagate Technology LLC",
     "algorithms": [
       "AES",
       "CVL",
@@ -121,6 +109,25 @@
       "SHA",
       "SHS",
       "TLS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3252.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 10,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3252.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

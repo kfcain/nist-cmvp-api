@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5511"
+  },
+  "certificate": {
+    "certificate_number": "5511",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5511",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5511",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5511.pdf",
+    "vendor_name": "Chunghwa Telecom laboratories",
+    "module_name": "HiPKI SafGuard 2000 HSM",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipStand",
+    "overall_level": 3,
+    "validation_date": "9/2/2026",
+    "validation_dates": [
+      "9/2/2026"
+    ],
+    "sunset_date": "9/1/2031",
+    "caveat": "The tamper evident seals and external entropy source installed as indicated in the Security Policy. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Chunghwa Telecom Laboratories HiPKI SafGuard 2000 HSM is a hardware cryptographic module provides FIPS 140-3 approved cryptographic services used in PKI system.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5511.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/2/2026",
+        "type": "Initial",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
+      }
+    ],
+    "vendor": {
+      "name": "Chunghwa Telecom laboratories",
+      "website_url": "https://www.chttl.com.tw/en/index.html",
+      "address_lines": [
+        "No. 99, Dianyan Rd., Yangmei Dist.",
+        "Taoyuan 32261",
+        "Taiwan"
+      ],
+      "country": "Taiwan",
+      "contact_name": "Li-Chun Chang",
+      "contact_email": "lcchang@cht.com.tw",
+      "contact_phone": "886-3-424-4337"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KTS",
+      "RSA"
+    ],
+    "algorithms_detailed": [
+      "KeyWrap KTS- | Wrap | SP 800-38D and SP 800-38F.",
+      "KTS (key wrapping and | unwrapping) per IG D.G. | Key size:128, 192, and 256- | bit keys providing 128, 192 | or 256 bits of encryption | strength",
+      "AES-KW: (A2894) | Key size: 128 | 192, 256",
+      "AES-KWP | (A2894) | Key size: 128 | 192, 256",
+      "KeyTransport KTS- | Encap | SP 800-56Brev2. KTS-IFC | (key encapsulation and un- | encapsulation) per IG D.G. | Key size:2048, 3072, 4096- | bit keys with 112-150-bit key | strength",
+      "KTS-IFC: (A2894) | Key size: 2048 | 3072, 4096",
+      "GenAES CKG Generate AES Key Key size:128, 192, and 256- | bit keys providing 128, 192 | or 256 bits of encryption | strength",
+      "HMAC DRBG | (A2894) | Key size: 128 | 192, 256 | GenRSA CKG Generate asymmetric keys",
+      "(RSA) | Key size:2048, 3072, 4096- | bit keys with 112-150-bit key | strength",
+      "RSA KeyGen | (FIPS186-4) | (A2894) | Key size: 2048 | 3072, 4096 | GenECDSA CKG Generate asymmetric keys",
+      "(ECDSA) | Key size:P224, P256, P384 | P521 curves with 112-256-bit | key strength",
+      "ECDSA KeyGen | (FIPS186-4) | (A2894) | Curve: P224 | P256, P384 | P521",
+      "MsgAuth MAC Verify audit log Key size:256-bit HMAC-SHA2- | 256: (A2892) | Key size: 256-bit",
+      "GenRand DRBG Get random number HMAC DRBG | (A2894) | ECDSASignVer DigSig- | SigGen | DigSig- | SigVer | Digital Signature generation | and verify | Key size:P224, P256, P384 | P521 curves with 112-256-bit | key strength",
+      "ECDSA SigGen | (FIPS186-4) | (A2894) | Curves : P224 | P256, P384 | P521",
+      "ECDSA KeyVer | (FIPS186-4) | (A2894) | Curves: P224 | P256, P384 | P521 | RSASignVer DigSig- | SigGen | DigSig- | SigVer | Digital signature generation | and verify | Key size:2048, 3072, 4096- | bit keys with 112-150-bit key | strength",
+      "RSA SigGen | (FIPS186-4) | (A2894) | Key size: 2048 | 3072, 4096-bit",
+      "RSA SigVer | (FIPS186-4) | Name Type Description Properties Algorithms | (A2894) | Key size: 2048 | 3072, 4096-bit"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5511.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 6,
+      "detailed_algorithm_count": 18,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5511.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

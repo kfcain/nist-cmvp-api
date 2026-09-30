@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4101"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 5,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4101",
     "certificate_number": "4101",
-    "dataset": "active",
-    "description": "The CERDEC Crypto Module (CM), is a single-chip module providing cryptographic primitive services and key management. This CM design provides both FIPS approved AES encryption/decryption services, as well as non-approved SPECK and SIMON encryption services.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CERDEC Cryptographic Module 1.0.2",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4101",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4101",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4101.pdf",
+    "vendor_name": "US Army CERDEC",
+    "module_name": "CERDEC Cryptographic Module 1.0.2",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 3,
+    "validation_date": "12/13/2021",
+    "validation_dates": [
+      "12/13/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The CERDEC Crypto Module (CM), is a single-chip module providing cryptographic primitive services and key management. This CM design provides both FIPS approved AES encryption/decryption services, as well as non-approved SPECK and SIMON encryption services.",
+    "software_versions": null,
+    "hardware_versions": "M2S050TS-1FGG896 and 1.0PL",
+    "firmware_versions": "FreeRTOS 7.0.1 and Crypto Engine 1.0.2",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,45 +41,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2021_020122_0905_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4101.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "12/13/2021",
-    "validation_dates": [
-      "12/13/2021"
-    ],
     "validation_history": [
       {
         "date": "12/13/2021",
-        "lab": "CYGNACOM SOLUTIONS INC",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
       }
     ],
     "vendor": {
+      "name": "US Army CERDEC",
+      "website_url": "https://c5isr.ccdc.army.mil/",
       "address_lines": [
         "6590 Reconnaissance Street",
         "APG, MD 21005",
         "USA"
       ],
-      "contact_email": "Stanley.fong.ctr@army.mil",
-      "contact_name": "Stanley Fong",
-      "contact_phone": "443-395-7966",
       "country": "USA",
-      "name": "US Army CERDEC",
-      "website_url": "https://c5isr.ccdc.army.mil/"
+      "contact_name": "Stanley Fong",
+      "contact_email": "Stanley.fong.ctr@army.mil",
+      "contact_phone": "443-395-7966"
     },
-    "vendor_name": "US Army CERDEC",
     "algorithms": [
       "AES",
       "DRBG",
       "HMAC",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithms_detailed": [
+      "* AES-CTR, provided with Certificate #374 addresses CMVP counter requirements as"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4101.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 5,
+      "detailed_algorithm_count": 1,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4101.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

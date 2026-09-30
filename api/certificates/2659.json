@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2659"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2659",
     "certificate_number": "2659",
-    "dataset": "active",
-    "description": "A software-based AES implementation in a Cockpit Voice and Flight Data Recorder (CVFDR) that supports 128, 192, and 256 bit key lengths. Various data types can be selected for encryption prior to being recorded in a crash-protected module.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "eSRVIVR(r) Cockpit Voice and Flight Data Recorder (CVFDR) Encryption Module",
-    "module_type": "Firmware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2659",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2659",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2659.pdf",
+    "vendor_name": "L3Harris Technologies, Inc.",
+    "module_name": "eSRVIVR(r) Cockpit Voice and Flight Data Recorder (CVFDR) Encryption Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 2,
+    "validation_date": "6/16/2016, 12/13/2021",
+    "validation_dates": [
+      "6/16/2016",
+      "12/13/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "A software-based AES implementation in a Cockpit Voice and Flight Data Recorder (CVFDR) that supports 128, 192, and 256 bit key lengths. Various data types can be selected for encryption prior to being recorded in a crash-protected module.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": "1.0",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,44 +42,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJune2016.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2659.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "6/16/2016, 12/13/2021",
-    "validation_dates": [
-      "6/16/2016",
-      "12/13/2021"
-    ],
     "validation_history": [
       {
         "date": "6/16/2016",
-        "lab": "CYGNACOM SOLUTIONS INC",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
       },
       {
         "date": "12/13/2021",
-        "lab": "CYGNACOM SOLUTIONS INC",
-        "type": "Update"
+        "type": "Update",
+        "lab": "CYGNACOM SOLUTIONS INC"
       }
     ],
     "vendor": {
+      "name": "L3Harris Technologies, Inc.",
+      "website_url": "http://www.l3harris.com",
       "address_lines": [
         "1025 W. NASA Boulevard",
         "Melbourne, FL 32919",
         "USA"
       ],
-      "contact_email": "David.C.Johnson@l3harris.com",
-      "contact_name": "David Johnson",
-      "contact_phone": "616-285-4365",
       "country": "USA",
-      "name": "L3Harris Technologies, Inc.",
-      "website_url": "http://www.l3harris.com"
+      "contact_name": "David Johnson",
+      "contact_email": "David.C.Johnson@l3harris.com",
+      "contact_phone": "616-285-4365"
     },
-    "vendor_name": "L3Harris Technologies, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2659.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2659.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

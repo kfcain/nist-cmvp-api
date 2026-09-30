@@ -1,35 +1,40 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2872"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 8,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2872",
     "certificate_number": "2872",
-    "dataset": "active",
-    "description": "The Veeam Cryptographic Module provides cryptographic functions for the Veeam Availability Suite and Veeam Agent for Mac. These functions are used for protecting data in transit and at rest using standards based and trusted algorithms.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Veeam Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2872",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2872",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2872.pdf",
+    "vendor_name": "Veeam Software Corporation",
+    "module_name": "Veeam Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "3/30/2017, 8/10/2021, 12/21/2021, 11/3/2023",
+    "validation_dates": [
+      "3/30/2017",
+      "8/10/2021",
+      "12/21/2021",
+      "11/3/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038",
+    "description": "The Veeam Cryptographic Module provides cryptographic functions for the Veeam Availability Suite and Veeam Agent for Mac. These functions are used for protecting data in transit and at rest using standards based and trusted algorithms.",
+    "software_versions": "2.1",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,59 +45,42 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertMar2017.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2872.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "3/30/2017, 8/10/2021, 12/21/2021, 11/3/2023",
-    "validation_dates": [
-      "3/30/2017",
-      "8/10/2021",
-      "12/21/2021",
-      "11/3/2023"
-    ],
     "validation_history": [
       {
         "date": "3/30/2017",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       },
       {
         "date": "8/10/2021",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "12/21/2021",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "11/3/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "Veeam Software Corporation",
+      "website_url": "http://www.veeam.com",
       "address_lines": [
         "8800 Lyra Drive",
         "Suite 350",
         "Columbus, OH 43240",
         "USA"
       ],
-      "contact_email": "fips@veeamgov.com",
-      "contact_name": "Veeam Government Solutions",
-      "contact_phone": null,
       "country": "USA",
-      "name": "Veeam Software Corporation",
-      "website_url": "http://www.veeam.com"
+      "contact_name": "Veeam Government Solutions",
+      "contact_email": "fips@veeamgov.com",
+      "contact_phone": null
     },
-    "vendor_name": "Veeam Software Corporation",
     "algorithms": [
       "AES",
       "DES",
@@ -101,7 +89,27 @@
       "ECDSA",
       "HMAC",
       "RSA",
-      "SHA"
-    ]
+      "SHA",
+      "TLS"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2872.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2872.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

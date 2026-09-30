@@ -1,35 +1,35 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4208"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4208",
     "certificate_number": "4208",
-    "dataset": "active",
-    "description": "The CN4010, CN4020, CN6010, CN6140, CN9100 and CN9120 are high-speed hardware encryption platforms that secure data over twisted-pair and optical Ethernet networks. The modules support line rates from 10Mb/s to 100Gb/s. All models except CN4010 are equipped with pluggable transceivers to support a variety of optical network interfaces. Data privacy is provided by FIPS approved AES algorithms in CFB, CTR and GCM modes. Additional transmission security is provided via TRANSEC (Traffic Flow Security) which can be used to remove patterns in network traffic and prevent traffic analysis attacks.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CN Series Encryptors",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4208",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4208",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4208.pdf",
+    "vendor_name": "Senetas Corporation Ltd., distributed by Thales SA (SafeNet)",
+    "module_name": "CN Series Encryptors",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 3,
+    "validation_date": "4/29/2022, 7/19/2022",
+    "validation_dates": [
+      "4/29/2022",
+      "7/19/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The CN4010, CN4020, CN6010, CN6140, CN9100 and CN9120 are high-speed hardware encryption platforms that secure data over twisted-pair and optical Ethernet networks. The modules support line rates from 10Mb/s to 100Gb/s. All models except CN4010 are equipped with pluggable transceivers to support a variety of optical network interfaces. Data privacy is provided by FIPS approved AES algorithms in CFB, CTR and GCM modes. Additional transmission security is provided via TRANSEC (Traffic Flow Security) which can be used to remove patterns in network traffic and prevent traffic analysis attacks.",
+    "software_versions": null,
+    "hardware_versions": "Senetas Corp. Ltd. CN4000 Series: A4010B (DC) and A4020B (DC); Senetas Corp. Ltd. CN6000 Series: A6010B (AC), A6011B (DC), A6012B (AC/DC), A6140B (AC), A6141B (DC) and A6142B (AC/DC); Senetas Corp. Ltd. CN9000 Series: A9100B (AC), A9101B (DC), A9102B (AC/DC), A9120B (AC), A9121B (DC) and A9122B (AC/DC); Senetas Corp. Ltd. & SafeNet Inc. CN4000 Series: A4010B (DC) and A4020B (DC); Senetas Corp. Ltd. & SafeNet Inc. CN6000 Series: A6010B (AC), A6011B (DC), A6012B (AC/DC), A6140B (AC), A6141B (DC) and A6142B (AC/DC); Senetas Corp. Ltd. & SafeNet Inc. CN9000 Series: A9100B (AC), A9101B (DC), A9102B (AC/DC), A9120B (AC), A9121B (DC) and A9122B (AC/DC); Senetas Corp. Ltd. & Thales CN4000 Series: A4010B (DC) and A4020B (DC); Senetas Corp. Ltd. & Thales CN6000 Series: A6010B (AC), A6011B (DC), A6012B (AC/DC), A6140B (AC), A6141B (DC) and A6142B (AC/DC); Senetas Corp. Ltd. & Thales CN9000 Series: A9100B (AC), A9101B (DC), A9102B (AC/DC), A9120B (AC), A9121B (DC) and A9122B (AC/DC)",
+    "firmware_versions": "5.2.0 and 5.2.1",
+    "security_level_exceptions": [],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,42 +40,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
       }
     ],
-    "security_level_exceptions": [],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4208.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/29/2022, 7/19/2022",
-    "validation_dates": [
-      "4/29/2022",
-      "7/19/2022"
-    ],
     "validation_history": [
       {
         "date": "4/29/2022",
-        "lab": "Lightship Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
       },
       {
         "date": "7/19/2022",
-        "lab": "Lightship Security, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Lightship Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Senetas Corporation Ltd., distributed by Thales SA (SafeNet)",
+      "website_url": "http://www.senetas.com",
       "address_lines": [
         "312 Kings Way",
         "South Melbourne, Victoria 3205",
         "Australia"
       ],
-      "contact_email": "john.weston@senetas.com",
-      "contact_name": "John Weston",
-      "contact_phone": "+61 3 9868 4555",
       "country": "Australia",
-      "name": "Senetas Corporation Ltd., distributed by Thales SA (SafeNet)",
-      "website_url": "http://www.senetas.com"
+      "contact_name": "John Weston",
+      "contact_email": "john.weston@senetas.com",
+      "contact_phone": "+61 3 9868 4555"
     },
-    "vendor_name": "Senetas Corporation Ltd., distributed by Thales SA (SafeNet)"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4208.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4208.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

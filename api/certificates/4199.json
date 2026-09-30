@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4199"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4199",
     "certificate_number": "4199",
-    "dataset": "active",
-    "description": "The Motorola VPMCM/TMGCM provides cryptographic services to the Voice Processing Module in which it is embedded. The Voice Processing Module provides dispatch console audio routing between a dispatch operator (e.g., 911 dispatcher), peripherals, and a local network.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Voice Processing Module Cryptographic Module (VPMCM) / Telephone Media Gateway Cryptographic Module (TMGCM)",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4199",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4199",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4199.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "Voice Processing Module Cryptographic Module (VPMCM) / Telephone Media Gateway Cryptographic Module (TMGCM)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 1,
+    "validation_date": "4/21/2022",
+    "validation_dates": [
+      "4/21/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The Motorola VPMCM/TMGCM provides cryptographic services to the Voice Processing Module in which it is embedded. The Voice Processing Module provides dispatch console audio routing between a dispatch operator (e.g., 911 dispatcher), peripherals, and a local network.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns VPMCRYPTO_B or VPMCRYPTO_C",
+    "firmware_versions": "R01.13.01 with AES256 R01.00.00",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,39 +42,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4199.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/21/2022",
-    "validation_dates": [
-      "4/21/2022"
-    ],
     "validation_history": [
       {
         "date": "4/21/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
       "address_lines": [
         "500 W. Monroe Street",
         "Chicago, IL 60661",
         "USA"
       ],
-      "contact_email": "jason.blair@motorolasolutions.com",
-      "contact_name": "Jason Blair",
-      "contact_phone": "847-576-5000",
       "country": "USA",
-      "name": "Motorola Solutions, Inc.",
-      "website_url": "http://www.motorolasolutions.com"
+      "contact_name": "Jason Blair",
+      "contact_email": "jason.blair@motorolasolutions.com",
+      "contact_phone": "847-576-5000"
     },
-    "vendor_name": "Motorola Solutions, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4199.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4199.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

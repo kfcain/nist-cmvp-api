@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4194"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 5,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4194",
     "certificate_number": "4194",
-    "dataset": "active",
-    "description": "Hitachi Virtual Storage Platform(VSP) Encryption Board for NVMe provides high speed data at rest encryption for Hitachi storage.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Hitachi Virtual Storage Platform (VSP) Encryption Board for NVMe",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4194",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4194",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4194.pdf",
+    "vendor_name": "Hitachi, Ltd.",
+    "module_name": "Hitachi Virtual Storage Platform (VSP) Encryption Board for NVMe",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 1,
+    "validation_date": "4/11/2022",
+    "validation_dates": [
+      "4/11/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Hitachi Virtual Storage Platform(VSP) Encryption Board for NVMe provides high speed data at rest encryption for Hitachi storage.",
+    "software_versions": null,
+    "hardware_versions": "P/N:VSPEBN-001 Version: 001",
+    "firmware_versions": "FPGA Main Firmware Ver : ED00802E; FPGA Configuration data Ver : ED000002_19112100 or ED000101_20120700; FPGA bootloader Firmware Ver: 00000003",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,46 +42,51 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 2",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4194.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/11/2022",
-    "validation_dates": [
-      "4/11/2022"
-    ],
     "validation_history": [
       {
         "date": "4/11/2022",
-        "lab": "ECSEC Laboratory Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
       }
     ],
     "vendor": {
+      "name": "Hitachi, Ltd.",
+      "website_url": "https://www.hitachi.com/",
       "address_lines": [
         "1 Horiyamashita, Hadano-shi",
         "Kanagawa-ken 259-1304",
         "Japan"
       ],
-      "contact_email": null,
-      "contact_name": "Storage Systems Development Operation",
-      "contact_phone": null,
       "country": "Japan",
-      "name": "Hitachi, Ltd.",
-      "website_url": "https://www.hitachi.com/"
+      "contact_name": "Storage Systems Development Operation",
+      "contact_email": null,
+      "contact_phone": null
     },
-    "vendor_name": "Hitachi, Ltd.",
     "algorithms": [
       "AES",
       "HMAC",
       "KTS",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4194.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 5,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4194.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

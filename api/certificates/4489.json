@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4489"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4489",
     "certificate_number": "4489",
-    "dataset": "active",
-    "description": "Digi DAL OS is the operating system that runs on all of its modern cellular routers. DAL OS utilizes OpenSSL 3.0 for FIPs-compliant cryptographic calls.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Digi DAL OS OpenSSL 3.0",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4489",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4489",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4489.pdf",
+    "vendor_name": "Digi International",
+    "module_name": "Digi DAL OS OpenSSL 3.0",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "4/26/2023, 10/6/2023",
+    "validation_dates": [
+      "4/26/2023",
+      "10/6/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "Digi DAL OS is the operating system that runs on all of its modern cellular routers. DAL OS utilizes OpenSSL 3.0 for FIPs-compliant cryptographic calls.",
+    "software_versions": "3.0.8",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,46 +43,55 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2023_010523_0646.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Design Assurance: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4489.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/26/2023, 10/6/2023",
-    "validation_dates": [
-      "4/26/2023",
-      "10/6/2023"
-    ],
     "validation_history": [
       {
         "date": "4/26/2023",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       },
       {
         "date": "10/6/2023",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "Digi International",
+      "website_url": "http://www.digi.com/",
       "address_lines": [
         "9350 Excelsior Blvd",
         "Suite 700",
         "Hopkins, MN 55343",
         "USA"
       ],
-      "contact_email": "nate.pleasant@digi.com",
-      "contact_name": "Nate Pleasant",
-      "contact_phone": "813-327-4417",
       "country": "USA",
-      "name": "Digi International",
-      "website_url": "http://www.digi.com/"
+      "contact_name": "Nate Pleasant",
+      "contact_email": "nate.pleasant@digi.com",
+      "contact_phone": "813-327-4417"
     },
-    "vendor_name": "Digi International"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4489.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4489.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

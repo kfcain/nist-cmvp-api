@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4043"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 14,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When installed, initialized and configured as specified in Section [3.1.4] of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4043",
     "certificate_number": "4043",
-    "dataset": "active",
-    "description": "The MPX product line optimizes delivery of applications over the Internet and private networks. MPX is an application delivery controller (ADC) that performs application-specific traffic analysis to intelligently distribute, optimize, and secure L4-L7 network traffic for web-applications. All these capabilities are combined into a single, integrated appliance for increased productivity, with lower overall total cost of ownership.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Citrix ADC MPX",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4043",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4043",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4043.pdf",
+    "vendor_name": "Citrix Systems, Inc.",
+    "module_name": "Citrix ADC MPX",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "10/16/2021",
+    "validation_dates": [
+      "10/16/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section [3.1.4] of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "The MPX product line optimizes delivery of applications over the Internet and private networks. MPX is an application delivery controller (ADC) that performs application-specific traffic analysis to intelligently distribute, optimize, and secure L4-L7 network traffic for web-applications. All these capabilities are combined into a single, integrated appliance for increased productivity, with lower overall total cost of ownership.",
+    "software_versions": null,
+    "hardware_versions": "8905 FIPS, 8910 FIPS, 8920 FIPS, 15020-50G FIPS, 15030-50G FIPS, 15040-50G FIPS, 15060-50G FIPS, 15080-50G FIPS, 15100-50G FIPS, 15120-50G FIPS",
+    "firmware_versions": "12.1.55.180",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,39 +41,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2021_011121_0730_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4043.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "10/16/2021",
-    "validation_dates": [
-      "10/16/2021"
-    ],
     "validation_history": [
       {
         "date": "10/16/2021",
-        "lab": "Lightship Security, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
       }
     ],
     "vendor": {
+      "name": "Citrix Systems, Inc.",
+      "website_url": "http://www.citrix.com",
       "address_lines": [
         "851 Cypress Creek Road",
         "Fort Lauderdale, FL 33309",
         "USA"
       ],
-      "contact_email": "hariharan.subramanian@citrix.com",
-      "contact_name": "Hariharan Subramanian",
-      "contact_phone": "+1 408 364 4681",
       "country": "USA",
-      "name": "Citrix Systems, Inc.",
-      "website_url": "http://www.citrix.com"
+      "contact_name": "Hariharan Subramanian",
+      "contact_email": "hariharan.subramanian@citrix.com",
+      "contact_phone": "+1 408 364 4681"
     },
-    "vendor_name": "Citrix Systems, Inc.",
     "algorithms": [
       "AES",
       "CVL",
@@ -88,6 +76,25 @@
       "SHS",
       "SSH",
       "TLS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4043.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 14,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4043.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

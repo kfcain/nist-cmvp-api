@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4263"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4263",
     "certificate_number": "4263",
-    "dataset": "active",
-    "description": "CNN35XX-NFBE HSM Family is a high performance purpose built solution for key management and crypto acceleration compliance to FIPS 140-2 level 3. The module supports flexible key store that can be partitioned up to 32 individually managed and isolated partitions. This is a SRIOV capable PCIe adapter and can be used in a virtualization environment to extend services like virtual key management, offloading general and TLS specific crypto operations through dedicated logical I/O channels. This product is suitable for PKI users, vendors, TLS servers/load balancers.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "NITROXIII CNN35XX-NFBE HSM Family",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4263",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4263",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4263.pdf",
+    "vendor_name": "Marvell",
+    "module_name": "NITROXIII CNN35XX-NFBE HSM Family",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 3,
+    "validation_date": "7/13/2022",
+    "validation_dates": [
+      "7/13/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "CNN35XX-NFBE HSM Family is a high performance purpose built solution for key management and crypto acceleration compliance to FIPS 140-2 level 3. The module supports flexible key store that can be partitioned up to 32 individually managed and isolated partitions. This is a SRIOV capable PCIe adapter and can be used in a virtualization environment to extend services like virtual key management, offloading general and TLS specific crypto operations through dedicated logical I/O channels. This product is suitable for PKI users, vendors, TLS servers/load balancers.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns CNL3560P-NFBE-G, CNL3560P-NFBE-2.0-G, CNL3560P-NFBE-3.0-G, CNL3560B-NFBE-2.0-G, CNL3560B-NFBE-3.0-G, CNL3560-NFBE-G, CNL3560-NFBE-2.0-G, CNL3560-NFBE-3.0-G, CNL3560A-NFBE-3.0-G, CNL3560C-NFBE-3.0-G, CNL3560D-NFBE-3.0-G, CNL3560E-NFBE-3.0-G, CNL3560F-NFBE-3.0-G, CNL3530-NFBE-G, CNL3530-NFBE-2.0-G, CNL3530-NFBE-3.0-G, CNL3530B-NFBE-2.0-G, CNL3530B-NFBE-3.0-G, CNL3530A-NFBE-3.0-G, CNL3530C-NFBE-3.0-G, CNL3530D-NFBE-3.0-G, CNL3530E-NFBE-3.0-G, CNL3530F-NFBE-3.0-G, CNL3510-NFBE-G, CNL3510-NFBE-2.0-G, CNL3510-NFBE-3.0-G, CNL3510P-NFBE-G, CNL3510P-NFBE-2.0-G, CNL3510P-NFBE-3.0-G, CNL3510A-NFBE-3.0-G, CNL3510C-NFBE-3.0-G, CNL3510D-NFBE-3.0-G, CNL3510E-NFBE-3.0-G, CNL3510F-NFBE-3.0-G, CNN3560P-NFBE-G, CNN3560P-NFBE-2.0-G, CNN3560P-NFBE-3.0-G, CNN3560-NFBE-G, CNN3560-NFBE-2.0-G, CNN3560-NFBE-3.0-G, CNN3560A-NFBE-3.0-G, CNN3560C-NFBE-3.0-G, CNN3560D-NFBE-3.0-G, CNN3560E-NFBE-3.0-G, CNN3560F-NFBE-3.0-G, CNN3530-NFBE-G, CNN3530-NFBE-2.0-G, CNN3530-NFBE-3.0-G, CNN3530A-NFBE-3.0-G, CNN3530C-NFBE-3.0-G, CNN3530D-NFBE-3.0-G, CNN3530E-NFBE-3.0-G, CNN3530F-NFBE-3.0-G, CNN3510-NFBE-G, CNN3510-NFBE-2.0-G, CNN3510-NFBE-3.0-G, CNN3510A-NFBE-3.0-G, CNN3510C-NFBE-3.0-G, CNN3510D-NFBE-3.0-G, CNN3510E-NFBE-3.0-G, CNN3510F-NFBE-3.0-G, CNN3510LP-NFBE-2.0-G, CNN3510LP-NFBE-3.0-G, CNN3510LPB-NFBE-2.0-G, CNN3510LPB-NFBE-3.0-G, CNN3510LPA-NFBE-3.0-G, CNN3510LPC-NFBE-3.0-G, CNN3510LPD-NFBE-3.0-G, CNN3510LPE-NFBE-3.0-G, CNN3510LPF-NFBE-3.0-G, CNN3505LP-NFBE-2.0-G, CNN3505LP-NFBE-3.0-G, CNN3505LPA-NFBE-3.0-G,CNN3505LPC-NFBE-3.0-G, CNN3505LPD-NFBE-3.0-G, CNN3505LPE-NFBE-3.0-G and CNN3505LPF-NFBE-3.0-G",
+    "firmware_versions": "CNN35XX-NFBE-FW-1.1 build 02 and CNN35XX-NFBE-FW-1.1 build 05",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,38 +41,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4263.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "7/13/2022",
-    "validation_dates": [
-      "7/13/2022"
-    ],
     "validation_history": [
       {
         "date": "7/13/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Marvell",
+      "website_url": "http://www.marvell.com",
       "address_lines": [
         "5488 Marvell Lane",
         "Santa Clara, CA 95054",
         "USA"
       ],
-      "contact_email": "pkancharla@marvell.com",
-      "contact_name": "Phanikumar Kancharla",
-      "contact_phone": "+91-9949025466",
       "country": "USA",
-      "name": "Marvell",
-      "website_url": "http://www.marvell.com"
+      "contact_name": "Phanikumar Kancharla",
+      "contact_email": "pkancharla@marvell.com",
+      "contact_phone": "+91-9949025466"
     },
-    "vendor_name": "Marvell"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4263.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4263.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

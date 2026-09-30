@@ -1,10 +1,56 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4341"
   },
   "certificate": {
+    "certificate_number": "4341",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4341",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4341",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4341.pdf",
+    "vendor_name": "",
+    "module_name": "",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "10/20/2022",
+    "validation_dates": [
+      "10/20/2022"
+    ],
+    "sunset_date": null,
+    "caveat": null,
+    "description": null,
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4341.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/20/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "",
+      "website_url": null,
+      "address_lines": [],
+      "country": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null
+    },
     "algorithm_extraction": {
       "schema_version": "1.0",
       "status": "cached",
@@ -12,56 +58,22 @@
       "source": "firecrawl",
       "source_url": null,
       "cached": true,
-      "fallback_used": false,
+      "fallback_used": true,
       "cache_version": "2026-04-15-legacy-v1",
       "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": null,
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4341",
-    "certificate_number": "4341",
-    "dataset": "active",
-    "description": null,
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "",
-    "module_type": "Hardware",
-    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4341",
-    "overall_level": 2,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4341.pdf"
-      }
-    ],
-    "security_level_exceptions": [],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4341.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "10/20/2022",
-    "validation_dates": [
-      "10/20/2022"
-    ],
-    "validation_history": [
-      {
-        "date": "10/20/2022",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Initial"
-      }
-    ],
-    "vendor": {
-      "address_lines": [],
-      "contact_email": null,
-      "contact_name": null,
-      "contact_phone": null,
-      "country": null,
-      "name": "",
-      "website_url": null
-    },
-    "vendor_name": ""
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4341.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4341.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

@@ -1,10 +1,73 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5042"
   },
   "certificate": {
+    "certificate_number": "5042",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5042",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5042",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5042.pdf",
+    "vendor_name": "OVHcloud",
+    "module_name": "OVHcloud KMS",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/22/2025, 12/16/2025",
+    "validation_dates": [
+      "7/22/2025",
+      "12/16/2025"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The OVHcloud KMS is a general-purpose cryptographic software incorporated into the OVHcloud family of products to provide FIPS validated cryptography for the protection of sensitive information.",
+    "software_versions": "2.0.0",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5042.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2025_110825_0311.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/22/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "12/16/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "OVHcloud",
+      "website_url": "http://www.ovhcloud.com/en/",
+      "address_lines": [
+        "2 RUE KELLERMANN",
+        "ROUBAIX 59100",
+        "FRANCE"
+      ],
+      "country": "FRANCE",
+      "contact_name": "VALERIE LIARD",
+      "contact_email": "valerie.liard@ovhcloud.com",
+      "contact_phone": "+33 7 63 75 61 47"
+    },
     "algorithm_extraction": {
       "schema_version": "1.0",
       "status": "cached",
@@ -12,69 +75,22 @@
       "source": "firecrawl",
       "source_url": null,
       "cached": true,
-      "fallback_used": false,
+      "fallback_used": true,
       "cache_version": "2026-04-15-legacy-v1",
       "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5042",
-    "certificate_number": "5042",
-    "dataset": "active",
-    "description": "The OVHcloud KMS is a general-purpose cryptographic software incorporated into the OVHcloud family of products to provide FIPS validated cryptography for the protection of sensitive information.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "OVHcloud KMS",
-    "module_type": "Software",
-    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5042",
-    "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5042.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Design Assurance: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5042.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "7/22/2025, 12/16/2025",
-    "validation_dates": [
-      "7/22/2025",
-      "12/16/2025"
-    ],
-    "validation_history": [
-      {
-        "date": "7/22/2025",
-        "lab": "Acumen Security",
-        "type": "Initial"
-      },
-      {
-        "date": "12/16/2025",
-        "lab": "Acumen Security",
-        "type": "Update"
-      }
-    ],
-    "vendor": {
-      "address_lines": [
-        "2 RUE KELLERMANN",
-        "ROUBAIX 59100",
-        "FRANCE"
-      ],
-      "contact_email": "valerie.liard@ovhcloud.com",
-      "contact_name": "VALERIE LIARD",
-      "contact_phone": "+33 7 63 75 61 47",
-      "country": "FRANCE",
-      "name": "OVHcloud",
-      "website_url": "http://www.ovhcloud.com/en/"
-    },
-    "vendor_name": "OVHcloud"
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5042.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5042.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

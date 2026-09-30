@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4386"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 3,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "The tamper evident seals installed as indicated in the security policy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4386",
     "certificate_number": "4386",
-    "dataset": "active",
-    "description": "Apacer¡¦s SV240 is a well-balanced solid-state disk (SSD) drive with standard form factor and great performance. Designed in SATA 6 Gb/s interface, the SSD is able to deliver exceptional read/write speed, making it the ideal companion for heavy-loading industrial or server operations. Apacer SV240 SSD provides AES 256 encryption/decryption of data that is stored in NAND flash. The module supports the SATA interface compliant with the Trusted Computing Group (TCG) SSC specification Opal.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Apacer TCG SSD SV240 Series",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4386",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4386",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4386.pdf",
+    "vendor_name": "Apacer Technology Inc.",
+    "module_name": "Apacer TCG SSD SV240 Series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 2,
+    "validation_date": "12/7/2022",
+    "validation_dates": [
+      "12/7/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "The tamper evident seals installed as indicated in the security policy",
+    "description": "Apacer¡¦s SV240 is a well-balanced solid-state disk (SSD) drive with standard form factor and great performance. Designed in SATA 6 Gb/s interface, the SSD is able to deliver exceptional read/write speed, making it the ideal companion for heavy-loading industrial or server operations. Apacer SV240 SSD provides AES 256 encryption/decryption of data that is stored in NAND flash. The module supports the SATA interface compliant with the Trusted Computing Group (TCG) SSC specification Opal.",
+    "software_versions": null,
+    "hardware_versions": "A12.A25HGF[B], A12.A25HHF[D], A12.A22HGF[A], A12.A22HHF[C], A12.A25JGF[B], A12.A25JHF[D], A12.A22JGF[A], A12.A22JHF[C], A12.A25KGF[B], A12.A25KHF[D], A12.A22KGF[A], A12.A22KHF[C], A12.A25LGF[B], A12.A25LHF[D], A12.A23AGF[A], A12.A23AHF[C], A12.A25MGF[B], A12.A25MHF[D], A12.A23BGF[A], A12.A23BHF[C], A92.A25HGA[B], A92.A25HHA[D], A92.A22HGA[A], A92.A22HHA[C], A92.A25JGA[B], A92.A25JHA[D], A92.A22JGA[A], A92.A22JHA[C], A92.A25KGA[B], A92.A25KHA[D], A92.A22KGA[A], A92.A22KHA[C], A92.A25LGA[B], A92.A25LHA[D], A92.A23AGA[A], A92.A23AHA[C], A72.A25HGA[B], A72.A25HHA[D], A72.A22HGA[A], A72.A22HHA[C], A72.A25JGA[B], A72.A25JHA[D], A72.A22JGA[A], A72.A22JHA[C], A72.A25KGA[B], A72.A25KHA[D], A72.A22KGA[A], A72.A22KHA[C], A72.A25LGA[B], A72.A25LHA[D], A72.A23AGA[A], A72.A23AHA[C], A72.A25MGA[B], A72.A25MHA[D], A72.A23BGA[A], A72.A23BHA[C], A52.A25HGB[B], A52.A25HHB[D], A52.A22HGB[A], A52.A22HHB[C], A52.A25JGB[B], A52.A25JHB[D], A52.A22JGB[A], A52.A22JHB[C], A52.A25KGB[B], A52.A25KHB[D], A52.A22KGB[A], A52.A22KHB[C], A52.A25LGB[B], A52.A25LHB[D], A52.A23AGB[A], A52.A23AHB[C], A52.A25MGB[B], A52.A25MHB[D], A52.A23BGB[A], A52.A23BHB[C] with tamper-evident labels 40.09134.0200C",
+    "firmware_versions": "SFYCA01S[A], SFYCA11S[B], SFYCA21S[C], SFYCA31S[D]",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,44 +42,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "EMI/EMC: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4386.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "12/7/2022",
-    "validation_dates": [
-      "12/7/2022"
-    ],
     "validation_history": [
       {
         "date": "12/7/2022",
-        "lab": "Asia Pacific IT Laboratory, TUV NORD",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
       }
     ],
     "vendor": {
+      "name": "Apacer Technology Inc.",
+      "website_url": "http://industrial.apacer.com/en-ww",
       "address_lines": [
         "1F, No. 32, Zhongcheng Rd., Tucheng Dist.",
         "New Taipei City 23674",
         "Taiwan, R.O.C."
       ],
-      "contact_email": "parker_kuo@apacer.com",
-      "contact_name": "Parker Kuo",
-      "contact_phone": "+886-2-2267-8000#5625",
       "country": "Taiwan, R.O.C.",
-      "name": "Apacer Technology Inc.",
-      "website_url": "http://industrial.apacer.com/en-ww"
+      "contact_name": "Parker Kuo",
+      "contact_email": "parker_kuo@apacer.com",
+      "contact_phone": "+886-2-2267-8000#5625"
     },
-    "vendor_name": "Apacer Technology Inc.",
     "algorithms": [
       "AES",
       "RSA",
       "SHA"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4386.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 3,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4386.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

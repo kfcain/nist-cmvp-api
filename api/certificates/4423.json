@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4423"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4423",
     "certificate_number": "4423",
-    "dataset": "active",
-    "description": "The Viasat Type 3 Data Encryption Device (V3K-102) is a multi-chip embedded cryptographic module. The V3K-102 provides encryption and decryption services, key management, and can provide filtering for domain separation.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Type 3 Data Encryption Device (V3K-102)",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4423",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4423",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4423.pdf",
+    "vendor_name": "Viasat, Inc.",
+    "module_name": "Type 3 Data Encryption Device (V3K-102)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 2,
+    "validation_date": "1/23/2023",
+    "validation_dates": [
+      "1/23/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Viasat Type 3 Data Encryption Device (V3K-102) is a multi-chip embedded cryptographic module. The V3K-102 provides encryption and decryption services, key management, and can provide filtering for domain separation.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns 1090927, Versions 002, 003, 004, 005; 1163385, Versions 001 and 002",
+    "firmware_versions": "1.5.3",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +43,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2023_010223_0657_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Cryptographic Module Specification: Level 3",
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4423.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "1/23/2023",
-    "validation_dates": [
-      "1/23/2023"
-    ],
     "validation_history": [
       {
         "date": "1/23/2023",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Viasat, Inc.",
+      "website_url": "http://www.viasat.com",
       "address_lines": [
         "6155 El Camino Real",
         "Carlsbad, CA 92009",
         "USA"
       ],
-      "contact_email": "kyle.dormody@viasat.com",
-      "contact_name": "Kyle Dormody",
-      "contact_phone": "760-893-4127",
       "country": "USA",
-      "name": "Viasat, Inc.",
-      "website_url": "http://www.viasat.com"
+      "contact_name": "Kyle Dormody",
+      "contact_email": "kyle.dormody@viasat.com",
+      "contact_phone": "760-893-4127"
     },
-    "vendor_name": "Viasat, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4423.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4423.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

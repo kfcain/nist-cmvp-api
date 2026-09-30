@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4388"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 4,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4388",
     "certificate_number": "4388",
-    "dataset": "active",
-    "description": "Digipass GO 7 is an one-time password (OTP) hardware token a convenient single-button authentication device that boosts security while providing unmatched user acceptance. Digipass GO 7 also supports OneSpan’s multi OTP technology offering enhanced security for organizations who need to secure multiple applications with a single Digipass.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "DIGIPASS GO7",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4388",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4388",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4388.pdf",
+    "vendor_name": "OneSpan",
+    "module_name": "DIGIPASS GO7",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "12/7/2022",
+    "validation_dates": [
+      "12/7/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Digipass GO 7 is an one-time password (OTP) hardware token a convenient single-button authentication device that boosts security while providing unmatched user acceptance. Digipass GO 7 also supports OneSpan’s multi OTP technology offering enhanced security for organizations who need to secure multiple applications with a single Digipass.",
+    "software_versions": null,
+    "hardware_versions": "DIGIPASS GO7 FIPS140-2",
+    "firmware_versions": "340106",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,47 +43,51 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "EMI/EMC: Level 3",
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4388.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "12/7/2022",
-    "validation_dates": [
-      "12/7/2022"
-    ],
     "validation_history": [
       {
         "date": "12/7/2022",
-        "lab": "SERMA SAFETY AND SECURITY",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "SERMA SAFETY AND SECURITY"
       }
     ],
     "vendor": {
+      "name": "OneSpan",
+      "website_url": "http://www.onespan.com",
       "address_lines": [
         "ROMEINSESTEENWEG 564C",
         "Belgium",
         "Strombeek-Bever 1853",
         "Belgium"
       ],
-      "contact_email": "Frederik.Mennes@onespan.com",
-      "contact_name": "Frederik Mennes",
-      "contact_phone": "+32 (0) 557 260 863",
       "country": "Belgium",
-      "name": "OneSpan",
-      "website_url": "http://www.onespan.com"
+      "contact_name": "Frederik Mennes",
+      "contact_email": "Frederik.Mennes@onespan.com",
+      "contact_phone": "+32 (0) 557 260 863"
     },
-    "vendor_name": "OneSpan",
     "algorithms": [
       "AES",
       "HMAC",
       "KDF",
       "SHA"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4388.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 4,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4388.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

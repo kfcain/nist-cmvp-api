@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5505"
   },
   "certificate": {
     "certificate_number": "5505",
     "dataset": "active",
-    "generated_at": "2026-08-30T07:57:46.517944Z",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5505",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5505",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5505.pdf",
@@ -59,6 +59,18 @@
       "contact_email": "F5Certs@f5.com",
       "contact_phone": "845-603-2123"
     },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5505.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 11,
+      "detailed_algorithm_count": 36
+    },
     "algorithms": [
       "AES",
       "CVL",
@@ -109,25 +121,6 @@
       "TLS v1.2 KDF",
       "RFC7627 (CVL)",
       "A7031 Hash Algorithm - SHA2-256, SHA2-384 | Key Block Length - Key Block Length: 1024 | SP 800-135 | Rev. 1 | Name Properties Implementation Reference | Cryptographic Key | Generation (CKG) | Key | Type:asymmetric | N/A Random bit strings required for generating the | cryptographic keys is compliant with section 4 example 1 of | SP 800-133r2 | N/A for this module. | N/A for this module. | F5OS-A Cryptographic Module | N/A for this module."
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5505.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 11,
-      "detailed_algorithm_count": 36,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5505.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

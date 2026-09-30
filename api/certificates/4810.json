@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4810"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 1,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4810",
     "certificate_number": "4810",
-    "dataset": "active",
-    "description": "The DPSC is a HW block within the NVMe Protocol Engine that contains AES-XTS engines which support data rate encrypt and decrypt functions. The module is a sub-chip cryptographic subsystem intended for use within the Google IN762 SoC.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4810",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4810",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4810.pdf",
+    "vendor_name": "Google, LLC",
+    "module_name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 1,
+    "validation_date": "9/23/2024",
+    "validation_dates": [
+      "9/23/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The DPSC is a HW block within the NVMe Protocol Engine that contains AES-XTS engines which support data rate encrypt and decrypt functions. The module is a sub-chip cryptographic subsystem intended for use within the Google IN762 SoC.",
+    "software_versions": null,
+    "hardware_versions": "2.3.1",
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,41 +41,47 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4810.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "9/23/2024",
-    "validation_dates": [
-      "9/23/2024"
-    ],
     "validation_history": [
       {
         "date": "9/23/2024",
-        "lab": "EWA - Canada",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "EWA - Canada"
       }
     ],
     "vendor": {
+      "name": "Google, LLC",
+      "website_url": "http://www.google.com",
       "address_lines": [
         "1600 Amphitheatre Parkway",
         "Mountain View, CA 94043",
         "USA"
       ],
-      "contact_email": "FIPS-crypto-officer@google.com",
-      "contact_name": "FIPS Crypto Officer",
-      "contact_phone": null,
       "country": "USA",
-      "name": "Google, LLC",
-      "website_url": "http://www.google.com"
+      "contact_name": "FIPS Crypto Officer",
+      "contact_email": "FIPS-crypto-officer@google.com",
+      "contact_phone": null
     },
-    "vendor_name": "Google, LLC",
     "algorithms": [
       "AES"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4810.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 1,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4810.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

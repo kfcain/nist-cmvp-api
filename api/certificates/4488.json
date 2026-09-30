@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4488"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 6,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4488",
     "certificate_number": "4488",
-    "dataset": "active",
-    "description": "The ControlUp Cryptographic library is a general-purpose cryptographic module incorporated into the applications to provide FIPS 140-2 validated cryptography for the protection of sensitive information.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "ControlUp Cryptographic Library",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4488",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4488",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4488.pdf",
+    "vendor_name": "ControlUp Technologies, Inc.",
+    "module_name": "ControlUp Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "4/26/2023",
+    "validation_dates": [
+      "4/26/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The ControlUp Cryptographic library is a general-purpose cryptographic module incorporated into the applications to provide FIPS 140-2 validated cryptography for the protection of sensitive information.",
+    "software_versions": "1.0.2",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,46 +41,68 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2023_010523_0646.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4488.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/26/2023",
-    "validation_dates": [
-      "4/26/2023"
-    ],
     "validation_history": [
       {
         "date": "4/26/2023",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "ControlUp Technologies, Inc.",
+      "website_url": "http://www.controlup.com",
       "address_lines": [
         "4880 Stevens Creek Blvd Suite 204",
         "San Jose, CA 95129",
         "USA"
       ],
-      "contact_email": "Security@controlup.com",
-      "contact_name": "Guy Stolero (CISO)",
-      "contact_phone": "+972-3-7591560",
       "country": "USA",
-      "name": "ControlUp Technologies, Inc.",
-      "website_url": "http://www.controlup.com"
+      "contact_name": "Guy Stolero (CISO)",
+      "contact_email": "Security@controlup.com",
+      "contact_phone": "+972-3-7591560"
     },
-    "vendor_name": "ControlUp Technologies, Inc.",
     "algorithms": [
       "AES",
+      "CVL",
+      "DES",
+      "DRBG",
       "DSA",
       "ECDSA",
       "EDDSA",
+      "HMAC",
+      "KAS",
       "KDF",
-      "RSA"
-    ]
+      "KTS",
+      "RSA",
+      "SHA",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "KAS7 [SP 800-56A-rev3] KAS-SSC (Cert. #A1905) with [SP 800-135] TLS v1.0/1.1 KDF, TLS 1.2 KDF or",
+      "X9.63 KDF (CVL Cert. #A1905)",
+      "KAS8 [SP 800-56A-rev3] KAS-SSC (Cert. #A1905) with [SP 800-56C-rev2] One Step KDA or HKDF",
+      "KDA (Cert. #A1905)",
+      "KTS10 AES Cert. #A1905; key establishment methodology provides between 128 and 256 bits of",
+      "KTS11 Triple-DES Cert. #A1905; key establishment methodology provides 112 bits of encryption"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4488.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 14,
+      "detailed_algorithm_count": 6,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4488.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4621"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4621",
     "certificate_number": "4621",
-    "dataset": "active",
-    "description": "The Axis cryptographic module based on OpenSSL is a general-purpose cryptographic library that provides FIPS 140-2 approved cryptographic algorithms serving secure communication for Axis network products.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Axis Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4621",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4621",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4621.pdf",
+    "vendor_name": "Axis Communications AB",
+    "module_name": "Axis Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "10/2/2023, 8/15/2025",
+    "validation_dates": [
+      "10/2/2023",
+      "8/15/2025"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Axis cryptographic module based on OpenSSL is a general-purpose cryptographic library that provides FIPS 140-2 approved cryptographic algorithms serving secure communication for Axis network products.",
+    "software_versions": "3.0.9",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,45 +43,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Design Assurance: Level 3"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4621.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "10/2/2023, 8/15/2025",
-    "validation_dates": [
-      "10/2/2023",
-      "8/15/2025"
-    ],
     "validation_history": [
       {
         "date": "10/2/2023",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       },
       {
         "date": "8/15/2025",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "Axis Communications AB",
+      "website_url": "http://www.axis.com",
       "address_lines": [
         "Gränden 1",
         "Lund, Scania 223 69",
         "Sweden"
       ],
-      "contact_email": "andre.bastert@axis.com",
-      "contact_name": "Andre Bastert",
-      "contact_phone": "046-272 18 00",
       "country": "Sweden",
-      "name": "Axis Communications AB",
-      "website_url": "http://www.axis.com"
+      "contact_name": "Andre Bastert",
+      "contact_email": "andre.bastert@axis.com",
+      "contact_phone": "046-272 18 00"
     },
-    "vendor_name": "Axis Communications AB"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4621.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4621.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

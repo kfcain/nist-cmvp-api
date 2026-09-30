@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4558"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4558",
     "certificate_number": "4558",
-    "dataset": "active",
-    "description": "The IBM 4770-001 Enterprise PKCS#11 Hardware Security Module is in the form or a PCIe card that executes IBM Enterprise PKCS#11 firmware within a secured tamper responding hardware boundary.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "IBM 4770-001 Enterprise PKCS#11 HSM Cryptographic Coprocessor Security Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4558",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4558",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4558.pdf",
+    "vendor_name": "IBM",
+    "module_name": "IBM 4770-001 Enterprise PKCS#11 HSM Cryptographic Coprocessor Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 4,
+    "validation_date": "8/18/2023, 3/7/2025",
+    "validation_dates": [
+      "8/18/2023",
+      "3/7/2025"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The IBM 4770-001 Enterprise PKCS#11 Hardware Security Module is in the form or a PCIe card that executes IBM Enterprise PKCS#11 firmware within a secured tamper responding hardware boundary.",
+    "software_versions": null,
+    "hardware_versions": "PN 03JJ471-H07163 POST0 v9398 MB0 v9005 (Standard Power)[1]; PN 03JJ467-H07163 POST0 v9398 MB0 v9005 (Low Power)[1]; PN 03JJ829-N38324 POST0 v8840 MB0 v3606 (Standard Power)[1]; PN 03JJ825-N38324 POST0 v8840 MB0 v3606 (Low Power)[1]; PN 03KY267-H07190 POST0 v8840 MB0 v3606 (Standard Power)[1]; PN 03KY263-H07190 POST0 v8840 MB0 v3606 (Low Power)[1]; PN 03NH208-H07282 POST0 v8840 MB0 v3606 (Standard Power)[2]; PN 03NH207-H07282 POST0 v8840 MB0 v3606 (Low Power)[2]; PN 03KY759-H07282 POST0 v8840 MB0 v3606 (Standard Power)[2]; PN 03KY755-H07282 POST0 v8840 MB0 v3606 (Low Power)[2]",
+    "firmware_versions": "8.0.37z P3592 M3592 P4630 F0D0B [1] and 8.0.53z P6936 M6936 P4630 F0D0B [2] for segment 1, 5E8E 728A [1] and 22C3 5978 [2] for segment 2, 77FA 9138 [1] and 75E0 3BCE [2] for segment 3",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,44 +42,54 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2023_010923_0844.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4558.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "8/18/2023, 3/7/2025",
-    "validation_dates": [
-      "8/18/2023",
-      "3/7/2025"
-    ],
     "validation_history": [
       {
         "date": "8/18/2023",
-        "lab": "atsec information security corporation",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "atsec information security corporation"
       },
       {
         "date": "3/7/2025",
-        "lab": "atsec information security corporation",
-        "type": "Update"
+        "type": "Update",
+        "lab": "atsec information security corporation"
       }
     ],
     "vendor": {
+      "name": "IBM",
+      "website_url": "http://www.ibm.com",
       "address_lines": [
         "1 New Orchard Road",
         "Armonk, New York 10504-1722",
         "USA"
       ],
-      "contact_email": "geigerr@us.ibm.com",
-      "contact_name": "Ronald Geiger",
-      "contact_phone": "1-845-433-1101",
       "country": "USA",
-      "name": "IBM",
-      "website_url": "http://www.ibm.com"
+      "contact_name": "Ronald Geiger",
+      "contact_email": "geigerr@us.ibm.com",
+      "contact_phone": "1-845-433-1101"
     },
-    "vendor_name": "IBM"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4558.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4558.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

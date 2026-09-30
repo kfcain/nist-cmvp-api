@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4396"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 9,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4396",
     "certificate_number": "4396",
-    "dataset": "active",
-    "description": "This library provides cryptographic services for the Cloudpath ES application.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Ruckus Wireless Cloudpath Enrollment System Cryptographic Library",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4396",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4396",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4396.pdf",
+    "vendor_name": "CommScope Technologies LLC",
+    "module_name": "Ruckus Wireless Cloudpath Enrollment System Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "12/20/2022",
+    "validation_dates": [
+      "12/20/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "This library provides cryptographic services for the Cloudpath ES application.",
+    "software_versions": "5.10",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4396.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "12/20/2022",
-    "validation_dates": [
-      "12/20/2022"
-    ],
     "validation_history": [
       {
         "date": "12/20/2022",
-        "lab": "Gossamer Security Solutions",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
       }
     ],
     "vendor": {
+      "name": "CommScope Technologies LLC",
+      "website_url": "http://www.commscope.com/ruckus",
       "address_lines": [
         "350 W Java Drive",
         "Sunnyvale, CA 94089",
         "USA"
       ],
-      "contact_email": "sid.datta@commscope.com",
-      "contact_name": "Siddhartha Datta",
-      "contact_phone": "303-725-3525",
       "country": "USA",
-      "name": "CommScope Technologies LLC",
-      "website_url": "http://www.commscope.com/ruckus"
+      "contact_name": "Siddhartha Datta",
+      "contact_email": "sid.datta@commscope.com",
+      "contact_phone": "303-725-3525"
     },
-    "vendor_name": "CommScope Technologies LLC",
     "algorithms": [
       "AES",
       "DRBG",
@@ -84,6 +72,25 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4396.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4396.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

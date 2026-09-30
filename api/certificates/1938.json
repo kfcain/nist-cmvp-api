@@ -1,53 +1,23 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1938"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 9,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1938",
     "certificate_number": "1938",
-    "dataset": "active",
-    "description": "SafeLogic's CryptoComply for Mobile is designed to provide FIPS 140-2 validated cryptographic functionality and is available for licensing.",
-    "embodiment": "Multi-chip standalone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CryptoComply for Mobile",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1938",
-    "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1938.pdf"
-      },
-      {
-        "label": "Consolidated Certificate",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0028.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Design Assurance: Level 3"
-    ],
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1938",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1938.pdf",
-    "software_versions": null,
+    "vendor_name": "SafeLogic Inc.",
+    "module_name": "CryptoComply for Mobile",
     "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
     "validation_date": "4/30/2013, 11/8/2013, 4/23/2014, 1/25/2016, 2/10/2016, 3/29/2018, 3/9/2021, 4/20/2021, 1/17/2023, 4/18/2024",
     "validation_dates": [
       "4/30/2013",
@@ -61,73 +31,91 @@
       "1/17/2023",
       "4/18/2024"
     ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys.",
+    "description": "SafeLogic's CryptoComply for Mobile is designed to provide FIPS 140-2 validated cryptographic functionality and is available for licensing.",
+    "software_versions": "2.1.2",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1938.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0028.pdf"
+      }
+    ],
     "validation_history": [
       {
         "date": "4/30/2013",
-        "lab": "EWA - Canada",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "EWA - Canada"
       },
       {
         "date": "11/8/2013",
-        "lab": "EWA - Canada",
-        "type": "Update"
+        "type": "Update",
+        "lab": "EWA - Canada"
       },
       {
         "date": "4/23/2014",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "1/25/2016",
-        "lab": "",
-        "type": "Update"
+        "type": "Update",
+        "lab": ""
       },
       {
         "date": "2/10/2016",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "3/29/2018",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "3/9/2021",
-        "lab": "EWA - Canada",
-        "type": "Update"
+        "type": "Update",
+        "lab": "EWA - Canada"
       },
       {
         "date": "4/20/2021",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "1/17/2023",
-        "lab": "EWA - Canada",
-        "type": "Update"
+        "type": "Update",
+        "lab": "EWA - Canada"
       },
       {
         "date": "4/18/2024",
-        "lab": "EWA - Canada",
-        "type": "Update"
+        "type": "Update",
+        "lab": "EWA - Canada"
       }
     ],
     "vendor": {
+      "name": "SafeLogic Inc.",
+      "website_url": "http://www.safelogic.com",
       "address_lines": [
         "530 Lytton Ave",
         "Suite 200",
         "Palo Alto, CA 94301",
         "USA"
       ],
-      "contact_email": "sales@safelogic.com",
-      "contact_name": "SafeLogic Inside Sales",
-      "contact_phone": "844-436-2797",
       "country": "USA",
-      "name": "SafeLogic Inc.",
-      "website_url": "http://www.safelogic.com"
+      "contact_name": "SafeLogic Inside Sales",
+      "contact_email": "sales@safelogic.com",
+      "contact_phone": "844-436-2797"
     },
-    "vendor_name": "SafeLogic Inc.",
     "algorithms": [
       "AES",
       "DES",
@@ -138,6 +126,25 @@
       "RSA",
       "SHA",
       "SHS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1938.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1938.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

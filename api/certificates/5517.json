@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5517"
+  },
+  "certificate": {
+    "certificate_number": "5517",
+    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5517",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5517",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5517.pdf",
+    "vendor_name": "Apricorn",
+    "module_name": "Aegis Secure Key 3.0 Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipStand",
+    "overall_level": 3,
+    "validation_date": "9/9/2026",
+    "validation_dates": [
+      "9/9/2026"
+    ],
+    "sunset_date": "9/8/2031",
+    "caveat": "When utilizing a Trusted Channel as specified in the Security Policy",
+    "description": "The Apricorn Aegis Secure Key 3.0 is a hardware encrypted USB 3.1 memory key. Its software free design allows interface to any host that supports USB and mass storage. Authentication is performed via the embedded keypad and all critical security parameters (PINs, encryption keys, etc) never leave the device boundary for improved security. The device supports 1 administrator and 1 user and offers a variety of features including programmable brute force, recovery PINs, 8- 16 digit PINs, auto lock, read only modes, and is compatible with Apricorn’s Aegis Configurator",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5517.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/9/2026",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Apricorn",
+      "website_url": "http://apricorn.com",
+      "address_lines": [
+        "12191 Kirkham Road",
+        "Poway, CA 92064",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Paul Boyer",
+      "contact_email": "pboyer@apricorn.com",
+      "contact_phone": "858-513-4443"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC, AES- | ECB | A5907 | A7346 | Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A",
+      "AES-XTS Testing | Revision 2.0 | A7346 Direction - Decrypt, Encrypt | Key Length - 256 | Payload Length - Payload Length: 128-65536 | Increment 128 | Tweak Mode - Number | Data Unit Length - Data Unit Length: 128- | 4096 Increment 128 | Data Unit Length Matches Payload Length - | No | SP 800-38E",
+      "ECDSA KeyGen | (FIPS186-5) | A6008 Curve - P-256 | Secret Generation Mode - testing candidates | FIPS 186-5",
+      "ECDSA KeyVer | (FIPS186-5) | A6008 Curve - P-256 FIPS 186-5",
+      "Hash DRBG A5943 Prediction Resistance - No | Supports Reseed - No",
+      "Mode - SHA2-256 | Entropy Input - Entropy Input: 1024 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0, 0 | SP 800-90A | Rev. 1 | Aegis Secure Key 3.0 Cryptographic Module Security Policy | © Apricorn 1.0 Page 11 of 40 | Additional Input - Additional Input: 0, 0 | Returned Bits - 256",
+      "HMAC-SHA2-256 A7825 MAC - MAC: 256 | Key Length - Key Length: 256 | Message Length - Message Length: 64-1536 | Increment 8 | FIPS 198-1",
+      "KAS-ECC-SSC | Sp800-56Ar3 | A6008 Domain Parameter Generation Methods - P- | 256 | Scheme - | ephemeralUnified - | KAS Role - responder | SP 800-56A | Rev. 3",
+      "KDA OneStep | SP800-56Cr2 | A7826 Auxiliary Function Methods -",
+      "Auxiliary Function Name - SHA2-256 | MAC Salting Methods - default | Fixed Info Pattern - | Fixed Info Encoding - concatenation | Derived Key Length - 512 | Shared Secret Length - Shared Secret | Length: 256 | SP 800-56C | Rev. 2",
+      "SHA2-256 A7824 Message Length - Message Length: 64-2048 | Increment 8 | FIPS 180-4 | NOTE: Only the algorithms specified in this section are supported by the module in approved | mode of operation. | Name Properties Implementation Reference | CKG",
+      "AES",
+      "AES:Symmetric N/A SP800-133r2 Section 6.3 | approved method 1 | CKG",
+      "DRBG",
+      "AES:Symmetric | ECC-CDH Private | Key:Asymmetric | N/A SP800-133r2 Section 4 | example 1 | N/A for this module. | N/A for this module. | Aegis Secure Key 3.0 Cryptographic Module Security Policy | © Apricorn 1.0 Page 12 of 40 | N/A for this module."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5517.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 7,
+      "detailed_algorithm_count": 15,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5517.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

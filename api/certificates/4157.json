@@ -1,35 +1,39 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4157"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4157",
     "certificate_number": "4157",
-    "dataset": "active",
-    "description": "The TKMD is a low-cost single unit that implements the TIA Project 25 Over-the-Air Rekey standard to provide a Key Management Facility (KMF) for 500 and up to 3000 Subscriber Radios. The TKMD can be utilized as a stand-alone KMF for use in a campus environment or can be utilized in a network environment where Subscriber Radio configurations can be securely shared between TKMDs. The networked TKMDs can also securely share collections of Cryptographic keys to allow periodic updating of Cryptographic keys. Control of the TKMD is accomplished with a secure (https) connection to a web browser.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Tactical Key Management Device (TKMD)",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4157",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4157",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4157.pdf",
+    "vendor_name": "Christine Wireless, Inc.",
+    "module_name": "Tactical Key Management Device (TKMD)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "2/16/2022",
+    "validation_dates": [
+      "2/16/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The TKMD is a low-cost single unit that implements the TIA Project 25 Over-the-Air Rekey standard to provide a Key Management Facility (KMF) for 500 and up to 3000 Subscriber Radios. The TKMD can be utilized as a stand-alone KMF for use in a campus environment or can be utilized in a network environment where Subscriber Radio configurations can be securely shared between TKMDs. The networked TKMDs can also securely share collections of Cryptographic keys to allow periodic updating of Cryptographic keys. Control of the TKMD is accomplished with a secure (https) connection to a web browser.",
+    "software_versions": null,
+    "hardware_versions": "TKMD Spin 3",
+    "firmware_versions": "TKMD_FIPS_FINAL_11_01_20",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,41 +44,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2022_010322_0121_Signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3",
-      "Physical Security: Level 3",
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4157.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "2/16/2022",
-    "validation_dates": [
-      "2/16/2022"
-    ],
     "validation_history": [
       {
         "date": "2/16/2022",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       }
     ],
     "vendor": {
+      "name": "Christine Wireless, Inc.",
+      "website_url": "http://www.christinewireless.com",
       "address_lines": [
         "3079 Saint Johns Lane",
         "Ellicott City, MD 21042",
         "USA"
       ],
-      "contact_email": "richard.brockway@verizon.net",
-      "contact_name": "Richard Brockway",
-      "contact_phone": "410-961-7331",
       "country": "USA",
-      "name": "Christine Wireless, Inc.",
-      "website_url": "http://www.christinewireless.com"
+      "contact_name": "Richard Brockway",
+      "contact_email": "richard.brockway@verizon.net",
+      "contact_phone": "410-961-7331"
     },
-    "vendor_name": "Christine Wireless, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4157.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4157.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

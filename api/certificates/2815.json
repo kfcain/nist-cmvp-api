@@ -1,35 +1,40 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2815"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 8,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2815",
     "certificate_number": "2815",
-    "dataset": "active",
-    "description": "CTERA Crypto Module™ (Server) is a secure cryptographic engine used by CTERA Enterprise File Services Platform. The platform enables organizations to securely sync, serve and protect data on any private or public cloud infrastructure.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CTERA Crypto Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2815",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2815",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2815.pdf",
+    "vendor_name": "CTERA Networks Ltd.",
+    "module_name": "CTERA Crypto Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "1/12/2017, 1/17/2017, 12/11/2018, 3/18/2022",
+    "validation_dates": [
+      "1/12/2017",
+      "1/17/2017",
+      "12/11/2018",
+      "3/18/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038.",
+    "description": "CTERA Crypto Module™ (Server) is a secure cryptographic engine used by CTERA Enterprise File Services Platform. The platform enables organizations to securely sync, serve and protect data on any private or public cloud infrastructure.",
+    "software_versions": "2.1",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,59 +45,42 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJan2017.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2815.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "1/12/2017, 1/17/2017, 12/11/2018, 3/18/2022",
-    "validation_dates": [
-      "1/12/2017",
-      "1/17/2017",
-      "12/11/2018",
-      "3/18/2022"
-    ],
     "validation_history": [
       {
         "date": "1/12/2017",
-        "lab": "Acumen Security",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Acumen Security"
       },
       {
         "date": "1/17/2017",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "12/11/2018",
-        "lab": "Acumen Security",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Acumen Security"
       },
       {
         "date": "3/18/2022",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       }
     ],
     "vendor": {
+      "name": "CTERA Networks Ltd.",
+      "website_url": "http://www.ctera.com",
       "address_lines": [
         "CTERA Networks NA HQ",
         "205 E. 42nd Street",
         "New York, NY 10017",
         "USA"
       ],
-      "contact_email": "aron@ctera.com",
-      "contact_name": "Aron Brand",
-      "contact_phone": null,
       "country": "USA",
-      "name": "CTERA Networks Ltd.",
-      "website_url": "http://www.ctera.com"
+      "contact_name": "Aron Brand",
+      "contact_email": "aron@ctera.com",
+      "contact_phone": null
     },
-    "vendor_name": "CTERA Networks Ltd.",
     "algorithms": [
       "AES",
       "DES",
@@ -101,7 +89,27 @@
       "ECDSA",
       "HMAC",
       "RSA",
-      "SHA"
-    ]
+      "SHA",
+      "TLS"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2815.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2815.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

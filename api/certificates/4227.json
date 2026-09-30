@@ -1,35 +1,39 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4227"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "The tamper-evident seals installed as indicated in the Security Policy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4227",
     "certificate_number": "4227",
-    "dataset": "active",
-    "description": "The BD Alaris™ PC Unit Model 8015 is a point-of-care unit, which is the main component of the Alaris System. The Alaris System is a modular system intended for adult, pediatric, and neonatal care in a professional healthcare environment. The Alaris System brings a higher level of medication error prevention to the point of patient care.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Alaris™ PC Unit Model 8015",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4227",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4227",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4227.pdf",
+    "vendor_name": "BD",
+    "module_name": "Alaris™ PC Unit Model 8015",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 2,
+    "validation_date": "5/16/2022, 2/14/2023",
+    "validation_dates": [
+      "5/16/2022",
+      "2/14/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "The tamper-evident seals installed as indicated in the Security Policy",
+    "description": "The BD Alaris™ PC Unit Model 8015 is a point-of-care unit, which is the main component of the Alaris System. The Alaris System is a modular system intended for adult, pediatric, and neonatal care in a professional healthcare environment. The Alaris System brings a higher level of medication error prevention to the point of patient care.",
+    "software_versions": null,
+    "hardware_versions": "Model 8015 b/g, Model 8015 a/b/g, Model 8015 a/b/g/n or BD Alaris Model 8015 a/b/g/n with FIPS Kit 49000550",
+    "firmware_versions": "12.1.3",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,45 +44,53 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Cryptographic Module Specification: Level 3",
-      "Design Assurance: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4227.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "5/16/2022, 2/14/2023",
-    "validation_dates": [
-      "5/16/2022",
-      "2/14/2023"
-    ],
     "validation_history": [
       {
         "date": "5/16/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       },
       {
         "date": "2/14/2023",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "BD",
+      "website_url": "http://www.bd.com/",
       "address_lines": [
         "10020 Pacific Mesa Blvd.",
         "San Diego, CA 92121"
       ],
-      "contact_email": "vanessa.wallace@bd.com",
-      "contact_name": "Vanessa Wallace",
-      "contact_phone": "858-617-5875",
       "country": "San Diego, CA 92121",
-      "name": "BD",
-      "website_url": "http://www.bd.com/"
+      "contact_name": "Vanessa Wallace",
+      "contact_email": "vanessa.wallace@bd.com",
+      "contact_phone": "858-617-5875"
     },
-    "vendor_name": "BD"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4227.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4227.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

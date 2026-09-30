@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4393"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When configured and initialized as specified in the Security Policy.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4393",
     "certificate_number": "4393",
-    "dataset": "active",
-    "description": "The Vocera C1000 Module is a firmware module that provides the cryptographic primitives (including encryption/decryption, hashing, digital signature functions, and key derivation) needed to support secure communication services to the system.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Vocera Cryptographic Module",
-    "module_type": "Firmware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4393",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4393",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4393.pdf",
+    "vendor_name": "Vocera Communications, Inc.",
+    "module_name": "Vocera Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "12/15/2022",
+    "validation_dates": [
+      "12/15/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When configured and initialized as specified in the Security Policy.",
+    "description": "The Vocera C1000 Module is a firmware module that provides the cryptographic primitives (including encryption/decryption, hashing, digital signature functions, and key derivation) needed to support secure communication services to the system.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": "6.0",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,39 +42,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 2",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4393.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "12/15/2022",
-    "validation_dates": [
-      "12/15/2022"
-    ],
     "validation_history": [
       {
         "date": "12/15/2022",
-        "lab": "DEKRA Testing and Certification S.A.U",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
       }
     ],
     "vendor": {
+      "name": "Vocera Communications, Inc.",
+      "website_url": "http://www.vocera.com",
       "address_lines": [
         "525 Race Street",
         "San Jose, CA 95126",
         "USA"
       ],
-      "contact_email": null,
-      "contact_name": null,
-      "contact_phone": null,
       "country": "USA",
-      "name": "Vocera Communications, Inc.",
-      "website_url": "http://www.vocera.com"
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null
     },
-    "vendor_name": "Vocera Communications, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4393.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4393.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

@@ -1,51 +1,23 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4110"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode. When utilizing a Trusted Path as specified in the security policy",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4110",
     "certificate_number": "4110",
-    "dataset": "active",
-    "description": "The ProtectServer PCIe HSM 3 is a multi-chip embedded hardware cryptographic module in the form of a PCI-Express card that provides a wide range of cryptographic functions using firmware and dedicated hardware processors",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "ProtectServer PCIe HSM 3",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4110",
-    "overall_level": 3,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4110.pdf"
-      },
-      {
-        "label": "Consolidated Certificate",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2021_020122_0905_signed.pdf"
-      }
-    ],
-    "security_level_exceptions": [],
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4110",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4110.pdf",
-    "software_versions": null,
+    "vendor_name": "Thales",
+    "module_name": "ProtectServer PCIe HSM 3",
     "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
     "validation_date": "12/20/2021, 4/20/2022, 5/3/2022, 10/6/2022, 4/21/2023, 10/24/2023, 5/3/2024",
     "validation_dates": [
       "12/20/2021",
@@ -56,57 +28,97 @@
       "10/24/2023",
       "5/3/2024"
     ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. When utilizing a Trusted Path as specified in the security policy",
+    "description": "The ProtectServer PCIe HSM 3 is a multi-chip embedded hardware cryptographic module in the form of a PCI-Express card that provides a wide range of cryptographic functions using firmware and dedicated hardware processors",
+    "software_versions": null,
+    "hardware_versions": "808-000048-002, 808-000048-003, 808-000073-001, 808-000073-002",
+    "firmware_versions": "7.00.01, 7.01.01, 7.01.02, 7.02.02 or 7.02.04 with bootloader versions 1.2.0 or 1.2.1",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4110.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2021_020122_0905_signed.pdf"
+      }
+    ],
     "validation_history": [
       {
         "date": "12/20/2021",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "4/20/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "5/3/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "10/6/2022",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "4/21/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "10/24/2023",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       },
       {
         "date": "5/3/2024",
-        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab",
-        "type": "Update"
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
       }
     ],
     "vendor": {
+      "name": "Thales",
+      "website_url": "http://cpl.thalesgroup.com/",
       "address_lines": [
         "20 Colonnade Road",
         "Suite 200",
         "Ottawa, Ontario K2E 7M6",
         "Canada"
       ],
-      "contact_email": "SecurityCertifications@thalesgroup.onmicrosoft.com",
-      "contact_name": "Security and Certifications Team",
-      "contact_phone": null,
       "country": "Canada",
-      "name": "Thales",
-      "website_url": "http://cpl.thalesgroup.com/"
+      "contact_name": "Security and Certifications Team",
+      "contact_email": "SecurityCertifications@thalesgroup.onmicrosoft.com",
+      "contact_phone": null
     },
-    "vendor_name": "Thales"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4110.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4110.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

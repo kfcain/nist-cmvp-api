@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4325"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "None",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4325",
     "certificate_number": "4325",
-    "dataset": "active",
-    "description": "CMRT is a Silicon IP Security Module with a secure asset store protecting all valuable assets on your device. It is a stand-alone Root of Trust that offers key management and crypto functions needed for platform and application security. CMRT offers all security services to manage your device securely through its lifecycle. These include Secure Debug, Secure Provisioning, Identity protection and secure authentication services. Secure Boot and Communication protocols such as TLS can leverage CMRT to secure the boot process and protect private communication keys.",
-    "embodiment": "Single Chip",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "CryptoManager Root of Trust (CMRT)",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4325",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4325",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4325.pdf",
+    "vendor_name": "Rambus Inc.",
+    "module_name": "CryptoManager Root of Trust (CMRT)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
     "overall_level": 2,
+    "validation_date": "10/10/2022",
+    "validation_dates": [
+      "10/10/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "CMRT is a Silicon IP Security Module with a secure asset store protecting all valuable assets on your device. It is a stand-alone Root of Trust that offers key management and crypto functions needed for platform and application security. CMRT offers all security services to manage your device securely through its lifecycle. These include Secure Debug, Secure Provisioning, Identity protection and secure authentication services. Secure Boot and Communication protocols such as TLS can leverage CMRT to secure the boot process and protect private communication keys.",
+    "software_versions": null,
+    "hardware_versions": "0x60000611",
+    "firmware_versions": "2022-02-21-gd74d034",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,38 +41,49 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4325.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "10/10/2022",
-    "validation_dates": [
-      "10/10/2022"
-    ],
     "validation_history": [
       {
         "date": "10/10/2022",
-        "lab": "atsec information security corporation",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "atsec information security corporation"
       }
     ],
     "vendor": {
+      "name": "Rambus Inc.",
+      "website_url": "http://www.rambus.com",
       "address_lines": [
         "4453 North First Street, Suite 100",
         "San Jose, CA 95134",
         "USA"
       ],
-      "contact_email": "skincaid@rambus.com",
-      "contact_name": "Stuart Kincaid",
-      "contact_phone": null,
       "country": "USA",
-      "name": "Rambus Inc.",
-      "website_url": "http://www.rambus.com"
+      "contact_name": "Stuart Kincaid",
+      "contact_email": "skincaid@rambus.com",
+      "contact_phone": null
     },
-    "vendor_name": "Rambus Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4325.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4325.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

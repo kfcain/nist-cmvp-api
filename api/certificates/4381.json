@@ -1,35 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4381"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 13,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When installed, initialized and configured as specified in the Security Policy Section 3.1. When operated in FIPS mode. No assurance of the minimum strength of generated keys",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4381",
     "certificate_number": "4381",
-    "dataset": "active",
-    "description": "The OmniSwitch AOS Cryptographic Module provides cryptographic functionality to Alcatel-Lucent Enterprise software applications present on the Alcatel-Lucent Enterprise OmniSwitch series of routers.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "OmniSwitch AOS Cryptographic Module",
-    "module_type": "Software",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4381",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4381",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4381.pdf",
+    "vendor_name": "Alcatel Lucent Enterprise USA Inc.",
+    "module_name": "OmniSwitch AOS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
+    "validation_date": "11/28/2022",
+    "validation_dates": [
+      "11/28/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in the Security Policy Section 3.1. When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The OmniSwitch AOS Cryptographic Module provides cryptographic functionality to Alcatel-Lucent Enterprise software applications present on the Alcatel-Lucent Enterprise OmniSwitch series of routers.",
+    "software_versions": "8.6.R11",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,40 +42,26 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Physical Security: N/A",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4381.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "11/28/2022",
-    "validation_dates": [
-      "11/28/2022"
-    ],
     "validation_history": [
       {
         "date": "11/28/2022",
-        "lab": "UL Verification Services, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
       }
     ],
     "vendor": {
+      "name": "Alcatel Lucent Enterprise USA Inc.",
+      "website_url": "http://www.al-enterprise.com",
       "address_lines": [
         "26801 West Agoura Road",
         "Calabasas, CA 91301",
         "USA"
       ],
-      "contact_email": "eric.tolliver@al-enterprise.com",
-      "contact_name": "Eric Tolliver",
-      "contact_phone": "818-878-4623",
       "country": "USA",
-      "name": "Alcatel Lucent Enterprise USA Inc.",
-      "website_url": "http://www.al-enterprise.com"
+      "contact_name": "Eric Tolliver",
+      "contact_email": "eric.tolliver@al-enterprise.com",
+      "contact_phone": "818-878-4623"
     },
-    "vendor_name": "Alcatel Lucent Enterprise USA Inc.",
     "algorithms": [
       "AES",
       "DES",
@@ -88,6 +76,25 @@
       "SHA",
       "SSH",
       "TLS"
-    ]
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4381.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 13,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4381.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
   }
 }

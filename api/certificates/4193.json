@@ -1,35 +1,40 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4193"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4193",
     "certificate_number": "4193",
-    "dataset": "active",
-    "description": "A multi-chip embedded cryptographic module compliant with FIPS 140-2 and the Digital Cinema System Specification version 1.2. The module serves as an Integrated Media Block (IMB) as part of a Permanently-Married Projection System.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "STAR-2000",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4193",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4193",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4193.pdf",
+    "vendor_name": "JoveAI Innovation, Inc.",
+    "module_name": "STAR-2000",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 2,
+    "validation_date": "4/11/2022, 5/29/2024, 10/15/2024",
+    "validation_dates": [
+      "4/11/2022",
+      "5/29/2024",
+      "10/15/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "A multi-chip embedded cryptographic module compliant with FIPS 140-2 and the Digital Cinema System Specification version 1.2. The module serves as an Integrated Media Block (IMB) as part of a Permanently-Married Projection System.",
+    "software_versions": null,
+    "hardware_versions": "JV00002-02-1B-5 [1], JV00002-02-1B-C [2], JV00002-02-1D-A [3] and JV00002-02-2A-2 [4]",
+    "firmware_versions": "1.0.1.1 [1], 1.1.1.1 [2], 2.0.0.2 [3] and 3.0.0.1 [4]",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,53 +45,60 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Roles, Services, and Authentication: Level 3",
-      "Physical Security: Level 3",
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4193.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "4/11/2022, 5/29/2024, 10/15/2024",
-    "validation_dates": [
-      "4/11/2022",
-      "5/29/2024",
-      "10/15/2024"
-    ],
     "validation_history": [
       {
         "date": "4/11/2022",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "5/29/2024",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "10/15/2024",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       }
     ],
     "vendor": {
+      "name": "JoveAI Innovation, Inc.",
+      "website_url": "http://joveai.com/",
       "address_lines": [
         "48511 Old Warm Springs Blvd.",
         "Suite 211",
         "Fremont, CA 94538",
         "USA"
       ],
-      "contact_email": "yufei.leung@joveai.com",
-      "contact_name": "Yu Fei Leung",
-      "contact_phone": "510-573-4683",
       "country": "USA",
-      "name": "JoveAI Innovation, Inc.",
-      "website_url": "http://joveai.com/"
+      "contact_name": "Yu Fei Leung",
+      "contact_email": "yufei.leung@joveai.com",
+      "contact_phone": "510-573-4683"
     },
-    "vendor_name": "JoveAI Innovation, Inc."
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4193.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4193.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

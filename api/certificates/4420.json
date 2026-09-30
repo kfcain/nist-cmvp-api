@@ -1,35 +1,38 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4420"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "The module generates cryptographic keys whose strengths are modified by available entropy.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4420",
     "certificate_number": "4420",
-    "dataset": "active",
-    "description": "The Apricorn Aegis Secure Key 3z and Apricorn Aegis Secure Key 3NX are hardware encrypted USB 3.1 memory keys.The software free design allows interface to any host that supports USB and mass storage.Authentication is performed via the embedded keypad and all critical security parameters (PINs, encryption keys, etc) never leave the device boundary for improved security. The device supports 1 administrator and 1 user and offers a variety of features including programmable brute force, recovery PINs, 7-16 digit PINs, auto lock, read only modes, and is compatible with our Aegis Configurator.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "Aegis Secure Key 3Z and Aegis Secure Key 3NX Cryptographic Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4420",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4420",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4420.pdf",
+    "vendor_name": "Apricorn",
+    "module_name": "Aegis Secure Key 3Z and Aegis Secure Key 3NX Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 3,
+    "validation_date": "1/20/2023, 2/14/2023, 11/27/2024",
+    "validation_dates": [
+      "1/20/2023",
+      "2/14/2023",
+      "11/27/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "The module generates cryptographic keys whose strengths are modified by available entropy.",
+    "description": "The Apricorn Aegis Secure Key 3z and Apricorn Aegis Secure Key 3NX are hardware encrypted USB 3.1 memory keys.The software free design allows interface to any host that supports USB and mass storage.Authentication is performed via the embedded keypad and all critical security parameters (PINs, encryption keys, etc) never leave the device boundary for improved security. The device supports 1 administrator and 1 user and offers a variety of features including programmable brute force, recovery PINs, 7-16 digit PINs, auto lock, read only modes, and is compatible with our Aegis Configurator.",
+    "software_versions": null,
+    "hardware_versions": "P/Ns ASK3Z-16GB [2.0], ASK3Z-32GB [2.0], ASK3Z-64GB [2.0], ASK3Z-128GB [2.0], ASK3-NX-2GB [2.0], ASK3-NX-4GB [2.0], ASK3-NX-8GB [2.0], ASK3-NX-16GB [2.0], ASK3-NX-32GB [2.0], ASK3-NX-64GB [2.0], ASK3-NX-128GB [2.0], ASK3-NX-256GB [2.0], ASK3-NXC-4GB [2.0], ASK3-NXC-8GB [2.0], ASK3-NXC-16GB [2.0], ASK3-NXC-32GB [2.0], ASK3-NXC-64GB [2.0], ASK3-NXC-128GB [2.0] ASK3-NXC-256GB [2.0]; Hardware Version: Rev A; P/Ns ASK3-NXC-4GB [2.1], ASK3-NXC-8GB [2.1], ASK3-NXC-16GB [2.1], ASK3-NXC-32GB [2.1], ASK3-NXC-64GB [2.1], ASK3-NXC-128GB [2.1], ASK3-NXC-256GB [2.1], ASK3-NXC-512GB [2.1]; Hardware Version: Rev B; P/Ns ASK3Z-16GB [2.1], ASK3Z-32GB [2.1], ASK3Z-64GB [2.1], ASK3Z-128GB [2.1], ASK3-NX-2GB [2.1], ASK3-NX-4GB [2.1], ASK3-NX-8GB [2.1], ASK3-NX-16GB [2.1], ASK3-NX-32GB [2.1], ASK3-NX-64GB [2.1], ASK3-NX-128GB [2.1], ASK3-NX-256GB [2.1], ASK3-NX-512GB [2.1]; Hardware Version: Rev C",
+    "firmware_versions": "2.0 and 2.1",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,50 +43,59 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2023_010223_0657_signed.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4420.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "1/20/2023, 2/14/2023, 11/27/2024",
-    "validation_dates": [
-      "1/20/2023",
-      "2/14/2023",
-      "11/27/2024"
-    ],
     "validation_history": [
       {
         "date": "1/20/2023",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "2/14/2023",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       },
       {
         "date": "11/27/2024",
-        "lab": "AEGISOLVE, Inc.",
-        "type": "Update"
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
       }
     ],
     "vendor": {
+      "name": "Apricorn",
+      "website_url": "http://apricorn.com",
       "address_lines": [
         "12191 Kirkham Road",
         "Poway, CA 92064",
         "USA"
       ],
-      "contact_email": "RDavidson@apricorn.com",
-      "contact_name": "Robert Davidson",
-      "contact_phone": "858-513-2000",
       "country": "USA",
-      "name": "Apricorn",
-      "website_url": "http://apricorn.com"
+      "contact_name": "Robert Davidson",
+      "contact_email": "RDavidson@apricorn.com",
+      "contact_phone": "858-513-2000"
     },
-    "vendor_name": "Apricorn"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4420.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4420.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

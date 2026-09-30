@@ -1,35 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "dataset": "active",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4454"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "When operated in FIPS mode as specified in Security Policy Section 3 Secure Operation",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4454",
     "certificate_number": "4454",
-    "dataset": "active",
-    "description": "iDirect Government, LLC’s satellite-based IP communications technology enables constant connectivity for voice, video, and data applications in any environment. iDirect provides the leading TRANSEC-compliant, bandwidth-efficient satellite platforms for government and military communications. The Secure Satellite Broadband Solutions have uses across a wide range of applications, including maritime connectivity, aeronautical connectivity, military defense, and emergency relief.",
-    "embodiment": "Multi-Chip Embedded",
-    "firmware_versions": null,
-    "generated_at": "2026-08-30T07:57:46.517944Z",
-    "hardware_versions": null,
-    "module_name": "TRANSEC Module",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-09-30T07:03:12.945257Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4454",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4454",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4454.pdf",
+    "vendor_name": "iDirect Government, LLC",
+    "module_name": "TRANSEC Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
     "overall_level": 3,
+    "validation_date": "3/22/2023",
+    "validation_dates": [
+      "3/22/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode as specified in Security Policy Section 3 Secure Operation",
+    "description": "iDirect Government, LLC’s satellite-based IP communications technology enables constant connectivity for voice, video, and data applications in any environment. iDirect provides the leading TRANSEC-compliant, bandwidth-efficient satellite platforms for government and military communications. The Secure Satellite Broadband Solutions have uses across a wide range of applications, including maritime connectivity, aeronautical connectivity, military defense, and emergency relief.",
+    "software_versions": null,
+    "hardware_versions": "E0002268",
+    "firmware_versions": "Cloak 1.0.3.0",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
     "related_files": [
       {
         "label": "Security Policy",
@@ -40,39 +41,50 @@
         "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2023_030423_0646.pdf"
       }
     ],
-    "security_level_exceptions": [
-      "Mitigation of Other Attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4454.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-2",
-    "status": "Active",
-    "sunset_date": "9/21/2026",
-    "validation_date": "3/22/2023",
-    "validation_dates": [
-      "3/22/2023"
-    ],
     "validation_history": [
       {
         "date": "3/22/2023",
-        "lab": "EWA - Canada",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "EWA - Canada"
       }
     ],
     "vendor": {
+      "name": "iDirect Government, LLC",
+      "website_url": "http://www.idirect.net",
       "address_lines": [
         "13921 Park Center Road",
         "Suite 600",
         "Herndon, VA 20171",
         "USA"
       ],
-      "contact_email": "cgormont@idirectgov.com",
-      "contact_name": "Chris Gormont",
-      "contact_phone": "703-880-6257",
       "country": "USA",
-      "name": "iDirect Government, LLC",
-      "website_url": "http://www.idirect.net"
+      "contact_name": "Chris Gormont",
+      "contact_email": "cgormont@idirectgov.com",
+      "contact_phone": "703-880-6257"
     },
-    "vendor_name": "iDirect Government, LLC"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4454.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4454.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }
