@@ -17,16 +17,16 @@ Static JSON API for NIST Cryptographic Module Validation Program data. Auto-upda
 
 ## For Agents
 
-- [`llms.txt`](https://hackidle.github.io/nist-cmvp-api/llms.txt) - discovery index
-- [`llms-full.txt`](https://hackidle.github.io/nist-cmvp-api/llms-full.txt) - complete single-file reference
-- [`api/docs.md`](https://hackidle.github.io/nist-cmvp-api/api/docs.md) - Markdown endpoint reference with examples
-- [`openapi.json`](https://hackidle.github.io/nist-cmvp-api/openapi.json) - OpenAPI 3.0.3 schema
-- [`api/schemas/index.schema.json`](https://hackidle.github.io/nist-cmvp-api/api/schemas/index.schema.json) - JSON Schema index for API responses
-- [`api/examples.json`](https://hackidle.github.io/nist-cmvp-api/api/examples.json) - copy-ready consumer examples
+- [`llms.txt`](https://kfcain.github.io/nist-cmvp-api/llms.txt) - discovery index
+- [`llms-full.txt`](https://kfcain.github.io/nist-cmvp-api/llms-full.txt) - complete single-file reference
+- [`api/docs.md`](https://kfcain.github.io/nist-cmvp-api/api/docs.md) - Markdown endpoint reference with examples
+- [`openapi.json`](https://kfcain.github.io/nist-cmvp-api/openapi.json) - OpenAPI 3.0.3 schema
+- [`api/schemas/index.schema.json`](https://kfcain.github.io/nist-cmvp-api/api/schemas/index.schema.json) - JSON Schema index for API responses
+- [`api/examples.json`](https://kfcain.github.io/nist-cmvp-api/api/examples.json) - copy-ready consumer examples
 
 ## Endpoints
 
-Base URL: `https://hackidle.github.io/nist-cmvp-api/api/`
+Base URL: `https://kfcain.github.io/nist-cmvp-api/api/`
 
 | Endpoint | Description |
 |----------|-------------|
@@ -164,48 +164,48 @@ Base URL: `https://hackidle.github.io/nist-cmvp-api/api/`
 
 ```bash
 # Get validated modules
-curl https://hackidle.github.io/nist-cmvp-api/api/modules.json
+curl https://kfcain.github.io/nist-cmvp-api/api/modules.json
 
 # Filter by vendor (jq)
-curl -s https://hackidle.github.io/nist-cmvp-api/api/modules.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/modules.json | \
   jq '.modules[] | select(."Vendor Name" | contains("Microsoft"))'
 
 # Find modules with specific algorithm
-curl -s https://hackidle.github.io/nist-cmvp-api/api/modules.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/modules.json | \
   jq '.modules[] | select(.algorithms != null and (.algorithms | contains(["AES-256"])))'
 
 # Get all certificates using a specific algorithm
-curl -s https://hackidle.github.io/nist-cmvp-api/api/algorithms.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/algorithms.json | \
   jq '.algorithms["AES"].certificates'
 
 # Get the full detail page payload for one certificate
-curl -s https://hackidle.github.io/nist-cmvp-api/api/certificates/5203.json | jq '.certificate'
+curl -s https://kfcain.github.io/nist-cmvp-api/api/certificates/5203.json | jq '.certificate'
 
 # Discover certificate detail files without loading every detail payload
-curl -s https://hackidle.github.io/nist-cmvp-api/api/certificates/index.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/certificates/index.json | \
   jq '.certificates[] | select(.dataset == "active" and .standard == "FIPS 140-3") | {certificate_number, path, vendor_name, module_name}'
 
 # Use split indexes for common lookup dimensions
-curl -s https://hackidle.github.io/nist-cmvp-api/api/indexes/vendors.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/indexes/vendors.json | \
   jq '.keys["Intel Corporation"][] | {certificate_number, module_name, path, status}'
 
-curl -s https://hackidle.github.io/nist-cmvp-api/api/indexes/algorithms.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/indexes/algorithms.json | \
   jq '.keys.AES[] | {certificate_number, vendor_name, module_name, path}'
 
 # Check last update and extraction metrics
-curl -s https://hackidle.github.io/nist-cmvp-api/api/metadata.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/metadata.json | \
   jq '{generated_at, extraction_metrics: .extraction_metrics.combined}'
 
 # Review quality checks from the latest run
-curl -s https://hackidle.github.io/nist-cmvp-api/api/data-quality.json | \
+curl -s https://kfcain.github.io/nist-cmvp-api/api/data-quality.json | \
   jq '{status: .update_monitor.status, next_scheduled_run: .update_monitor.next_scheduled_run, summary}'
 
 # Browse copy-ready examples
-curl -s https://hackidle.github.io/nist-cmvp-api/api/examples.json | jq '.examples.curl'
+curl -s https://kfcain.github.io/nist-cmvp-api/api/examples.json | jq '.examples.curl'
 
 # Validate a response with a published JSON Schema (requires: pip install jsonschema)
-curl -s https://hackidle.github.io/nist-cmvp-api/api/schemas/modules.schema.json > modules.schema.json
-curl -s https://hackidle.github.io/nist-cmvp-api/api/modules.json > modules.json
+curl -s https://kfcain.github.io/nist-cmvp-api/api/schemas/modules.schema.json > modules.schema.json
+curl -s https://kfcain.github.io/nist-cmvp-api/api/modules.json > modules.json
 python -m jsonschema modules.schema.json -i modules.json
 ```
 

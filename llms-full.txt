@@ -2,7 +2,7 @@
 
 > Static JSON API for NIST Cryptographic Module Validation Program data. Auto-updated weekly from the public CMVP site. 1,170 active modules, 4,315 historical modules, 180 modules in process, and 5,485 certificate detail records.
 
-Base URL: https://hackidle.github.io/nist-cmvp-api/
+Base URL: https://kfcain.github.io/nist-cmvp-api/
 
 ## Endpoints
 
@@ -233,5 +233,5 @@ GET api/modules.json → filter module rows by algorithms[] entries and inspect 
 - **Unofficial:** This project mirrors public CMVP data and is not affiliated with NIST. Use `https://csrc.nist.gov/projects/cryptographic-module-validation-program` for authoritative source material.
 - **Static JSON:** There is no server-side filtering. Use the split search indexes or download the relevant JSON file and filter client-side.
 - **CORS:** GitHub Pages does not send permissive CORS headers. Browser JavaScript on another origin will usually need a proxy.
-- **404s:** Invalid certificate numbers or file paths return GitHub Pages' default 404 page at `https://hackidle.github.io/nist-cmvp-api`.
+- **404s:** Invalid certificate numbers or file paths return GitHub Pages' default 404 page at `https://kfcain.github.io/nist-cmvp-api`.
 - **Algorithms coverage:** `api/algorithms.json` summarizes 1,863 certificates that had algorithm data in this build. `api/metadata.json` reports extraction cache hits, refreshes, failures, misses, and fallback counts.

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://hackidle.github.io/nist-cmvp-api/api/schemas/metadata.schema.json",
+  "$id": "https://kfcain.github.io/nist-cmvp-api/api/schemas/metadata.schema.json",
   "title": "NIST CMVP API Metadata",
   "type": "object",
   "additionalProperties": true,
