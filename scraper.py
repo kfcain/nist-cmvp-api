@@ -72,7 +72,7 @@ DEFERRED_REASON_KEY = "_deferred_reason"
 # Path to NIST-CMVP-ReportGen database (if available for importing algorithms)
 CMVP_DB_PATH = os.getenv("CMVP_DB_PATH", "")
 ALGORITHM_SOURCE_OVERRIDE = os.getenv("ALGORITHM_SOURCE", "").strip().lower().replace("-", "_")
-PUBLIC_BASE_URL = "https://hackidle.github.io/nist-cmvp-api"
+PUBLIC_BASE_URL = "https://kfcain.github.io/nist-cmvp-api"
 PUBLIC_API_BASE_URL = f"{PUBLIC_BASE_URL}/api"
 REPO_URL = "https://github.com/hackIDLE/nist-cmvp-api"
 OFFICIAL_CMVP_URL = "https://csrc.nist.gov/projects/cryptographic-module-validation-program"

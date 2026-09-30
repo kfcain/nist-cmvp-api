@@ -26,7 +26,7 @@ jobs:
           live_metadata="$(mktemp)"
           echo "Fetching published metadata from GitHub Pages..."
           for attempt in 1 2 3; do
-            if curl -fsSL "https://hackidle.github.io/nist-cmvp-api/api/metadata.json" -o "$live_metadata"; then
+            if curl -fsSL "https://kfcain.github.io/nist-cmvp-api/api/metadata.json" -o "$live_metadata"; then
               echo "Fetched published metadata successfully."
               break
             fi

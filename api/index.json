@@ -1,7 +1,7 @@
 {
   "name": "NIST CMVP API",
   "description": "Static JSON API for NIST Cryptographic Module Validation Program data with certificate detail records and generated agent-facing documentation",
-  "base_url": "https://hackidle.github.io/nist-cmvp-api",
+  "base_url": "https://kfcain.github.io/nist-cmvp-api",
   "endpoints": {
     "index": "/api/index.json",
     "modules": "/api/modules.json",

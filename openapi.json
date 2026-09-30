@@ -10,11 +10,11 @@
   },
   "externalDocs": {
     "description": "Markdown API reference",
-    "url": "https://hackidle.github.io/nist-cmvp-api/api/docs.md"
+    "url": "https://kfcain.github.io/nist-cmvp-api/api/docs.md"
   },
   "servers": [
     {
-      "url": "https://hackidle.github.io/nist-cmvp-api",
+      "url": "https://kfcain.github.io/nist-cmvp-api",
       "description": "GitHub Pages (production)"
     }
   ],
@@ -1063,7 +1063,7 @@
           },
           "base_url": {
             "type": "string",
-            "example": "https://hackidle.github.io/nist-cmvp-api"
+            "example": "https://kfcain.github.io/nist-cmvp-api"
           },
           "endpoints": {
             "type": "object"
