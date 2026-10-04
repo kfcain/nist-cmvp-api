@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2024"
   },
@@ -24,7 +24,7 @@
     "description": "The Nokia Cryptographic Module is a Linux loadable kernel module that provides cryptographic services in the Linux kernel. It provides an API that can be used by other kernel services.",
     "embodiment": "Multi-chip standalone",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "Nokia Cryptographic Module",
     "module_type": "Software",

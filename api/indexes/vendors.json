@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
-    "total_modules": 709,
-    "total_historical_modules": 4807,
-    "total_modules_in_process": 194,
-    "total_certificates_with_algorithms": 1898,
-    "total_certificate_details": 5516,
+    "generated_at": "2026-10-04T07:38:16.589988Z",
+    "total_modules": 711,
+    "total_historical_modules": 4808,
+    "total_modules_in_process": 195,
+    "total_certificates_with_algorithms": 1901,
+    "total_certificate_details": 5519,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,61 +13,61 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 676,
-        "html_refreshed": 39,
+        "html_reused": 708,
+        "html_refreshed": 9,
         "html_failed": 0,
-        "pdf_reused": 677,
-        "pdf_refreshed": 32,
+        "pdf_reused": 708,
+        "pdf_refreshed": 3,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 677,
-        "algorithm_successes": 546,
+        "algorithm_cache_hits": 708,
+        "algorithm_successes": 549,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 32,
+        "algorithm_source_crawl4ai": 3,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
-        "certificates_deferred": 7
+        "certificates_deferred": 6
       },
       "historical": {
-        "html_reused": 4315,
-        "html_refreshed": 493,
+        "html_reused": 4807,
+        "html_refreshed": 2,
         "html_failed": 0,
-        "pdf_reused": 4571,
-        "pdf_refreshed": 236,
+        "pdf_reused": 4808,
+        "pdf_refreshed": 0,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 4571,
+        "algorithm_cache_hits": 4808,
         "algorithm_successes": 1352,
-        "algorithm_fallbacks": 3,
-        "algorithm_source_crawl4ai": 233,
-        "algorithm_source_security_policy_pdf": 3,
+        "algorithm_fallbacks": 0,
+        "algorithm_source_crawl4ai": 0,
+        "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 4991,
-        "html_refreshed": 532,
+        "html_reused": 5515,
+        "html_refreshed": 11,
         "html_failed": 0,
-        "pdf_reused": 5248,
-        "pdf_refreshed": 268,
+        "pdf_reused": 5516,
+        "pdf_refreshed": 3,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5248,
-        "algorithm_successes": 1898,
-        "algorithm_fallbacks": 3,
-        "algorithm_source_crawl4ai": 265,
-        "algorithm_source_security_policy_pdf": 3,
+        "algorithm_cache_hits": 5516,
+        "algorithm_successes": 1901,
+        "algorithm_fallbacks": 0,
+        "algorithm_source_crawl4ai": 3,
+        "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
-        "certificates_deferred": 8
+        "certificates_deferred": 7
       },
       "concurrency": {
         "certificate_fetch": 8,
@@ -80,7 +80,7 @@
   "index": "vendors",
   "field": "vendor_name",
   "key_count": 1149,
-  "entry_count": 5405,
+  "entry_count": 5408,
   "keys": {
     "128 Technology": [
       {
@@ -3775,12 +3775,12 @@
       },
       {
         "certificate_number": "4817",
-        "dataset": "active",
+        "dataset": "historical",
         "path": "/api/certificates/4817.json",
         "vendor_name": "Apple Inc.",
         "module_name": "Apple corecrypto Module v12.0 [Apple silicon, User, Software, SL1]",
         "standard": "FIPS 140-3",
-        "status": "Active",
+        "status": "Historical",
         "algorithm_count": 0
       },
       {
@@ -21634,6 +21634,16 @@
         "standard": "FIPS 140-3",
         "status": "Active",
         "algorithm_count": 2
+      },
+      {
+        "certificate_number": "5537",
+        "dataset": "active",
+        "path": "/api/certificates/5537.json",
+        "vendor_name": "Google LLC",
+        "module_name": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 1
       }
     ],
     "Google, Inc.": [
@@ -29558,6 +29568,16 @@
         "standard": "FIPS 140-2",
         "status": "Historical",
         "algorithm_count": 1
+      },
+      {
+        "certificate_number": "5536",
+        "dataset": "active",
+        "path": "/api/certificates/5536.json",
+        "vendor_name": "L3Harris Technologies, Inc.",
+        "module_name": "Harris AES Load Module",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 1
       }
     ],
     "Laird Connectivity": [
@@ -33741,6 +33761,16 @@
       }
     ],
     "Motorola Mobility Inc": [
+      {
+        "certificate_number": "5519",
+        "dataset": "active",
+        "path": "/api/certificates/5519.json",
+        "vendor_name": "Motorola Mobility Inc",
+        "module_name": "Motorola BoringCrypto Android 14",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 11
+      },
       {
         "certificate_number": "5520",
         "dataset": "active",

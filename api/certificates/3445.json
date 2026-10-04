@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3445"
   },
@@ -24,7 +24,7 @@
     "description": "Silver Spring Networks Endpoint Security Module provides acceleration and off-load of standard cryptographic algorithms and secure network protocols, key storage and generation, bootloader and firmware verification, and encrypted data storage. It is included in the SoC designed for SSN's Gen5 endpoint and infrastructure products.",
     "embodiment": "Single Chip",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "Endpoint Security Module",
     "module_type": "Hardware",

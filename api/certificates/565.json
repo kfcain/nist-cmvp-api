@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/565"
   },
@@ -24,7 +24,7 @@
     "description": "The SEL-3021 Serial Encrypting Transceiver is a bump-in-the-wire encryption device designed to add strong cryptographic security to new serial communications links and to provide an easy and effective security solution for existing serial communications networks. It is designed for use on both point-to-point byte oriented communications links and multidrop SCADA networks.",
     "embodiment": "Multi-chip standalone",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "SEL-3021 Serial Encrypting Transceiver",
     "module_type": "Hardware",

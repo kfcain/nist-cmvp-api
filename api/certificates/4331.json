@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4331"
   },
   "certificate": {
     "certificate_number": "4331",
     "dataset": "historical",
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4331",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4331",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4331.pdf",
@@ -71,6 +71,18 @@
       "contact_email": "DPS-Certification@entrust.com",
       "contact_phone": null
     },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "security_policy_pdf",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4331.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 11,
+      "detailed_algorithm_count": 0
+    },
     "algorithms": [
       "AES",
       "DES",
@@ -83,30 +95,6 @@
       "KTS",
       "RSA",
       "SHA"
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "security_policy_pdf",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4331.pdf",
-      "cached": false,
-      "fallback_used": true,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 11,
-      "detailed_algorithm_count": 0,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4331.pdf",
-          "status": "no_algorithms"
-        },
-        {
-          "source": "security_policy_pdf",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4331.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

@@ -187,7 +187,7 @@
         "operationId": "getModules",
         "responses": {
           "200": {
-            "description": "Currently 709 active validated modules with enriched details",
+            "description": "Currently 711 active validated modules with enriched details",
             "content": {
               "application/json": {
                 "schema": {
@@ -205,7 +205,7 @@
         "operationId": "getHistoricalModules",
         "responses": {
           "200": {
-            "description": "Currently 4807 historical modules",
+            "description": "Currently 4808 historical modules",
             "content": {
               "application/json": {
                 "schema": {
@@ -223,7 +223,7 @@
         "operationId": "getModulesInProcess",
         "responses": {
           "200": {
-            "description": "Currently 194 modules in process",
+            "description": "Currently 195 modules in process",
             "content": {
               "application/json": {
                 "schema": {
@@ -312,27 +312,27 @@
           "generated_at": {
             "type": "string",
             "format": "date-time",
-            "example": "2026-09-30T07:03:12.945257Z"
+            "example": "2026-10-04T07:38:16.589988Z"
           },
           "total_modules": {
             "type": "integer",
-            "example": 709
+            "example": 711
           },
           "total_historical_modules": {
             "type": "integer",
-            "example": 4807
+            "example": 4808
           },
           "total_modules_in_process": {
             "type": "integer",
-            "example": 194
+            "example": 195
           },
           "total_certificates_with_algorithms": {
             "type": "integer",
-            "example": 1898
+            "example": 1901
           },
           "total_certificate_details": {
             "type": "integer",
-            "example": 5516
+            "example": 5519
           },
           "source": {
             "type": "string",
@@ -370,39 +370,39 @@
         "properties": {
           "Certificate Number_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537"
           },
           "Certificate Number": {
             "type": "string",
-            "example": "5535"
+            "example": "5537"
           },
           "Vendor Name": {
             "type": "string",
-            "example": "Hewlett Packard Enterprise"
+            "example": "Google LLC"
           },
           "Module Name": {
             "type": "string",
-            "example": "HPE Aruba Networking VIA Cryptographic Module"
+            "example": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine"
           },
           "Module Type": {
             "type": "string",
-            "example": "Software"
+            "example": "Hardware"
           },
           "Validation Date": {
             "type": "string",
-            "example": "09/29/2026"
+            "example": "10/01/2026"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5537.pdf"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537"
           },
           "module_name": {
             "type": "string",
-            "example": "HPE Aruba Networking VIA Cryptographic Module"
+            "example": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine"
           },
           "standard": {
             "type": "string",
@@ -414,7 +414,7 @@
           },
           "sunset_date": {
             "type": "string",
-            "example": "9/28/2031"
+            "example": "9/30/2031"
           },
           "overall_level": {
             "type": "integer",
@@ -422,19 +422,19 @@
           },
           "caveat": {
             "type": "string",
-            "example": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
+            "example": "No assurance of minimum security of SSPs (e.g. keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
           },
           "module_type": {
             "type": "string",
-            "example": "Software"
+            "example": "Hardware"
           },
           "embodiment": {
             "type": "string",
-            "example": "MultiChipStand"
+            "example": "SingleChip"
           },
           "description": {
             "type": "string",
-            "example": "HPE Aruba Networking VIA Cryptographic Module is a software library that provides cryptographic services required by Aruba Virtual Intranet Access."
+            "example": "The Google Tensor 6th Gen UFS Inline Storage Encryption Engine provides File-Based Encryption as part of the Google Tensor 6th Gen SoC's suite of services."
           },
           "algorithms": {
             "type": "array",
@@ -442,9 +442,7 @@
               "type": "string"
             },
             "example": [
-              "AES",
-              "DRBG",
-              "DSA"
+              "AES"
             ]
           },
           "algorithms_detailed": {
@@ -453,9 +451,7 @@
               "type": "string"
             },
             "example": [
-              "AES-CBC A7716 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
-              "AES-CTR A7716 Direction - Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128 | Supports Counter larger than maximum value - No | Incremental Counter - Yes | Counter Tests Performed - No | SP 800-38A",
-              "AES-GCM A7716 Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length: 128-264 Increment 8 | AAD Length - AAD Length: 128-264 Increment 8 | SP 800-38D"
+              "AES-XTS Testing Revision | 2.0 | A8177 Direction - Decrypt, Encrypt | Key Length - 256 | Payload Length - Payload Length: 128 | Tweak Mode - Number | Data Unit Length Matches Payload Length - | Yes | SP 800-38E | N/A for this module. | N/A for this module. | N/A for this module. | N/A for this module."
             ]
           },
           "algorithm_extraction": {
@@ -880,7 +876,7 @@
         "properties": {
           "certificate_number": {
             "type": "string",
-            "example": "5506"
+            "example": "5526"
           },
           "dataset": {
             "type": "string",
@@ -888,27 +884,27 @@
           },
           "generated_at": {
             "type": "string",
-            "example": "2026-09-30T07:03:12.945257Z"
+            "example": "2026-10-04T07:38:16.589988Z"
           },
           "nist_page_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5506"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5506"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5506.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf"
           },
           "vendor_name": {
             "type": "string",
-            "example": "BlueCat Networks"
+            "example": "TrellisWare Technologies, Inc."
           },
           "module_name": {
             "type": "string",
-            "example": "BlueCat Networks Cryptographic Module"
+            "example": "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power"
           },
           "standard": {
             "type": "string",
@@ -920,7 +916,7 @@
           },
           "module_type": {
             "type": "string",
-            "example": "Software"
+            "example": "Hardware"
           },
           "embodiment": {
             "type": "string",
@@ -928,11 +924,11 @@
           },
           "overall_level": {
             "type": "integer",
-            "example": 1
+            "example": 2
           },
           "validation_date": {
             "type": "string",
-            "example": "8/27/2026"
+            "example": "9/17/2026"
           },
           "validation_dates": {
             "type": "array",
@@ -940,20 +936,20 @@
               "type": "string"
             },
             "example": [
-              "8/27/2026"
+              "9/17/2026"
             ]
           },
           "sunset_date": {
             "type": "string",
-            "example": "8/26/2029"
+            "example": "9/16/2031"
           },
           "caveat": {
             "type": "string",
-            "example": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs"
+            "example": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. The tamper evident sealant installed as indicated in the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
           },
           "description": {
             "type": "string",
-            "example": "BlueCat Networks Cryptographic Module is a standards-based cryptographic engine used by BlueCat Networks platforms. The module delivers core cryptographic functions to BlueCat Networks platforms and features robust algorithm support."
+            "example": "The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F are small form-factor radios that employ the latest version of TrellisWare's TSM waveform and are capable of robust operation at high data rates. The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F radios support multi-channel voice, IP data, Position Location Information (PLI) tracking, sleep functions for long-term sensing applications, IP gateway features and remote operation of live streaming video sources for networked sensing missions."
           },
           "software_versions": {
             "type": "string",
@@ -976,8 +972,9 @@
               "type": "string"
             },
             "example": [
-              "Physical security: N/A",
-              "Non-invasive security: N/A"
+              "Operational environment: N/A",
+              "Non-invasive security: N/A",
+              "Mitigation of other attacks: N/A"
             ]
           },
           "related_files": {
@@ -1009,8 +1006,8 @@
             },
             "example": [
               "AES",
-              "CVL",
-              "DES"
+              "DES",
+              "DSA"
             ]
           },
           "algorithms_detailed": {
@@ -1019,9 +1016,9 @@
               "type": "string"
             },
             "example": [
-              "AES-CBC A4593 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
-              "AES-CBC A5173 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A | Document Version 1.0 ©BlueCat Networks Page 14 of 122",
-              "AES-CBC-CS1 A4593 Direction - decrypt, encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-65536 Increment 8 | SP 800-38A"
+              "AES-CTR C1431 Direction - Encrypt | Key Length - 256 | SP 800-38A",
+              "RSA SigGen | (FIPS186-5) | A5395 Hash Pair -",
+              "Hash Algorithm - SHA2-256 | Modulo - 2048 | Signature Type - pkcs1v1.5 | FIPS 186-5"
             ]
           }
         }

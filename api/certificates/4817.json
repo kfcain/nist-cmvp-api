@@ -1,10 +1,69 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
-    "dataset": "active",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817"
   },
   "certificate": {
+    "certificate_number": "4817",
+    "dataset": "historical",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4817.pdf",
+    "vendor_name": "Apple Inc.",
+    "module_name": "Apple corecrypto Module v12.0 [Apple silicon, User, Software, SL1]",
+    "standard": "FIPS 140-3",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/1/2024",
+    "validation_dates": [
+      "10/1/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "Interim validation. When operated in approved mode",
+    "description": "The Apple Cryptographic Module for Apple silicon user space environment.",
+    "software_versions": "12.0",
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4817.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2024_041124_0733 (1).pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/1/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Apple Inc.",
+      "website_url": "http://www.apple.com",
+      "address_lines": [
+        "One Apple Park Way",
+        "MS: 927-1CPS",
+        "Cupertino, CA 95014",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Nina Kominiak",
+      "contact_email": "security-certifications@apple.com",
+      "contact_phone": "907-227-9672"
+    },
     "algorithm_extraction": {
       "schema_version": "1.0",
       "status": "cached",
@@ -12,65 +71,22 @@
       "source": "firecrawl",
       "source_url": null,
       "cached": true,
-      "fallback_used": false,
+      "fallback_used": true,
       "cache_version": "2026-04-15-legacy-v1",
       "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "Interim validation. When operated in approved mode",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
-    "certificate_number": "4817",
-    "dataset": "active",
-    "description": "The Apple Cryptographic Module for Apple silicon user space environment.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
-    "hardware_versions": null,
-    "module_name": "Apple corecrypto Module v12.0 [Apple silicon, User, Software, SL1]",
-    "module_type": "Software",
-    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
-    "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4817.pdf"
-      }
-    ],
-    "security_level_exceptions": [
-      "Physical security: N/A",
-      "Non-invasive security: N/A",
-      "Mitigation of other attacks: N/A"
-    ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4817.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-3",
-    "status": "Active",
-    "sunset_date": "9/30/2026",
-    "validation_date": "10/1/2024",
-    "validation_dates": [
-      "10/1/2024"
-    ],
-    "validation_history": [
-      {
-        "date": "10/1/2024",
-        "lab": "atsec information security corporation",
-        "type": "Initial"
-      }
-    ],
-    "vendor": {
-      "address_lines": [
-        "One Apple Park Way",
-        "MS: 927-1CPS",
-        "Cupertino, CA 95014",
-        "USA"
-      ],
-      "contact_email": "security-certifications@apple.com",
-      "contact_name": "Nina Kominiak",
-      "contact_phone": "907-227-9672",
-      "country": "USA",
-      "name": "Apple Inc.",
-      "website_url": "http://www.apple.com"
-    },
-    "vendor_name": "Apple Inc."
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4817.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4817.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5525"
   },
   "certificate": {
     "certificate_number": "5525",
     "dataset": "active",
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5525",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5525",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5525.pdf",
@@ -58,6 +58,18 @@
       "contact_name": "SafeLogic Inside Sales",
       "contact_email": "sales@safelogic.com",
       "contact_phone": "844-436-2797"
+    },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5525.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 13,
+      "detailed_algorithm_count": 101
     },
     "algorithms": [
       "AES",
@@ -176,25 +188,6 @@
       "TLS KDF using any SHA algorithms other than SHA2-256, SHA2-",
       "384, SHA2-512; or TLS KDF using non-extended master secret",
       "RSA Key Encapsulation/Un-encapsulation (not | compliant with SP 800-56BRev2) | Document Version 1.0 © SafeLogic, Inc. Page 20 of 115"
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5525.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 13,
-      "detailed_algorithm_count": 101,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5525.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

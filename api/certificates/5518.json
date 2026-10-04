@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5518"
   },
   "certificate": {
     "certificate_number": "5518",
     "dataset": "active",
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5518",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5518",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5518.pdf",
@@ -60,6 +60,18 @@
       "contact_name": "Ram Nayak",
       "contact_email": "ram.nayak@cambiumnetworks.com",
       "contact_phone": "888-863-5250"
+    },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5518.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 13,
+      "detailed_algorithm_count": 41
     },
     "algorithms": [
       "AES",
@@ -118,25 +130,6 @@
       "HMAC SHA2-256, HMAC SHA2-384, HMAC",
       "SHA2-512 | N/A SP800-133rev2 | Sections 4 Example | 1 and IG D.H | CKG- | Asym | Asymmetric: ECC P-256, ECC P-384: N/A SP800-133rev2 | Section 4 Example 1 | and IG D.H | The module does not implement any Non-Approved, but Allowed Algorithms in the Approved Mode | of Operation. | N/A for this module. | The Module implements the following Non-Approved but Allowed cryptographic Algorithm with No | Security Claimed. | Name Caveat Use and Function",
       "DES No security | claimed. | Obfuscation of configuration and performance data for remote customer | support and obfuscation of configuration management data. | Configuration data does not include SSPs. | The module does not implement any Non-Approved Algorithms, Not Allowed in the Approved Mode | of Operation. | Cambium Networks Public Material – May be reproduced only in its original entirety (without revision). Template v1.0 | N/A for this module."
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5518.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 13,
-      "detailed_algorithm_count": 41,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5518.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

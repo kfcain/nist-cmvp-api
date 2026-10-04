@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
-    "total_modules": 709,
-    "total_historical_modules": 4807,
-    "total_modules_in_process": 194,
-    "total_certificates_with_algorithms": 1898,
-    "total_certificate_details": 5516,
+    "generated_at": "2026-10-04T07:38:16.589988Z",
+    "total_modules": 711,
+    "total_historical_modules": 4808,
+    "total_modules_in_process": 195,
+    "total_certificates_with_algorithms": 1901,
+    "total_certificate_details": 5519,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,61 +13,61 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 676,
-        "html_refreshed": 39,
+        "html_reused": 708,
+        "html_refreshed": 9,
         "html_failed": 0,
-        "pdf_reused": 677,
-        "pdf_refreshed": 32,
+        "pdf_reused": 708,
+        "pdf_refreshed": 3,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 677,
-        "algorithm_successes": 546,
+        "algorithm_cache_hits": 708,
+        "algorithm_successes": 549,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 32,
+        "algorithm_source_crawl4ai": 3,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
-        "certificates_deferred": 7
+        "certificates_deferred": 6
       },
       "historical": {
-        "html_reused": 4315,
-        "html_refreshed": 493,
+        "html_reused": 4807,
+        "html_refreshed": 2,
         "html_failed": 0,
-        "pdf_reused": 4571,
-        "pdf_refreshed": 236,
+        "pdf_reused": 4808,
+        "pdf_refreshed": 0,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 4571,
+        "algorithm_cache_hits": 4808,
         "algorithm_successes": 1352,
-        "algorithm_fallbacks": 3,
-        "algorithm_source_crawl4ai": 233,
-        "algorithm_source_security_policy_pdf": 3,
+        "algorithm_fallbacks": 0,
+        "algorithm_source_crawl4ai": 0,
+        "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 4991,
-        "html_refreshed": 532,
+        "html_reused": 5515,
+        "html_refreshed": 11,
         "html_failed": 0,
-        "pdf_reused": 5248,
-        "pdf_refreshed": 268,
+        "pdf_reused": 5516,
+        "pdf_refreshed": 3,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5248,
-        "algorithm_successes": 1898,
-        "algorithm_fallbacks": 3,
-        "algorithm_source_crawl4ai": 265,
-        "algorithm_source_security_policy_pdf": 3,
+        "algorithm_cache_hits": 5516,
+        "algorithm_successes": 1901,
+        "algorithm_fallbacks": 0,
+        "algorithm_source_crawl4ai": 3,
+        "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
-        "certificates_deferred": 8
+        "certificates_deferred": 7
       },
       "concurrency": {
         "certificate_fetch": 8,
@@ -77,7 +77,7 @@
     },
     "version": "3.0"
   },
-  "total_certificates": 5516,
+  "total_certificates": 5519,
   "certificate_paths": {
     "1": "/api/certificates/1.json",
     "2": "/api/certificates/2.json",
@@ -5580,6 +5580,7 @@
     "5516": "/api/certificates/5516.json",
     "5517": "/api/certificates/5517.json",
     "5518": "/api/certificates/5518.json",
+    "5519": "/api/certificates/5519.json",
     "5520": "/api/certificates/5520.json",
     "5521": "/api/certificates/5521.json",
     "5522": "/api/certificates/5522.json",
@@ -5594,7 +5595,9 @@
     "5531": "/api/certificates/5531.json",
     "5532": "/api/certificates/5532.json",
     "5533": "/api/certificates/5533.json",
-    "5535": "/api/certificates/5535.json"
+    "5535": "/api/certificates/5535.json",
+    "5536": "/api/certificates/5536.json",
+    "5537": "/api/certificates/5537.json"
   },
   "certificates": [
     {
@@ -56259,7 +56262,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -56535,7 +56538,7 @@
         "AES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -58924,7 +58927,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -67505,7 +67508,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -75412,7 +75415,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -80358,7 +80361,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -80895,7 +80898,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -82583,7 +82586,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -82983,7 +82986,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -85336,7 +85339,7 @@
         "SHA"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -90742,7 +90745,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -90884,7 +90887,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -93597,7 +93600,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -94219,7 +94222,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -95526,7 +95529,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -99916,7 +99919,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -100080,7 +100083,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -106349,7 +106352,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -112704,7 +112707,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -114508,7 +114511,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -114973,7 +114976,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -116565,7 +116568,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -116601,7 +116604,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -116684,7 +116687,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -116718,7 +116721,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -116922,7 +116925,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -116961,7 +116964,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117000,7 +117003,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117039,7 +117042,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117078,7 +117081,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117117,7 +117120,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117156,7 +117159,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117195,7 +117198,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117234,7 +117237,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117261,7 +117264,7 @@
         "DES"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117362,7 +117365,7 @@
         "SHS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117425,7 +117428,7 @@
         "SHS"
       ],
       "algorithm_count": 8,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "security_policy_pdf",
       "detail_available": true
     },
@@ -117464,7 +117467,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117584,7 +117587,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117650,7 +117653,7 @@
         "SHS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117732,7 +117735,7 @@
         "SHS"
       ],
       "algorithm_count": 8,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117758,7 +117761,7 @@
         "DES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117795,7 +117798,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117853,7 +117856,7 @@
         "SHA"
       ],
       "algorithm_count": 8,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -117887,7 +117890,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -118027,7 +118030,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -118066,7 +118069,7 @@
         "SHA"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -118333,7 +118336,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -118422,7 +118425,7 @@
         "SHS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -118609,7 +118612,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -118757,7 +118760,7 @@
         "TLS"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -119014,7 +119017,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -119305,7 +119308,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -119581,7 +119584,7 @@
         "SHA"
       ],
       "algorithm_count": 8,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -119617,7 +119620,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -119645,7 +119648,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -119949,7 +119952,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -120108,7 +120111,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -120450,7 +120453,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -120611,7 +120614,7 @@
         "SHA"
       ],
       "algorithm_count": 8,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -120736,7 +120739,7 @@
         "SHA"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -120879,7 +120882,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -120908,7 +120911,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -120972,7 +120975,7 @@
         "DES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121106,7 +121109,7 @@
         "SHA"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121134,7 +121137,7 @@
         "RSA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121165,7 +121168,7 @@
         "SHA"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121221,7 +121224,7 @@
         "SHS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121259,7 +121262,7 @@
         "SHA"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121334,7 +121337,7 @@
         "TLS"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121419,7 +121422,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121450,7 +121453,7 @@
         "SHS"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121529,7 +121532,7 @@
         "SHS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121586,7 +121589,7 @@
         "KDF"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121711,7 +121714,7 @@
         "AES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121836,7 +121839,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121929,7 +121932,7 @@
         "DES"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121959,7 +121962,7 @@
         "SHS"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -121991,7 +121994,7 @@
         "SHS"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122099,7 +122102,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122322,7 +122325,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122358,7 +122361,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122396,7 +122399,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122425,7 +122428,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122631,7 +122634,7 @@
         "SSH"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122768,7 +122771,7 @@
         "SSH"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122853,7 +122856,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122888,7 +122891,7 @@
         "SHA"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -122946,7 +122949,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123171,7 +123174,7 @@
         "AES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123205,7 +123208,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123334,7 +123337,7 @@
         "KDF"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123413,7 +123416,7 @@
         "SHS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123445,7 +123448,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123475,7 +123478,7 @@
         "SHS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123620,7 +123623,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123721,7 +123724,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123950,7 +123953,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -123984,7 +123987,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124019,7 +124022,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124053,7 +124056,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124239,7 +124242,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124322,7 +124325,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124360,7 +124363,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124388,7 +124391,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124416,7 +124419,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124597,7 +124600,7 @@
         "SHS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -124632,7 +124635,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125258,7 +125261,7 @@
         "AES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125295,7 +125298,7 @@
         "SHA"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "security_policy_pdf",
       "detail_available": true
     },
@@ -125332,7 +125335,7 @@
         "SHA"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "security_policy_pdf",
       "detail_available": true
     },
@@ -125360,7 +125363,7 @@
         "ECDSA"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125388,7 +125391,7 @@
         "ECDSA"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125416,7 +125419,7 @@
         "ECDSA"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125442,7 +125445,7 @@
         "ECDSA"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125468,7 +125471,7 @@
         "ECDSA"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125494,7 +125497,7 @@
         "ECDSA"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125700,7 +125703,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125739,7 +125742,7 @@
         "SHA"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125862,7 +125865,7 @@
         "SHS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -125897,7 +125900,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126139,7 +126142,7 @@
         "DES"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126214,7 +126217,7 @@
         "SHA"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126251,7 +126254,7 @@
         "SSH"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126288,7 +126291,7 @@
         "SSH"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126345,7 +126348,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126794,7 +126797,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126831,7 +126834,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126869,7 +126872,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126903,7 +126906,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -126940,7 +126943,7 @@
         "SHA"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127016,7 +127019,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127053,7 +127056,7 @@
         "SSH"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127082,7 +127085,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127236,7 +127239,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127262,7 +127265,7 @@
         "SHA"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127296,7 +127299,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127352,7 +127355,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127495,7 +127498,7 @@
         "TLS"
       ],
       "algorithm_count": 15,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127534,7 +127537,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127566,7 +127569,7 @@
         "SHA"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127598,7 +127601,7 @@
         "TLS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127636,7 +127639,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127717,7 +127720,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -127876,7 +127879,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128084,7 +128087,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128111,7 +128114,7 @@
         "KDF"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128137,7 +128140,7 @@
         "AES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128292,7 +128295,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128379,7 +128382,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128411,7 +128414,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128443,7 +128446,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128507,7 +128510,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128567,7 +128570,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128659,7 +128662,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128687,7 +128690,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128721,7 +128724,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128852,7 +128855,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128887,7 +128890,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -128994,7 +128997,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -129128,7 +129131,7 @@
         "SSH"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -129190,7 +129193,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -129301,7 +129304,7 @@
         "SHA"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -129340,7 +129343,7 @@
         "SHA"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -129538,7 +129541,7 @@
         "SHA"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -129774,7 +129777,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -129909,7 +129912,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130059,7 +130062,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130214,7 +130217,7 @@
         "SSH"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130247,7 +130250,7 @@
         "SSH"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130318,7 +130321,7 @@
         "SSH"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130355,7 +130358,7 @@
         "SSH"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130394,7 +130397,7 @@
         "SSH"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130703,7 +130706,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130764,7 +130767,7 @@
         "SHS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130840,7 +130843,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130874,7 +130877,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -130911,7 +130914,7 @@
         "SHS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131118,7 +131121,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131205,7 +131208,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131245,7 +131248,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131400,7 +131403,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131512,7 +131515,7 @@
         "SHS"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131574,7 +131577,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131638,7 +131641,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131784,7 +131787,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -131945,7 +131948,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -132152,7 +132155,7 @@
         "TLS"
       ],
       "algorithm_count": 16,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -133150,7 +133153,7 @@
         "SHS"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -133233,7 +133236,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -133759,7 +133762,7 @@
         "SSH"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134083,7 +134086,7 @@
         "TLS"
       ],
       "algorithm_count": 16,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134159,7 +134162,7 @@
         "SSH"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134214,7 +134217,7 @@
         "SHS"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134473,7 +134476,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134620,7 +134623,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134678,7 +134681,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134712,7 +134715,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134780,7 +134783,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -134856,7 +134859,7 @@
         "SSH"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135046,7 +135049,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135081,7 +135084,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135121,7 +135124,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135160,7 +135163,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135266,7 +135269,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135348,7 +135351,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135387,7 +135390,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135585,7 +135588,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135620,7 +135623,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135659,7 +135662,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135685,7 +135688,7 @@
         "AES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135720,7 +135723,7 @@
         "TLS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135782,7 +135785,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135898,7 +135901,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -135938,7 +135941,7 @@
         "TLS"
       ],
       "algorithm_count": 15,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -136254,7 +136257,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -136288,7 +136291,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -136459,7 +136462,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -136653,7 +136656,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -137063,7 +137066,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -138259,7 +138262,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -138454,7 +138457,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -138666,7 +138669,7 @@
         "SHA"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -138693,7 +138696,7 @@
         "KDF"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -138745,7 +138748,7 @@
         "SHA"
       ],
       "algorithm_count": 3,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -139061,7 +139064,7 @@
         "AES"
       ],
       "algorithm_count": 1,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -139223,7 +139226,7 @@
     },
     {
       "certificate_number": "4817",
-      "dataset": "active",
+      "dataset": "historical",
       "path": "/api/certificates/4817.json",
       "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
@@ -139231,14 +139234,14 @@
       "vendor_name": "Apple Inc.",
       "module_name": "Apple corecrypto Module v12.0 [Apple silicon, User, Software, SL1]",
       "standard": "FIPS 140-3",
-      "status": "Active",
+      "status": "Historical",
       "module_type": "Software",
       "overall_level": 1,
       "validation_date": "10/1/2024",
       "validation_dates": [
         "10/1/2024"
       ],
-      "sunset_date": "9/30/2026",
+      "sunset_date": null,
       "algorithms": [],
       "algorithm_count": 0,
       "algorithm_extraction_status": "cached",
@@ -139632,7 +139635,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -139820,7 +139823,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -140576,7 +140579,7 @@
         "SHS"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -142956,7 +142959,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -142990,7 +142993,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -143175,7 +143178,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -143486,7 +143489,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -144124,7 +144127,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -144302,7 +144305,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -144336,7 +144339,7 @@
         "SHS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -149537,7 +149540,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -158308,7 +158311,7 @@
         "SHA"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -158339,7 +158342,7 @@
         "TLS"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -158429,7 +158432,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -158459,7 +158462,7 @@
         "TLS"
       ],
       "algorithm_count": 5,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -158496,7 +158499,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161738,7 +161741,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161775,7 +161778,7 @@
         "SSH"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161814,7 +161817,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161845,7 +161848,7 @@
         "RSA"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161883,7 +161886,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161921,7 +161924,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161958,7 +161961,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -161994,7 +161997,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162029,7 +162032,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162061,7 +162064,7 @@
         "SHA"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162099,6 +162102,42 @@
         "TLS"
       ],
       "algorithm_count": 13,
+      "algorithm_extraction_status": "cached",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5519",
+      "dataset": "active",
+      "path": "/api/certificates/5519.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5519",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5519",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5519.pdf",
+      "vendor_name": "Motorola Mobility Inc",
+      "module_name": "Motorola BoringCrypto Android 14",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Software",
+      "overall_level": 1,
+      "validation_date": "9/11/2026",
+      "validation_dates": [
+        "9/11/2026"
+      ],
+      "sunset_date": "1/26/2030",
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DES",
+        "DRBG",
+        "ECDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "TLS"
+      ],
+      "algorithm_count": 11,
       "algorithm_extraction_status": "parsed",
       "algorithm_source": "crawl4ai",
       "detail_available": true
@@ -162135,7 +162174,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162171,7 +162210,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162205,7 +162244,7 @@
         "SHA"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162248,7 +162287,7 @@
         "TLS"
       ],
       "algorithm_count": 18,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162287,7 +162326,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162325,7 +162364,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162358,7 +162397,7 @@
         "SHA"
       ],
       "algorithm_count": 8,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162397,7 +162436,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162437,7 +162476,7 @@
         "TLS"
       ],
       "algorithm_count": 14,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162464,7 +162503,7 @@
         "HMAC"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162500,7 +162539,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162535,7 +162574,7 @@
         "SHS"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162569,7 +162608,7 @@
         "SHA"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162598,7 +162637,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162631,6 +162670,58 @@
         "SHA"
       ],
       "algorithm_count": 8,
+      "algorithm_extraction_status": "cached",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5536",
+      "dataset": "active",
+      "path": "/api/certificates/5536.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5536",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5536",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5536.pdf",
+      "vendor_name": "L3Harris Technologies, Inc.",
+      "module_name": "Harris AES Load Module",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Firmware",
+      "overall_level": 1,
+      "validation_date": "9/30/2026",
+      "validation_dates": [
+        "9/30/2026"
+      ],
+      "sunset_date": "9/29/2031",
+      "algorithms": [
+        "AES"
+      ],
+      "algorithm_count": 1,
+      "algorithm_extraction_status": "parsed",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5537",
+      "dataset": "active",
+      "path": "/api/certificates/5537.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5537.pdf",
+      "vendor_name": "Google LLC",
+      "module_name": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Hardware",
+      "overall_level": 1,
+      "validation_date": "10/1/2026",
+      "validation_dates": [
+        "10/1/2026"
+      ],
+      "sunset_date": "9/30/2031",
+      "algorithms": [
+        "AES"
+      ],
+      "algorithm_count": 1,
       "algorithm_extraction_status": "parsed",
       "algorithm_source": "crawl4ai",
       "detail_available": true

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1524"
   },
@@ -24,7 +24,7 @@
     "description": "SafeNet Luna EFT is designed for Electronic Funds Transfer (EFT) and payment system processing environments, providing powerful end-to-end security for online banking transactions and applications for credit, debit, and chip cards.",
     "embodiment": "Multi-chip standalone",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "SafeNet Luna EFT",
     "module_type": "Hardware",

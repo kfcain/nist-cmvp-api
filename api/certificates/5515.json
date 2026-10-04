@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5515"
   },
   "certificate": {
     "certificate_number": "5515",
     "dataset": "active",
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5515",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5515",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5515.pdf",
@@ -58,6 +58,18 @@
       "contact_name": "Arista Networks Certification Team",
       "contact_email": "cert-team@arista.com",
       "contact_phone": "000-000-0000"
+    },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5515.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 11,
+      "detailed_algorithm_count": 81
     },
     "algorithms": [
       "AES",
@@ -154,25 +166,6 @@
       "TLS v1.3 KDF",
       "A5259 HMAC Algorithm - SHA2-256, SHA2-384",
       "KDF Running Modes - DHE, PSK, PSK-DHE | SP 800-135 | Rev. 1 | The table below lists all the Vendor-Affirmed Algorithms supported by the module. | Name Properties Implementation Reference | CKG Name:Symmetric Key Generation Section 4 NIST SP800-133r2 | The module does not support any | N/A for this module. | The module does not support any | N/A for this module. | Arista WiFi Access Points | Arista Networks Inc. | The module does not support any Non-Approved Algorithms that are not Allowed in the Approved | Mode of Operation. | N/A for this module."
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5515.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 11,
-      "detailed_algorithm_count": 81,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5515.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

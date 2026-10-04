@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2522"
   },
@@ -24,7 +24,7 @@
     "description": "The McAfee Web Gateway is a high-performance, enterprise-strength proxy security appliance family that provides the caching, authentication, administration, authorization controls and deep-level content security filtering required by today's most demanding enterprises. The McAfee Web Gateway Virtual Appliance delivers scalable deployment flexibility and performance. The McAfee Web Gateway Virtual Appliance delivers comprehensive security for all aspects of Web 2.0 traffic.",
     "embodiment": "Multi-Chip Stand Alone",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "McAfee Web Gateway Virtual Appliance",
     "module_type": "Software",

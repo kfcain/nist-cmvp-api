@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
-    "total_modules": 709,
-    "total_historical_modules": 4807,
-    "total_modules_in_process": 194,
-    "total_certificates_with_algorithms": 1898,
-    "total_certificate_details": 5516,
+    "generated_at": "2026-10-04T07:38:16.589988Z",
+    "total_modules": 711,
+    "total_historical_modules": 4808,
+    "total_modules_in_process": 195,
+    "total_certificates_with_algorithms": 1901,
+    "total_certificate_details": 5519,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,61 +13,61 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 676,
-        "html_refreshed": 39,
+        "html_reused": 708,
+        "html_refreshed": 9,
         "html_failed": 0,
-        "pdf_reused": 677,
-        "pdf_refreshed": 32,
+        "pdf_reused": 708,
+        "pdf_refreshed": 3,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 677,
-        "algorithm_successes": 546,
+        "algorithm_cache_hits": 708,
+        "algorithm_successes": 549,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 32,
+        "algorithm_source_crawl4ai": 3,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
-        "certificates_deferred": 7
+        "certificates_deferred": 6
       },
       "historical": {
-        "html_reused": 4315,
-        "html_refreshed": 493,
+        "html_reused": 4807,
+        "html_refreshed": 2,
         "html_failed": 0,
-        "pdf_reused": 4571,
-        "pdf_refreshed": 236,
+        "pdf_reused": 4808,
+        "pdf_refreshed": 0,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 4571,
+        "algorithm_cache_hits": 4808,
         "algorithm_successes": 1352,
-        "algorithm_fallbacks": 3,
-        "algorithm_source_crawl4ai": 233,
-        "algorithm_source_security_policy_pdf": 3,
+        "algorithm_fallbacks": 0,
+        "algorithm_source_crawl4ai": 0,
+        "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 4991,
-        "html_refreshed": 532,
+        "html_reused": 5515,
+        "html_refreshed": 11,
         "html_failed": 0,
-        "pdf_reused": 5248,
-        "pdf_refreshed": 268,
+        "pdf_reused": 5516,
+        "pdf_refreshed": 3,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5248,
-        "algorithm_successes": 1898,
-        "algorithm_fallbacks": 3,
-        "algorithm_source_crawl4ai": 265,
-        "algorithm_source_security_policy_pdf": 3,
+        "algorithm_cache_hits": 5516,
+        "algorithm_successes": 1901,
+        "algorithm_fallbacks": 0,
+        "algorithm_source_crawl4ai": 3,
+        "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
         "certificate_timeouts": 0,
-        "certificates_deferred": 8
+        "certificates_deferred": 7
       },
       "concurrency": {
         "certificate_fetch": 8,
@@ -78,6 +78,87 @@
     "version": "3.0"
   },
   "modules": [
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537",
+      "Certificate Number": "5537",
+      "Vendor Name": "Google LLC",
+      "Module Name": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine",
+      "Module Type": "Hardware",
+      "Validation Date": "10/01/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5537.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537",
+      "module_name": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "sunset_date": "9/30/2031",
+      "overall_level": 1,
+      "caveat": "No assurance of minimum security of SSPs (e.g. keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+      "module_type": "Hardware",
+      "embodiment": "SingleChip",
+      "description": "The Google Tensor 6th Gen UFS Inline Storage Encryption Engine provides File-Based Encryption as part of the Google Tensor 6th Gen SoC's suite of services.",
+      "algorithms": [
+        "AES"
+      ],
+      "algorithms_detailed": [
+        "AES-XTS Testing Revision | 2.0 | A8177 Direction - Decrypt, Encrypt | Key Length - 256 | Payload Length - Payload Length: 128 | Tweak Mode - Number | Data Unit Length Matches Payload Length - | Yes | SP 800-38E | N/A for this module. | N/A for this module. | N/A for this module. | N/A for this module."
+      ],
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "parsed",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5537.pdf",
+        "cached": false,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 1,
+        "detailed_algorithm_count": 1
+      },
+      "detail_available": true
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5536",
+      "Certificate Number": "5536",
+      "Vendor Name": "L3Harris Technologies, Inc.",
+      "Module Name": "Harris AES Load Module",
+      "Module Type": "Firmware",
+      "Validation Date": "09/30/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5536.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5536",
+      "module_name": "Harris AES Load Module",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "sunset_date": "9/29/2031",
+      "overall_level": 1,
+      "caveat": "None",
+      "module_type": "Firmware",
+      "embodiment": "MultiChipStand",
+      "description": "The Harris AES Load Module (HALM) provides Harris terminals with AES encryption of digital voice and data.",
+      "algorithms": [
+        "AES"
+      ],
+      "algorithms_detailed": [
+        "• L3Harris AES Load Module version R07A01 (Cert. A7422) | The module implements the Approved algorithms listed in the table below.",
+        "AES-CMAC A7422 Direction - Generation, Verification | Key Length - 256 | MAC Length - MAC Length: 16-128 Increment 16, MAC Length: 8-128 Increment | 8 | Message Length - Message Length: 0-98296 Increment 8 | SP 800-38B",
+        "AES-ECB A7422 Direction - Decrypt, Encrypt | Key Length - 128, 256 | SP 800-38A",
+        "AES-KW A7422 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 256 | Payload Length - Payload Length: 256 | SP 800-38F",
+        "AES-OFB A7422 Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A | Note that there are algorithms, modes, and key/moduli sizes that have been CAVP-tested but are not used by any | Approved service of the module. Only the algorithms, modes/methods, and key lengths/curves/moduli shown in | the table above are used by an Approved service of the module. | 2.5.2 Vendor Affirmed Algorithms | The module does not implement any vendor-affirmed algorithms. | N/A for this module.",
+        "Harris AES Load Module | This document may be freely reproduced and distributed whole and intact including this copyright notice. | 2.5.3 | The module does not implement any non-Approved algorithms allowed in the Approved mode of operation. | N/A for this module. | 2.5.4 | The module does not implement any non-Approved algorithms allowed in the Approved mode of operation with | no security claimed. | N/A for this module. | 2.5.5 | The module does not implement any non-Approved algorithms not allowed in the Approved mode of operation. | N/A for this module."
+      ],
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "parsed",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5536.pdf",
+        "cached": false,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 1,
+        "detailed_algorithm_count": 6
+      },
+      "detail_available": true
+    },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5535",
       "Certificate Number": "5535",
@@ -96,6 +177,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "HPE Aruba Networking VIA Cryptographic Module is a software library that provides cryptographic services required by Aruba Virtual Intranet Access.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 8,
+        "detailed_algorithm_count": 35
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -142,20 +236,7 @@
         "SHA2-256, SHA2-384",
         "SHA2-512 | A7716 Message Length - Message Length: 0-65536 Increment 8",
         "Function - SHA2 | FIPS 180-4 | 2.5.2 Vendor-Affirmed Algorithms | Name Properties Implementation Reference | CKG Key type:Symmetric and asymmetric N/A SP 800-133r2 section 4 | N/A for this module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5535.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 8,
-        "detailed_algorithm_count": 35
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5533",
@@ -175,6 +256,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "The MolecuLightDX Cryptographic Module (\"the module\") is defined as a software module in a multi-chip standalone embodiment. The module includes Cryptographic library, Security library, and hash digests.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5533.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 4,
+        "detailed_algorithm_count": 6
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "HMAC",
@@ -188,20 +282,7 @@
         "A7783 KDF Mode - Counter",
         "MAC Mode - HMAC-SHA2-256 | Supported Lengths - Supported Lengths | 256 | Fixed Data Order - After Fixed Data | Counter Length - 8 | Supports Empty IV - No | Requires Empty IV - No | Custom Key In Length - 0 | SP 800-108 | Rev. 1",
         "SHA2-256 A7783 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4 | N/A for this module. | N/A for this module. | N/A for this module. | This document may be freely reproduced and distributed, but only in its entirety and without modification. | N/A for this module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5533.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 4,
-        "detailed_algorithm_count": 6
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5532",
@@ -221,6 +302,19 @@
       "module_type": "Hardware",
       "embodiment": "SingleChip",
       "description": "The IDPrime PIV 4.0 FIDO on IDCore3230 Platform is a single-chip \"contact\" or \"contact and contactless\" (aka as \"Dual\") module implementing the Global Platform operational environment, with Card Manager, PIV, PIV Admin, MoC Server (for Match-on-Card) and FIDO Applets.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5532.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 9,
+        "detailed_algorithm_count": 29
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -262,20 +356,7 @@
         "256, SHA2-384",
         "SHA2-512 | A2877 Message Length - Message Length: 8-65536 | Increment 8",
         "Function - SHA2 | FIPS 180-4 | NOTE Only the algorithms specified in the table above are supported by the module in approved | mode of operation | Name Properties Implementation Reference | CKG Key Type: Asymmetric and | Symmetric | N/A SP800-133r2 Section 4 | Example 1 | N/A for this module. | There are no | N/A for this module. | There are no | N/A for this module. | There are no | IDPrime PIV 4.0 FIDO on IDcore 3230 | 002-000482-001, Rev C, August 2026"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5532.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 9,
-        "detailed_algorithm_count": 29
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5531",
@@ -295,6 +376,19 @@
       "module_type": "Hardware",
       "embodiment": "SingleChip",
       "description": "The MACE cryptographic processor is used in security modules embedded in Motorola's Astro family of radio systems products. It provides secure voice and data capabilities as well as APCO Over-The-Air-Rekeying and advanced key management.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5531.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 10,
+        "detailed_algorithm_count": 26
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -334,20 +428,7 @@
         "[IG 2.4.A] P25 AES OTAR. AES MAC is applied directly to the",
         "plaintext OTAR key components and then KTS encryption is | performed on the OTAR key components and decrypted",
         "within the module using AES KW Cert. #A2264 | The module does not implement any Non-Approved Algorithms, Not Allowed in the Approved Mode of | Operation. | N/A for this module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5531.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 10,
-        "detailed_algorithm_count": 26
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5530",
@@ -367,6 +448,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "A software library that contains cryptographic functionality to serve BoringSSL and other user-space applications.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5530.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 11,
+        "detailed_algorithm_count": 49
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -430,20 +524,7 @@
         "AES (non-compliant) Non- Approved encryption/decryption | DH (non-compliant) Non- Approved key agreement",
         "RSA PKCS #1 v1.5 key wrapping (non-compliant) Non- Approved key wrapping",
         "TLS 1.0/1.1 KDF (non-compliant) Non- Approved TLS key derivation"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5530.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 11,
-        "detailed_algorithm_count": 49
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5529",
@@ -463,6 +544,19 @@
       "module_type": "Software-hybrid",
       "embodiment": "MultiChipStand",
       "description": "Junos® OS Evolved Juniper Express 5 MACsec Cryptographic Module Version 1.0 is composed of the Juniper Express 5 MACsec blocks that are part of the Juniper Networks® Express 5 processor in hardware, which provides AES GCM and XPN algorithm implementations for encrypting and decrypting MACsec traffic, and a device driver in software, which provides the functionality to comply with FIPS 140-3 requirements i.e. integrity test, self-tests), as well as the API to configure the hardware component.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5529.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 2,
+        "detailed_algorithm_count": 4
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "HMAC"
@@ -472,20 +566,7 @@
         "AES-XPN A7007 Direction - Decrypt, Encrypt | Key Length - 128, 256 | Payload Length - Payload Length: 128, 256, 120, 248 | AAD Length - AAD Length: 128, 256, 120, 0 | SP 800-38D | Junos® OS Evolved Juniper Express 5 MACsec Cryptographic Module Version 1.0 | HPE Juniper Networking o +1 408 745 2000 10 | 1133 Innovation Way f +1 408 745 2100 | Sunnyvale, CA 94089 | www.hpe.com | Tag Length - 128 | IV Generation - External | Salt Generation - External",
         "HMAC-SHA2-256 A7243 MAC - MAC: 256 | Key Length - Key Length: 112-524288 Increment 8 | FIPS 198-1",
         "The HMAC-SHA2-256 implementation is provided by the bound Junos ® OS Evolved OpenSSL Cryptographic | Module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5529.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 2,
-        "detailed_algorithm_count": 4
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5528",
@@ -505,6 +586,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "G&D Cryptographic Module is a software library providing a C language API for use by other applications requiring cryptographic functionality. G&D Cryptographic Module offers symmetric encryption/decryption, digital signature generation/verification, hashing, cryptographic key generation, random number generation, message authentication, and key establishment functions to secure data-at-rest/data-in-flight and to support industry-standard secure communications protocols (including TLS 1.2/1.3).",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5528.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 14,
+        "detailed_algorithm_count": 97
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -619,20 +713,7 @@
         "RSA encrypt/decrypt Asymmetric encryption/decryption | SEED Encryption/decryption | G&D Cryptographic Module 1.1.1zd.001 | This document may be freely reproduced and distributed whole and intact including this copyright notice.",
         "SHA-1 (non-compliant) Signature generation for TLS v1.0/v1.1 | SM2 Digital signature generation; digital signature verification | SM3 Message digest | SM4 Encryption/decryption",
         "TDES (non-compliant) Encryption /decryption; MAC generation | Whirlpool Message digest"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5528.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 14,
-        "detailed_algorithm_count": 97
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5527",
@@ -652,6 +733,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "The Loadbalancer.org FIPS Object Module based on the OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5527.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 14,
+        "detailed_algorithm_count": 149
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -818,20 +912,7 @@
         "DRBG",
         "Usage of Hash and HMAC DRBGs with PRFs SHA2-224, SHA2-384",
         "SHA2-512/224 and SHA2-512/256"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5527.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 14,
-        "detailed_algorithm_count": 149
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526",
@@ -851,6 +932,19 @@
       "module_type": "Hardware",
       "embodiment": "MultiChipStand",
       "description": "The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F are small form-factor radios that employ the latest version of TrellisWare's TSM waveform and are capable of robust operation at high data rates. The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F radios support multi-channel voice, IP data, Position Location Information (PLI) tracking, sleep functions for long-term sensing applications, IP gateway features and remote operation of live streaming video sources for networked sensing missions.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 8,
+        "detailed_algorithm_count": 18
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DES",
@@ -880,20 +974,7 @@
         "SHA2- | 384 | No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
         "KDF No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
         "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power | This document may be freely reproduced and distributed (without revision). Page 25 of 52 | N/A for this module. | None"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 8,
-        "detailed_algorithm_count": 18
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5525",
@@ -913,6 +994,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "SafeLogic's CryptoComply Module based on AWS-LC FIPS is designed to provide FIPS 140-3 validated cryptographic functionality. It includes PQC support and is available for licensing.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5525.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 13,
+        "detailed_algorithm_count": 101
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -1030,20 +1124,7 @@
         "TLS KDF using any SHA algorithms other than SHA2-256, SHA2-",
         "384, SHA2-512; or TLS KDF using non-extended master secret",
         "RSA Key Encapsulation/Un-encapsulation (not | compliant with SP 800-56BRev2) | Document Version 1.0 © SafeLogic, Inc. Page 20 of 115"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5525.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 13,
-        "detailed_algorithm_count": 101
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5524",
@@ -1063,6 +1144,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "The Barracuda FIPS Provider based on the OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5524.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 14,
+        "detailed_algorithm_count": 149
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -1229,20 +1323,7 @@
         "DRBG",
         "Usage of Hash and HMAC DRBGs with PRFs SHA2-224, SHA2-384",
         "SHA2-512/224 and SHA2-512/256"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5524.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 14,
-        "detailed_algorithm_count": 149
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5523",
@@ -1262,6 +1343,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "The Chainguard FIPS Provider for OpenSSL is defined as a software module in a multi-chip standalone embodiment. It provides a C language application program interface (API) for use by other applications that require cryptographic functionality. The module consists of one software component, the \"FIPS provider\", which implements FIPS requirements, and the cryptographic functionality provided to the operator.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5523.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 18,
+        "detailed_algorithm_count": 207
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -1490,20 +1584,7 @@
         "SSH KDF with SHA2-512/256 or with SHA-3 functions or with input secret length | < 112 bits | Key Derivation Function",
         "TLS 1.3 KDF with SHA2-512 or SHA2-512/256 or SHA-3 functions or input secret | length < 112 bits | Key Derivation Function",
         "One step KDF, two step KDF, HKDF, ANS X9.42 KDF, ANS X9.63 KDF with input | secret length < 112 bits | Key Derivation Function"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5523.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 18,
-        "detailed_algorithm_count": 207
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5522",
@@ -1523,6 +1604,19 @@
       "module_type": "Hardware",
       "embodiment": "SingleChip",
       "description": "Micron® MSA11-P5 Controller Sub Chip Security provides cryptographic functionality to SSD controllers.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5522.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 9,
+        "detailed_algorithm_count": 31
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -1566,20 +1660,7 @@
         "SHA2-512 A6145 Message Length - Message Length | 512, 8-65536 Increment 8 | Large Message Sizes - 1 | FIPS 180-4",
         "SHA2-512/256 A6145 Message Length - Message Length | 256, 8-65536 Increment 8 | Large Message Sizes - 1 | FIPS 180-4 | The Module implements the FIPS Vendor Affirmed cryptographic algorithms listed. | Name Properties Implementation Reference | CKG1 Key Type:Symmetric and | Asymmetric | N/A SP800-133rev2 Section 4 | example 1 and IG D.H | CKG - | XTS",
         "AES 256:Symmetric Key | Generation | N/A SP 800-133rev2 Section 6.3 | and IG C.I | N/A for this module. | N/A for this module. | Micron Technology Public Material – May be reproduced only in its original entirety (without revision). Template v1.0 | N/A for this module. | Micron Technology Public Material – May be reproduced only in its original entirety (without revision). Template v1.0"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5522.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 9,
-        "detailed_algorithm_count": 31
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5521",
@@ -1591,6 +1672,200 @@
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5521.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5521",
       "module_name": "Samsung BoringCrypto Android 14",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "sunset_date": "1/26/2030",
+      "overall_level": 1,
+      "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+      "module_type": "Software",
+      "embodiment": "MultiChipStand",
+      "description": "A software library that contains cryptographic functionality to serve BoringSSL and other user-space applications.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5521.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 11,
+        "detailed_algorithm_count": 51
+      },
+      "detail_available": true,
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DES",
+        "DRBG",
+        "ECDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "TLS"
+      ],
+      "algorithms_detailed": [
+        "AES-CBC A4687 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+        "AES-CCM A4687 Key Length - 128 | Tag Length - 32, 64 | IV Length - IV Length: 104 | Payload Length - Payload Length: 0-256 | Increment 8 | AAD Length - AAD Length: 0-524288 | Increment 8 | SP 800-38C",
+        "AES-CTR A4687 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 | Increment 8 | Supports Counter larger than maximum value | - Yes | Incremental Counter - Yes | Counter Tests Performed - Yes | SP 800-38A",
+        "AES-ECB A4687 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+        "AES-GCM A4687 Direction - Decrypt, Encrypt | IV Generation - External | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 32, 64, 96 | IV Length - IV Length: 96 | Payload Length - Payload Length: 0-65536 | Increment 8 | AAD Length - AAD Length: 0-65536 | Increment 8 | SP 800-38D",
+        "AES-GMAC A4687 Direction - Decrypt, Encrypt | IV Generation - External | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 32, 64, 96 | IV Length - IV Length: 96 | AAD Length - AAD Length: 0-65536 | Increment 8 | SP 800-38D",
+        "AES-KW A4687 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-4096 | Increment 64 | SP 800-38F",
+        "AES-KWP A4687 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-4096 | Increment 8 | SP 800-38F",
+        "Counter DRBG A4687 Prediction Resistance - No | Supports Reseed - Yes",
+        "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0-384 | SP 800-90A | Rev. 1 | Increment 16 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0-384 | Increment 16 | Returned Bits - 2048",
+        "ECDSA KeyGen | (FIPS186-4) | A4687 Curve - P-224, P-256, P-384, P-521 | Secret Generation Mode - Testing | Candidates | FIPS 186-4",
+        "ECDSA KeyVer | (FIPS186-4) | A4687 Curve - P-224, P-256, P-384, P-521 FIPS 186-4",
+        "ECDSA SigGen | (FIPS186-4) | A4687 Curve - P-224, P-256, P-384, P-521",
+        "Hash Algorithm - SHA2-224, SHA2-256",
+        "SHA2-384, SHA2-512, SHA2-512/256 | FIPS 186-4",
+        "ECDSA SigVer | (FIPS186-4) | A4687 Curve - P-224, P-256, P-384, P-521",
+        "Hash Algorithm - SHA-1, SHA2-224, SHA2-",
+        "256, SHA2-384, SHA2-512, SHA2-512/256 | FIPS 186-4",
+        "HMAC-SHA-1 A4687 MAC - MAC: 32-160 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-224 A4687 MAC - MAC: 32-224 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-256 A4687 MAC - MAC: 32-256 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-384 A4687 MAC - MAC: 32-384 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-512 A4687 MAC - MAC: 32-512 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2- | 512/256 | A4687 MAC - MAC: 32-256 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "KAS-ECC-SSC | Sp800-56Ar3 | A4687 Domain Parameter Generation Methods - P- | 224, P-256, P-384, P-521 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | staticUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+        "KAS-FFC-SSC | Sp800-56Ar3 | A4687 Domain Parameter Generation Methods - FB | FC | Scheme - | dhEphem - | KAS Role - initiator | SP 800-56A | Rev. 3",
+        "KDA HKDF | Sp800-56Cr1 | A4687 Fixed Info Pattern - uPartyInfo||vPartyInfo | Fixed Info Encoding - concatenation | Derived Key Length - 2048 | Shared Secret Length - Shared Secret | Length: 224-65336 Increment 8 | HMAC Algorithm - SHA2-224, SHA2-256",
+        "SHA2-384, SHA2-512, SHA2-512/256 | SP 800-56C | Rev. 2",
+        "RSA KeyGen | (FIPS186-4) | A4687 Key Generation Mode - B.3.3 | Modulo - 2048, 3072, 4096 | Primality Tests - Table C.2 | Info Generated By Server - Yes | Public Exponent Mode - Fixed | Fixed Public Exponent - 010001 | Private Key Format - Standard | FIPS 186-4",
+        "RSA SigGen | (FIPS186-4) | A4687 Signature Type - PKCS 1.5, PKCSPSS | Modulo - 2048, 3072, 4096 | Hash Pair -",
+        "Hash Algorithm - SHA2-224 | FIPS 186-4",
+        "RSA SigVer | (FIPS186-4) | A4687 Signature Type - PKCS 1.5, PKCSPSS | Modulo - 1024, 2048, 3072, 4096 | Hash Pair -",
+        "Hash Algorithm - SHA2-224 | Public Exponent Mode - Fixed | Fixed Public Exponent - 010001 | FIPS 186-4",
+        "SHA-1 A4687 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-224 A4687 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-256 A4687 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-384 A4687 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-512 A4687 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-512/256 A4687 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "TLS v1.2 KDF",
+        "RFC7627 (CVL)",
+        "A4687 Hash Algorithm - SHA2-256, SHA2-384",
+        "SHA2-512 | Key Block Length - Key Block Length: 1024 | SP 800-135 | Rev. 1",
+        "TLS v1.3 KDF",
+        "(CVL)",
+        "A4687 HMAC Algorithm - SHA2-256, SHA2-384",
+        "KDF Running Modes - DHE, PSK, PSK-DHE | SP 800-135 | Rev. 1 | Name Properties Implementation Reference | CKG Key | Type:Asymmetric | N/A Section 4, example 1: U is directly output | without XORing V | N/A for this module. | N/A for this module. | N/A for this module. | N/A for this module. | MD5, MD4 Non- Approved Hashing | POLYVAL Non- Approved authenticated encryption",
+        "DES, Triple-DES (non-compliant) Non- Approved encryption/decryption",
+        "AES (non-compliant) Non- Approved encryption/decryption | DH (non-compliant) Non- Approved key agreement",
+        "RSA PKCS #1 v1.5 key wrapping (non-compliant) Non- Approved key wrapping",
+        "TLS 1.0/1.1 KDF (non-compliant) Non- Approved TLS key derivation"
+      ]
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5520",
+      "Certificate Number": "5520",
+      "Vendor Name": "Motorola Mobility Inc",
+      "Module Name": "Motorola BoringCrypto Android 15",
+      "Module Type": "Software",
+      "Validation Date": "09/11/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5520.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5520",
+      "module_name": "Motorola BoringCrypto Android 15",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "sunset_date": "4/17/2031",
+      "overall_level": 1,
+      "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+      "module_type": "Software",
+      "embodiment": "MultiChipStand",
+      "description": "A software library that contains cryptographic functionality to serve BoringSSL and other user-space applications.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5520.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 11,
+        "detailed_algorithm_count": 49
+      },
+      "detail_available": true,
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DES",
+        "DRBG",
+        "ECDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "TLS"
+      ],
+      "algorithms_detailed": [
+        "AES-CBC A6134 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+        "AES-CCM A6134 Key Length - 128 | Tag Length - 32, 64 | SP 800-38C | IV Length - IV Length: 104 | Payload Length - Payload Length: 0-256 | Increment 8 | AAD Length - AAD Length: 0-524288 | Increment 8",
+        "AES-CTR A6134 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 | Increment 8 | Supports Counter larger than maximum | value - Yes | Incremental Counter - Yes | Counter Tests Performed - Yes | SP 800-38A",
+        "AES-ECB A6134 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+        "AES-GCM A6134 Direction - Decrypt, Encrypt | IV Generation - External, Internal | IV Generation Mode - 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 32, 64, 96 | IV Length - IV Length: 96 | Payload Length - Payload Length: 0-65536 | Increment 8 | AAD Length - AAD Length: 0-65536 | Increment 8 | SP 800-38D",
+        "AES-GMAC A6134 Direction - Decrypt, Encrypt | IV Generation - External | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 32, 64, 96 | IV Length - IV Length: 96 | AAD Length - AAD Length: 0-65536 | Increment 8 | SP 800-38D",
+        "AES-KW A6134 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-4096 | Increment 64 | SP 800-38F",
+        "AES-KWP A6134 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-4096 | Increment 8 | SP 800-38F",
+        "Counter DRBG A6134 Prediction Resistance - No | Supports Reseed - Yes",
+        "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0-384 | Increment 16 | SP 800-90A | Rev. 1 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0-384 | Increment 16 | Returned Bits - 2048",
+        "ECDSA KeyGen | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521 | Secret Generation Mode - testing candidates | FIPS 186-5",
+        "ECDSA KeyVer | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521 FIPS 186-5",
+        "ECDSA SigGen | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521",
+        "Hash Algorithm - SHA2-224, SHA2-256",
+        "SHA2-384, SHA2-512, SHA2-512/256 | FIPS 186-5",
+        "ECDSA SigVer | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521",
+        "HMAC-SHA-1 A6134 MAC - MAC: 32-160 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-224 A6134 MAC - MAC: 32-224 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-256 A6134 MAC - MAC: 32-256 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-384 A6134 MAC - MAC: 32-384 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2-512 A6134 MAC - MAC: 32-512 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "HMAC-SHA2- | 512/256 | A6134 MAC - MAC: 32-256 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
+        "KAS-ECC-SSC | Sp800-56Ar3 | A6134 Domain Parameter Generation Methods - P- | 224, P-256, P-384, P-521 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | staticUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+        "KAS-FFC-SSC | Sp800-56Ar3 | A6134 Domain Parameter Generation Methods - | FB, FC | Scheme - | dhEphem - | KAS Role - initiator | SP 800-56A | Rev. 3",
+        "KDA HKDF | Sp800-56Cr1 | A6134 Fixed Info Pattern - uPartyInfo||vPartyInfo | Fixed Info Encoding - concatenation | SP 800-56C | Rev. 2 | Derived Key Length - 2048 | Shared Secret Length - Shared Secret | Length: 224-65336 Increment 8 | HMAC Algorithm - SHA2-224, SHA2-256",
+        "SHA2-384, SHA2-512, SHA2-512/256",
+        "RSA KeyGen | (FIPS186-5) | A6134 Key Generation Mode - probable | Modulo - 2048, 3072, 4096 | Primality Tests - 2powSecStr | Fixed Public Exponent - 010001 | Info Generated By Server - Yes | Private Key Format - standard | Public Exponent Mode - fixed | FIPS 186-5",
+        "RSA SigGen | (FIPS186-5) | A6134 Hash Pair -",
+        "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - mgf1 | FIPS 186-5",
+        "RSA SigVer | (FIPS186-5) | A6134 Hash Pair -",
+        "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - mgf1 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed | FIPS 186-5",
+        "SHA-1 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-224 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-256 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-384 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-512 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "SHA2-512/256 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+        "TLS v1.2 KDF",
+        "RFC7627 (CVL)",
+        "A6134 Hash Algorithm - SHA2-256, SHA2-384",
+        "SHA2-512 | Key Block Length - Key Block Length: 1024 | SP 800-135 | Rev. 1",
+        "TLS v1.3 KDF",
+        "(CVL)",
+        "A6134 HMAC Algorithm - SHA2-256, SHA2-384",
+        "KDF Running Modes - DHE, PSK, PSK-DHE | SP 800-135 | Rev. 1 | Name Properties Implementation Reference | CKG Key | Type:Asymmetric | BoringCrypto Section 4, example 1: U is directly output | without XORing V | N/A for this module. | N/A for this module. | N/A for this module. | N/A for this module. | MD5, MD4 Non- Approved Hashing | POLYVAL Non- Approved authenticated encryption",
+        "DES, Triple-DES (non-compliant) Non- Approved encryption/decryption",
+        "AES (non-compliant) Non- Approved encryption/decryption | DH (non-compliant) Non- Approved key agreement",
+        "RSA PKCS #1 v1.5 key wrapping (non-compliant) Non- Approved key wrapping",
+        "TLS 1.0/1.1 KDF (non-compliant) Non- Approved TLS key derivation"
+      ]
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5519",
+      "Certificate Number": "5519",
+      "Vendor Name": "Motorola Mobility Inc",
+      "Module Name": "Motorola BoringCrypto Android 14",
+      "Module Type": "Software",
+      "Validation Date": "09/11/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5519.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5519",
+      "module_name": "Motorola BoringCrypto Android 14",
       "standard": "FIPS 140-3",
       "status": "Active",
       "sunset_date": "1/26/2030",
@@ -1670,108 +1945,12 @@
         "status": "parsed",
         "configured_source": "crawl4ai",
         "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5521.pdf",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5519.pdf",
         "cached": false,
         "fallback_used": false,
         "cache_version": "2026-04-15-legacy-v1",
         "algorithm_count": 11,
         "detailed_algorithm_count": 51
-      },
-      "detail_available": true
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5520",
-      "Certificate Number": "5520",
-      "Vendor Name": "Motorola Mobility Inc",
-      "Module Name": "Motorola BoringCrypto Android 15",
-      "Module Type": "Software",
-      "Validation Date": "09/11/2026",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5520.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5520",
-      "module_name": "Motorola BoringCrypto Android 15",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "sunset_date": "4/17/2031",
-      "overall_level": 1,
-      "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
-      "module_type": "Software",
-      "embodiment": "MultiChipStand",
-      "description": "A software library that contains cryptographic functionality to serve BoringSSL and other user-space applications.",
-      "algorithms": [
-        "AES",
-        "CVL",
-        "DES",
-        "DRBG",
-        "ECDSA",
-        "HMAC",
-        "KAS",
-        "KDF",
-        "RSA",
-        "SHA",
-        "TLS"
-      ],
-      "algorithms_detailed": [
-        "AES-CBC A6134 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
-        "AES-CCM A6134 Key Length - 128 | Tag Length - 32, 64 | SP 800-38C | IV Length - IV Length: 104 | Payload Length - Payload Length: 0-256 | Increment 8 | AAD Length - AAD Length: 0-524288 | Increment 8",
-        "AES-CTR A6134 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 | Increment 8 | Supports Counter larger than maximum | value - Yes | Incremental Counter - Yes | Counter Tests Performed - Yes | SP 800-38A",
-        "AES-ECB A6134 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
-        "AES-GCM A6134 Direction - Decrypt, Encrypt | IV Generation - External, Internal | IV Generation Mode - 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 32, 64, 96 | IV Length - IV Length: 96 | Payload Length - Payload Length: 0-65536 | Increment 8 | AAD Length - AAD Length: 0-65536 | Increment 8 | SP 800-38D",
-        "AES-GMAC A6134 Direction - Decrypt, Encrypt | IV Generation - External | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 32, 64, 96 | IV Length - IV Length: 96 | AAD Length - AAD Length: 0-65536 | Increment 8 | SP 800-38D",
-        "AES-KW A6134 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-4096 | Increment 64 | SP 800-38F",
-        "AES-KWP A6134 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-4096 | Increment 8 | SP 800-38F",
-        "Counter DRBG A6134 Prediction Resistance - No | Supports Reseed - Yes",
-        "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0-384 | Increment 16 | SP 800-90A | Rev. 1 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0-384 | Increment 16 | Returned Bits - 2048",
-        "ECDSA KeyGen | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521 | Secret Generation Mode - testing candidates | FIPS 186-5",
-        "ECDSA KeyVer | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521 FIPS 186-5",
-        "ECDSA SigGen | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521",
-        "Hash Algorithm - SHA2-224, SHA2-256",
-        "SHA2-384, SHA2-512, SHA2-512/256 | FIPS 186-5",
-        "ECDSA SigVer | (FIPS186-5) | A6134 Curve - P-224, P-256, P-384, P-521",
-        "HMAC-SHA-1 A6134 MAC - MAC: 32-160 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
-        "HMAC-SHA2-224 A6134 MAC - MAC: 32-224 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
-        "HMAC-SHA2-256 A6134 MAC - MAC: 32-256 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
-        "HMAC-SHA2-384 A6134 MAC - MAC: 32-384 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
-        "HMAC-SHA2-512 A6134 MAC - MAC: 32-512 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
-        "HMAC-SHA2- | 512/256 | A6134 MAC - MAC: 32-256 Increment 8 | Key Length - Key Length: 8-524288 | Increment 8 | FIPS 198-1",
-        "KAS-ECC-SSC | Sp800-56Ar3 | A6134 Domain Parameter Generation Methods - P- | 224, P-256, P-384, P-521 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | staticUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
-        "KAS-FFC-SSC | Sp800-56Ar3 | A6134 Domain Parameter Generation Methods - | FB, FC | Scheme - | dhEphem - | KAS Role - initiator | SP 800-56A | Rev. 3",
-        "KDA HKDF | Sp800-56Cr1 | A6134 Fixed Info Pattern - uPartyInfo||vPartyInfo | Fixed Info Encoding - concatenation | SP 800-56C | Rev. 2 | Derived Key Length - 2048 | Shared Secret Length - Shared Secret | Length: 224-65336 Increment 8 | HMAC Algorithm - SHA2-224, SHA2-256",
-        "SHA2-384, SHA2-512, SHA2-512/256",
-        "RSA KeyGen | (FIPS186-5) | A6134 Key Generation Mode - probable | Modulo - 2048, 3072, 4096 | Primality Tests - 2powSecStr | Fixed Public Exponent - 010001 | Info Generated By Server - Yes | Private Key Format - standard | Public Exponent Mode - fixed | FIPS 186-5",
-        "RSA SigGen | (FIPS186-5) | A6134 Hash Pair -",
-        "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - mgf1 | FIPS 186-5",
-        "RSA SigVer | (FIPS186-5) | A6134 Hash Pair -",
-        "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - mgf1 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed | FIPS 186-5",
-        "SHA-1 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
-        "SHA2-224 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
-        "SHA2-256 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
-        "SHA2-384 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
-        "SHA2-512 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
-        "SHA2-512/256 A6134 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
-        "TLS v1.2 KDF",
-        "RFC7627 (CVL)",
-        "A6134 Hash Algorithm - SHA2-256, SHA2-384",
-        "SHA2-512 | Key Block Length - Key Block Length: 1024 | SP 800-135 | Rev. 1",
-        "TLS v1.3 KDF",
-        "(CVL)",
-        "A6134 HMAC Algorithm - SHA2-256, SHA2-384",
-        "KDF Running Modes - DHE, PSK, PSK-DHE | SP 800-135 | Rev. 1 | Name Properties Implementation Reference | CKG Key | Type:Asymmetric | BoringCrypto Section 4, example 1: U is directly output | without XORing V | N/A for this module. | N/A for this module. | N/A for this module. | N/A for this module. | MD5, MD4 Non- Approved Hashing | POLYVAL Non- Approved authenticated encryption",
-        "DES, Triple-DES (non-compliant) Non- Approved encryption/decryption",
-        "AES (non-compliant) Non- Approved encryption/decryption | DH (non-compliant) Non- Approved key agreement",
-        "RSA PKCS #1 v1.5 key wrapping (non-compliant) Non- Approved key wrapping",
-        "TLS 1.0/1.1 KDF (non-compliant) Non- Approved TLS key derivation"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5520.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 11,
-        "detailed_algorithm_count": 49
       },
       "detail_available": true
     },
@@ -1793,6 +1972,19 @@
       "module_type": "Hardware",
       "embodiment": "MultiChipStand",
       "description": "The PTP 700 is deployed to create a point-to-point wireless bridge joining two Ethernet networks, or a point-to-multipoint wireless bridge joining between two and nine Ethernet networks. The PTP 45700 variant operates in licensed, lightly-licensed, and unlicensed frequency bands between 4400 MHz and 5875 MHz in channel bandwidths up to 45 MHz, providing aggregate data rates up to 450 Mbit/s. The PTP 78700 variant operates in licensed frequency bands between 7125 MHz and 8500 MHz, in channel bandwidths up to 45 MHz, providing aggregate data rates up to 503 Mbit/s.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5518.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 13,
+        "detailed_algorithm_count": 41
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -1850,20 +2042,7 @@
         "HMAC SHA2-256, HMAC SHA2-384, HMAC",
         "SHA2-512 | N/A SP800-133rev2 | Sections 4 Example | 1 and IG D.H | CKG- | Asym | Asymmetric: ECC P-256, ECC P-384: N/A SP800-133rev2 | Section 4 Example 1 | and IG D.H | The module does not implement any Non-Approved, but Allowed Algorithms in the Approved Mode | of Operation. | N/A for this module. | The Module implements the following Non-Approved but Allowed cryptographic Algorithm with No | Security Claimed. | Name Caveat Use and Function",
         "DES No security | claimed. | Obfuscation of configuration and performance data for remote customer | support and obfuscation of configuration management data. | Configuration data does not include SSPs. | The module does not implement any Non-Approved Algorithms, Not Allowed in the Approved Mode | of Operation. | Cambium Networks Public Material – May be reproduced only in its original entirety (without revision). Template v1.0 | N/A for this module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5518.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 13,
-        "detailed_algorithm_count": 41
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5517",
@@ -1883,6 +2062,19 @@
       "module_type": "Hardware",
       "embodiment": "MultiChipStand",
       "description": "The Apricorn Aegis Secure Key 3.0 is a hardware encrypted USB 3.1 memory key. Its software free design allows interface to any host that supports USB and mass storage. Authentication is performed via the embedded keypad and all critical security parameters (PINs, encryption keys, etc) never leave the device boundary for improved security. The device supports 1 administrator and 1 user and offers a variety of features including programmable brute force, recovery PINs, 8- 16 digit PINs, auto lock, read only modes, and is compatible with Apricorn’s Aegis Configurator",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5517.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 7,
+        "detailed_algorithm_count": 15
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -1908,20 +2100,7 @@
         "AES:Symmetric N/A SP800-133r2 Section 6.3 | approved method 1 | CKG",
         "DRBG",
         "AES:Symmetric | ECC-CDH Private | Key:Asymmetric | N/A SP800-133r2 Section 4 | example 1 | N/A for this module. | N/A for this module. | Aegis Secure Key 3.0 Cryptographic Module Security Policy | © Apricorn 1.0 Page 12 of 40 | N/A for this module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5517.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 7,
-        "detailed_algorithm_count": 15
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5516",
@@ -1941,6 +2120,19 @@
       "module_type": "Hardware",
       "embodiment": "SingleChip",
       "description": "The MACE cryptographic processor is used in security modules embedded in Motorola's Astro family of radio systems products. It provides secure voice and data capabilities as well as APCO Over-The-Air-Rekeying and advanced key management.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5516.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 10,
+        "detailed_algorithm_count": 26
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -1980,20 +2172,7 @@
         "[IG 2.4.A] P25 AES OTAR. AES MAC is applied directly to the",
         "plaintext OTAR key components and then KTS encryption is | performed on the OTAR key components and decrypted",
         "within the module using AES KW Cert. #A2264 | The module does not implement any Non-Approved Algorithms, Not Allowed in the Approved Mode of | Operation. | N/A for this module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5516.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 10,
-        "detailed_algorithm_count": 26
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5515",
@@ -2013,6 +2192,19 @@
       "module_type": "Hardware",
       "embodiment": "MultiChipStand",
       "description": "This crypto module provides network connectivity to Wireless clients. It transmits and receives wireless signals from wireless clients. It acts as a bridge between wireless clients and the wired network, extending network connectivity to wireless clients. It controls access to the network by enforcing security policies to regulate which devices can connect to it. The modules accepts commands and sends status information to an authenticated management server allowing itself to be managed by that wireless management server.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5515.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 11,
+        "detailed_algorithm_count": 81
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -2108,20 +2300,7 @@
         "TLS v1.3 KDF",
         "A5259 HMAC Algorithm - SHA2-256, SHA2-384",
         "KDF Running Modes - DHE, PSK, PSK-DHE | SP 800-135 | Rev. 1 | The table below lists all the Vendor-Affirmed Algorithms supported by the module. | Name Properties Implementation Reference | CKG Name:Symmetric Key Generation Section 4 NIST SP800-133r2 | The module does not support any | N/A for this module. | The module does not support any | N/A for this module. | Arista WiFi Access Points | Arista Networks Inc. | The module does not support any Non-Approved Algorithms that are not Allowed in the Approved | Mode of Operation. | N/A for this module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5515.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 11,
-        "detailed_algorithm_count": 81
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5514",
@@ -2141,6 +2320,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "SUSE Linux Enterprise NSS Cryptographic Module consists of the Softoken and Freebl libraries offering various cryptographic mechanisms.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5514.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 12,
+        "detailed_algorithm_count": 65
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -2221,20 +2413,7 @@
         "RSA (data encryption / decryption) Asymmetric encryption | Asymmetric decryption",
         "DSA Parameter generation | Parameter verification",
         "DSA, Diffie Hellman (FIPS 186-type groups), RSA (< 2048 bits), RSA (> 4096 | bits), Ed25519, X25519 | Key pair generation | Symmetric key generation (< 112 bits) Secret key generation"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5514.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 12,
-        "detailed_algorithm_count": 65
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5513",
@@ -2254,6 +2433,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "Red Hat Enterprise Linux 8 NSS Cryptographic Module consists of the Softoken and Freebl libraries offering various cryptographic mechanisms.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5513.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 13,
+        "detailed_algorithm_count": 56
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -2326,20 +2518,7 @@
         "decryption with primitive or SHA-1",
         "SHA-224",
         "RSA (< 2048 bits; > 4096 bits) Key pair generation | Ed25519, X25519 Key pair generation | Diffie Hellman (FIPS 186-type groups) Key pair generation | Symmetric key generation (< 112 bits) Secret key generation | The table above lists all the non-approved cryptographic algorithms of the module employed by the non- | approved services in Section 4.4."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5513.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 13,
-        "detailed_algorithm_count": 56
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5512",
@@ -2359,6 +2538,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "Dell BSAFE™ Crypto Module for C software library is designed for developers to incorporate FIPS 140-3 approved cryptography into C-based products. Dell BSAFE™ Crypto Module for C security software helps protect sensitive data as it is stored, using strong encryption techniques that ease integration with existing data models. Using the capabilities of Dell BSAFE™ Crypto Module for C software in applications helps provide a persistent level of protection for data, lessening the risk of internal, as well as external, compromise.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5512.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 13,
+        "detailed_algorithm_count": 98
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -2473,20 +2665,7 @@
         "TDES-ECB Symmetric encryption",
         "TDES-OFB Symmetric encryption",
         "TLS v1.0/1.1 PRF Key Derivation"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5512.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 13,
-        "detailed_algorithm_count": 98
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5511",
@@ -2506,6 +2685,19 @@
       "module_type": "Hardware",
       "embodiment": "MultiChipStand",
       "description": "The Chunghwa Telecom Laboratories HiPKI SafGuard 2000 HSM is a hardware cryptographic module provides FIPS 140-3 approved cryptographic services used in PKI system.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5511.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 6,
+        "detailed_algorithm_count": 18
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -2533,20 +2725,7 @@
         "ECDSA KeyVer | (FIPS186-4) | (A2894) | Curves: P224 | P256, P384 | P521 | RSASignVer DigSig- | SigGen | DigSig- | SigVer | Digital signature generation | and verify | Key size:2048, 3072, 4096- | bit keys with 112-150-bit key | strength",
         "RSA SigGen | (FIPS186-4) | (A2894) | Key size: 2048 | 3072, 4096-bit",
         "RSA SigVer | (FIPS186-4) | Name Type Description Properties Algorithms | (A2894) | Key size: 2048 | 3072, 4096-bit"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5511.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 6,
-        "detailed_algorithm_count": 18
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5510",
@@ -2566,6 +2745,19 @@
       "module_type": "Software",
       "embodiment": "MultiChipStand",
       "description": "FIPS cryptographic module for Supermicro-branded products.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5510.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 14,
+        "detailed_algorithm_count": 116
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -2699,20 +2891,7 @@
         "SHAKE-256 A4481 Supports Bit-Oriented Messages - No | Supports Empty Message - Yes | Supports Bit-Oriented Output - No | Output Length - Output Length: 16-65536 Increment 8 | FIPS 202 | Name Properties Implementation Reference | CKG Section 4 KeyPair FIPS Provider for OpenSSL 3 NIST, SP 800-133 Rev. 2 | CKG Section 5 KeyPair FIPS Provider for OpenSSL 3 NIST, SP 800-133 Rev. 2 | CKG Section 6.2 KeyPair FIPS Provider for OpenSSL 3 NIST, SP 800-133 Rev. 2",
         "Hash DRBG with SHA3-256, SHA3-512 KeyPair FIPS Provider for OpenSSL 3 NIST, SP 800-90A Rev. 1",
         "HMAC DRBG with SHA3-256, SHA3-512 KeyPair FIPS Provider for OpenSSL 3 NIST, SP 800-90A Rev. 1 | N/A for this module. | N/A for this Module. | N/A for this Module."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5510.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 14,
-        "detailed_algorithm_count": 116
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5509",
@@ -2732,6 +2911,19 @@
       "module_type": "Hardware",
       "embodiment": "MultiChipStand",
       "description": "The HPE Juniper Networking QFX5120 Switch delivers high scale, high availability, and high performance for data center and campus deployments. The QFX5120 Switch is a versatile routing and switching platform addressing higher server access speed and campus distribution use cases while offering high-density 1GbE/10GbE/25GbE and 100GbE uplinks for collapsed spine data center or campus distribution deployments. The QFX5120-48YM is a 10GbE/25GbE/100GbE data center leaf and campus distribution switch.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5509.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 12,
+        "detailed_algorithm_count": 58
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -2805,20 +2997,7 @@
         "HMAC-RIPEMD160 SSH",
         "UMAC SSH",
         "TDES SSH | In addition to the above non-Approved Algorithms Not Allowed in the Approved Mode of | Operation, all Approved algorithms supported in the Approved mode of operation are also | supported in the non-Approved mode."
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5509.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 12,
-        "detailed_algorithm_count": 58
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5508",
@@ -2838,6 +3017,19 @@
       "module_type": "Hardware",
       "embodiment": "MultiChipEmbed",
       "description": "The module serves as the central control and storage facility for any SSPs utilized by the Encryption Module. Management functions of the module include device configuration, alarm monitoring, and log collection.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5508.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 12,
+        "detailed_algorithm_count": 43
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "CVL",
@@ -2896,20 +3088,7 @@
         "share CSPs in a way that counters the requirements of the | IG; 3) i) the algorithm is not intended to be used as a | security function 4) the algorithm’s non-approved use and | purpose (from 3)) is unambiguous to the operator and can’t | be easily confused for a security function given as the | purpose is not providing any security functionality | recognized in FIPS 140-3. | SNMPv3 (MD5",
         "192, AES-256) | No | Security | Claimed | SNMPv3 is used for non-security relevant status output | such as alerts, alarms etc. Hence no security claimed as | per IG 2.4.A Additional Comment 2 and the following | requirements per the Additional Comment 2 are satisfied: 1) | the algorithm is not used whatsoever to meet any FIPS | 140-3 requirements; 2) the algorithm does not access or",
         "share CSPs in a way that counters the requirements of the | IG; 3) i) the algorithm is not intended to be used as a | security function 4) the algorithm’s non-approved use and | purpose (from 3)) is unambiguous to the operator and can’t | be easily confused for a security function given as the | purpose is not providing any security functionality | recognized in FIPS 140-3. | The module does not implement any"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5508.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 12,
-        "detailed_algorithm_count": 43
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5507",
@@ -12911,6 +13090,19 @@
       "module_type": "Software-hybrid",
       "embodiment": "MultiChipStand",
       "description": "The Cryptographic Primitives Library is a cryptographic module that provides cryptographic services to user-mode applications running on Windows through the set of exported functions described in section 3 Cryptographic Module Interfaces. The module includes a set of algorithm providers for the Cryptography Next Generation (CNG) framework in Windows. Each provider represents a single cryptographic algorithm or a set of closely related cryptographic algorithms.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5410.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 12,
+        "detailed_algorithm_count": 355
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -13281,20 +13473,7 @@
         "• FIPS 198-1, The Keyed-Hash Message Authentication Code (HMAC) | https://csrc.nist.gov/publications/detail/fips/198/1/final",
         "• FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | https://csrc.nist.gov/publications/detail/fips/202/final | • NIST SP 800-38A, Recommendation for Block Cipher Modes of Operation: Methods and Techniques | https://csrc.nist.gov/publications/detail/sp/800-38a/final | • NIST SP 800-38B, Recommendation for Block Cipher Modes of Operation: the CMAC Mode for | Authentication, https://csrc.nist.gov/publications/detail/sp/800-38b/final | • NIST SP 800-38C, Recommendation for Block Cipher Modes of Operation: the CCM Mode for | Authentication and Confidentiality, https://csrc.nist.gov/publications/detail/sp/800-38c/final | • NIST SP 800-38D, Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) | and GMAC, https://csrc.nist.gov/publications/detail/sp/800-38d/final",
         "• NIST SP 800-38E, Recommendation for Block Cipher Modes of Operation: the XTS-AES Mode for | Confidentiality on Storage Devices, https://csrc.nist.gov/publications/detail/sp/800-38e/final | • NIST SP 800-38F, Recommendation for Block Cipher Modes of Operation: Methods for Key Wrapping | https://csrc.nist.gov/publications/detail/sp/800-38f/final | • NIST SP 800-56A Rev. 3, Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete | Logarithm Cryptography, https://csrc.nist.gov/publications/detail/sp/800-56a/rev-3/final | • NIST SP 800-56B Rev. 2, Recommendation for Pair-Wise Key-Establishment Using Integer Factorization | Cryptography, https://csrc.nist.gov/publications/detail/sp/800-56b/rev-2/final | • NIST SP 800-90A Rev. 1, Recommendation for Random Number Generation Using Deterministic | Random Bit Generators, https://csrc.nist.gov/publications/detail/sp/800-90a/rev-1/final | • NIST SP 800-90B, Recommendation for the Entropy Sources Used for Random Bit Generation | https://csrc.nist.gov/publications/detail/sp/800-90b/final | • NIST SP 800-108 Rev. 1, Recommendation for Key Derivation Using Pseudorandom Functions | https://csrc.nist.gov/publications/detail/sp/800-108/rev-1/final | • NIST SP 800-131A Rev. 2, Transitioning the Use of Cryptographic Algorithms and Key Lengths | https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final | • NIST SP 800-132, Recommendation for Password-Based Key Derivation: Part 1: Storage Applications | https://csrc.nist.gov/publications/detail/sp/800-132/final | • NIST SP 800-133 Rev. 2, Recommendation for Cryptographic Key Generation | https://csrc.nist.gov/publications/detail/sp/800-133/rev-2/final | • NIST SP 800-135 Rev. 1, Recommendation for Existing Application-Specific Key Derivation Functions | https://csrc.nist.gov/publications/detail/sp/800-135/rev-1/final"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5410.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 12,
-        "detailed_algorithm_count": 355
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5409",
@@ -13314,6 +13493,19 @@
       "module_type": "Software-hybrid",
       "embodiment": "MultiChipStand",
       "description": "The BitLocker Dump Filter module is a multi-chip standalone software-hybrid cryptographic module that protects crash dump files on BitLocker-encrypted computers. The module is part of the system dump stack. When the dump stack is called during a crash, the module ensures that all data is encrypted before being written to storage as a dump file.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5409.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 5,
+        "detailed_algorithm_count": 66
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "RSA",
@@ -13388,20 +13580,7 @@
         "• FIPS 180-4, Secure Hash Standard (SHS), https://csrc.nist.gov/publications/detail/fips/180/4/final | • FIPS 186-4, Digital Signature Standard (DSS), https://csrc.nist.gov/publications/detail/fips/186/4/final | • FIPS 186-5, Digital Signature Standard (DSS), https://csrc.nist.gov/pubs/fips/186-5/final",
         "• FIPS 197, Advanced Encryption Standard (AES), https://csrc.nist.gov/publications/detail/fips/197/final | • NIST SP 800-38A, Recommendation for Block Cipher Modes of Operation: Methods and Techniques | https://csrc.nist.gov/publications/detail/sp/800-38a/final",
         "• NIST SP 800-38E, Recommendation for Block Cipher Modes of Operation: the XTS-AES Mode for | Confidentiality on Storage Devices, https://csrc.nist.gov/publications/detail/sp/800-38e/final"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5409.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 5,
-        "detailed_algorithm_count": 66
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5408",
@@ -13421,6 +13600,19 @@
       "module_type": "Software-hybrid",
       "embodiment": "MultiChipStand",
       "description": "The Kernel Mode Cryptographic Primitives Library is a kernel-mode cryptographic module that provides cryptographic services through the Microsoft CNG (Cryptography, Next Generation) API to Windows kernel components. The module also provides cryptographic provider registration and configuration services to both user and kernel mode components.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5408.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 11,
+        "detailed_algorithm_count": 338
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -13773,20 +13965,7 @@
         "• FIPS 198-1, The Keyed-Hash Message Authentication Code (HMAC) | https://csrc.nist.gov/publications/detail/fips/198/1/final",
         "• FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | https://csrc.nist.gov/publications/detail/fips/202/final | • NIST SP 800-38A, Recommendation for Block Cipher Modes of Operation: Methods and Techniques | https://csrc.nist.gov/publications/detail/sp/800-38a/final | • NIST SP 800-38B, Recommendation for Block Cipher Modes of Operation: the CMAC Mode for | Authentication, https://csrc.nist.gov/publications/detail/sp/800-38b/final | • NIST SP 800-38C, Recommendation for Block Cipher Modes of Operation: the CCM Mode for | Authentication and Confidentiality, https://csrc.nist.gov/publications/detail/sp/800-38c/final | • NIST SP 800-38D, Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) | and GMAC, https://csrc.nist.gov/publications/detail/sp/800-38d/final",
         "• NIST SP 800-38E, Recommendation for Block Cipher Modes of Operation: the XTS-AES Mode for | Confidentiality on Storage Devices, https://csrc.nist.gov/publications/detail/sp/800-38e/final | • NIST SP 800-38F, Recommendation for Block Cipher Modes of Operation: Methods for Key Wrapping | https://csrc.nist.gov/publications/detail/sp/800-38f/final | • NIST SP 800-56A Rev. 3, Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete | Logarithm Cryptography, https://csrc.nist.gov/publications/detail/sp/800-56a/rev-3/final | • NIST SP 800-56B Rev. 2, Recommendation for Pair-Wise Key-Establishment Using Integer Factorization | Cryptography, https://csrc.nist.gov/publications/detail/sp/800-56b/rev-2/final | • NIST SP 800-90A Rev. 1, Recommendation for Random Number Generation Using Deterministic | Random Bit Generators, https://csrc.nist.gov/publications/detail/sp/800-90a/rev-1/final | • NIST SP 800-90B, Recommendation for the Entropy Sources Used for Random Bit Generation | https://csrc.nist.gov/publications/detail/sp/800-90b/final | • NIST SP 800-108 Rev. 1, Recommendation for Key Derivation Using Pseudorandom Functions | https://csrc.nist.gov/publications/detail/sp/800-108/rev-1/final | • NIST SP 800-131A Rev. 2, Transitioning the Use of Cryptographic Algorithms and Key Lengths | https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final | • NIST SP 800-132, Recommendation for Password-Based Key Derivation: Part 1: Storage Applications | https://csrc.nist.gov/publications/detail/sp/800-132/final | • NIST SP 800-133 Rev. 2, Recommendation for Cryptographic Key Generation | https://csrc.nist.gov/publications/detail/sp/800-133/rev-2/final | • NIST SP 800-135 Rev. 1, Recommendation for Existing Application-Specific Key Derivation Functions | https://csrc.nist.gov/publications/detail/sp/800-135/rev-1/final | •"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5408.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 11,
-        "detailed_algorithm_count": 338
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5407",
@@ -13926,6 +14105,19 @@
       "module_type": "Software-hybrid",
       "embodiment": "MultiChipStand",
       "description": "The Windows OS Loader (the \"module\") is the component that loads the operating system kernel (ntoskrnl.exe) and other boot stage binary image files. The module is a part of BitLocker Drive Encryption, which is a data protection feature of the Windows operating system that encrypts data on a storage volume.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5405.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 6,
+        "detailed_algorithm_count": 122
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -14057,20 +14249,7 @@
         "• FIPS 180-4, Secure Hash Standard (SHS), https://csrc.nist.gov/publications/detail/fips/180/4/final | Windows OS Loader – Security Policy Document | • FIPS 186-4, Digital Signature Standard (DSS), https://csrc.nist.gov/publications/detail/fips/186/4/final | • FIPS 186-5, Digital Signature Standard (DSS), https://csrc.nist.gov/pubs/fips/186-5/final",
         "• FIPS 197, Advanced Encryption Standard (AES), https://csrc.nist.gov/publications/detail/fips/197/final | • NIST SP 800-38A, Recommendation for Block Cipher Modes of Operation: Methods and Techniques | https://csrc.nist.gov/publications/detail/sp/800-38a/final | • NIST SP 800-38C, Recommendation for Block Cipher Modes of Operation: the CCM Mode for | Authentication and Confidentiality, https://csrc.nist.gov/publications/detail/sp/800-38c/final | • NIST SP 800-38D, Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode | (GCM) and GMAC, https://csrc.nist.gov/publications/detail/sp/800-38d/final",
         "• NIST SP 800-38E, Recommendation for Block Cipher Modes of Operation: the XTS-AES Mode for | Confidentiality on Storage Devices, https://csrc.nist.gov/publications/detail/sp/800-38e/final | • NIST SP 800-90A Rev. 1, Recommendation for Random Number Generation Using Deterministic | Random Bit Generators, https://csrc.nist.gov/publications/detail/sp/800-90a/rev-1/final | • NIST SP 800-90B, Recommendation for the Entropy Sources Used for Random Bit Generation | https://csrc.nist.gov/publications/detail/sp/800-90b/final | • Public Use Document for Microsoft Windows OS Loader Entropy Source for Microsoft Windows 11 | 22H2 (certificate E189), https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation- | program/documents/entropy/E189_PublicUse.pdf | • Public Use Document for Microsoft Windows OS Loader Entropy Source for Microsoft Windows Server | 2022 (certificate E216), https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation- | program/documents/entropy/E216_PublicUse.pdf"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5405.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 6,
-        "detailed_algorithm_count": 122
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5404",
@@ -14090,6 +14269,19 @@
       "module_type": "Software-hybrid",
       "embodiment": "MultiChipStand",
       "description": "The Windows Boot Manager module is a multi-chip standalone software-hybrid cryptographic module. Boot Manager is the first Windows OS component to load when the computer powers up. When Secure Boot is enabled, the integrity of Boot Manager is validated before loading by the computer’s UEFI firmware. Along with other startup and initialization tasks, Boot Manager loads and cryptographically validates the integrity of Winload.efi (the Windows OS Loader), the next module in the startup sequence. The Boot Manager, which includes parts of BitLocker disk encryption, collects authorization factors, known as “protectors”, by reading data or interacting with the user. BitLocker uses these protectors to encrypt entire disk volumes.",
+      "algorithm_extraction": {
+        "schema_version": "1.0",
+        "status": "cached",
+        "configured_source": "crawl4ai",
+        "source": "crawl4ai",
+        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5404.pdf",
+        "cached": true,
+        "fallback_used": false,
+        "cache_version": "2026-04-15-legacy-v1",
+        "algorithm_count": 7,
+        "detailed_algorithm_count": 41
+      },
+      "detail_available": true,
       "algorithms": [
         "AES",
         "DRBG",
@@ -14141,20 +14333,7 @@
         "HMAC-SHA2-256: (A4008)",
         "HMAC-SHA2-256: (A4009)",
         "SHA Size: 256 bits | Boot Manager – Security Policy Document"
-      ],
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "parsed",
-        "configured_source": "crawl4ai",
-        "source": "crawl4ai",
-        "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5404.pdf",
-        "cached": false,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 7,
-        "detailed_algorithm_count": 41
-      },
-      "detail_available": true
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5403",
@@ -65652,11 +65831,11 @@
       "Vendor Name": "Solidigm Inc.",
       "algorithm_extraction": {
         "schema_version": "1.0",
-        "status": "parsed",
+        "status": "cached",
         "configured_source": "crawl4ai",
         "source": "crawl4ai",
         "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4866.pdf",
-        "cached": false,
+        "cached": true,
         "fallback_used": false,
         "cache_version": "2026-04-15-legacy-v1",
         "algorithm_count": 7,
@@ -66789,38 +66968,6 @@
         "SHA2-384 | A4453 | Message Length-Message Length:0-65536 Increment8 | FIPS 180-4",
         "SHA2-512 | A4453 | Message Length-Message Length:0-65536 Increment8 | FIPS 180-4"
       ]
-    },
-    {
-      "Certificate Number": "4817",
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
-      "Module Name": "Apple corecrypto Module v12.0 [Apple silicon, User, Software, SL1]",
-      "Module Type": "Software",
-      "Validation Date": "10/01/2024",
-      "Vendor Name": "Apple Inc.",
-      "algorithm_extraction": {
-        "schema_version": "1.0",
-        "status": "cached",
-        "configured_source": "crawl4ai",
-        "source": "firecrawl",
-        "source_url": null,
-        "cached": true,
-        "fallback_used": false,
-        "cache_version": "2026-04-15-legacy-v1",
-        "algorithm_count": 0,
-        "detailed_algorithm_count": 0
-      },
-      "caveat": "Interim validation. When operated in approved mode",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4817",
-      "description": "The Apple Cryptographic Module for Apple silicon user space environment.",
-      "detail_available": true,
-      "embodiment": "Multi-Chip Stand Alone",
-      "module_name": "Apple corecrypto Module v12.0 [Apple silicon, User, Software, SL1]",
-      "module_type": "Software",
-      "overall_level": 1,
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4817.pdf",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "sunset_date": "9/30/2026"
     },
     {
       "Certificate Number": "4816",
@@ -68485,7 +68632,7 @@
         "source": "firecrawl",
         "source_url": null,
         "cached": true,
-        "fallback_used": true,
+        "fallback_used": false,
         "cache_version": "2026-04-15-legacy-v1",
         "algorithm_count": 0,
         "detailed_algorithm_count": 0

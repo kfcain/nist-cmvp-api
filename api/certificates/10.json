@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/10"
   },
@@ -24,7 +24,7 @@
     "description": "Turbo Crypto Card is used in a variety of Cylink's host encryption products, including the Secure Frame Unit (SFU) and the Secure Domain Unit (SDU).",
     "embodiment": "Multi-chip embedded",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "Turbo Crypto Card (TCC), v09",
     "module_type": "Hardware",

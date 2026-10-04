@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1494"
   },
@@ -24,7 +24,7 @@
     "description": "The Sony Security Module (SSM) is cryptographic module to provide decryption, decoding/encoding of audio/video data for the digital cinema projector system in which it is being employed.",
     "embodiment": "Multi-chip embedded",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "Sony Security Module",
     "module_type": "Hardware",

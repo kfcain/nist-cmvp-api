@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1269"
   },
@@ -24,7 +24,7 @@
     "description": "The Bluefly processor is a cryptographic and authentication engine for Personal Portable Security Devices (PPSDs). It provides secure storage, digital identity functions, and multifactor user authentication for USB-based peripherals.",
     "embodiment": "Single-chip",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "Bluefly Processor",
     "module_type": "Hardware",

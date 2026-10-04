@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1457"
   },
@@ -24,7 +24,7 @@
     "description": "Encryption modules used in Motorola Astro family of radios. Provides secure voice and data capabilities as well as APCO Over-the-Air-Rekeying and advanced key management.",
     "embodiment": "Multi-chip embedded",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "ASTRO Subscriber Universal Crypto Module (UCM)",
     "module_type": "Hardware",

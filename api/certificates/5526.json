@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526"
   },
   "certificate": {
     "certificate_number": "5526",
     "dataset": "active",
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
@@ -59,6 +59,18 @@
       "contact_email": "info@trellisware.com",
       "contact_phone": "858-753-1600"
     },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 8,
+      "detailed_algorithm_count": 18
+    },
     "algorithms": [
       "AES",
       "DES",
@@ -88,25 +100,6 @@
       "SHA2- | 384 | No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
       "KDF No | security | claimed | As per FIPS 140-3 IG 2.4.A, this is used between applications/web | browser and the module; however, the module's purpose is to provide | end-to-end secure communications over an insecure communications | channel. Module does not rely on the security of this algorithm for this | purpose.",
       "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power | This document may be freely reproduced and distributed (without revision). Page 25 of 52 | N/A for this module. | None"
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 8,
-      "detailed_algorithm_count": 18,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

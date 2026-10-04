@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1346"
   },
@@ -24,7 +24,7 @@
     "description": "The Tripwire Cryptographic Module supports many FIPS approved cryptographic operations, providing other Tripwire products and Java-based applications access to these algorithms.",
     "embodiment": "Multi-chip standalone",
     "firmware_versions": null,
-    "generated_at": "2026-09-30T07:03:12.945257Z",
+    "generated_at": "2026-10-04T07:38:16.589988Z",
     "hardware_versions": null,
     "module_name": "Tripwire Cryptographic Module",
     "module_type": "Software",
