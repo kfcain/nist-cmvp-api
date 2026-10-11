@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5549"
+  },
+  "certificate": {
+    "certificate_number": "5549",
+    "dataset": "active",
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5549",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5549",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5549.pdf",
+    "vendor_name": "Motorola Solutions Inc.",
+    "module_name": "Motorola P25 KVL 7000 HSM",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "SingleChip",
+    "overall_level": 2,
+    "validation_date": "10/9/2026",
+    "validation_dates": [
+      "10/9/2026"
+    ],
+    "sunset_date": "10/8/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Module generates, loads and manages encryption and authentication keys securely into communication products directly from the palm of your hand. The KVL 7000 integrates with the Key Management Facility (KMF) by provisioning radios and consoles for centralized key management.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Software/Firmware security: Level 3",
+      "Operational environment: N/A",
+      "Physical security: Level 3",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5549.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/9/2026",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions Inc.",
+      "website_url": "http://www.motorolasolutions.com",
+      "address_lines": [
+        "500 West Monroe Street",
+        "Chicago, IL 60661",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Amalendu Roy",
+      "contact_email": "aroy@motorolasolutions.com",
+      "contact_phone": "847-576-5000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "RSA",
+      "SHA",
+      "SHS"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC, AES-CFB128",
+      "AES-CFB8, AES-CTR, AES-",
+      "ECB, AES-OFB | A7818 | A7819 | Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A",
+      "AES-CBC, AES-CTR, AES-",
+      "ECB, AES-OFB | A7817 Direction - Decrypt, Encrypt | Key Length - 128 | SP 800-38A",
+      "AES-GCM, AES-GMAC A7817 Direction - Decrypt, Encrypt | IV Generation - Internal | IV Generation Mode - 8.2.1, 8.2.2 | Key Length - 128 | SP 800-38D",
+      "AES-GCM, AES-GMAC A7818 | A7819 | Direction - Decrypt, Encrypt | IV Generation - Internal | IV Generation Mode - 8.2.1, 8.2.2 | Key Length - 256 | SP 800-38D",
+      "AES-KW A8087 Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38F",
+      "Counter DRBG A8088 Prediction Resistance - No | Supports Reseed - No",
+      "Mode - AES-256 | Derivation Function Enabled - | Yes | Additional Input - Additional | Input: 0 | Entropy Input - Entropy Input | 256, 1024 | Nonce - Nonce: 128, 512 | Personalization String Length - | Personalization String Length | 256, 512 | Returned Bits - 128 | SP 800-90A | Rev. 1 | Motorola Solutions Public Material – May be reproduced only in its original entirety (without revision).",
+      "ECDSA SigVer (FIPS186-5) A8089 Curve - P-384",
+      "Hash Algorithm - SHA2-384 | FIPS 186-5",
+      "RSA SigVer (FIPS186-5) A5253 Modulo - 2048 | Signature Type - pkcs1v1.5 | FIPS 186-5",
+      "SHA2-256 SHS 817 Message Length - Message | Length: 0-51200 Increment 8 | FIPS 180-4",
+      "SHA2-256, SHA2-384 A8090 Message Length - Message | Length: 8-2048 Increment 8 | FIPS 180-4 | Name Properties Implementation Reference",
+      "CKG Key Type :AES 128 | Symmetric",
+      "Key Type :AES 256 | Symmetric | N/A SP800-133rev2 Section4, example 1 | and IG D.H | N/A for this module. | N/A for this module. | N/A for this module."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5549.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 6,
+      "detailed_algorithm_count": 17,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5549.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

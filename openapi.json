@@ -187,7 +187,7 @@
         "operationId": "getModules",
         "responses": {
           "200": {
-            "description": "Currently 711 active validated modules with enriched details",
+            "description": "Currently 723 active validated modules with enriched details",
             "content": {
               "application/json": {
                 "schema": {
@@ -205,7 +205,7 @@
         "operationId": "getHistoricalModules",
         "responses": {
           "200": {
-            "description": "Currently 4808 historical modules",
+            "description": "Currently 4809 historical modules",
             "content": {
               "application/json": {
                 "schema": {
@@ -223,7 +223,7 @@
         "operationId": "getModulesInProcess",
         "responses": {
           "200": {
-            "description": "Currently 195 modules in process",
+            "description": "Currently 193 modules in process",
             "content": {
               "application/json": {
                 "schema": {
@@ -312,27 +312,27 @@
           "generated_at": {
             "type": "string",
             "format": "date-time",
-            "example": "2026-10-04T07:38:16.589988Z"
+            "example": "2026-10-11T08:06:07.463635Z"
           },
           "total_modules": {
             "type": "integer",
-            "example": 711
+            "example": 723
           },
           "total_historical_modules": {
             "type": "integer",
-            "example": 4808
+            "example": 4809
           },
           "total_modules_in_process": {
             "type": "integer",
-            "example": 195
+            "example": 193
           },
           "total_certificates_with_algorithms": {
             "type": "integer",
-            "example": 1901
+            "example": 1914
           },
           "total_certificate_details": {
             "type": "integer",
-            "example": 5519
+            "example": 5532
           },
           "source": {
             "type": "string",
@@ -370,39 +370,39 @@
         "properties": {
           "Certificate Number_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5550"
           },
           "Certificate Number": {
             "type": "string",
-            "example": "5537"
+            "example": "5550"
           },
           "Vendor Name": {
             "type": "string",
-            "example": "Google LLC"
+            "example": "Google, LLC"
           },
           "Module Name": {
             "type": "string",
-            "example": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine"
+            "example": "Integrated Compute Complex (ICC)"
           },
           "Module Type": {
             "type": "string",
-            "example": "Hardware"
+            "example": "Firmware"
           },
           "Validation Date": {
             "type": "string",
-            "example": "10/01/2026"
+            "example": "10/10/2026"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5537.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5550.pdf"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5537"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5550"
           },
           "module_name": {
             "type": "string",
-            "example": "Google Tensor 6th Gen UFS Inline Storage Encryption Engine"
+            "example": "Integrated Compute Complex (ICC)"
           },
           "standard": {
             "type": "string",
@@ -414,7 +414,7 @@
           },
           "sunset_date": {
             "type": "string",
-            "example": "9/30/2031"
+            "example": "10/9/2031"
           },
           "overall_level": {
             "type": "integer",
@@ -422,11 +422,11 @@
           },
           "caveat": {
             "type": "string",
-            "example": "No assurance of minimum security of SSPs (e.g. keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
+            "example": "When operated in approved mode with module B227 True Random Number Generator (TRNG) Cryptographic Module validated to FIPS 140-3 under Cert. #5539 operating in approved mode. The module generates SSPs (e.g., keys) whose strengths are modified by available entropy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
           },
           "module_type": {
             "type": "string",
-            "example": "Hardware"
+            "example": "Firmware"
           },
           "embodiment": {
             "type": "string",
@@ -434,7 +434,7 @@
           },
           "description": {
             "type": "string",
-            "example": "The Google Tensor 6th Gen UFS Inline Storage Encryption Engine provides File-Based Encryption as part of the Google Tensor 6th Gen SoC's suite of services."
+            "example": "The Integrated Compute Complex (ICC) provides cryptography to subsystems within the Google IN762 SoC."
           },
           "algorithms": {
             "type": "array",
@@ -442,7 +442,9 @@
               "type": "string"
             },
             "example": [
-              "AES"
+              "AES",
+              "DRBG",
+              "KDF"
             ]
           },
           "algorithms_detailed": {
@@ -451,7 +453,9 @@
               "type": "string"
             },
             "example": [
-              "AES-XTS Testing Revision | 2.0 | A8177 Direction - Decrypt, Encrypt | Key Length - 256 | Payload Length - Payload Length: 128 | Tweak Mode - Number | Data Unit Length Matches Payload Length - | Yes | SP 800-38E | N/A for this module. | N/A for this module. | N/A for this module. | N/A for this module."
+              "AES-CMAC A7461 Direction - Generation | Key Length - 128, 192, 256 | MAC Length - MAC Length: 128 | Message Length - Message Length: 8-1024 | Increment 8 | SP 800-38B",
+              "AES-ECB A2932 Direction - Encrypt | Key Length - 128, 256 | SP 800-38A",
+              "AES-ECB A7461 Direction - Encrypt | Key Length - 128, 192, 256 | SP 800-38A | Counter"
             ]
           },
           "algorithm_extraction": {
@@ -876,7 +880,7 @@
         "properties": {
           "certificate_number": {
             "type": "string",
-            "example": "5526"
+            "example": "5525"
           },
           "dataset": {
             "type": "string",
@@ -884,27 +888,27 @@
           },
           "generated_at": {
             "type": "string",
-            "example": "2026-10-04T07:38:16.589988Z"
+            "example": "2026-10-11T08:06:07.463635Z"
           },
           "nist_page_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5525"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5526"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5525"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5526.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5525.pdf"
           },
           "vendor_name": {
             "type": "string",
-            "example": "TrellisWare Technologies, Inc."
+            "example": "SafeLogic, Inc."
           },
           "module_name": {
             "type": "string",
-            "example": "TW-900-F/950-F TSM Shadow, TW-880-F TSM Ghost Embedded, TW-870-F/875-F TSM Ghost, TW-135-F TSM Shadow High-Power"
+            "example": "CryptoComply Module based on AWS-LC FIPS"
           },
           "standard": {
             "type": "string",
@@ -916,7 +920,7 @@
           },
           "module_type": {
             "type": "string",
-            "example": "Hardware"
+            "example": "Software"
           },
           "embodiment": {
             "type": "string",
@@ -924,11 +928,11 @@
           },
           "overall_level": {
             "type": "integer",
-            "example": 2
+            "example": 1
           },
           "validation_date": {
             "type": "string",
-            "example": "9/17/2026"
+            "example": "9/16/2026"
           },
           "validation_dates": {
             "type": "array",
@@ -936,20 +940,20 @@
               "type": "string"
             },
             "example": [
-              "9/17/2026"
+              "9/16/2026"
             ]
           },
           "sunset_date": {
             "type": "string",
-            "example": "9/16/2031"
+            "example": "6/2/2031"
           },
           "caveat": {
             "type": "string",
-            "example": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. The tamper evident sealant installed as indicated in the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
+            "example": "When operated in approved mode. When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
           },
           "description": {
             "type": "string",
-            "example": "The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F are small form-factor radios that employ the latest version of TrellisWare's TSM waveform and are capable of robust operation at high data rates. The TW-950-F, TW-900-F, TW-880-F, TW-875-F, TW-870-F and TW-135-F radios support multi-channel voice, IP data, Position Location Information (PLI) tracking, sleep functions for long-term sensing applications, IP gateway features and remote operation of live streaming video sources for networked sensing missions."
+            "example": "SafeLogic's CryptoComply Module based on AWS-LC FIPS is designed to provide FIPS 140-3 validated cryptographic functionality. It includes PQC support and is available for licensing."
           },
           "software_versions": {
             "type": "string",
@@ -972,9 +976,8 @@
               "type": "string"
             },
             "example": [
-              "Operational environment: N/A",
-              "Non-invasive security: N/A",
-              "Mitigation of other attacks: N/A"
+              "Physical security: N/A",
+              "Non-invasive security: N/A"
             ]
           },
           "related_files": {
@@ -1006,8 +1009,8 @@
             },
             "example": [
               "AES",
-              "DES",
-              "DSA"
+              "CVL",
+              "DRBG"
             ]
           },
           "algorithms_detailed": {
@@ -1016,9 +1019,9 @@
               "type": "string"
             },
             "example": [
-              "AES-CTR C1431 Direction - Encrypt | Key Length - 256 | SP 800-38A",
-              "RSA SigGen | (FIPS186-5) | A5395 Hash Pair -",
-              "Hash Algorithm - SHA2-256 | Modulo - 2048 | Signature Type - pkcs1v1.5 | FIPS 186-5"
+              "AES-CBC A6160, A6165, A6170, A6181 | A6273, A6276 | Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+              "AES-CCM A6160, A6165, A6170, A6181 | A6273, A6276 | Key Length - 128 | Tag Length - 32 | IV Length - IV Length: 104 | Payload Length - Payload Length: 0-256 | Increment 8 | AAD Length - AAD Length: 0, 256, 65536 | SP 800-38C",
+              "AES-CMAC A6160, A6165, A6170, A6181 | A6273, A6276 | Direction - Generation, Verification | Key Length - 128, 256 | MAC Length - MAC Length: 32-128 | Increment 8 | Message Length - Message Length: 0-65536 | Increment 8 | SP 800-38B"
             ]
           }
         }

@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5548"
+  },
+  "certificate": {
+    "certificate_number": "5548",
+    "dataset": "active",
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5548",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5548",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5548.pdf",
+    "vendor_name": "wolfSSL Inc.",
+    "module_name": "wolfCrypt",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "10/9/2026",
+    "validation_dates": [
+      "10/9/2026"
+    ],
+    "sunset_date": "10/8/2031",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "wolfCrypt module is a comprehensive suite of FIPS Approved algorithms. All key sizes and modes have been implemented to allow flexibility and efficiency.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5548.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/9/2026",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "wolfSSL Inc.",
+      "website_url": "http://www.wolfssl.com",
+      "address_lines": [
+        "10016 Edmonds Way Suite C-300",
+        "Edmonds, WA 98020",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Todd Ouska",
+      "contact_email": "todd@wolfssl.com",
+      "contact_phone": "503-679-1859"
+    },
+    "algorithms": [
+      "AES",
+      "CVL",
+      "DRBG",
+      "DSA",
+      "ECDH",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA",
+      "SSH",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC, AES-ECB",
+      "AES-OFB | A7470 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+      "AES-CCM A7470 Key Length - 128, 192, 256 | Tag Length - 112, 128, 32, 48, 64, 80, 96 | SP 800-38C | wolfSSL Inc. Public Material – May be reproduced only in its original entirety (without revision). | IV Length - IV Length: 56, 64, 72, 80, 88 | 96 | Payload Length - Payload Length: 0-256 | Increment 8 | AAD Length - AAD Length: 0-8192 | Increment 8",
+      "AES-CMAC A7470 Direction - Generation, Verification | Key Length - 128, 192, 256 | MAC Length - MAC Length: 32-128 | Increment 32 | Message Length - Message Length: 0- | 16384 Increment 128 | SP 800-38B",
+      "AES-CTR A7470 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 | Increment 8 | Supports Counter larger than maximum | value - No | Incremental Counter - Yes | Counter Tests Performed - Yes | SP 800-38A",
+      "AES-GCM A7470 Direction - Decrypt, Encrypt | IV Generation - External, Internal | IV Generation Mode - 8.2.1, 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 96 | IV Length - IV Length: 64-128 Increment | 32 | Payload Length - Payload Length: 128-512 | Increment 128 | AAD Length - AAD Length: 128-512 | Increment 128 | SP 800-38D",
+      "AES-GMAC A7470 Direction - Decrypt, Encrypt | IV Generation - External, Internal | IV Generation Mode - 8.2.1, 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 104, 112, 120, 128, 96 | IV Length - IV Length: 64-128 Increment | 32 | AAD Length - AAD Length: 128-512 | Increment 128 | SP 800-38D",
+      "DSA KeyGen | (FIPS186-4) | A7470 L - 2048 | N - 256 | FIPS 186-4",
+      "ECDSA KeyGen | (FIPS186-5) | A7470 Curve - P-224, P-256, P-384, P-521 | Secret Generation Mode - extra bits | FIPS 186-5",
+      "ECDSA KeyVer | (FIPS186-5) | A7470 Curve - P-224, P-256, P-384, P-521 FIPS 186-5",
+      "ECDSA SigGen | (FIPS186-5) | A7470 Curve - P-224, P-256, P-384, P-521",
+      "Hash Algorithm - SHA2-224, SHA2-256 | FIPS 186-5 | wolfSSL Inc. Public Material – May be reproduced only in its original entirety (without revision).",
+      "SHA2-384, SHA2-512, SHA3-224, SHA3-",
+      "256, SHA3-384, SHA3-512 | Component - No",
+      "ECDSA SigVer | (FIPS186-5) | A7470 Component - No | Curve - P-224, P-256, P-384, P-521",
+      "Hash Algorithm - SHA2-224, SHA2-256",
+      "256, SHA3-384, SHA3-512 | FIPS 186-5",
+      "Hash DRBG A7470 Prediction Resistance - No | Supports Reseed - Yes",
+      "Mode - SHA2-256 | Entropy Input - Entropy Input: 256 | Nonce - Nonce: 128 | Personalization String Length - | Personalization String Length: 0, 0 | Additional Input - Additional Input: 0, 0 | Returned Bits - 1024 | SP 800-90A | Rev. 1",
+      "HMAC-SHA-1 A7470 MAC - MAC: 160 | Key Length - Key Length: 112-1024 | Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-224",
+      "HMAC-SHA3-224 | A7470 MAC - MAC: 224 | Key Length - Key Length: 112-1024 | Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-256",
+      "HMAC-SHA3-256 | A7470 MAC - MAC: 256 | Key Length - Key Length: 112-1024 | Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-384",
+      "HMAC-SHA3-384 | A7470 MAC - MAC: 384 | Key Length - Key Length: 112-1024 | Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-512",
+      "HMAC-SHA3-512 | A7470 MAC - MAC: 512 | Key Length - Key Length: 112-1024 | Increment 8 | FIPS 198-1",
+      "KAS-ECC-SSC | Sp800-56Ar3 | A7470 Domain Parameter Generation Methods - | P-256, P-384, P-521",
+      "Hash Function Z - SHA2-512 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KAS-FFC-SSC | Sp800-56Ar3 | A7470 Domain Parameter Generation Methods - | ffdhe2048, ffdhe3072, ffdhe4096 | ffdhe6144, ffdhe8192",
+      "Hash Function Z - SHA2-512 | Scheme - | dhEphem - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KDF SSH (CVL) A7470 Cipher - AES-128, AES-192, AES-256",
+      "Hash Algorithm - SHA-1, SHA2-256",
+      "SHA2-384, SHA2-512 | SP 800-135 | Rev. 1 | wolfSSL Inc. Public Material – May be reproduced only in its original entirety (without revision).",
+      "KDF TLS (CVL) A7470 TLS Version - v1.2",
+      "Hash Algorithm - SHA2-256, SHA2-384",
+      "SHA2-512 | Key Block Length - Key Block Length | 1024 | SP 800-135 | Rev. 1",
+      "RSA Decryption | Primitive Sp800-56Br2",
+      "(CVL) | A7470 Modulo - 2048, 3072, 4096 | Key Format - Standard | Public Exponent Mode - random | SP 800-56B | Rev. 2",
+      "RSA KeyGen | (FIPS186-5) | A7470 Key Generation Mode - probable | Modulo - 2048, 3072, 4096 | p mod 8 - 0 | Primality Tests - 2powSecStr | q mod 8 - 0 | Info Generated By Server - Yes | Private Key Format - standard | Public Exponent Mode - random | FIPS 186-5",
+      "RSA SigGen | (FIPS186-5) | A7470 Hash Pair -",
+      "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - MGF1 | FIPS 186-5",
+      "RSA SigVer | (FIPS186-5) | A7470 Hash Pair -",
+      "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - MGF1 | Public Exponent Mode - random | FIPS 186-5",
+      "SHA-1, SHA2-224",
+      "SHA2-256, SHA2-",
+      "384, SHA2-512 | A7470 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4",
+      "SHA3-224, SHA3-",
+      "256, SHA3-384",
+      "SHA3-512 | A7470 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 202",
+      "TLS v1.2 KDF",
+      "RFC7627 (CVL)",
+      "A7470 Hash Algorithm - SHA2-256, SHA2-384",
+      "TLS v1.3 KDF (CVL) A7470 HMAC Algorithm - SHA2-256, SHA2-384",
+      "KDF Running Modes - DHE, PSK, PSK- | DHE | SP 800-135 | Rev. 1 | NOTE: Only the algorithms specified in this section are supported by the module in approved | mode of operation. | No operational use of an algorithm may be performed until the corresponding CAST has | passed. | wolfSSL Inc. Public Material – May be reproduced only in its original entirety (without revision). | Name Properties Implementation Reference | CKG- | 1 | Key Type:Symmetric and | Asymmetric | N/A SP800-133r2 Section 4 | example 1 | N/A for this module.",
+      "NOTE: For TLS 1.2 KDF Extended master-secret shall be used in approved mode of operation. | N/A for this module.",
+      "AES- | GCM | Non-approved and not-allowed when the IV length is less than 96 bits.",
+      "ECDSA Non-approved and not-allowed when the hashlen (Verify) and inlen (Sign) are less | than WC_MIN_DIGEST_SIZE or the ECC public key imported to the module | exceeds P-521.",
+      "AES- | CMAC | Non-approved and not-allowed when the cumulative input size exceeds 2^(32) -1 | the CMAC tag length is less than 64-bits, or the CMAC tag length is greater than | 128-bits.",
+      "AES- | CCM | Non-approved and not-allowed when the payload meets or exceeds 2^(8q) bytes. | DH Non-approved and not-allowed when the private key length is less than 2048-bits | or if it exceeds 8192-bits.",
+      "RSA Non-approved and not-allowed when the public exponent \"e\" is less than 65537.",
+      "ECDH Non-approved and not-allowed when the ECC public key imported to the module | exceeds P-521."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5548.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 13,
+      "detailed_algorithm_count": 63,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5548.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

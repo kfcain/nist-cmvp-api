@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5540"
+  },
+  "certificate": {
+    "certificate_number": "5540",
+    "dataset": "active",
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5540",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5540",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf",
+    "vendor_name": "Ciena Corporation",
+    "module_name": "WaveLogic 5 Extreme Encryption Modem",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipEmbed",
+    "overall_level": 2,
+    "validation_date": "10/5/2026",
+    "validation_dates": [
+      "10/5/2026"
+    ],
+    "sunset_date": "10/4/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The WaveLogic 5 Extreme Encryption Modem is an optical transponder daughter card installed within a Ciena optical transponder service module. It consists of a multiple chip-embedded application specific integrated circuit (ASIC) along with optical components and supporting circuitry.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/5/2026",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Ciena Corporation",
+      "website_url": "http://www.ciena.com",
+      "address_lines": [
+        "7035 Ridge Road",
+        "Hanover, MD 21076",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Patrick Scully",
+      "contact_email": "pscully@ciena.com",
+      "contact_phone": "613-670-3207"
+    },
+    "algorithms": [
+      "AES",
+      "CVL",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "SHA",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "AES- | CBC",
+      "AES- | ECB | A337 | 9 | Direction - Decrypt, Encrypt | Key Length - 256 | SP 800- | 38A",
+      "AES- | CTR | A337 | 9 | Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128 | Supports Counter larger than maximum value - No | Incremental Counter - Yes | Counter Tests Performed - Yes | SP 800- | 38A | Algorith | m | CAV | P | ce",
+      "AES- | ECB | A330 | 5 | Direction - Encrypt | Key Length - 256 | SP 800- | 38A",
+      "AES- | GCM | A330 | 5 | Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.1 | Key Length - 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length: 256, 128 | AAD Length - AAD Length: 0, 256 | SP 800- | 38D",
+      "AES- | GCM | A337 | 9 | Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.1 | Key Length - 128, 192, 256 | Tag Length - 128 | IV Length - IV Length: 128 | Payload Length - Payload Length: 256-1024 Increment 256 | AAD Length - AAD Length: 256-1024 Increment 256 | SP 800- | 38D",
+      "AES- | KW | A337 | 9 | Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 256, 192, 128 | SP 800- | 38F",
+      "AES- | KWP | A337 | 9 | Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 192, 256 | Payload Length - Payload Length: 296 | SP 800- | 38F | Counter",
+      "DRBG | A337 | 9 | Prediction Resistance - No | Supports Reseed - Yes",
+      "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - Personalization String Length: 0 | Returned Bits - 128 | SP 800- | 90A | Rev. 1",
+      "ECDSA | KeyGen | (FIPS18 | 6-4) | A337 | 9 | Curve - P-384, P-521 | Secret Generation Mode - Extra Bits | FIPS | 186-4",
+      "ECDSA | KeyVer | (FIPS18 | 6-4) | A337 | 9 | Curve - P-384, P-521 FIPS | 186-4",
+      "ECDSA | SigGen | (FIPS18 | 6-4) | A337 | 9 | Curve - P-384, P-521",
+      "Hash Algorithm - SHA2-256, SHA2-384, SHA2-512 | FIPS | 186-4 | Algorith | m | CAV | P | ce",
+      "ECDSA | SigVer | (FIPS18 | 6-4)",
+      "HMAC-",
+      "SHA2- | 256 | A337 | 9 | MAC - MAC: 32-256 Increment 8 | Key Length - Key Length: 256-448 Increment 8 | FIPS | 198-1",
+      "SHA2- | 384 | A337 | 9 | MAC - MAC: 32-384 Increment 8 | Key Length - Key Length: 256-448 Increment 8 | FIPS | 198-1",
+      "SHA2- | 512 | A337 | 9 | MAC - MAC: 32-512 Increment 8 | Key Length - Key Length: 256-448 Increment 8 | FIPS | 198-1",
+      "KAS- | ECC | Sp800- | 56Ar3 | A337 | 9 | Domain Parameter Generation Methods - P-256, P-384, P-521 | iutId - 123456ABCD | Scheme - | ephemeralUnified - | KAS Role - Initiator, Responder",
+      "KDF Methods - | oneStepKdf - | Auxiliary Function Methods -",
+      "Auxiliary Function Name - SHA2-256 | MAC Salting Methods - default | Fixed Info Pattern - algorithmId||l||uPartyInfo||vPartyInfo | Fixed Info Encoding - Concatenation | Key Length - 256 | SP 800- | 56A | Rev. 3",
+      "KAS- | ECC- | SSC | Sp800- | 56Ar3 | A337 | 9 | Domain Parameter Generation Methods - P-256, P-384, P-521",
+      "Hash Function Z - SHA2-512 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | onePassUnified - | KAS Role - initiator, responder | SP 800- | 56A | Rev. 3",
+      "KDA | TwoSte | p | Sp800- | 56Cr1 | A337 | 9 | MAC Salting Methods - default, random | Supported Lengths - Supported Lengths: 256 | Fixed Info Encoding - concatenation | Fixed Info Pattern - | literal[123456789CAFECAFE123456789CAFECAFE]||uPartyInf | o||vPartyInfo||l",
+      "KDF Mode - counter",
+      "MAC Modes - HMAC-SHA2-256 | Counter Lengths - 8 | Fixed Data Order - after fixed data",
+      "The KDF supports an empty IV - Yes",
+      "The KDF requires an empty IV - Yes | Derived Key Length - 256 | Shared Secret Length - Shared Secret Length: 256 | SP 800- | 56C | Rev. 2 | Algorith | m | CAV | P | ce",
+      "KDF | SP800- | 108 | A337 | 9",
+      "KDF Mode - Counter",
+      "MAC Mode - HMAC-SHA2-256 | Supported Lengths - Supported Lengths: 256, 96 | Fixed Data Order - After Fixed Data | Counter Length - 8 | Supports Empty IV - Yes | Custom Key In Length - 0 | SP 800- | 108 | Rev. 1",
+      "SHA2- | 256",
+      "SHA2- | 384",
+      "SHA2- | 512 | A337 | 9 | Message Length - Message Length: 128-65528 Increment 8 FIPS | 180-4",
+      "TLS | v1.3",
+      "KDF",
+      "(CVL) | A337 | 9 | HMAC Algorithm - SHA2-256, SHA2-384",
+      "KDF Running Modes - DHE, PSK-DHE | SP 800- | 135 | Rev. 1 | Name Properties Implementation Reference | CKG - | Section | 4 | Key | Type:Symmetric | and Asymmetric | N/A NIST SP800-133r2 Section 4: Using the | Output of a Random Bit Generator Option 1 | (Symmetric keys and seed for asymmetric | keys (Option 1)); Section 5.1: Key Pairs for | Digital Signature Schemes; Section 5.2 | Key Pairs for Key Establishment; Section | 6.2.1: Symmetric Keys Generated Using | Key Agreement Schemes; Section 6.2.2 | Symmetric Keys Derived from a Pre- | existing Key | The module does not support | Operation. | Name Caveat Use and Function",
+      "AES-CBC (256 bits) No Security Claimed Boot Image Encryption",
+      "AES-XTS (256 bits) No Security Claimed Filesystem Encryption | The module does not support Non-Approved Algorithms Not Allowed in the Approved Mode of | Operation."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 41,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

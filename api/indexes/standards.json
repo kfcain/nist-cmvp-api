@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-10-04T07:38:16.589988Z",
-    "total_modules": 711,
-    "total_historical_modules": 4808,
-    "total_modules_in_process": 195,
-    "total_certificates_with_algorithms": 1901,
-    "total_certificate_details": 5519,
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "total_modules": 723,
+    "total_historical_modules": 4809,
+    "total_modules_in_process": 193,
+    "total_certificates_with_algorithms": 1914,
+    "total_certificate_details": 5532,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,18 +13,18 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 708,
-        "html_refreshed": 9,
+        "html_reused": 710,
+        "html_refreshed": 19,
         "html_failed": 0,
-        "pdf_reused": 708,
-        "pdf_refreshed": 3,
+        "pdf_reused": 710,
+        "pdf_refreshed": 13,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 708,
-        "algorithm_successes": 549,
+        "algorithm_cache_hits": 710,
+        "algorithm_successes": 562,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 3,
+        "algorithm_source_crawl4ai": 13,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -32,15 +32,15 @@
         "certificates_deferred": 6
       },
       "historical": {
-        "html_reused": 4807,
+        "html_reused": 4808,
         "html_refreshed": 2,
         "html_failed": 0,
-        "pdf_reused": 4808,
+        "pdf_reused": 4809,
         "pdf_refreshed": 0,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 4808,
+        "algorithm_cache_hits": 4809,
         "algorithm_successes": 1352,
         "algorithm_fallbacks": 0,
         "algorithm_source_crawl4ai": 0,
@@ -51,18 +51,18 @@
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 5515,
-        "html_refreshed": 11,
+        "html_reused": 5518,
+        "html_refreshed": 21,
         "html_failed": 0,
-        "pdf_reused": 5516,
-        "pdf_refreshed": 3,
+        "pdf_reused": 5519,
+        "pdf_refreshed": 13,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5516,
-        "algorithm_successes": 1901,
+        "algorithm_cache_hits": 5519,
+        "algorithm_successes": 1914,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 3,
+        "algorithm_source_crawl4ai": 13,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -80,7 +80,7 @@
   "index": "standards",
   "field": "standard",
   "key_count": 3,
-  "entry_count": 5519,
+  "entry_count": 5532,
   "keys": {
     "FIPS 140-1": [
       {
@@ -48639,12 +48639,12 @@
       },
       {
         "certificate_number": "4829",
-        "dataset": "active",
+        "dataset": "historical",
         "path": "/api/certificates/4829.json",
         "vendor_name": "Palo Alto Networks, Inc.",
         "module_name": "PAN-OS 11.0 running on PA-400 Series, PA-800 Series, PA-1400 Series, PA-3200 Series, PA-3400 Series, PA-5200 Series, PA-5400 Series, PA-5450, and PA-7000 Series NGFWs",
         "standard": "FIPS 140-3",
-        "status": "Active",
+        "status": "Historical",
         "algorithm_count": 0
       },
       {
@@ -55276,6 +55276,136 @@
         "standard": "FIPS 140-3",
         "status": "Active",
         "algorithm_count": 1
+      },
+      {
+        "certificate_number": "5538",
+        "dataset": "active",
+        "path": "/api/certificates/5538.json",
+        "vendor_name": "Infinera Corporation (Nokia)",
+        "module_name": "Infinera Groove G30 Cryptographic Module",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 12
+      },
+      {
+        "certificate_number": "5539",
+        "dataset": "active",
+        "path": "/api/certificates/5539.json",
+        "vendor_name": "Google, LLC",
+        "module_name": "B227 True Random Number Generator (TRNG) Cryptographic Module",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 2
+      },
+      {
+        "certificate_number": "5540",
+        "dataset": "active",
+        "path": "/api/certificates/5540.json",
+        "vendor_name": "Ciena Corporation",
+        "module_name": "WaveLogic 5 Extreme Encryption Modem",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 9
+      },
+      {
+        "certificate_number": "5541",
+        "dataset": "active",
+        "path": "/api/certificates/5541.json",
+        "vendor_name": "Ciena Corporation",
+        "module_name": "Waveserver 5 Control Processor Module",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 12
+      },
+      {
+        "certificate_number": "5542",
+        "dataset": "active",
+        "path": "/api/certificates/5542.json",
+        "vendor_name": "Singlewire Software, LLC",
+        "module_name": "InformaCast Advanced and Reach Server C Crypto Library",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 15
+      },
+      {
+        "certificate_number": "5543",
+        "dataset": "active",
+        "path": "/api/certificates/5543.json",
+        "vendor_name": "AudioCodes Ltd.",
+        "module_name": "AudioCodes BoringCrypto",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 11
+      },
+      {
+        "certificate_number": "5544",
+        "dataset": "active",
+        "path": "/api/certificates/5544.json",
+        "vendor_name": "TrellisWare Technologies, Inc.",
+        "module_name": "TW-860-F TSM Spirit",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 8
+      },
+      {
+        "certificate_number": "5545",
+        "dataset": "active",
+        "path": "/api/certificates/5545.json",
+        "vendor_name": "Skydio, Inc.",
+        "module_name": "Skydio Cryptographic Module (based on BoringCrypto)",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 11
+      },
+      {
+        "certificate_number": "5546",
+        "dataset": "active",
+        "path": "/api/certificates/5546.json",
+        "vendor_name": "Intel Corporation",
+        "module_name": "Crypto Module for Intel® Core Ultra Series 1 (Meteor Lake) Converged Security and Manageability Engine (CSME)",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 10
+      },
+      {
+        "certificate_number": "5547",
+        "dataset": "active",
+        "path": "/api/certificates/5547.json",
+        "vendor_name": "Qualcomm Technologies, Inc.",
+        "module_name": "Qualcomm® Crypto Engine Core",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 4
+      },
+      {
+        "certificate_number": "5548",
+        "dataset": "active",
+        "path": "/api/certificates/5548.json",
+        "vendor_name": "wolfSSL Inc.",
+        "module_name": "wolfCrypt",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 13
+      },
+      {
+        "certificate_number": "5549",
+        "dataset": "active",
+        "path": "/api/certificates/5549.json",
+        "vendor_name": "Motorola Solutions Inc.",
+        "module_name": "Motorola P25 KVL 7000 HSM",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 6
+      },
+      {
+        "certificate_number": "5550",
+        "dataset": "active",
+        "path": "/api/certificates/5550.json",
+        "vendor_name": "Google, LLC",
+        "module_name": "Integrated Compute Complex (ICC)",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 4
       }
     ]
   }

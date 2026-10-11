@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5541"
+  },
+  "certificate": {
+    "certificate_number": "5541",
+    "dataset": "active",
+    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5541",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5541",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf",
+    "vendor_name": "Ciena Corporation",
+    "module_name": "Waveserver 5 Control Processor Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipEmbed",
+    "overall_level": 2,
+    "validation_date": "10/5/2026",
+    "validation_dates": [
+      "10/5/2026"
+    ],
+    "sunset_date": "10/4/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The Ciena Corporation Waveserver 5 Control Processor Module is a multi-chip embedded hardware cryptographic module. The module is a purpose-built field replaceable unit intended for operation within the Ciena Waveserver 5 chassis. Its primary function is management of the Waveserver 5 chassis, which includes one or more Waveserver 5 Encryption Modules.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/5/2026",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Ciena Corporation",
+      "website_url": "http://www.ciena.com",
+      "address_lines": [
+        "7035 Ridge Road",
+        "Hanover, MD 21076",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Patrick Scully",
+      "contact_email": "pscully@ciena.com",
+      "contact_phone": "613-670-3207"
+    },
+    "algorithms": [
+      "AES",
+      "CVL",
+      "DES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA",
+      "SSH",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC, AES-CTR",
+      "AES-ECB | A4855 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+      "AES-CTR, AES-ECB A3283 Direction - Decrypt, Encrypt | Key Length - 256 | SP 800-38A",
+      "AES-GCM A3283 Direction - Decrypt, Encrypt | IV Generation - External | Key Length - 256 | SP 800-38D",
+      "AES-GCM A4855 Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.1 | Key Length - 128, 192, 256 | SP 800-38D",
+      "ECDSA KeyGen | (FIPS186-4) | A4855 Curve - P-256, P-384, P-521 | Secret Generation Mode - Testing | Candidates | FIPS 186-4",
+      "ECDSA KeyVer | (FIPS186-4) | A4855 Curve - P-256, P-384, P-521 FIPS 186-4",
+      "ECDSA SigGen",
+      "(FIPS186-4), ECDSA | SigVer (FIPS186-4) | A4855 Curve - P-256, P-384, P-521",
+      "Hash Algorithm - SHA2-256, SHA2-384",
+      "SHA2-512 | FIPS 186-4",
+      "Hash DRBG A4855 Prediction Resistance - No",
+      "Mode - SHA2-256 | SP 800-90A | Rev. 1",
+      "HMAC-SHA-1 A4855 Key Length - Key Length: 112-2048 | Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-256",
+      "HMAC-SHA2-384",
+      "HMAC-SHA2-512 | A4855 Key Length - Key Length: 256-448 | Increment 8 | FIPS 198-1",
+      "KAS-ECC-SSC Sp800- | 56Ar3 | A4855 Domain Parameter Generation Methods - | P-256, P-384, P-521 | Scheme - | ephemeralUnified - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KAS-FFC-SSC Sp800- | 56Ar3 | A4855 Domain Parameter Generation Methods - | FC, ffdhe2048, ffdhe3072, ffdhe4096 | ffdhe6144, ffdhe8192, MODP-2048 | Scheme - | dhEphem - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KDF SP800-108 A4855 KDF Mode - Feedback | Supported Lengths - Supported Lengths | 256 | SP 800-108 | Rev. 1",
+      "KDF SSH (CVL) A4855 Cipher - AES-128, AES-192, AES-256",
+      "Hash Algorithm - SHA-1, SHA2-256",
+      "SHA2-384, SHA2-512 | SP 800-135 | Rev. 1",
+      "PBKDF A4855 Iteration Count - Iteration Count: 4096 | Password Length - Password Length: 14- | 128 Increment 1 | SP 800-132",
+      "RSA KeyGen | (FIPS186-4) | A4855 Key Generation Mode - B.3.3 | Modulo - 2048, 3072, 4096 | Primality Tests - Table C.2 | Private Key Format - Standard | FIPS 186-4",
+      "RSA SigGen",
+      "(FIPS186-4), RSA | SigVer (FIPS186-4) | A4855 Signature Type - PKCS 1.5 | Modulo - 2048, 3072, 4096 | FIPS 186-4 | Safe Primes Key | Generation, Safe | Primes Key Verification | A4855 Safe Prime Groups - ffdhe2048 | ffdhe3072, ffdhe4096, ffdhe6144 | ffdhe8192, MODP-2048 | SP 800-56A | Rev. 3",
+      "SHA-1, SHA2-256",
+      "SHA2-384, SHA2-512 | A4855 Message Length - Message Length: 0- | 65528 Increment 8 | FIPS 180-4",
+      "TDES-CBC A4855 Direction - Decrypt SP 800-67 | Rev. 2",
+      "TLS v1.2 KDF",
+      "RFC7627 (CVL)",
+      "A4855 Hash Algorithm - SHA2-256, SHA2-384",
+      "SHA2-512 | SP 800-135 | Rev. 1",
+      "TLS v1.3 KDF (CVL) A4855 HMAC Algorithm - SHA2-256, SHA2-384",
+      "KDF Running Modes - DHE, PSK-DHE | SP 800-135 | Rev. 1 | Name Properties Implementation Reference | CKG - | Section | 4 | Key | Type:Symmetric | and Asymmetric | N/A NIST SP800-133r2 Section 4: Using the | Output of a Random Bit Generator Option 1 | (Symmetric keys and seed for asymmetric | keys (Option 1)); Section 5.1: Key Pairs for | Digital Signature Schemes; Section 5.2 | Key Pairs for Key Establishment; 6.1: The | Direct Generation of Symmetric Keys | Section 6.2.1: Symmetric Keys Generated | Using Key Agreement Schemes; Section | 6.2.2 Symmetric Keys Derived from a Pre- | existing Key; Section 6.2.3 Symmetric | Keys Derived from Passwords | The module does not implement any non-Approved algorithms that are allowed for use within an | Approved mode of operation. | Name Caveat Use and Function",
+      "SNMPv2C (MD5, DES",
+      "3DES, SHA-1 AES-128",
+      "AES-192, AES-256) | No Security | Claimed | SNMPv2C is used for non-security relevant | status output such as alerts, alarms etc. Hence | no security claimed as per IG 2.4.A",
+      "SNMPv3 (MD5, DES, 3DES",
+      "SHA-1 AES-128, AES-192",
+      "AES-256) | No Security | Claimed | SNMPv3 is used for non-security relevant | status output such as alerts, alarms etc. Hence | no security claimed as per IG 2.4.A | The module does not support Non-Approved Algorithms Not Allowed in the Approved Mode of | Operation."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 12,
+      "detailed_algorithm_count": 42,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}
