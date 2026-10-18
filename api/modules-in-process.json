@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-10-11T08:06:07.463635Z",
-    "total_modules": 723,
+    "generated_at": "2026-10-18T06:51:09.204653Z",
+    "total_modules": 725,
     "total_historical_modules": 4809,
-    "total_modules_in_process": 193,
-    "total_certificates_with_algorithms": 1914,
-    "total_certificate_details": 5532,
+    "total_modules_in_process": 196,
+    "total_certificates_with_algorithms": 1916,
+    "total_certificate_details": 5534,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,18 +13,18 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 710,
-        "html_refreshed": 19,
+        "html_reused": 723,
+        "html_refreshed": 8,
         "html_failed": 0,
-        "pdf_reused": 710,
-        "pdf_refreshed": 13,
+        "pdf_reused": 723,
+        "pdf_refreshed": 2,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 710,
-        "algorithm_successes": 562,
+        "algorithm_cache_hits": 723,
+        "algorithm_successes": 564,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 13,
+        "algorithm_source_crawl4ai": 2,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -32,8 +32,8 @@
         "certificates_deferred": 6
       },
       "historical": {
-        "html_reused": 4808,
-        "html_refreshed": 2,
+        "html_reused": 4809,
+        "html_refreshed": 1,
         "html_failed": 0,
         "pdf_reused": 4809,
         "pdf_refreshed": 0,
@@ -51,18 +51,18 @@
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 5518,
-        "html_refreshed": 21,
+        "html_reused": 5532,
+        "html_refreshed": 9,
         "html_failed": 0,
-        "pdf_reused": 5519,
-        "pdf_refreshed": 13,
+        "pdf_reused": 5532,
+        "pdf_refreshed": 2,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5519,
-        "algorithm_successes": 1914,
+        "algorithm_cache_hits": 5532,
+        "algorithm_successes": 1916,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 13,
+        "algorithm_source_crawl4ai": 2,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -97,14 +97,14 @@
       "Vendor Name_url": "#d13776",
       "Vendor Name": "Advanced Micro Devices (AMD) View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (9/23/2026)"
+      "Status": "Comment Resolution - CMVP (10/15/2026)"
     },
     {
       "Module Name": "AMD ASP Cryptographic CoProcessor (\"Phoenix2\")",
       "Vendor Name_url": "#d13775",
       "Vendor Name": "Advanced Micro Devices (AMD) View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (9/23/2026)"
+      "Status": "Comment Resolution - CMVP (10/15/2026)"
     },
     {
       "Module Name": "Alibaba Cloud Crypto",
@@ -118,7 +118,21 @@
       "Vendor Name_url": "#d13011",
       "Vendor Name": "Allegion PLC View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review (8/12/2026)"
+      "Status": "Comment Resolution - Lab (10/16/2026)"
+    },
+    {
+      "Module Name": "AWS Key Management Service HSM",
+      "Vendor Name_url": "#d13353",
+      "Vendor Name": "Amazon Web Services, Inc View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Review (10/15/2026)"
+    },
+    {
+      "Module Name": "AWS Key Management Service HSM",
+      "Vendor Name_url": "#d13354",
+      "Vendor Name": "Amazon Web Services, Inc View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Review (10/15/2026)"
     },
     {
       "Module Name": "AWS Key Management Service HSM",
@@ -171,17 +185,17 @@
     },
     {
       "Module Name": "Apple corecrypto Module OS 26 [Apple Silicon, Secure Key Store, Hardware, SL2/PHY3]",
-      "Vendor Name_url": "#d13862",
-      "Vendor Name": "Apple Inc. View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Pending Review (9/17/2026)"
-    },
-    {
-      "Module Name": "Apple corecrypto Module OS 26 [Apple Silicon, Secure Key Store, Hardware, SL2/PHY3]",
       "Vendor Name_url": "#d13592",
       "Vendor Name": "Apple Inc. View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review (10/9/2026)"
+    },
+    {
+      "Module Name": "Apple corecrypto Module OS 26 [Apple Silicon, Secure Key Store, Hardware, SL2/PHY3]",
+      "Vendor Name_url": "#d13862",
+      "Vendor Name": "Apple Inc. View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review (10/16/2026)"
     },
     {
       "Module Name": "Apple corecrypto Module OS 26 [Apple silicon, User, Software, SL1]",
@@ -300,14 +314,14 @@
       "Vendor Name_url": "#d13801",
       "Vendor Name": "Check Point Software Technologies View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review (10/9/2026)"
+      "Status": "Review (10/14/2026)"
     },
     {
       "Module Name": "Check Point Gaia OS R82.20 Cryptography Module running on Check Point Firewall models MHO140, MHO175, 3920, 3950, 3970, 3980, 9100, 9200, 9300, 9400, 9700, 9800, 19100, 19200, 29100, 29200, 700S, 700M, 7000L, 7000XL, 7000Ultra, and Cloud Firewall and Cloud Management series VM with VMware ESXi 8.0.0",
       "Vendor Name_url": "#d13834",
       "Vendor Name": "Check Point Software Technologies View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review (10/9/2026)"
+      "Status": "Review (10/14/2026)"
     },
     {
       "Module Name": "Cisco 8200 Series Routers",
@@ -331,13 +345,6 @@
       "Status": "Comment Resolution - Lab (1/29/2026)"
     },
     {
-      "Module Name": "Cisco FTD FX-OS on 4K/9K Cryptographic Module",
-      "Vendor Name_url": "#d12817",
-      "Vendor Name": "Cisco Systems, Inc. View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP (10/8/2026)"
-    },
-    {
       "Module Name": "Citrix FIPS Cryptographic Module",
       "Vendor Name_url": "#d13286",
       "Vendor Name": "Citrix Systems, Inc. View Contacts",
@@ -349,7 +356,7 @@
       "Vendor Name_url": "#d13683",
       "Vendor Name": "Codan DTC View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Cost Recovery (10/9/2026)"
+      "Status": "Pending Review (10/12/2026)"
     },
     {
       "Module Name": "Code Siren Post-Quantum Cryptographic (PQC) Library for Desktop",
@@ -408,11 +415,18 @@
       "Status": "Pending Review (9/16/2026)"
     },
     {
+      "Module Name": "DINAMO NG Hardware Security Module",
+      "Vendor Name_url": "#d13625",
+      "Vendor Name": "DINAMO Cyber Security Company View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Review (10/15/2026)"
+    },
+    {
       "Module Name": "TM400ENB",
       "Vendor Name_url": "#d13311",
       "Vendor Name": "ECI Telecom Ltd / Ribbon communications Operating company, Inc. View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (8/24/2026)"
+      "Status": "Comment Resolution - CMVP (10/16/2026)"
     },
     {
       "Module Name": "Entrust AuthorityTM Security Kernel",
@@ -468,7 +482,7 @@
       "Vendor Name_url": "#d12913",
       "Vendor Name": "Fortinet, Inc. View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (9/29/2026)"
+      "Status": "Comment Resolution - CMVP (10/15/2026)"
     },
     {
       "Module Name": "FUJIFILM BI Cryptographic Kernel Module for WRL",
@@ -521,6 +535,13 @@
     },
     {
       "Module Name": "BoringCrypto",
+      "Vendor Name_url": "#d13434",
+      "Vendor Name": "Google, LLC View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Comment Resolution - CMVP (10/10/2026)"
+    },
+    {
+      "Module Name": "BoringCrypto",
       "Vendor Name_url": "#d13650",
       "Vendor Name": "Google, LLC View Contacts",
       "Standard": "FIPS 140-3",
@@ -534,13 +555,6 @@
       "Status": "Comment Resolution - Lab (6/5/2026)"
     },
     {
-      "Module Name": "BoringCrypto",
-      "Vendor Name_url": "#d13434",
-      "Vendor Name": "Google, LLC View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (5/18/2026)"
-    },
-    {
       "Module Name": "Google Kernel Cryptographic Module",
       "Vendor Name_url": "#d13840",
       "Vendor Name": "Google, LLC View Contacts",
@@ -552,7 +566,14 @@
       "Vendor Name_url": "#d13770",
       "Vendor Name": "Google, LLC View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review (7/29/2026)"
+      "Status": "Comment Resolution - Lab (10/13/2026)"
+    },
+    {
+      "Module Name": "Inline Crypto Engine (ICE)",
+      "Vendor Name_url": "#d13497",
+      "Vendor Name": "Google, LLC View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Comment Resolution - CMVP (10/14/2026)"
     },
     {
       "Module Name": "Inline Crypto Engine (ICE)",
@@ -562,25 +583,11 @@
       "Status": "Comment Resolution - Lab (6/4/2026)"
     },
     {
-      "Module Name": "Inline Crypto Engine (ICE)",
-      "Vendor Name_url": "#d13497",
-      "Vendor Name": "Google, LLC View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (9/22/2026)"
-    },
-    {
-      "Module Name": "Integrated Compute Complex (ICC)",
-      "Vendor Name_url": "#d13500",
-      "Vendor Name": "Google, LLC View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Finalization (10/9/2026)"
-    },
-    {
       "Module Name": "Integrated Compute Complex (ICC)",
       "Vendor Name_url": "#d13662",
       "Vendor Name": "Google, LLC View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (8/7/2026)"
+      "Status": "Comment Resolution - CMVP (10/10/2026)"
     },
     {
       "Module Name": "Look-aside Cryptography and Compression Engine (LCE)",
@@ -657,14 +664,21 @@
       "Vendor Name_url": "#d13774",
       "Vendor Name": "HPE Juniper Networking View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (9/4/2026)"
+      "Status": "Comment Resolution - Lab (10/14/2026)"
     },
     {
       "Module Name": "HPE Juniper Networking Junos 24.4R1 MX240/480/960 series and EX9204/9208/9214 Series Routing and Switching platforms with MACsec capability",
       "Vendor Name_url": "#d13410",
       "Vendor Name": "HPE Juniper Networking View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (9/23/2026)"
+      "Status": "Comment Resolution - CMVP (10/13/2026)"
+    },
+    {
+      "Module Name": "HPE Juniper Networking MX304 Universal Routing Platform with MACsec and IPsec for Junos 26.2R1",
+      "Vendor Name_url": "#d13728",
+      "Vendor Name": "HPE Juniper Networking View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Review (10/14/2026)"
     },
     {
       "Module Name": "HPE Juniper Networking SRX1K/4K/5K/2300/4300 Services Gateways",
@@ -706,7 +720,7 @@
       "Vendor Name_url": "#d13732",
       "Vendor Name": "IBM View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review (9/21/2026)"
+      "Status": "Review (10/14/2026)"
     },
     {
       "Module Name": "IBM® NVMe FlashCore™ Module 4",
@@ -720,7 +734,7 @@
       "Vendor Name_url": "#d13726",
       "Vendor Name": "IDEMIA View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (10/2/2026)"
+      "Status": "Comment Resolution - CMVP (10/14/2026)"
     },
     {
       "Module Name": "Infoblox Trinzic Hardware Appliances (TE)",
@@ -825,7 +839,7 @@
       "Vendor Name_url": "#d13642",
       "Vendor Name": "Marvell Semiconductor, Inc. View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab (8/7/2026)"
+      "Status": "Comment Resolution - CMVP (10/15/2026)"
     },
     {
       "Module Name": "Marvell LS2 HSM Family",
@@ -839,7 +853,7 @@
       "Vendor Name_url": "#d13682",
       "Vendor Name": "Micron Technology, Inc. View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Resubmission (5/27/2026)"
+      "Status": "Review (10/16/2026)"
     },
     {
       "Module Name": "Micron® MTC22-P4 Controller Sub Chip Security Subsystem",
@@ -898,11 +912,18 @@
       "Status": "Pending Review (10/6/2026)"
     },
     {
+      "Module Name": "Motorola Solutions Advanced Crypto Engine (MACE) HSM - Security Level 3",
+      "Vendor Name_url": "#d13881",
+      "Vendor Name": "Motorola Solutions, Inc. View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Review (10/15/2026)"
+    },
+    {
       "Module Name": "Motorola Solutions Cryptographic Software Module",
       "Vendor Name_url": "#d-9000",
       "Vendor Name": "Motorola Solutions, Inc. View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP (9/4/2026)"
+      "Status": "Comment Resolution - Lab (10/16/2026)"
     },
     {
       "Module Name": "NetApp CryptoMod",
@@ -965,7 +986,7 @@
       "Vendor Name_url": "#d13879",
       "Vendor Name": "Phison Electronics Corporation View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Cost Recovery (10/9/2026)"
+      "Status": "Pending Review (10/12/2026)"
     },
     {
       "Module Name": "Phison TCG OPAL SSC Self-Encrypting SSD PS3112/PS5012 Series",
@@ -1133,14 +1154,14 @@
       "Vendor Name_url": "#d13358",
       "Vendor Name": "Samsung Electronics Co., Ltd. View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review (10/8/2026)"
+      "Status": "Review (10/16/2026)"
     },
     {
       "Module Name": "Samsung Kernel Cryptographic Module",
       "Vendor Name_url": "#d13357",
       "Vendor Name": "Samsung Electronics Co., Ltd. View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review (9/10/2026)"
+      "Status": "Comment Resolution - Lab (10/16/2026)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
@@ -1239,13 +1260,6 @@
       "Vendor Name": "SAP SE View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Pending Review (9/28/2026)"
-    },
-    {
-      "Module Name": "Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module",
-      "Vendor Name_url": "#d13266",
-      "Vendor Name": "Seagate Technology LLC. View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP (10/9/2026)"
     },
     {
       "Module Name": "Securosys Primus HSM",
@@ -1388,6 +1402,13 @@
       "Status": "Review (10/7/2026)"
     },
     {
+      "Module Name": "Thales Luna K7 Cryptographic Module",
+      "Vendor Name_url": "#d13496",
+      "Vendor Name": "Thales View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Review (10/15/2026)"
+    },
+    {
       "Module Name": "THCL FIPS Provider for OpenSSL",
       "Vendor Name_url": "#d12926",
       "Vendor Name": "Thales DIS (Singapore) Pte. Ltd. View Contacts",
@@ -1399,7 +1420,7 @@
       "Vendor Name_url": "#d13323",
       "Vendor Name": "The OpenSSL Corporation View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP (10/9/2026)"
+      "Status": "Comment Resolution - Lab (10/15/2026)"
     },
     {
       "Module Name": "u.trust Anchor CSe",

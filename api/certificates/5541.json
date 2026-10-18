@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "generated_at": "2026-10-18T06:51:09.204653Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5541"
   },
   "certificate": {
     "certificate_number": "5541",
     "dataset": "active",
-    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "generated_at": "2026-10-18T06:51:09.204653Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5541",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5541",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf",
@@ -59,6 +59,18 @@
       "contact_name": "Patrick Scully",
       "contact_email": "pscully@ciena.com",
       "contact_phone": "613-670-3207"
+    },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 12,
+      "detailed_algorithm_count": 42
     },
     "algorithms": [
       "AES",
@@ -117,25 +129,6 @@
       "SNMPv3 (MD5, DES, 3DES",
       "SHA-1 AES-128, AES-192",
       "AES-256) | No Security | Claimed | SNMPv3 is used for non-security relevant | status output such as alerts, alarms etc. Hence | no security claimed as per IG 2.4.A | The module does not support Non-Approved Algorithms Not Allowed in the Approved Mode of | Operation."
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 12,
-      "detailed_algorithm_count": 42,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5541.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

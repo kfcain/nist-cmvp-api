@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-18T06:51:09.204653Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552"
+  },
+  "certificate": {
+    "certificate_number": "5552",
+    "dataset": "active",
+    "generated_at": "2026-10-18T06:51:09.204653Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
+    "vendor_name": "Seagate Technology LLC.",
+    "module_name": "Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipEmbed",
+    "overall_level": 2,
+    "validation_date": "10/16/2026",
+    "validation_dates": [
+      "10/16/2026"
+    ],
+    "sunset_date": "10/15/2031",
+    "caveat": "When operated in approved mode. When installed, initialized and configured as specified in Section 11 of the Security Policy. No operator authentication is enforced for executing security services that were unlocked by an authenticated service",
+    "description": "The primary function of the Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module is to provide encryption, access control, and cryptographic erase of the User Data stored on the module.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/16/2026",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Seagate Technology LLC.",
+      "website_url": "http://www.seagate.com",
+      "address_lines": [
+        "389 Disc Drive",
+        "Longmont",
+        "Longmont, CO 80503",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Seagate Secure FIPS Team",
+      "contact_email": "Seagate.Secure.FIPS.Team@seagate.com",
+      "contact_phone": "720-684-1000"
+    },
+    "algorithms": [
+      "AES",
+      "CVL",
+      "DRBG",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA",
+      "TLS"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC A6784 Direction - Decrypt, Encrypt | Key Length - 128, 256 | SP 800-38A",
+      "AES-CMAC A6785 Direction - Generation | Key Length - 256 | MAC Length - MAC Length: 8-128 Increment | 8 | Message Length - Message Length: 128-512 | Increment 128 | SP 800-38B",
+      "AES-GCM A6784 Direction - Decrypt, Encrypt | IV Generation - Internal | IV Generation Mode - 8.2.2 | Key Length - 128, 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length: 128, 256 | AAD Length - AAD Length: 0, 256 | SP 800-38D",
+      "AES-KW A6784 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 256 | SP 800-38F | Seagate Technology | Payload Length - Payload Length: 128, 192 | 256, 320, 4096",
+      "AES-XTS Testing | Revision 2.0 | A6787 Direction - Decrypt, Encrypt | Key Length - 256 | Payload Length - Payload Length: 4096 | 4160, 4192, 4224, 33792 | Tweak Mode - Number | Data Unit Length Matches Payload Length - | Yes | SP 800-38E",
+      "Counter DRBG A6785 Prediction Resistance - No | Supports Reseed - Yes",
+      "Mode - AES-256 | Derivation Function Enabled - Yes | Additional Input - Additional Input: 0, 256 | Entropy Input - Entropy Input: 256 | Nonce - Nonce: 128 | Personalization String Length - | Personalization String Length: 0, 256 | Returned Bits - 256 | SP 800-90A | Rev. 1",
+      "HMAC-SHA2-256 A6784 MAC - MAC: 256 | Key Length - Key Length: 8-512 Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-256 A6788 MAC - MAC: 256 | Key Length - Key Length: 8-512 Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-384 A6784 MAC - MAC: 384 | Key Length - Key Length: 8-1024 Increment 8 | FIPS 198-1",
+      "KAS-FFC-SSC | Sp800-56Ar3 | A6784 Domain Parameter Generation Methods - | ffdhe2048",
+      "Hash Function Z - SHA2-512 | Scheme - | dhEphem - | KAS Role - responder | SP 800-56A | Rev. 3",
+      "PBKDF A6784 Iteration Count - Iteration Count: 1000 | HMAC Algorithm - SHA2-256 | Password Length - Password Length: 8-64 | Increment 1 | Salt Length - Salt Length: 128-512 Increment | 8 | Key Data Length - Key Data Length: 256 | SP 800-132",
+      "RSA SigVer | (FIPS186-5) | A6785 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048, 3072 | Signature Type - pkcs1v1.5 | Public Exponent Mode - random | FIPS 186-5 | Safe Primes Key | Generation | A6784 Safe Prime Groups - ffdhe2048 SP 800-56A | Rev. 3",
+      "SHA2-256 A6784 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+      "SHA2-256 A6788 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+      "SHA2-384 A6784 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4",
+      "SHA2-384 A6788 Message Length - Message Length: 0-65528 | Increment 8 | FIPS 180-4 | Seagate Technology",
+      "TLS v1.2 KDF",
+      "RFC7627 (CVL)",
+      "A6784 Hash Algorithm - SHA2-256, SHA2-384 | Key Block Length - Key Block Length: 1024 | SP 800-135 | Rev. 1 | Note: Only the algorithms specified in the table above are approved algorithms supported by the module | in approved mode of operation. | 2.5.2 Vendor-Affirmed Algorithms | Name Properties Implementation Reference | FW-R8 CKG 1 Key Type:Symmetric and Asymmetric FW-R8 Section 4, example 1 | FW-R8 CKG 2 Key Type:Symmetric FW-R8 Section 6.3, method 1 | 2.5.3 | N/A for this module. | 2.5.4 | Name Caveat Use and Function",
+      "AES-GCM (no security claimed) IG 2.4.A Scenario 1 Obfuscation",
+      "SHA-512 (no security claimed) IG 2.4.A Scenario 2 Memory integrity check, no claim of security. | 2.5.5",
+      "AES-GCM (non-compliant) Key wrapping (encryption / decryption)",
+      "AES-XTS (non-compliant) Encryption / decryption",
+      "PBKDF (non-compliant) Key Derivation",
+      "RSA Signature Generation (non-compliant) Signature generation",
+      "SHA-256 (non-compliant) Used in PBKDF (non-compliant)",
+      "SHA-512 (non-compliant) Used in RSA Signature Generation (non-compliant)"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 30,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "generated_at": "2026-10-18T06:51:09.204653Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5540"
   },
   "certificate": {
     "certificate_number": "5540",
     "dataset": "active",
-    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "generated_at": "2026-10-18T06:51:09.204653Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5540",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5540",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf",
@@ -58,6 +58,18 @@
       "contact_name": "Patrick Scully",
       "contact_email": "pscully@ciena.com",
       "contact_phone": "613-670-3207"
+    },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 41
     },
     "algorithms": [
       "AES",
@@ -112,25 +124,6 @@
       "KDF Running Modes - DHE, PSK-DHE | SP 800- | 135 | Rev. 1 | Name Properties Implementation Reference | CKG - | Section | 4 | Key | Type:Symmetric | and Asymmetric | N/A NIST SP800-133r2 Section 4: Using the | Output of a Random Bit Generator Option 1 | (Symmetric keys and seed for asymmetric | keys (Option 1)); Section 5.1: Key Pairs for | Digital Signature Schemes; Section 5.2 | Key Pairs for Key Establishment; Section | 6.2.1: Symmetric Keys Generated Using | Key Agreement Schemes; Section 6.2.2 | Symmetric Keys Derived from a Pre- | existing Key | The module does not support | Operation. | Name Caveat Use and Function",
       "AES-CBC (256 bits) No Security Claimed Boot Image Encryption",
       "AES-XTS (256 bits) No Security Claimed Filesystem Encryption | The module does not support Non-Approved Algorithms Not Allowed in the Approved Mode of | Operation."
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 9,
-      "detailed_algorithm_count": 41,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5540.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "generated_at": "2026-10-18T06:51:09.204653Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3636"
   },
@@ -24,7 +24,7 @@
     "description": "A Software cryptographic library that contains FIPS Approved cryptography to serve Kubernetes and the Google Go programing language and application ecosystem.",
     "embodiment": "Multi-Chip Stand Alone",
     "firmware_versions": null,
-    "generated_at": "2026-10-11T08:06:07.463635Z",
+    "generated_at": "2026-10-18T06:51:09.204653Z",
     "hardware_versions": null,
     "module_name": "Oracle Cloud Infrastructure Cryptographic Library for Kubernetes",
     "module_type": "Software",

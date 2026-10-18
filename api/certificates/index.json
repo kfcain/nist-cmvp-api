@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-10-11T08:06:07.463635Z",
-    "total_modules": 723,
+    "generated_at": "2026-10-18T06:51:09.204653Z",
+    "total_modules": 725,
     "total_historical_modules": 4809,
-    "total_modules_in_process": 193,
-    "total_certificates_with_algorithms": 1914,
-    "total_certificate_details": 5532,
+    "total_modules_in_process": 196,
+    "total_certificates_with_algorithms": 1916,
+    "total_certificate_details": 5534,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,18 +13,18 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 710,
-        "html_refreshed": 19,
+        "html_reused": 723,
+        "html_refreshed": 8,
         "html_failed": 0,
-        "pdf_reused": 710,
-        "pdf_refreshed": 13,
+        "pdf_reused": 723,
+        "pdf_refreshed": 2,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 710,
-        "algorithm_successes": 562,
+        "algorithm_cache_hits": 723,
+        "algorithm_successes": 564,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 13,
+        "algorithm_source_crawl4ai": 2,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -32,8 +32,8 @@
         "certificates_deferred": 6
       },
       "historical": {
-        "html_reused": 4808,
-        "html_refreshed": 2,
+        "html_reused": 4809,
+        "html_refreshed": 1,
         "html_failed": 0,
         "pdf_reused": 4809,
         "pdf_refreshed": 0,
@@ -51,18 +51,18 @@
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 5518,
-        "html_refreshed": 21,
+        "html_reused": 5532,
+        "html_refreshed": 9,
         "html_failed": 0,
-        "pdf_reused": 5519,
-        "pdf_refreshed": 13,
+        "pdf_reused": 5532,
+        "pdf_refreshed": 2,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5519,
-        "algorithm_successes": 1914,
+        "algorithm_cache_hits": 5532,
+        "algorithm_successes": 1916,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 13,
+        "algorithm_source_crawl4ai": 2,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -77,7 +77,7 @@
     },
     "version": "3.0"
   },
-  "total_certificates": 5532,
+  "total_certificates": 5534,
   "certificate_paths": {
     "1": "/api/certificates/1.json",
     "2": "/api/certificates/2.json",
@@ -5610,7 +5610,9 @@
     "5547": "/api/certificates/5547.json",
     "5548": "/api/certificates/5548.json",
     "5549": "/api/certificates/5549.json",
-    "5550": "/api/certificates/5550.json"
+    "5550": "/api/certificates/5550.json",
+    "5551": "/api/certificates/5551.json",
+    "5552": "/api/certificates/5552.json"
   },
   "certificates": [
     {
@@ -162772,7 +162774,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162799,7 +162801,7 @@
         "DRBG"
       ],
       "algorithm_count": 2,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162833,7 +162835,7 @@
         "TLS"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162870,7 +162872,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162910,7 +162912,7 @@
         "TLS"
       ],
       "algorithm_count": 15,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162946,7 +162948,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -162979,7 +162981,7 @@
         "SHA"
       ],
       "algorithm_count": 8,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163015,7 +163017,7 @@
         "TLS"
       ],
       "algorithm_count": 11,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163050,7 +163052,7 @@
         "SHA"
       ],
       "algorithm_count": 10,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163079,7 +163081,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163117,7 +163119,7 @@
         "TLS"
       ],
       "algorithm_count": 13,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163148,7 +163150,7 @@
         "SHS"
       ],
       "algorithm_count": 6,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163177,6 +163179,76 @@
         "SHA"
       ],
       "algorithm_count": 4,
+      "algorithm_extraction_status": "cached",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5551",
+      "dataset": "active",
+      "path": "/api/certificates/5551.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5551",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5551",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5551.pdf",
+      "vendor_name": "Cisco Systems, Inc.",
+      "module_name": "Cisco FTD FX-OS on 4K/9K Cryptographic Module",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Hardware",
+      "overall_level": 2,
+      "validation_date": "10/15/2026",
+      "validation_dates": [
+        "10/15/2026"
+      ],
+      "sunset_date": "10/14/2031",
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DRBG",
+        "ECDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "SSH",
+        "TLS"
+      ],
+      "algorithm_count": 11,
+      "algorithm_extraction_status": "parsed",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5552",
+      "dataset": "active",
+      "path": "/api/certificates/5552.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
+      "vendor_name": "Seagate Technology LLC.",
+      "module_name": "Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Hardware",
+      "overall_level": 2,
+      "validation_date": "10/16/2026",
+      "validation_dates": [
+        "10/16/2026"
+      ],
+      "sunset_date": "10/15/2031",
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DRBG",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "TLS"
+      ],
+      "algorithm_count": 9,
       "algorithm_extraction_status": "parsed",
       "algorithm_source": "crawl4ai",
       "detail_available": true

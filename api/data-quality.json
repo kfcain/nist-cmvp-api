@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-10-11T08:06:07.463635Z",
-    "total_modules": 723,
+    "generated_at": "2026-10-18T06:51:09.204653Z",
+    "total_modules": 725,
     "total_historical_modules": 4809,
-    "total_modules_in_process": 193,
-    "total_certificates_with_algorithms": 1914,
-    "total_certificate_details": 5532,
+    "total_modules_in_process": 196,
+    "total_certificates_with_algorithms": 1916,
+    "total_certificate_details": 5534,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,18 +13,18 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 710,
-        "html_refreshed": 19,
+        "html_reused": 723,
+        "html_refreshed": 8,
         "html_failed": 0,
-        "pdf_reused": 710,
-        "pdf_refreshed": 13,
+        "pdf_reused": 723,
+        "pdf_refreshed": 2,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 710,
-        "algorithm_successes": 562,
+        "algorithm_cache_hits": 723,
+        "algorithm_successes": 564,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 13,
+        "algorithm_source_crawl4ai": 2,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -32,8 +32,8 @@
         "certificates_deferred": 6
       },
       "historical": {
-        "html_reused": 4808,
-        "html_refreshed": 2,
+        "html_reused": 4809,
+        "html_refreshed": 1,
         "html_failed": 0,
         "pdf_reused": 4809,
         "pdf_refreshed": 0,
@@ -51,18 +51,18 @@
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 5518,
-        "html_refreshed": 21,
+        "html_reused": 5532,
+        "html_refreshed": 9,
         "html_failed": 0,
-        "pdf_reused": 5519,
-        "pdf_refreshed": 13,
+        "pdf_reused": 5532,
+        "pdf_refreshed": 2,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5519,
-        "algorithm_successes": 1914,
+        "algorithm_cache_hits": 5532,
+        "algorithm_successes": 1916,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 13,
+        "algorithm_source_crawl4ai": 2,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -79,30 +79,30 @@
   },
   "summary": {
     "misses": 0,
-    "refreshed_records": 14,
-    "fallback_usage": 1,
-    "changed_certificates": 14,
+    "refreshed_records": 2,
+    "fallback_usage": 0,
+    "changed_certificates": 2,
     "deferred": 7
   },
   "update_monitor": {
     "status": "pass",
     "schedule": "0 2 * * 0",
     "schedule_description": "Weekly on Sunday at 02:00 UTC",
-    "latest_run_generated_at": "2026-10-11T08:06:07.463635Z",
-    "next_scheduled_run": "2026-10-18T02:00:00Z",
+    "latest_run_generated_at": "2026-10-18T06:51:09.204653Z",
+    "next_scheduled_run": "2026-10-25T02:00:00Z",
     "latest_run_metrics": {
-      "html_reused": 5518,
-      "html_refreshed": 21,
+      "html_reused": 5532,
+      "html_refreshed": 9,
       "html_failed": 0,
-      "pdf_reused": 5519,
-      "pdf_refreshed": 13,
+      "pdf_reused": 5532,
+      "pdf_refreshed": 2,
       "pdf_failed": 0,
       "pdf_cache_hits": 0,
       "algorithm_misses": 0,
-      "algorithm_cache_hits": 5519,
-      "algorithm_successes": 1914,
+      "algorithm_cache_hits": 5532,
+      "algorithm_successes": 1916,
       "algorithm_fallbacks": 0,
-      "algorithm_source_crawl4ai": 13,
+      "algorithm_source_crawl4ai": 2,
       "algorithm_source_security_policy_pdf": 0,
       "algorithm_source_database": 0,
       "algorithm_source_none": 0,
@@ -113,7 +113,7 @@
       {
         "name": "html_cache_reuse_rate",
         "status": "pass",
-        "value": 0.996209,
+        "value": 0.998376,
         "threshold": 0.9
       },
       {
@@ -148,37 +148,19 @@
     ]
   },
   "algorithm_coverage": {
-    "total_certificates": 5532,
-    "certificates_with_algorithms": 1914,
-    "coverage_rate": 0.345987,
+    "total_certificates": 5534,
+    "certificates_with_algorithms": 1916,
+    "coverage_rate": 0.346223,
     "zero_algorithm_certificates": {
-      "cached_no_attempts": 3587,
-      "explicit_no_algorithms": 1,
+      "cached_no_attempts": 3588,
+      "explicit_no_algorithms": 0,
       "source_none": 30,
       "other": 0
     }
   },
   "deferred_certificates": [
     {
-      "certificate_number": "5331",
-      "dataset": "active",
-      "reason": "algorithm_unavailable",
-      "repeat": true
-    },
-    {
       "certificate_number": "5501",
-      "dataset": "active",
-      "reason": "algorithm_unavailable",
-      "repeat": true
-    },
-    {
-      "certificate_number": "5285",
-      "dataset": "active",
-      "reason": "algorithm_unavailable",
-      "repeat": true
-    },
-    {
-      "certificate_number": "5440",
       "dataset": "active",
       "reason": "algorithm_unavailable",
       "repeat": true
@@ -196,6 +178,24 @@
       "repeat": true
     },
     {
+      "certificate_number": "5440",
+      "dataset": "active",
+      "reason": "algorithm_unavailable",
+      "repeat": true
+    },
+    {
+      "certificate_number": "5285",
+      "dataset": "active",
+      "reason": "algorithm_unavailable",
+      "repeat": true
+    },
+    {
+      "certificate_number": "5331",
+      "dataset": "active",
+      "reason": "algorithm_unavailable",
+      "repeat": true
+    },
+    {
       "certificate_number": "5458",
       "dataset": "historical",
       "reason": "algorithm_unavailable",
@@ -205,311 +205,46 @@
   "misses": [],
   "refreshed_records": [
     {
-      "certificate_number": "5550",
+      "certificate_number": "5552",
       "dataset": "active",
-      "path": "/api/certificates/5550.json",
-      "vendor_name": "Google, LLC",
-      "module_name": "Integrated Compute Complex (ICC)",
+      "path": "/api/certificates/5552.json",
+      "vendor_name": "Seagate Technology LLC.",
+      "module_name": "Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module",
       "standard": "FIPS 140-3",
       "status": "Active",
       "reason": "new_certificate"
     },
     {
-      "certificate_number": "5549",
+      "certificate_number": "5551",
       "dataset": "active",
-      "path": "/api/certificates/5549.json",
-      "vendor_name": "Motorola Solutions Inc.",
-      "module_name": "Motorola P25 KVL 7000 HSM",
+      "path": "/api/certificates/5551.json",
+      "vendor_name": "Cisco Systems, Inc.",
+      "module_name": "Cisco FTD FX-OS on 4K/9K Cryptographic Module",
       "standard": "FIPS 140-3",
       "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5548",
-      "dataset": "active",
-      "path": "/api/certificates/5548.json",
-      "vendor_name": "wolfSSL Inc.",
-      "module_name": "wolfCrypt",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5547",
-      "dataset": "active",
-      "path": "/api/certificates/5547.json",
-      "vendor_name": "Qualcomm Technologies, Inc.",
-      "module_name": "Qualcomm® Crypto Engine Core",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5546",
-      "dataset": "active",
-      "path": "/api/certificates/5546.json",
-      "vendor_name": "Intel Corporation",
-      "module_name": "Crypto Module for Intel® Core Ultra Series 1 (Meteor Lake) Converged Security and Manageability Engine (CSME)",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5545",
-      "dataset": "active",
-      "path": "/api/certificates/5545.json",
-      "vendor_name": "Skydio, Inc.",
-      "module_name": "Skydio Cryptographic Module (based on BoringCrypto)",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5544",
-      "dataset": "active",
-      "path": "/api/certificates/5544.json",
-      "vendor_name": "TrellisWare Technologies, Inc.",
-      "module_name": "TW-860-F TSM Spirit",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5543",
-      "dataset": "active",
-      "path": "/api/certificates/5543.json",
-      "vendor_name": "AudioCodes Ltd.",
-      "module_name": "AudioCodes BoringCrypto",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5542",
-      "dataset": "active",
-      "path": "/api/certificates/5542.json",
-      "vendor_name": "Singlewire Software, LLC",
-      "module_name": "InformaCast Advanced and Reach Server C Crypto Library",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5541",
-      "dataset": "active",
-      "path": "/api/certificates/5541.json",
-      "vendor_name": "Ciena Corporation",
-      "module_name": "Waveserver 5 Control Processor Module",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5540",
-      "dataset": "active",
-      "path": "/api/certificates/5540.json",
-      "vendor_name": "Ciena Corporation",
-      "module_name": "WaveLogic 5 Extreme Encryption Modem",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5539",
-      "dataset": "active",
-      "path": "/api/certificates/5539.json",
-      "vendor_name": "Google, LLC",
-      "module_name": "B227 True Random Number Generator (TRNG) Cryptographic Module",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5538",
-      "dataset": "active",
-      "path": "/api/certificates/5538.json",
-      "vendor_name": "Infinera Corporation (Nokia)",
-      "module_name": "Infinera Groove G30 Cryptographic Module",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "4829",
-      "dataset": "historical",
-      "path": "/api/certificates/4829.json",
-      "vendor_name": "Palo Alto Networks, Inc.",
-      "module_name": "PAN-OS 11.0 running on PA-400 Series, PA-800 Series, PA-1400 Series, PA-3200 Series, PA-3400 Series, PA-5200 Series, PA-5400 Series, PA-5450, and PA-7000 Series NGFWs",
-      "standard": "FIPS 140-3",
-      "status": "Historical",
       "reason": "new_certificate"
     }
   ],
-  "fallback_usage": [
-    {
-      "certificate_number": "4829",
-      "dataset": "historical",
-      "path": "/api/certificates/4829.json",
-      "vendor_name": "Palo Alto Networks, Inc.",
-      "module_name": "PAN-OS 11.0 running on PA-400 Series, PA-800 Series, PA-1400 Series, PA-3200 Series, PA-3400 Series, PA-5200 Series, PA-5400 Series, PA-5450, and PA-7000 Series NGFWs",
-      "standard": "FIPS 140-3",
-      "status": "Historical",
-      "reason": "algorithm_extraction_fallback",
-      "source": "firecrawl",
-      "source_url": null,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4829.pdf",
-          "status": "no_algorithms"
-        },
-        {
-          "source": "security_policy_pdf",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4829.pdf",
-          "status": "no_algorithms"
-        }
-      ]
-    }
-  ],
+  "fallback_usage": [],
   "changed_certificates": [
     {
-      "certificate_number": "5550",
+      "certificate_number": "5552",
       "dataset": "active",
-      "path": "/api/certificates/5550.json",
-      "vendor_name": "Google, LLC",
-      "module_name": "Integrated Compute Complex (ICC)",
+      "path": "/api/certificates/5552.json",
+      "vendor_name": "Seagate Technology LLC.",
+      "module_name": "Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module",
       "standard": "FIPS 140-3",
       "status": "Active",
       "reason": "new_certificate"
     },
     {
-      "certificate_number": "5549",
+      "certificate_number": "5551",
       "dataset": "active",
-      "path": "/api/certificates/5549.json",
-      "vendor_name": "Motorola Solutions Inc.",
-      "module_name": "Motorola P25 KVL 7000 HSM",
+      "path": "/api/certificates/5551.json",
+      "vendor_name": "Cisco Systems, Inc.",
+      "module_name": "Cisco FTD FX-OS on 4K/9K Cryptographic Module",
       "standard": "FIPS 140-3",
       "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5548",
-      "dataset": "active",
-      "path": "/api/certificates/5548.json",
-      "vendor_name": "wolfSSL Inc.",
-      "module_name": "wolfCrypt",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5547",
-      "dataset": "active",
-      "path": "/api/certificates/5547.json",
-      "vendor_name": "Qualcomm Technologies, Inc.",
-      "module_name": "Qualcomm® Crypto Engine Core",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5546",
-      "dataset": "active",
-      "path": "/api/certificates/5546.json",
-      "vendor_name": "Intel Corporation",
-      "module_name": "Crypto Module for Intel® Core Ultra Series 1 (Meteor Lake) Converged Security and Manageability Engine (CSME)",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5545",
-      "dataset": "active",
-      "path": "/api/certificates/5545.json",
-      "vendor_name": "Skydio, Inc.",
-      "module_name": "Skydio Cryptographic Module (based on BoringCrypto)",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5544",
-      "dataset": "active",
-      "path": "/api/certificates/5544.json",
-      "vendor_name": "TrellisWare Technologies, Inc.",
-      "module_name": "TW-860-F TSM Spirit",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5543",
-      "dataset": "active",
-      "path": "/api/certificates/5543.json",
-      "vendor_name": "AudioCodes Ltd.",
-      "module_name": "AudioCodes BoringCrypto",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5542",
-      "dataset": "active",
-      "path": "/api/certificates/5542.json",
-      "vendor_name": "Singlewire Software, LLC",
-      "module_name": "InformaCast Advanced and Reach Server C Crypto Library",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5541",
-      "dataset": "active",
-      "path": "/api/certificates/5541.json",
-      "vendor_name": "Ciena Corporation",
-      "module_name": "Waveserver 5 Control Processor Module",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5540",
-      "dataset": "active",
-      "path": "/api/certificates/5540.json",
-      "vendor_name": "Ciena Corporation",
-      "module_name": "WaveLogic 5 Extreme Encryption Modem",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5539",
-      "dataset": "active",
-      "path": "/api/certificates/5539.json",
-      "vendor_name": "Google, LLC",
-      "module_name": "B227 True Random Number Generator (TRNG) Cryptographic Module",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "5538",
-      "dataset": "active",
-      "path": "/api/certificates/5538.json",
-      "vendor_name": "Infinera Corporation (Nokia)",
-      "module_name": "Infinera Groove G30 Cryptographic Module",
-      "standard": "FIPS 140-3",
-      "status": "Active",
-      "reason": "new_certificate"
-    },
-    {
-      "certificate_number": "4829",
-      "dataset": "historical",
-      "path": "/api/certificates/4829.json",
-      "vendor_name": "Palo Alto Networks, Inc.",
-      "module_name": "PAN-OS 11.0 running on PA-400 Series, PA-800 Series, PA-1400 Series, PA-3200 Series, PA-3400 Series, PA-5200 Series, PA-5400 Series, PA-5450, and PA-7000 Series NGFWs",
-      "standard": "FIPS 140-3",
-      "status": "Historical",
       "reason": "new_certificate"
     }
   ]
