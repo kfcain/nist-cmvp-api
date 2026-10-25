@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-10-18T06:51:09.204653Z",
+    "generated_at": "2026-10-25T07:10:02.126598Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552"
   },
   "certificate": {
     "certificate_number": "5552",
     "dataset": "active",
-    "generated_at": "2026-10-18T06:51:09.204653Z",
+    "generated_at": "2026-10-25T07:10:02.126598Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
@@ -60,6 +60,18 @@
       "contact_email": "Seagate.Secure.FIPS.Team@seagate.com",
       "contact_phone": "720-684-1000"
     },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 9,
+      "detailed_algorithm_count": 30
+    },
     "algorithms": [
       "AES",
       "CVL",
@@ -102,25 +114,6 @@
       "RSA Signature Generation (non-compliant) Signature generation",
       "SHA-256 (non-compliant) Used in PBKDF (non-compliant)",
       "SHA-512 (non-compliant) Used in RSA Signature Generation (non-compliant)"
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 9,
-      "detailed_algorithm_count": 30,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

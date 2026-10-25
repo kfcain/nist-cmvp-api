@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-10-18T06:51:09.204653Z",
-    "total_modules": 725,
+    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "total_modules": 734,
     "total_historical_modules": 4809,
-    "total_modules_in_process": 196,
-    "total_certificates_with_algorithms": 1916,
-    "total_certificate_details": 5534,
+    "total_modules_in_process": 185,
+    "total_certificates_with_algorithms": 1925,
+    "total_certificate_details": 5543,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,18 +13,18 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 723,
-        "html_refreshed": 8,
+        "html_reused": 725,
+        "html_refreshed": 15,
         "html_failed": 0,
-        "pdf_reused": 723,
-        "pdf_refreshed": 2,
+        "pdf_reused": 725,
+        "pdf_refreshed": 9,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 723,
-        "algorithm_successes": 564,
+        "algorithm_cache_hits": 725,
+        "algorithm_successes": 573,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 2,
+        "algorithm_source_crawl4ai": 9,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -51,18 +51,18 @@
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 5532,
-        "html_refreshed": 9,
+        "html_reused": 5534,
+        "html_refreshed": 16,
         "html_failed": 0,
-        "pdf_reused": 5532,
-        "pdf_refreshed": 2,
+        "pdf_reused": 5534,
+        "pdf_refreshed": 9,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5532,
-        "algorithm_successes": 1916,
+        "algorithm_cache_hits": 5534,
+        "algorithm_successes": 1925,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 2,
+        "algorithm_source_crawl4ai": 9,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -80,7 +80,7 @@
   "index": "statuses",
   "field": "status",
   "key_count": 3,
-  "entry_count": 5534,
+  "entry_count": 5543,
   "keys": {
     "Active": [
       {
@@ -7332,6 +7332,96 @@
         "standard": "FIPS 140-3",
         "status": "Active",
         "algorithm_count": 9
+      },
+      {
+        "certificate_number": "5553",
+        "dataset": "active",
+        "path": "/api/certificates/5553.json",
+        "vendor_name": "Qualcomm Technologies, Inc.",
+        "module_name": "Qualcomm® Crypto Engine Core",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 4
+      },
+      {
+        "certificate_number": "5554",
+        "dataset": "active",
+        "path": "/api/certificates/5554.json",
+        "vendor_name": "Qualcomm Technologies, Inc.",
+        "module_name": "Qualcomm® Crypto Engine Core",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 4
+      },
+      {
+        "certificate_number": "5555",
+        "dataset": "active",
+        "path": "/api/certificates/5555.json",
+        "vendor_name": "Fortanix, Inc.",
+        "module_name": "Fortanix DSM Appliance",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 12
+      },
+      {
+        "certificate_number": "5556",
+        "dataset": "active",
+        "path": "/api/certificates/5556.json",
+        "vendor_name": "Renesas Electronics Corporation",
+        "module_name": "RA8M1 Security Management Module",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 7
+      },
+      {
+        "certificate_number": "5557",
+        "dataset": "active",
+        "path": "/api/certificates/5557.json",
+        "vendor_name": "Echo Software Inc.",
+        "module_name": "Echo FIPS Provider for Java",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 16
+      },
+      {
+        "certificate_number": "5558",
+        "dataset": "active",
+        "path": "/api/certificates/5558.json",
+        "vendor_name": "Google, LLC",
+        "module_name": "Integrated Compute Complex (ICC)",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 4
+      },
+      {
+        "certificate_number": "5559",
+        "dataset": "active",
+        "path": "/api/certificates/5559.json",
+        "vendor_name": "Micron Technology, Inc.",
+        "module_name": "Micron® MTC22-P4 Controller Sub Chip Security Subsystem",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 9
+      },
+      {
+        "certificate_number": "5560",
+        "dataset": "active",
+        "path": "/api/certificates/5560.json",
+        "vendor_name": "Echo Software Inc.",
+        "module_name": "Echo FIPS Provider for OpenSSL",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 15
+      },
+      {
+        "certificate_number": "5561",
+        "dataset": "active",
+        "path": "/api/certificates/5561.json",
+        "vendor_name": "Northrop Grumman Corporation",
+        "module_name": "Ad Noctem Connect 2.3",
+        "standard": "FIPS 140-3",
+        "status": "Active",
+        "algorithm_count": 11
       }
     ],
     "Historical": [

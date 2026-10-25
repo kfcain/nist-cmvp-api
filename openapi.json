@@ -187,7 +187,7 @@
         "operationId": "getModules",
         "responses": {
           "200": {
-            "description": "Currently 725 active validated modules with enriched details",
+            "description": "Currently 734 active validated modules with enriched details",
             "content": {
               "application/json": {
                 "schema": {
@@ -223,7 +223,7 @@
         "operationId": "getModulesInProcess",
         "responses": {
           "200": {
-            "description": "Currently 196 modules in process",
+            "description": "Currently 185 modules in process",
             "content": {
               "application/json": {
                 "schema": {
@@ -312,11 +312,11 @@
           "generated_at": {
             "type": "string",
             "format": "date-time",
-            "example": "2026-10-18T06:51:09.204653Z"
+            "example": "2026-10-25T07:10:02.126598Z"
           },
           "total_modules": {
             "type": "integer",
-            "example": 725
+            "example": 734
           },
           "total_historical_modules": {
             "type": "integer",
@@ -324,15 +324,15 @@
           },
           "total_modules_in_process": {
             "type": "integer",
-            "example": 196
+            "example": 185
           },
           "total_certificates_with_algorithms": {
             "type": "integer",
-            "example": 1916
+            "example": 1925
           },
           "total_certificate_details": {
             "type": "integer",
-            "example": 5534
+            "example": 5543
           },
           "source": {
             "type": "string",
@@ -370,39 +370,39 @@
         "properties": {
           "Certificate Number_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5561"
           },
           "Certificate Number": {
             "type": "string",
-            "example": "5552"
+            "example": "5561"
           },
           "Vendor Name": {
             "type": "string",
-            "example": "Seagate Technology LLC."
+            "example": "Northrop Grumman Corporation"
           },
           "Module Name": {
             "type": "string",
-            "example": "Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module"
+            "example": "Ad Noctem Connect 2.3"
           },
           "Module Type": {
             "type": "string",
-            "example": "Hardware"
+            "example": "Software"
           },
           "Validation Date": {
             "type": "string",
-            "example": "10/16/2026"
+            "example": "10/21/2026"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5552.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5561.pdf"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5552"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5561"
           },
           "module_name": {
             "type": "string",
-            "example": "Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module"
+            "example": "Ad Noctem Connect 2.3"
           },
           "standard": {
             "type": "string",
@@ -414,27 +414,27 @@
           },
           "sunset_date": {
             "type": "string",
-            "example": "10/15/2031"
+            "example": "10/20/2031"
           },
           "overall_level": {
             "type": "integer",
-            "example": 2
+            "example": 1
           },
           "caveat": {
             "type": "string",
-            "example": "When operated in approved mode. When installed, initialized and configured as specified in Section 11 of the Security Policy. No operator authentication is enforced for executing security services that were unlocked by an authenticated service"
+            "example": "When operated in approved mode. The module generates SSPs (e.g., keys) whose strengths are modified by available entropy."
           },
           "module_type": {
             "type": "string",
-            "example": "Hardware"
+            "example": "Software"
           },
           "embodiment": {
             "type": "string",
-            "example": "MultiChipEmbed"
+            "example": "MultiChipStand"
           },
           "description": {
             "type": "string",
-            "example": "The primary function of the Seagate SSG5 TCG Enterprise SSC SED FIPS 140 Module is to provide encryption, access control, and cryptographic erase of the User Data stored on the module."
+            "example": "The module is a VPN Client application. It provides secure communication over untrusted networks. To provide this security, the module implements IKEv2/IPsec. It can be configured over a local, web-based interface."
           },
           "algorithms": {
             "type": "array",
@@ -444,7 +444,7 @@
             "example": [
               "AES",
               "CVL",
-              "DRBG"
+              "DES"
             ]
           },
           "algorithms_detailed": {
@@ -453,9 +453,9 @@
               "type": "string"
             },
             "example": [
-              "AES-CBC A6784 Direction - Decrypt, Encrypt | Key Length - 128, 256 | SP 800-38A",
-              "AES-CMAC A6785 Direction - Generation | Key Length - 256 | MAC Length - MAC Length: 8-128 Increment | 8 | Message Length - Message Length: 128-512 | Increment 128 | SP 800-38B",
-              "AES-GCM A6784 Direction - Decrypt, Encrypt | IV Generation - Internal | IV Generation Mode - 8.2.2 | Key Length - 128, 256 | Tag Length - 128 | IV Length - IV Length: 96 | Payload Length - Payload Length: 128, 256 | AAD Length - AAD Length: 0, 256 | SP 800-38D"
+              "AES-CBC A7623 | A7624 | Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+              "AES-CCM A7624 Key Length - 128, 256 | Tag Length - 128, 64, 96 | IV Length - IV Length: 64, 96, 104 | Payload Length - Payload Length: 256 | AAD Length - AAD Length: 64, 96 | SP 800-38C",
+              "AES-CTR A7623 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 Increment | 8 | Supports Counter larger than maximum value - No | SP 800-38A | 1.0 Non-Proprietary FIPS 140-3 Security Policy Page 10 of 43 | Incremental Counter - Yes | Counter Tests Performed - Yes"
             ]
           },
           "algorithm_extraction": {
@@ -880,7 +880,7 @@
         "properties": {
           "certificate_number": {
             "type": "string",
-            "example": "5523"
+            "example": "5551"
           },
           "dataset": {
             "type": "string",
@@ -888,27 +888,27 @@
           },
           "generated_at": {
             "type": "string",
-            "example": "2026-10-18T06:51:09.204653Z"
+            "example": "2026-10-25T07:10:02.126598Z"
           },
           "nist_page_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5523"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5551"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5523"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5551"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5523.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5551.pdf"
           },
           "vendor_name": {
             "type": "string",
-            "example": "Chainguard, Inc."
+            "example": "Cisco Systems, Inc."
           },
           "module_name": {
             "type": "string",
-            "example": "Chainguard FIPS Provider for OpenSSL"
+            "example": "Cisco FTD FX-OS on 4K/9K Cryptographic Module"
           },
           "standard": {
             "type": "string",
@@ -920,7 +920,7 @@
           },
           "module_type": {
             "type": "string",
-            "example": "Software"
+            "example": "Hardware"
           },
           "embodiment": {
             "type": "string",
@@ -928,11 +928,11 @@
           },
           "overall_level": {
             "type": "integer",
-            "example": 1
+            "example": 2
           },
           "validation_date": {
             "type": "string",
-            "example": "9/15/2026"
+            "example": "10/15/2026"
           },
           "validation_dates": {
             "type": "array",
@@ -940,20 +940,20 @@
               "type": "string"
             },
             "example": [
-              "9/15/2026"
+              "10/15/2026"
             ]
           },
           "sunset_date": {
             "type": "string",
-            "example": "9/14/2031"
+            "example": "10/14/2031"
           },
           "caveat": {
             "type": "string",
-            "example": "When operated in approved mode; No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
+            "example": "When operated in approved mode; The tamper evident seals and Physical Kit installed as indicated in the Security Policy; This module contains the embedded module [Cisco Firepower Threat Defense on 4K/9K Cryptographic Module] validated to FIPS 140-3 under Cert. #5456 operating in approved mode."
           },
           "description": {
             "type": "string",
-            "example": "The Chainguard FIPS Provider for OpenSSL is defined as a software module in a multi-chip standalone embodiment. It provides a C language application program interface (API) for use by other applications that require cryptographic functionality. The module consists of one software component, the \"FIPS provider\", which implements FIPS requirements, and the cryptographic functionality provided to the operator."
+            "example": "Cisco FTD FX-OS on 4K/9K Cryptographic Module is an integrated network security system providing enterprise-class firewall with a comprehensive range of next-generation network security services, intrusion prevention system (IPS), content security and secure unified communications, HTTPS/TLSv1.2, SSHv2, IPsec/IKEv2, SNMPv3 and Cryptographic Cipher Suite B."
           },
           "software_versions": {
             "type": "string",
@@ -976,7 +976,8 @@
               "type": "string"
             },
             "example": [
-              "Physical security: N/A",
+              "Roles, services, and authentication: Level 3",
+              "Operational environment: N/A",
               "Non-invasive security: N/A"
             ]
           },
@@ -1010,7 +1011,7 @@
             "example": [
               "AES",
               "CVL",
-              "DES"
+              "DRBG"
             ]
           },
           "algorithms_detailed": {
@@ -1019,9 +1020,9 @@
               "type": "string"
             },
             "example": [
-              "AES-CBC A7579, A7587 | A7588, A7594 | A7595, A7613 | Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
-              "AES-CBC-CS1 A7579, A7587 | A7588, A7594 | A7595, A7613 | Direction - decrypt, encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-65536 Increment 8 | SP 800-38A",
-              "AES-CBC-CS2 A7579, A7587 | A7588, A7594 | A7595, A7613 | Direction - decrypt, encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 128-65536 Increment 8 | SP 800-38A"
+              "AES- | CBC | A44 | 46 | Key Length - 128, 256 SP 800- | 38A",
+              "AES- | GCM | A44 | 46 | Key Length - 128, 256 SP 800- | 38D | Counter",
+              "DRBG | A44 | 46 | Prediction Resistance - Yes | Supports Reseed - Yes"
             ]
           }
         }

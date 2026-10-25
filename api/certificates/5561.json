@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5561"
+  },
+  "certificate": {
+    "certificate_number": "5561",
+    "dataset": "active",
+    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5561",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5561",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5561.pdf",
+    "vendor_name": "Northrop Grumman Corporation",
+    "module_name": "Ad Noctem Connect 2.3",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "10/21/2026",
+    "validation_dates": [
+      "10/21/2026"
+    ],
+    "sunset_date": "10/20/2031",
+    "caveat": "When operated in approved mode. The module generates SSPs (e.g., keys) whose strengths are modified by available entropy.",
+    "description": "The module is a VPN Client application. It provides secure communication over untrusted networks. To provide this security, the module implements IKEv2/IPsec. It can be configured over a local, web-based interface.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5561.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/21/2026",
+        "type": "Initial",
+        "lab": "Teron Labs"
+      }
+    ],
+    "vendor": {
+      "name": "Northrop Grumman Corporation",
+      "website_url": "http://www.northropgrumman.com",
+      "address_lines": [
+        "2980 Fairview Park Drive",
+        "Falls Church, VA 22042",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Alex Barron",
+      "contact_email": "alex.barron@ngc.com",
+      "contact_phone": "123-456-5678"
+    },
+    "algorithms": [
+      "AES",
+      "CVL",
+      "DES",
+      "DRBG",
+      "ECDSA",
+      "EDDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC A7623 | A7624 | Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+      "AES-CCM A7624 Key Length - 128, 256 | Tag Length - 128, 64, 96 | IV Length - IV Length: 64, 96, 104 | Payload Length - Payload Length: 256 | AAD Length - AAD Length: 64, 96 | SP 800-38C",
+      "AES-CTR A7623 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 Increment | 8 | Supports Counter larger than maximum value - No | SP 800-38A | 1.0 Non-Proprietary FIPS 140-3 Security Policy Page 10 of 43 | Incremental Counter - Yes | Counter Tests Performed - Yes",
+      "AES-ECB A7623 Direction - Decrypt, Encrypt | Key Length - 128, 256 | SP 800-38A",
+      "AES-GCM A7623 Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.1, 8.2.2 | Key Length - 128, 192, 256 | Tag Length - 128, 64, 96 | IV Length - IV Length: 96 | Payload Length - Payload Length: 120, 128, 248 | 256, Payload Length: 160-65536 Increment 8 | AAD Length - AAD Length: 64, 96 | SP 800-38D",
+      "AES-GCM A7624 Direction - Decrypt, Encrypt | IV Generation - External | IV Generation Mode - 8.2.1 | Key Length - 128, 256 | Tag Length - 128, 64, 96 | IV Length - IV Length: 96 | Payload Length - Payload Length: 160-65536 | Increment 8 | AAD Length - AAD Length: 64, 96 | SP 800-38D",
+      "Counter DRBG A7623 Prediction Resistance - No | Supports Reseed - No",
+      "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - Personalization | String Length: 0 | Returned Bits - 256 | SP 800-90A | Rev. 1",
+      "ECDSA KeyGen (FIPS186-5) A7623 Curve - P-224, P-256, P-384, P-521 | Secret Generation Mode - testing candidates | FIPS 186-5",
+      "ECDSA KeyVer (FIPS186-5) A7623 Curve - P-224, P-256, P-384, P-521 FIPS 186-5",
+      "ECDSA SigGen (FIPS186-5) A7623 Curve - P-224, P-256, P-384, P-521",
+      "Hash Algorithm - SHA2-256, SHA2-384, SHA2- | 512 | Component - No | FIPS 186-5",
+      "ECDSA SigVer (FIPS186-5) A7623 Component - No | Curve - P-224, P-256, P-384, P-521",
+      "Hash Algorithm - SHA2-256, SHA2-384, SHA2- | 512 | FIPS 186-5",
+      "HMAC-SHA2-256 A7623 | A7624 | MAC - MAC: 256 | Key Length - Key Length: 256-512 Increment 8 | FIPS 198-1",
+      "HMAC-SHA2-384 A7623 | A7624 | MAC - MAC: 256-384 Increment 8 | Key Length - Key Length: 256-1024 Increment 8 | FIPS 198-1 | 1.0 Non-Proprietary FIPS 140-3 Security Policy Page 11 of 43",
+      "HMAC-SHA2-512 A7623 | A7624 | MAC - MAC: 256-512 Increment 8 | Key Length - Key Length: 256-1024 Increment 8 | FIPS 198-1",
+      "KAS-ECC-SSC Sp800-56Ar3 A7623 Domain Parameter Generation Methods - P-224 | P-256, P-384, P-521",
+      "Hash Function Z - SHA2-512 | Scheme - | onePassDh - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KAS-FFC-SSC Sp800-56Ar3 A7623 Domain Parameter Generation Methods - MODP- | 2048, MODP-3072, MODP-4096, MODP-6144 | MODP-8192 | Scheme - | dhEphem - | KAS Role - initiator, responder | SP 800-56A | Rev. 3",
+      "KDF IKEv2 (CVL) A7623 Initiator Nonce Length - Initiator Nonce Length | 128-2048 Increment 8 | Responder Nonce Length - Responder Nonce | Length: 128-2048 Increment 8",
+      "Diffie-Hellman Shared Secret Length - Diffie-",
+      "Hellman Shared Secret Length: 224-8192 | Increment 8 | Derived Keying Material Length - Derived Keying | Material Length: 256-16384 Increment 8 | Derived Keying Material Child Length - Derived | Keying Material Child Length: 160-16384 | Increment 8",
+      "Hash Algorithm - SHA2-256, SHA2-384, SHA2- | 512 | SP 800-135 | Rev. 1",
+      "RSA SigGen (FIPS186-5) A7623 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5 | FIPS 186-5",
+      "RSA SigVer (FIPS186-5) A7623 Hash Pair -",
+      "Hash Algorithm - SHA2-256 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed | FIPS 186-5 | Safe Primes Key Generation | Safe Primes Key Verification | A7623 Safe Prime Groups - MODP-2048, MODP-3072 | MODP-4096, MODP-6144, MODP-8192 | SP 800-56A | Rev. 3",
+      "SHA-1, SHA2-256, SHA2-",
+      "384, SHA2-512 | A7624 | A7623 | Message Length - Message Length: 0-65536 | Increment 8 | FIPS 180-4 | 1.0 Non-Proprietary FIPS 140-3 Security Policy Page 12 of 43 | Name Properties Implementation Reference | CKG Key Type:Asymmetric N/A SP800-133r2 Section 4, Example 1 | N/A for this module. | The module does not implement non-approved algorithms allowed in the approved mode of | operation. | N/A for this module. | The module does not implement non-approved algorithms allowed in the approved mode of | operation with no security claimed.",
+      "Triple DES Encryption Algorithms | CAST-128 Encryption Algorithms | Blowfish Encryption Algorithms | Camellia Encryption Algorithms",
+      "AES-GMAC with null encryption Authenticated Encryption | (AEAD) Algorithms | Camellia with CCM Authenticated Encryption | (AEAD) Algorithms | chacha20poly1305 Authenticated Encryption | (AEAD) Algorithms",
+      "HMAC-MD5, SHA1 Integrity Algorithms",
+      "AES XCBC Integrity Algorithms",
+      "AES CMAC Integrity Algorithms",
+      "AES-GMAC for authentication Integrity Algorithms | Diffie Hellman with modp768, modp1024, modp1536 Diffie Hellman | Diffie Hellman with ecp224, ecp224bp, ecp256bp, ecp384bp, ecp512bp | curve25519, x25519, curve448, x448 | EC",
+      "RSA Signatures with MD5, SHA-1, SHA-224, SHA-3 Signature Algorithms",
+      "ECDSA Signatures with non-NIST curves Signature Algorithms",
+      "EdDSA Signature Algorithms | 1.0 Non-Proprietary FIPS 140-3 Security Policy Page 13 of 43 | Configuring any of the above algorithms results in the module entering the non-approved mode | of operation."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5561.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 11,
+      "detailed_algorithm_count": 39,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5561.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

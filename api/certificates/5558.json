@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5558"
+  },
+  "certificate": {
+    "certificate_number": "5558",
+    "dataset": "active",
+    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5558",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5558",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf",
+    "vendor_name": "Google, LLC",
+    "module_name": "Integrated Compute Complex (ICC)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "SingleChip",
+    "overall_level": 1,
+    "validation_date": "10/20/2026",
+    "validation_dates": [
+      "10/20/2026"
+    ],
+    "sunset_date": "10/19/2031",
+    "caveat": "When operated in approved mode with module B227 True Random Number Generator (TRNG) Cryptographic Module validated to FIPS 140-3 under Cert. #5434 operating in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The Integrated Compute Complex (ICC) provides cryptography to subsystems within the Google IN763 SoC.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/20/2026",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Google, LLC",
+      "website_url": "http://www.google.com",
+      "address_lines": [
+        "1600 Amphitheatre Parkway",
+        "Mountain View, CA 94043",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Crypto Officer",
+      "contact_email": "FIPS-crypto-officer@google.com",
+      "contact_phone": "650-253-0000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "KDF",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CMAC A7381 Direction - Generation | Key Length - 128, 192, 256 | MAC Length - MAC Length: 128 | Message Length - Message Length: 8- | 1024 Increment 8 | SP 800-38B",
+      "AES-ECB A2932 Direction - Encrypt | Key Length - 128, 256 | SP 800-38A",
+      "AES-ECB A7381 Direction - Encrypt | Key Length - 128, 192, 256 | SP 800-38A | Conditioning Component | Block Cipher Derivation | Function SP800-90B | A2932 Key Length - 128 | Payload Length - Payload Length: 512 | SP 800-90B",
+      "Counter DRBG A2721 Prediction Resistance - No, Yes | Supports Reseed - Yes",
+      "Mode - AES-128, AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0-256 | Increment 8, Additional Input: 0-384 | Increment 8 | Entropy Input - Entropy Input: 256 | Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0-256 | Increment 8, Personalization String | Length: 0-384 Increment 8 | Returned Bits - 128, 512 | SP 800-90A | Rev. 1",
+      "Counter DRBG A7381 Prediction Resistance - No | Supports Reseed - No",
+      "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0-256 | Increment 8 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0-256 | Increment 8 | Returned Bits - 512 | SP 800-90A | Rev. 1 | Google, LLC 2025 Document Version 1.0 | Public Material – May be reproduced only in its original entirety (without revision).",
+      "KDF SP800-108 A7381 KDF Mode - Counter | MAC Mode - CMAC-AES256 | Supported Lengths - Supported Lengths | 128, 256 | Fixed Data Order - Before Fixed Data | Counter Length - 32 | Supports Empty IV - No | Custom Key In Length - 0 | SP 800-108 | Rev. 1",
+      "SHA2-256 A7381 Message Length - Message Length: 0- | 16384 Increment 8 | FIPS 180-4 | Name Properties Implementation Reference | CKG - | Section | 4 | Key | Type:Symmetric | N/A NIST SP 800-133r2 Section 4 option 1 | Using the Output of a Random Bit | Generator; NIST SP 800-133r2 Section 6.1 | The \"Direct Generation\" of Symmetric Keys | NIST SP 800-133r2 Section 6.2.2 | Symmetric Keys Derived from a Pre-existing | Key | The module does not support any | The module does not support any | The module does not support any"
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 4,
+      "detailed_algorithm_count": 9,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}

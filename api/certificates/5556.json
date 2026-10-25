@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5556"
+  },
+  "certificate": {
+    "certificate_number": "5556",
+    "dataset": "active",
+    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5556",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5556",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5556.pdf",
+    "vendor_name": "Renesas Electronics Corporation",
+    "module_name": "RA8M1 Security Management Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "SingleChip",
+    "overall_level": 2,
+    "validation_date": "10/19/2026",
+    "validation_dates": [
+      "10/19/2026"
+    ],
+    "sunset_date": "10/18/2031",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs; When installed, initialized, and configured as specified in Section 11.1 of the Security Policy",
+    "description": "RA8M1 Security Management Module is a hardware cryptographic module certified at FIPS 140-3 Security Level 2. RA8M1 is general-purpose microcontroller designed for industrial, IOT, and infrastructure applications, embedded with robust security features. This module is provided as a reference for developing FIPS 140-3-compliant modules using the RA8M1. By referring to the design of this module, it becomes easier to address FIPS requirements when developing cryptographic modules using the RA8M1 in customer environments.",
+    "software_versions": null,
+    "hardware_versions": null,
+    "firmware_versions": null,
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Sensitive security parameter management: Level 3",
+      "Life-cycle assurance: Level 3",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5556.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/19/2026",
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Renesas Electronics Corporation",
+      "website_url": "https://www.renesas.com",
+      "address_lines": [
+        "5-20-1, Josuihon-cho",
+        "Kodaira-shi, Tokyo 187-8588",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Kento Yoshida",
+      "contact_email": "kento.yoshida.wz@renesas.com",
+      "contact_phone": "81-42-320-7300"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KDF",
+      "RSA",
+      "SHA"
+    ],
+    "algorithms_detailed": [
+      "AES-CBC, AES-CTR",
+      "AES-ECB | A7184 Direction - Decrypt, Encrypt | Key Length - 128, 256 | SP 800-38A",
+      "AES-CCM A7184 Key Length - 128, 256 SP 800-38C",
+      "AES-CMAC A7184 Direction - Generation, Verification | Key Length - 128, 256 | SP 800-38B",
+      "AES-GCM A7184 Direction - Decrypt, Encrypt | IV Generation - External | Key Length - 128, 256 | SP 800-38D",
+      "AES-KW A7184 Direction - Decrypt, Encrypt | Cipher - Cipher | Key Length - 128, 256 | Payload Length - Payload Length: 128 | 256 | SP 800-38F | Conditioning Component",
+      "AES-CBC-MAC SP800- | 90B | A7184 Key Length - 256 | Payload Length - Payload Length: 1024 | SP 800-90B",
+      "Counter DRBG A7184 Prediction Resistance - No | Supports Reseed - No",
+      "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0 | Returned Bits - 128 | SP 800-90A | Rev. 1",
+      "ECDSA KeyGen | (FIPS186-5) | A7184 Curve - P-256, P-384, P-521 | Secret Generation Mode - extra bits | FIPS 186-5",
+      "ECDSA SigGen | (FIPS186-5) | A7184 Curve - P-256, P-384, P-521",
+      "Hash Algorithm - SHA2-224, SHA2-256",
+      "SHA2-384, SHA2-512, SHA2-512/224",
+      "SHA2-512/256 | Component - No | FIPS 186-5",
+      "ECDSA SigVer | (FIPS186-5) | A7184 Component - No | Curve - P-256, P-384, P-521",
+      "SHA2-512/256 | FIPS 186-5",
+      "HMAC-SHA2-256 A7184 MAC - MAC: 256 | Key Length - Key Length: 256 | FIPS 198-1",
+      "HMAC-SHA2-384 A7184 MAC - MAC: 384 | Key Length - Key Length: 384 | FIPS 198-1",
+      "HMAC-SHA2-512 A7184 MAC - MAC: 512 | Key Length - Key Length: 512 | FIPS 198-1",
+      "KDF SP800-108 A7184 KDF Mode - Counter | MAC Mode - CMAC-AES128, CMAC- | AES256 | Supported Lengths - Supported | Lengths: 128, 256 | Fixed Data Order - Before Fixed Data | Counter Length - 8 | SP 800-108 | Rev. 1 | Supports Empty IV - No | Requires Empty IV - No | Custom Key In Length - 0",
+      "RSA KeyGen (FIPS186- | 5) | A7184 Key Generation Mode - probable | Modulo - 2048, 3072, 4096 | p mod 8 - 0 | Primality Tests - 2pow100 | q mod 8 - 0 | Fixed Public Exponent - 010001 | Info Generated By Server - No | Private Key Format - standard | Public Exponent Mode - fixed | FIPS 186-5",
+      "RSA SigGen (FIPS186- | 5) | A7184 Hash Pair -",
+      "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - mgf1 | FIPS 186-5",
+      "RSA SigVer (FIPS186-5) A7184 Hash Pair -",
+      "Hash Algorithm - SHA2-224 | Modulo - 2048, 3072, 4096 | Signature Type - pkcs1v1.5, pss | Mask Function - mgf1 | Fixed Public Exponent - 010001 | Public Exponent Mode - fixed | FIPS 186-5",
+      "SHA2-256, SHA2-384",
+      "SHA2-512 | A7184 Message Length - Message Length: 0- | 65536 Increment 8 | FIPS 180-4 | Name Properties Implementation Reference | CKG Key Type:Symmetric and | Asymmetric | N/A SP800-133r2 Section 4 | example1 | N/A for this module. | Name Caveat Use and Function",
+      "AES-128 CBC- | MAC | no security | claimed | For interoperability, performed along with inputting | User key. | N/A for this module."
+    ],
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "parsed",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5556.pdf",
+      "cached": false,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 7,
+      "detailed_algorithm_count": 28,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5556.pdf",
+          "status": "parsed"
+        }
+      ]
+    }
+  }
+}
