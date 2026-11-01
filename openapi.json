@@ -187,7 +187,7 @@
         "operationId": "getModules",
         "responses": {
           "200": {
-            "description": "Currently 734 active validated modules with enriched details",
+            "description": "Currently 737 active validated modules with enriched details",
             "content": {
               "application/json": {
                 "schema": {
@@ -205,7 +205,7 @@
         "operationId": "getHistoricalModules",
         "responses": {
           "200": {
-            "description": "Currently 4809 historical modules",
+            "description": "Currently 4811 historical modules",
             "content": {
               "application/json": {
                 "schema": {
@@ -223,7 +223,7 @@
         "operationId": "getModulesInProcess",
         "responses": {
           "200": {
-            "description": "Currently 185 modules in process",
+            "description": "Currently 187 modules in process",
             "content": {
               "application/json": {
                 "schema": {
@@ -312,27 +312,27 @@
           "generated_at": {
             "type": "string",
             "format": "date-time",
-            "example": "2026-10-25T07:10:02.126598Z"
+            "example": "2026-11-01T08:30:51.099459Z"
           },
           "total_modules": {
             "type": "integer",
-            "example": 734
+            "example": 737
           },
           "total_historical_modules": {
             "type": "integer",
-            "example": 4809
+            "example": 4811
           },
           "total_modules_in_process": {
             "type": "integer",
-            "example": 185
+            "example": 187
           },
           "total_certificates_with_algorithms": {
             "type": "integer",
-            "example": 1925
+            "example": 1930
           },
           "total_certificate_details": {
             "type": "integer",
-            "example": 5543
+            "example": 5548
           },
           "source": {
             "type": "string",
@@ -370,39 +370,39 @@
         "properties": {
           "Certificate Number_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5561"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5566"
           },
           "Certificate Number": {
             "type": "string",
-            "example": "5561"
+            "example": "5566"
           },
           "Vendor Name": {
             "type": "string",
-            "example": "Northrop Grumman Corporation"
+            "example": "ECI Telecom Ltd / Ribbon communications Operating company, Inc."
           },
           "Module Name": {
             "type": "string",
-            "example": "Ad Noctem Connect 2.3"
+            "example": "TM400ENB"
           },
           "Module Type": {
             "type": "string",
-            "example": "Software"
+            "example": "Hardware"
           },
           "Validation Date": {
             "type": "string",
-            "example": "10/21/2026"
+            "example": "10/30/2026"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5561.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5566.pdf"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5561"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5566"
           },
           "module_name": {
             "type": "string",
-            "example": "Ad Noctem Connect 2.3"
+            "example": "TM400ENB"
           },
           "standard": {
             "type": "string",
@@ -414,27 +414,27 @@
           },
           "sunset_date": {
             "type": "string",
-            "example": "10/20/2031"
+            "example": "10/29/2031"
           },
           "overall_level": {
             "type": "integer",
-            "example": 1
+            "example": 3
           },
           "caveat": {
             "type": "string",
-            "example": "When operated in approved mode. The module generates SSPs (e.g., keys) whose strengths are modified by available entropy."
+            "example": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs."
           },
           "module_type": {
             "type": "string",
-            "example": "Software"
+            "example": "Hardware"
           },
           "embodiment": {
             "type": "string",
-            "example": "MultiChipStand"
+            "example": "MultiChipEmbed"
           },
           "description": {
             "type": "string",
-            "example": "The module is a VPN Client application. It provides secure communication over untrusted networks. To provide this security, the module implements IKEv2/IPsec. It can be configured over a local, web-based interface."
+            "example": "Ribbon Communications Encryption Module TM400ENB is a hardware cryptographic module implemented as a multiple chip embedded module that operates as a line card in Ribbon Communications 's Apollo product line. In the networking parlance it's a transponder with multiplexing and encryption capabilities."
           },
           "algorithms": {
             "type": "array",
@@ -444,7 +444,7 @@
             "example": [
               "AES",
               "CVL",
-              "DES"
+              "DRBG"
             ]
           },
           "algorithms_detailed": {
@@ -453,9 +453,9 @@
               "type": "string"
             },
             "example": [
-              "AES-CBC A7623 | A7624 | Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
-              "AES-CCM A7624 Key Length - 128, 256 | Tag Length - 128, 64, 96 | IV Length - IV Length: 64, 96, 104 | Payload Length - Payload Length: 256 | AAD Length - AAD Length: 64, 96 | SP 800-38C",
-              "AES-CTR A7623 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | Payload Length - Payload Length: 8-128 Increment | 8 | Supports Counter larger than maximum value - No | SP 800-38A | 1.0 Non-Proprietary FIPS 140-3 Security Policy Page 10 of 43 | Incremental Counter - Yes | Counter Tests Performed - Yes"
+              "AES-CBC A7386 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+              "AES-CTR A7386 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+              "AES-CTR C1410 Direction - Encrypt | Key Length - 256 | SP 800-38A"
             ]
           },
           "algorithm_extraction": {
@@ -880,7 +880,7 @@
         "properties": {
           "certificate_number": {
             "type": "string",
-            "example": "5551"
+            "example": "5548"
           },
           "dataset": {
             "type": "string",
@@ -888,27 +888,27 @@
           },
           "generated_at": {
             "type": "string",
-            "example": "2026-10-25T07:10:02.126598Z"
+            "example": "2026-11-01T08:30:51.099459Z"
           },
           "nist_page_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5551"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5548"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5551"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5548"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5551.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5548.pdf"
           },
           "vendor_name": {
             "type": "string",
-            "example": "Cisco Systems, Inc."
+            "example": "wolfSSL Inc."
           },
           "module_name": {
             "type": "string",
-            "example": "Cisco FTD FX-OS on 4K/9K Cryptographic Module"
+            "example": "wolfCrypt"
           },
           "standard": {
             "type": "string",
@@ -920,7 +920,7 @@
           },
           "module_type": {
             "type": "string",
-            "example": "Hardware"
+            "example": "Software"
           },
           "embodiment": {
             "type": "string",
@@ -928,11 +928,11 @@
           },
           "overall_level": {
             "type": "integer",
-            "example": 2
+            "example": 1
           },
           "validation_date": {
             "type": "string",
-            "example": "10/15/2026"
+            "example": "10/9/2026"
           },
           "validation_dates": {
             "type": "array",
@@ -940,20 +940,20 @@
               "type": "string"
             },
             "example": [
-              "10/15/2026"
+              "10/9/2026"
             ]
           },
           "sunset_date": {
             "type": "string",
-            "example": "10/14/2031"
+            "example": "10/8/2031"
           },
           "caveat": {
             "type": "string",
-            "example": "When operated in approved mode; The tamper evident seals and Physical Kit installed as indicated in the Security Policy; This module contains the embedded module [Cisco Firepower Threat Defense on 4K/9K Cryptographic Module] validated to FIPS 140-3 under Cert. #5456 operating in approved mode."
+            "example": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs"
           },
           "description": {
             "type": "string",
-            "example": "Cisco FTD FX-OS on 4K/9K Cryptographic Module is an integrated network security system providing enterprise-class firewall with a comprehensive range of next-generation network security services, intrusion prevention system (IPS), content security and secure unified communications, HTTPS/TLSv1.2, SSHv2, IPsec/IKEv2, SNMPv3 and Cryptographic Cipher Suite B."
+            "example": "wolfCrypt module is a comprehensive suite of FIPS Approved algorithms. All key sizes and modes have been implemented to allow flexibility and efficiency."
           },
           "software_versions": {
             "type": "string",
@@ -976,9 +976,9 @@
               "type": "string"
             },
             "example": [
-              "Roles, services, and authentication: Level 3",
-              "Operational environment: N/A",
-              "Non-invasive security: N/A"
+              "Physical security: N/A",
+              "Non-invasive security: N/A",
+              "Mitigation of other attacks: N/A"
             ]
           },
           "related_files": {
@@ -1020,9 +1020,9 @@
               "type": "string"
             },
             "example": [
-              "AES- | CBC | A44 | 46 | Key Length - 128, 256 SP 800- | 38A",
-              "AES- | GCM | A44 | 46 | Key Length - 128, 256 SP 800- | 38D | Counter",
-              "DRBG | A44 | 46 | Prediction Resistance - Yes | Supports Reseed - Yes"
+              "AES-CBC, AES-ECB",
+              "AES-OFB | A7470 Direction - Decrypt, Encrypt | Key Length - 128, 192, 256 | SP 800-38A",
+              "AES-CCM A7470 Key Length - 128, 192, 256 | Tag Length - 112, 128, 32, 48, 64, 80, 96 | SP 800-38C | wolfSSL Inc. Public Material – May be reproduced only in its original entirety (without revision). | IV Length - IV Length: 56, 64, 72, 80, 88 | 96 | Payload Length - Payload Length: 0-256 | Increment 8 | AAD Length - AAD Length: 0-8192 | Increment 8"
             ]
           }
         }

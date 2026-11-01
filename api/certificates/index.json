@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-10-25T07:10:02.126598Z",
-    "total_modules": 734,
-    "total_historical_modules": 4809,
-    "total_modules_in_process": 185,
-    "total_certificates_with_algorithms": 1925,
-    "total_certificate_details": 5543,
+    "generated_at": "2026-11-01T08:30:51.099459Z",
+    "total_modules": 737,
+    "total_historical_modules": 4811,
+    "total_modules_in_process": 187,
+    "total_certificates_with_algorithms": 1930,
+    "total_certificate_details": 5548,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -13,18 +13,18 @@
     "algorithm_extraction_schema_version": "1.0",
     "extraction_metrics": {
       "active": {
-        "html_reused": 725,
-        "html_refreshed": 15,
+        "html_reused": 732,
+        "html_refreshed": 11,
         "html_failed": 0,
-        "pdf_reused": 725,
-        "pdf_refreshed": 9,
+        "pdf_reused": 732,
+        "pdf_refreshed": 5,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 725,
-        "algorithm_successes": 573,
+        "algorithm_cache_hits": 732,
+        "algorithm_successes": 578,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 9,
+        "algorithm_source_crawl4ai": 5,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -33,14 +33,14 @@
       },
       "historical": {
         "html_reused": 4809,
-        "html_refreshed": 1,
+        "html_refreshed": 3,
         "html_failed": 0,
-        "pdf_reused": 4809,
+        "pdf_reused": 4811,
         "pdf_refreshed": 0,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 4809,
+        "algorithm_cache_hits": 4811,
         "algorithm_successes": 1352,
         "algorithm_fallbacks": 0,
         "algorithm_source_crawl4ai": 0,
@@ -51,18 +51,18 @@
         "certificates_deferred": 1
       },
       "combined": {
-        "html_reused": 5534,
-        "html_refreshed": 16,
+        "html_reused": 5541,
+        "html_refreshed": 14,
         "html_failed": 0,
-        "pdf_reused": 5534,
-        "pdf_refreshed": 9,
+        "pdf_reused": 5543,
+        "pdf_refreshed": 5,
         "pdf_failed": 0,
         "pdf_cache_hits": 0,
         "algorithm_misses": 0,
-        "algorithm_cache_hits": 5534,
-        "algorithm_successes": 1925,
+        "algorithm_cache_hits": 5543,
+        "algorithm_successes": 1930,
         "algorithm_fallbacks": 0,
-        "algorithm_source_crawl4ai": 9,
+        "algorithm_source_crawl4ai": 5,
         "algorithm_source_security_policy_pdf": 0,
         "algorithm_source_database": 0,
         "algorithm_source_none": 0,
@@ -77,7 +77,7 @@
     },
     "version": "3.0"
   },
-  "total_certificates": 5543,
+  "total_certificates": 5548,
   "certificate_paths": {
     "1": "/api/certificates/1.json",
     "2": "/api/certificates/2.json",
@@ -5621,7 +5621,12 @@
     "5558": "/api/certificates/5558.json",
     "5559": "/api/certificates/5559.json",
     "5560": "/api/certificates/5560.json",
-    "5561": "/api/certificates/5561.json"
+    "5561": "/api/certificates/5561.json",
+    "5562": "/api/certificates/5562.json",
+    "5563": "/api/certificates/5563.json",
+    "5564": "/api/certificates/5564.json",
+    "5565": "/api/certificates/5565.json",
+    "5566": "/api/certificates/5566.json"
   },
   "certificates": [
     {
@@ -140252,7 +140257,7 @@
     },
     {
       "certificate_number": "4854",
-      "dataset": "active",
+      "dataset": "historical",
       "path": "/api/certificates/4854.json",
       "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4854",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4854",
@@ -140260,14 +140265,14 @@
       "vendor_name": "Apple Inc.",
       "module_name": "Apple corecrypto Module v12.0 [Apple silicon, Kernel, Software, SL1]",
       "standard": "FIPS 140-3",
-      "status": "Active",
+      "status": "Historical",
       "module_type": "Software",
       "overall_level": 1,
       "validation_date": "10/28/2024",
       "validation_dates": [
         "10/28/2024"
       ],
-      "sunset_date": "10/27/2026",
+      "sunset_date": null,
       "algorithms": [],
       "algorithm_count": 0,
       "algorithm_extraction_status": "cached",
@@ -140411,7 +140416,7 @@
     },
     {
       "certificate_number": "4860",
-      "dataset": "active",
+      "dataset": "historical",
       "path": "/api/certificates/4860.json",
       "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860",
@@ -140419,14 +140424,14 @@
       "vendor_name": "Nokia of America Corporation (Nokia)",
       "module_name": "Nokia 1830 Photonic Service Switch (PSS) & Nokia 1830 Photonic Service Interconnect- Line (PSI-L)",
       "standard": "FIPS 140-3",
-      "status": "Active",
+      "status": "Historical",
       "module_type": "Hardware",
       "overall_level": 1,
       "validation_date": "10/31/2024",
       "validation_dates": [
         "10/31/2024"
       ],
-      "sunset_date": "10/30/2026",
+      "sunset_date": null,
       "algorithms": [],
       "algorithm_count": 0,
       "algorithm_extraction_status": "cached",
@@ -163287,7 +163292,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163316,7 +163321,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163353,7 +163358,7 @@
         "TLS"
       ],
       "algorithm_count": 12,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163385,7 +163390,7 @@
         "SHA"
       ],
       "algorithm_count": 7,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163426,7 +163431,7 @@
         "TLS"
       ],
       "algorithm_count": 16,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163455,7 +163460,7 @@
         "SHA"
       ],
       "algorithm_count": 4,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163489,7 +163494,7 @@
         "SHA"
       ],
       "algorithm_count": 9,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163529,7 +163534,7 @@
         "TLS"
       ],
       "algorithm_count": 15,
-      "algorithm_extraction_status": "parsed",
+      "algorithm_extraction_status": "cached",
       "algorithm_source": "crawl4ai",
       "detail_available": true
     },
@@ -163565,6 +163570,179 @@
         "SHA"
       ],
       "algorithm_count": 11,
+      "algorithm_extraction_status": "cached",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5562",
+      "dataset": "active",
+      "path": "/api/certificates/5562.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5562",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5562",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5562.pdf",
+      "vendor_name": "Ergotron, Inc.",
+      "module_name": "Ergotron Cryptographic Module",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Software",
+      "overall_level": 1,
+      "validation_date": "10/25/2026",
+      "validation_dates": [
+        "10/25/2026"
+      ],
+      "sunset_date": "7/18/2031",
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DES",
+        "DRBG",
+        "DSA",
+        "ECDH",
+        "ECDSA",
+        "EDDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "TLS"
+      ],
+      "algorithm_count": 14,
+      "algorithm_extraction_status": "parsed",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5563",
+      "dataset": "active",
+      "path": "/api/certificates/5563.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5563",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5563",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5563.pdf",
+      "vendor_name": "Fortinet, Inc.",
+      "module_name": "FortiGate-VM 7.2/7.4",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Software",
+      "overall_level": 1,
+      "validation_date": "10/29/2026",
+      "validation_dates": [
+        "10/29/2026"
+      ],
+      "sunset_date": "10/28/2031",
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DRBG",
+        "ECDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "SSH",
+        "TLS"
+      ],
+      "algorithm_count": 11,
+      "algorithm_extraction_status": "parsed",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5564",
+      "dataset": "active",
+      "path": "/api/certificates/5564.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5564",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5564",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5564.pdf",
+      "vendor_name": "Fortinet, Inc.",
+      "module_name": "FortiOS 7.2/7.4",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Firmware-hybrid",
+      "overall_level": 1,
+      "validation_date": "10/29/2026",
+      "validation_dates": [
+        "10/29/2026"
+      ],
+      "sunset_date": "10/28/2031",
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DRBG",
+        "ECDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "SSH",
+        "TLS"
+      ],
+      "algorithm_count": 11,
+      "algorithm_extraction_status": "parsed",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5565",
+      "dataset": "active",
+      "path": "/api/certificates/5565.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5565",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5565",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5565.pdf",
+      "vendor_name": "Google, LLC",
+      "module_name": "Inline Crypto Engine (ICE)",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Hardware",
+      "overall_level": 1,
+      "validation_date": "10/30/2026",
+      "validation_dates": [
+        "10/30/2026"
+      ],
+      "sunset_date": "10/29/2031",
+      "algorithms": [
+        "AES",
+        "KDF"
+      ],
+      "algorithm_count": 2,
+      "algorithm_extraction_status": "parsed",
+      "algorithm_source": "crawl4ai",
+      "detail_available": true
+    },
+    {
+      "certificate_number": "5566",
+      "dataset": "active",
+      "path": "/api/certificates/5566.json",
+      "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5566",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5566",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5566.pdf",
+      "vendor_name": "ECI Telecom Ltd / Ribbon communications Operating company, Inc.",
+      "module_name": "TM400ENB",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "module_type": "Hardware",
+      "overall_level": 3,
+      "validation_date": "10/30/2026",
+      "validation_dates": [
+        "10/30/2026"
+      ],
+      "sunset_date": "10/29/2031",
+      "algorithms": [
+        "AES",
+        "CVL",
+        "DRBG",
+        "ECDSA",
+        "HMAC",
+        "KAS",
+        "KDF",
+        "RSA",
+        "SHA",
+        "SSH"
+      ],
+      "algorithm_count": 10,
       "algorithm_extraction_status": "parsed",
       "algorithm_source": "crawl4ai",
       "detail_available": true

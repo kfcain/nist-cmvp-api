@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5094"
   },
@@ -24,7 +24,7 @@
     "description": "The Linux kernel crypto API implementation provides cryptographic services to Linux kernel space software components and user space via the AF_ALG interface.",
     "embodiment": "Multi-Chip Stand Alone",
     "firmware_versions": null,
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "hardware_versions": null,
     "module_name": "IBM COS Linux Kernel Cryptographic API Cryptographic Module",
     "module_type": "Software",

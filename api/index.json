@@ -43,12 +43,12 @@
     "search_index": "/api/schemas/search-index.schema.json",
     "algorithms": "/api/schemas/algorithms.schema.json"
   },
-  "last_updated": "2026-10-25T07:10:02.126598Z",
-  "total_modules": 734,
-  "total_historical_modules": 4809,
-  "total_modules_in_process": 185,
-  "total_certificates_with_algorithms": 1925,
-  "total_certificate_details": 5543,
+  "last_updated": "2026-11-01T08:30:51.099459Z",
+  "total_modules": 737,
+  "total_historical_modules": 4811,
+  "total_modules_in_process": 187,
+  "total_certificates_with_algorithms": 1930,
+  "total_certificate_details": 5548,
   "features": {
     "security_policy_urls": true,
     "certificate_detail_urls": true,

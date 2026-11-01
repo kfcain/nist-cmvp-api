@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5112"
   },
@@ -24,7 +24,7 @@
     "description": "The SUSE Linux Enterprise Kernel Crypto API Cryptographic Module provides a C language API for use by other (kernel space and user space) processes that require cryptographic functionality.",
     "embodiment": "Multi-Chip Stand Alone",
     "firmware_versions": null,
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "hardware_versions": null,
     "module_name": "SUSE Linux Enterprise Kernel Crypto API Cryptographic Module",
     "module_type": "Software",

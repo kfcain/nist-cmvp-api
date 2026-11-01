@@ -1,41 +1,33 @@
 {
   "metadata": {
-    "generated_at": "2026-10-25T07:10:02.126598Z",
-    "dataset": "active",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
+    "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860"
   },
   "certificate": {
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "cached",
-      "configured_source": "crawl4ai",
-      "source": "firecrawl",
-      "source_url": null,
-      "cached": true,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 0,
-      "detailed_algorithm_count": 0
-    },
-    "caveat": "Interim validation. When operated in approved mode.",
-    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860",
     "certificate_number": "4860",
-    "dataset": "active",
-    "description": "1830 Photonic Service Switch (PSS): Scalable optimized end-to-end optical transport solutions for metro, regional and long-haul networks. 1830 Photonic Service Switch - x( PSS -x): Scalable and efficient P-OTN switching for multi-protocol wholesale services. 1830 Photonic Service Interconnect -X (PSI-8L) is a scalable and modular shelf that provides a DataCenter form factor compatible option to deploy Photonic Line configuration.",
-    "embodiment": "Multi-Chip Stand Alone",
-    "firmware_versions": null,
-    "generated_at": "2026-10-25T07:10:02.126598Z",
-    "hardware_versions": null,
-    "module_name": "Nokia 1830 Photonic Service Switch (PSS) & Nokia 1830 Photonic Service Interconnect- Line (PSI-L)",
-    "module_type": "Hardware",
+    "dataset": "historical",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf",
+    "vendor_name": "Nokia of America Corporation (Nokia)",
+    "module_name": "Nokia 1830 Photonic Service Switch (PSS) & Nokia 1830 Photonic Service Interconnect- Line (PSI-L)",
+    "standard": "FIPS 140-3",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
     "overall_level": 1,
-    "related_files": [
-      {
-        "label": "Security Policy",
-        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf"
-      }
+    "validation_date": "10/31/2024",
+    "validation_dates": [
+      "10/31/2024"
     ],
+    "sunset_date": null,
+    "caveat": "Interim validation. When operated in approved mode.",
+    "description": "1830 Photonic Service Switch (PSS): Scalable optimized end-to-end optical transport solutions for metro, regional and long-haul networks. 1830 Photonic Service Switch - x( PSS -x): Scalable and efficient P-OTN switching for multi-protocol wholesale services. 1830 Photonic Service Interconnect -X (PSI-8L) is a scalable and modular shelf that provides a DataCenter form factor compatible option to deploy Photonic Line configuration.",
+    "software_versions": null,
+    "hardware_versions": "PSS-8 Chassis (WOMPU00CRA / 3KC48901AA ) [1], PSS-16II Chassis (WOMR300BRA / 3KC48960AC) [2], PSS-32 Chassis (WOM4V10GRA / 8DG59319AB) [3], PSS-24x Chassis (WOMP410CRB / 3KC50378AA) [4], PSS-8x Chassis (3TD00071AA) [5] and PSI-8L Chassis (3KC90291AA) [6]; 8EC2 Card (3KC48820AA) [1], 32EC2 Card (8DG63979AA) [2, 3], CEC2 Card (3KC50335AA) [4], XCEC8 Card (3TD00030AA) [5] and MEC2L Card (3KC81775AC) [6]; 11QPEN4 (8DG60996AA) [1-3], S13X100E (8DG63988AA) [1-3], 2UC400E (3KC60522AA) [4] and 8P20 (3KC49240AA) [1-3]; MFC24X Multi-Function Card (3KC50330AA) [4], XMFC Multi-Function Card (3TD00014AA) [5] and PSILMFC Multi-Function Card (3KC90213AA) [6]; Filler Card (8DG59418AA) [1-3,6], Filler Card (3KC59819AC) [4] and Filler Card (3TD00123AA) [5] ; Security Label Kit (8DG-6509-AAAA) [1-6]",
+    "firmware_versions": "1830PSS ECN R23.3, 1830PSI ECN R23.3",
     "security_level_exceptions": [
       "Cryptographic module interfaces: Level 2",
       "Roles, services, and authentication: Level 3",
@@ -47,35 +39,59 @@
       "Life-cycle assurance: Level 2",
       "Mitigation of other attacks: N/A"
     ],
-    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf",
-    "software_versions": null,
-    "standard": "FIPS 140-3",
-    "status": "Active",
-    "sunset_date": "10/30/2026",
-    "validation_date": "10/31/2024",
-    "validation_dates": [
-      "10/31/2024"
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2024_041124_0733 (1).pdf"
+      }
     ],
     "validation_history": [
       {
         "date": "10/31/2024",
-        "lab": "EWA - Canada",
-        "type": "Initial"
+        "type": "Initial",
+        "lab": "EWA - Canada"
       }
     ],
     "vendor": {
+      "name": "Nokia of America Corporation (Nokia)",
+      "website_url": "https://www.nokia.com/",
       "address_lines": [
         "600-700 Mountain Avenue",
         "Murray Hill, New Jersey 07974-0636",
         "USA"
       ],
-      "contact_email": "naren.patel@nokia.com",
-      "contact_name": "Naren Patel",
-      "contact_phone": "978-320-3686",
       "country": "USA",
-      "name": "Nokia of America Corporation (Nokia)",
-      "website_url": "https://www.nokia.com/"
+      "contact_name": "Naren Patel",
+      "contact_email": "naren.patel@nokia.com",
+      "contact_phone": "978-320-3686"
     },
-    "vendor_name": "Nokia of America Corporation (Nokia)"
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "firecrawl",
+      "source_url": null,
+      "cached": true,
+      "fallback_used": true,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 0,
+      "detailed_algorithm_count": 0,
+      "attempts": [
+        {
+          "source": "crawl4ai",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf",
+          "status": "no_algorithms"
+        },
+        {
+          "source": "security_policy_pdf",
+          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf",
+          "status": "no_algorithms"
+        }
+      ]
+    }
   }
 }

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5558"
   },
   "certificate": {
     "certificate_number": "5558",
     "dataset": "active",
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5558",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5558",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf",
@@ -58,6 +58,18 @@
       "contact_email": "FIPS-crypto-officer@google.com",
       "contact_phone": "650-253-0000"
     },
+    "algorithm_extraction": {
+      "schema_version": "1.0",
+      "status": "cached",
+      "configured_source": "crawl4ai",
+      "source": "crawl4ai",
+      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf",
+      "cached": true,
+      "fallback_used": false,
+      "cache_version": "2026-04-15-legacy-v1",
+      "algorithm_count": 4,
+      "detailed_algorithm_count": 9
+    },
     "algorithms": [
       "AES",
       "DRBG",
@@ -74,25 +86,6 @@
       "Mode - AES-256 | Derivation Function Enabled - No | Additional Input - Additional Input: 0-256 | Increment 8 | Entropy Input - Entropy Input: 384 | Nonce - Nonce: 0 | Personalization String Length - | Personalization String Length: 0-256 | Increment 8 | Returned Bits - 512 | SP 800-90A | Rev. 1 | Google, LLC 2025 Document Version 1.0 | Public Material – May be reproduced only in its original entirety (without revision).",
       "KDF SP800-108 A7381 KDF Mode - Counter | MAC Mode - CMAC-AES256 | Supported Lengths - Supported Lengths | 128, 256 | Fixed Data Order - Before Fixed Data | Counter Length - 32 | Supports Empty IV - No | Custom Key In Length - 0 | SP 800-108 | Rev. 1",
       "SHA2-256 A7381 Message Length - Message Length: 0- | 16384 Increment 8 | FIPS 180-4 | Name Properties Implementation Reference | CKG - | Section | 4 | Key | Type:Symmetric | N/A NIST SP 800-133r2 Section 4 option 1 | Using the Output of a Random Bit | Generator; NIST SP 800-133r2 Section 6.1 | The \"Direct Generation\" of Symmetric Keys | NIST SP 800-133r2 Section 6.2.2 | Symmetric Keys Derived from a Pre-existing | Key | The module does not support any | The module does not support any | The module does not support any"
-    ],
-    "algorithm_extraction": {
-      "schema_version": "1.0",
-      "status": "parsed",
-      "configured_source": "crawl4ai",
-      "source": "crawl4ai",
-      "source_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf",
-      "cached": false,
-      "fallback_used": false,
-      "cache_version": "2026-04-15-legacy-v1",
-      "algorithm_count": 4,
-      "detailed_algorithm_count": 9,
-      "attempts": [
-        {
-          "source": "crawl4ai",
-          "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5558.pdf",
-          "status": "parsed"
-        }
-      ]
-    }
+    ]
   }
 }

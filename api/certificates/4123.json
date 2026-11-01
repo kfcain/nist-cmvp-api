@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "dataset": "historical",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4123"
   },
@@ -24,7 +24,7 @@
     "description": "FUJIFILM SONOSITE Cryptographic Module is a software library providing a C language application program interface (API) for use by processes that require cryptographic services.",
     "embodiment": "Multi-Chip Stand Alone",
     "firmware_versions": null,
-    "generated_at": "2026-10-25T07:10:02.126598Z",
+    "generated_at": "2026-11-01T08:30:51.099459Z",
     "hardware_versions": null,
     "module_name": "FUJIFILM SONOSITE Cryptographic Module",
     "module_type": "Software",
